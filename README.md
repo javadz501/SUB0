@@ -1,13 +1,13 @@
  <p align="center">
-  <img src="https://raw.githubusercontent.com/javadz501/SUB-Independent/main/SUB-Independent.png" alt="SUB Logo" width="220">
+  <img src="https://github.com/javadz501/SUB0/blob/main/SUB0.jpg" alt="SUB0 Logo" width="220">
 </p>
 
-<h1 align="center">「SUB」- Free Proxy Configuration Collector</h1>
+<h1 align="center">「SUB0」- Free Proxy Configuration Collector</h1>
 
 <p align="center">
   <strong>Collect. Test. Publish.</strong>
   <br>
-  Automated public proxy collection, protocol testing, and subscription publishing.
+  Automated Public Proxy Collection, Protocol Testing, and Subscription Publishing.
 </p>
 
 <p align="center">
@@ -24,18 +24,18 @@
 
 ## ⚡ Overview
 
-**「SUB」** is an automated pipeline that collects publicly available proxy configurations, tests supported protocols, filters results, and publishes organized configuration files.
+**「SUB0」** Is an Automated Pipeline That Collects Publicly Available Proxy Configurations, Tests Supported Protocols, Filters Results, and Publishes Organized Configuration Files.
 
-The goal is simple: **collect useful configurations, validate what can be tested, and make the results easy to access.**
+The goal is simple: **Collect Useful Configurations, Validate What Can Be Tested, and Make The Results Easy to Access.**
 
 | Capability | Description |
 |---|---|
-| Automated collection | Retrieves configurations from public sources |
-| Protocol testing | Tests supported configurations using available tools |
-| Duplicate filtering | Reduces duplicate entries in generated outputs |
-| Multiple formats | Publishes outputs for Xray, sing-box, and Clash |
-| Scheduled processing | Runs through GitHub Actions |
-| Public subscriptions | Provides direct raw links to generated files |
+| Automated Collection | Retrieves Configurations from Public Sources |
+| Protocol Testing | Tests Supported Configurations Using Available Tools |
+| Duplicate Filtering | Reduces Duplicate Entries in Generated Outputs |
+| Multiple Formats | Publishes Outputs for Xray, Sing-box, and Clash |
+| Scheduled Processing | Runs Through GitHub Actions |
+| Public Subscriptions | Provides Direct Raw Links to Generated Files |
 
 ## 🔗 Configuration Subscriptions
 
@@ -71,7 +71,7 @@ Refresh the subscription periodically to retrieve the latest published configura
 
 ## ⚙️ Automated Pipeline
 
-「SUB」 uses GitHub Actions to automate configuration processing.
+「SUB0」 uses GitHub Actions to automate configuration processing.
 
 ```text
 Public Sources
@@ -142,7 +142,7 @@ Use trusted services and appropriate end-to-end encryption whenever possible.
 
 ## 🙏 Acknowledgments
 
-「SUB」 builds upon the work started by the original [Multi Proxy Config Fetcher](https://github.com/4n0nymou3/multi-proxy-config-fetcher) project by [@4n0nymou3](https://github.com/4n0nymou3).
+「SUB0」 builds upon the work started by the original [Multi Proxy Config Fetcher](https://github.com/4n0nymou3/multi-proxy-config-fetcher) project by [@4n0nymou3](https://github.com/4n0nymou3).
 
 This repository is maintained independently, with its own configuration, automation, and project-specific changes.
 
@@ -150,7 +150,7 @@ Full credit goes to the original author for the foundational work. Please refer 
 
 ## 📜 License & Attribution
 
-「SUB」 is based on an upstream project. Original license conditions, copyright notices, and required attribution must be preserved.
+「SUB0」 is based on an upstream project. Original license conditions, copyright notices, and required attribution must be preserved.
 
 See the [`LICENSE`](https://github.com/javadz501/SUB-Independent/blob/main/LICENSE) file for the applicable terms.
 
@@ -167,7 +167,7 @@ See the [`LICENSE`](https://github.com/javadz501/SUB-Independent/blob/main/LICEN
 ---
 
 <p align="center">
-  <strong>「SUB」</strong>
+  <strong>「SUB0」</strong>
   <br>
   <sub>Collect. Test. Publish.</sub>
   <br><br>
