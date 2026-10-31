@@ -4,17 +4,15 @@
 //support-url: https://t.me/An0nymou3Bot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-vless://0ab273e4-cea6-41d0-bbab-41071d2fc455@5.252.179.15:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.bing.com&fp=chrome&flow=xtls-rprx-vision&sid=296f27de82dad7ff&pbk=XQB2zIgrhD8AtxgYFM8UiiWYt1sLVBLhMg1M4-sGMAY&encryption=none#VLESS 🇩🇪 REALITY+PBK+SID+VISION+UTLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.29:443?security=tls&headerType=none&type=tcp&sni=blog.iloverussia2026.com#Trojan 🇩🇪 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.15:443?allowInsecure=1&sni=courses.iloverussia2026.com#Trojan 🇩🇪 TLS [443]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.193:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=resources.iloverussia2026.com#Trojan 🇩🇪 TLS [443]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.29:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=blog.iloverussia2026.com#Trojan 🇩🇪 TLS [443]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.78:443?security=tls&headerType=none&type=tcp&sni=www.iloverussia2026.com#Trojan 🇩🇪 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.78:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=www.iloverussia2026.com#Trojan 🇩🇪 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.96:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=learn.iloverussia2026.com#Trojan 🇩🇪 TLS [443]
+
+vless://0ab273e4-cea6-41d0-bbab-41071d2fc455@5.252.179.15:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.bing.com&fp=chrome&flow=xtls-rprx-vision&sid=296f27de82dad7ff&pbk=XQB2zIgrhD8AtxgYFM8UiiWYt1sLVBLhMg1M4-sGMAY&encryption=none#VLESS 🇩🇪 REALITY+PBK+SID+VISION+UTLS [443]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoTmZlTENOM1h6WWdMRlNBV29fZnhPbDRIQzFnTncwVg@dns23.m3hrzd.ir:8044#SS 🇩🇪 AEAD [8044]
 
 hysteria2://2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f@144.31.148.87:443?insecure=1&sni=replay.wwwinternetvideo.click#Hysteria2 🇩🇪 QUIC [443]
 
@@ -28,5 +26,7 @@ hysteria2://BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=@fin14qr.wwwinternetvide
 
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-de-002.fastervpn.world:443?insecure=1&security=tls&sni=127.0.0.1#Hysteria2 🇩🇪 QUIC [443]
 
-hysteria2://KevinZakarian@179.61.132.96:8443?insecure=1&sni=179.61.132.96&obfs=salamander&obfs-password=KevinZakarian#Hysteria2 🇩🇪 QUIC+OBFS [8443]
+hysteria2://V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8@144.31.221.57:443?insecure=1&sni=player.wwwinternetvideo.click#Hysteria2 🇩🇪 QUIC [443]
+
+hysteria2://V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8@player.wwwinternetvideo.click:443?insecure=1&sni=player.wwwinternetvideo.click#Hysteria2 🇩🇪 QUIC [443]
 

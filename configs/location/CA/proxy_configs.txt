@@ -4,19 +4,21 @@
 //support-url: https://t.me/An0nymou3Bot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.152:443?security=tls&sni=learn.connectingpeoplewithgreatjobs.com&insecure=0&allowInsecure=0&type=tcp&headerType=none#Trojan 🇨🇦 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.152:443?security=tls&sni=learn.connectingpeoplewithgreatjobs.com&type=tcp&headerType=none#Trojan 🇨🇦 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.201:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=resources.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.48:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=courses.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.48:443?security=tls&sni=courses.connectingpeoplewithgreatjobs.com&type=tcp&headerType=none#Trojan 🇨🇦 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.74:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=api.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.74:443?security=tls&sni=api.connectingpeoplewithgreatjobs.com&type=tcp&headerType=none#Trojan 🇨🇦 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.79:443?sni=blog.connectingpeoplewithgreatjobs.com&type=tcp#Trojan 🇨🇦 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.79:443?security=tls&sni=blog.connectingpeoplewithgreatjobs.com&type=tcp&headerType=none#Trojan 🇨🇦 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.85:443?sni=cdn.connectingpeoplewithgreatjobs.com&type=tcp#Trojan 🇨🇦 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.85:443?security=tls&sni=cdn.connectingpeoplewithgreatjobs.com&type=tcp&headerType=none#Trojan 🇨🇦 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.89:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=www.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.89:443?security=tls&sni=www.connectingpeoplewithgreatjobs.com&type=tcp&headerType=none#Trojan 🇨🇦 TLS [443]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.93:443?security=tls&sni=connectingpeoplewithgreatjobs.com&type=tcp&headerType=none#Trojan 🇨🇦 TLS [443]
 
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@15.223.183.81:443?insecure=1&sni=t.me#Hysteria2 🇨🇦 QUIC [443]
 

@@ -8,9 +8,9 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.168
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.212:8080#SS 🇳🇱 AEAD [8080]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#SS 🇳🇱 AEAD [8080]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoTmZlTENOM1h6WWdMRlNBV29fZnhPbDRIQzFnTncwVg@dns24.m3hrzd.ir:8044#SS 🇳🇱 AEAD [8044]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.178:8080#SS 🇳🇱 AEAD [8080]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#SS 🇳🇱 AEAD [8080]
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.179:8080#SS 🇳🇱 AEAD [8080]
 
@@ -20,11 +20,23 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.186:8
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.190:8080#SS 🇳🇱 AEAD [8080]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.194:8080#SS 🇳🇱 AEAD [8080]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.193:8080#SS 🇳🇱 AEAD [8080]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.195:8080#SS 🇳🇱 AEAD [8080]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.198:8080#SS 🇳🇱 AEAD [8080]
 
-hysteria2://35d26d53bc@109.104.153.124:11592?insecure=0&sni=srv-0e5387.frd21.ru&obfs=salamander&obfs-password=87d72c2949c0ca85bbda09459244e374#Hysteria2 🇳🇱 QUIC+OBFS [11592]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.199:8080#SS 🇳🇱 AEAD [8080]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.200:8080#SS 🇳🇱 AEAD [8080]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.201:8080#SS 🇳🇱 AEAD [8080]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.212:8080#SS 🇳🇱 AEAD [8080]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.213:8080#SS 🇳🇱 AEAD [8080]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.214:8080#SS 🇳🇱 AEAD [8080]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.218:8080#SS 🇳🇱 AEAD [8080]
 
 hysteria2://BWAFlp8g53@72.56.102.31:443?insecure=1#Hysteria2 🇳🇱 QUIC [443]
 
@@ -32,9 +44,7 @@ hysteria2://CnVfXXvMzh@72.56.92.120:443?insecure=1&sni=hys13.wba-pn.ru#Hysteria2
 
 hysteria2://EkF2Yw0Lc7@72.56.16.243:443?insecure=1&sni=hys34.wba-pn.ru#Hysteria2 🇳🇱 QUIC [443]
 
-hysteria2://HowdyHysteria2023w0W@hysteria.udpgw.com:8443?insecure=1&sni=sni-here.com&obfs=salamander&obfs-password=HysteriaHowdy#Hysteria2 🇳🇱 QUIC+OBFS [8443]
-
-hysteria2://NL2026hy@147.45.149.88:8443?sni=nl.nobelchat.ru&obfs=salamander&obfs-password=SalamanderNL2026#Hysteria2 🇳🇱 QUIC+OBFS [8443]
+hysteria2://HowdyHysteria2023w0W@51.15.19.206:8443?insecure=1&obfs=salamander&obfs-password=HysteriaHowdy&sni=sni-here.com#Hysteria2 🇳🇱 QUIC+OBFS [8443]
 
 hysteria2://OD6gGbGU9a@195.133.24.124:443?sni=hys26.wba-pn.ru#Hysteria2 🇳🇱 QUIC [443]
 

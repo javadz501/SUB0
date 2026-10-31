@@ -4,5 +4,7 @@
 //support-url: https://t.me/An0nymou3Bot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@149.28.130.108:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=searchcreativejobsandshowcaseyourartistictalents.com#Trojan 🇸🇬 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@149.28.130.108:443?security=tls&sni=searchcreativejobsandshowcaseyourartistictalents.com&type=tcp&headerType=none#Trojan 🇸🇬 TLS [443]
+
+vless://11bce34b-e248-4af5-a0f1-951c4c5ece45@vl.033.node-for-bigairport.com:443?security=reality&type=tcp&sni=ap-southeast-1.console.aws.amazon.com&fp=chrome&flow=xtls-rprx-vision&sid=b1a9832f489b&pbk=4tYZTzPnpJQQiG3bExrmT1TBzRMuaBWhFssBRNqrDVU&encryption=none#VLESS 🇸🇬 REALITY+PBK+SID+VISION+UTLS [443]
 
