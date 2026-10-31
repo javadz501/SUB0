@@ -94,9 +94,9 @@ Published Configuration Files
 
 ### 📡 Workflow Status
 
-[![Update Configs](https://img.shields.io/badge/Workflow-Run%20Workflow%20Config%20Updater-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/javadz501/SUB0/actions)
+[![Update Configs](https://img.shields.io/badge/Workflow-Run%20Config--Updater-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/javadz501/SUB0/actions)
 
-- **Workflow:** `Run Workflow Config Updater`
+- **Workflow:** `Run Config-Updater`
 - **Automation:** GitHub Actions
 - **Schedule:** Defined in `.github/workflows/update-configs.yml`
 - **Manual Runs:** Available through the Actions interface when enabled
