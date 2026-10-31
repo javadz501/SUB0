@@ -39,15 +39,17 @@ The goal is simple: **collect useful configurations, validate what can be tested
 
 ## 🔗 Configuration Subscriptions
 
-Choose the output compatible with your client and import the corresponding URL.
+Choose the output compatible with your client and import the corresponding URL. Server counts are updated automatically after each successful pipeline run.
 
-| Configuration | Format | Subscription |
-|:--|:--:|:--|
-| **Xray Tested** | `TXT` | [↗ Open Subscription](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/proxy_configs_tested.txt) |
-| **sing-box Tested** | `JSON` | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/singbox_configs_tested.json) |
-| **sing-box Secure** | `JSON` | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/singbox_configs_secure.json) |
-| **Clash Tested** | `YAML` | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/clash_configs_tested.yaml) |
-| **Clash Secure** | `YAML` | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/clash_configs_secure.yaml) |
+| Configuration | Format | Configurations | Subscription |
+|:--|:--:|--:|:--|
+<!-- SUB0_COUNTS_START -->
+| **Xray Tested** | `TXT` | 0 | [↗ Open Subscription](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/proxy_configs_tested.txt) |
+| **sing-box Tested** | `JSON` | 0 | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/singbox_configs_tested.json) |
+| **sing-box Secure** | `JSON` | 0 | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/singbox_configs_secure.json) |
+| **Clash Tested** | `YAML` | 0 | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/clash_configs_tested.yaml) |
+| **Clash Secure** | `YAML` | 0 | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/clash_configs_secure.yaml) |
+<!-- SUB0_COUNTS_END -->
 
 > **Note:** Subscription links depend on the corresponding files being present and up to date on the `main` branch. Configuration availability and client compatibility may change between runs.
 
