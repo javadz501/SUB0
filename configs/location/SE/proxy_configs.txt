@@ -6,3 +6,5 @@
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCSHhEbjhaNjd6dWFvUXNqSHFTQU1RUXM4RHoxQ0dxSg@77.216.2.178:30#SS 🇸🇪 AEAD [30]
 
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@70.34.207.14:443?security=tls&sni=searchhealthcarejobsandbuildmedicalcareerpathway.com&type=tcp&headerType=none#Trojan 🇸🇪 TLS [443]
+

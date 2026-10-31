@@ -4,5 +4,11 @@
 //support-url: https://t.me/An0nymou3Bot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBd1cxZlY2b0REUUtoOHIyem5tcHR2NTl0UGd0NGVIVlRnRmFUcWdLUzJqaVNkaWtKN0d5R0NCWWVoRGFLMzhTOHlNZ0hGZGJKcWNUbVJKU2ZZUzVDRnczNDViTmhGWmE@sql.popmintxo.cc:43385#SS 🇬🇧 AEAD [43385]
+vless://36c3dcc2-17b6-4478-b8a7-3978e6d5afe9@23.81.36.148:1222?security=reality&type=tcp&sni=play.google.com&fp=chrome&sid=a25d0f&pbk=zpLKK8HuwXJDH9D0O3t5Z_tO3ajkj7VRtXdr6UGy1zE&encryption=none#VLESS 🇬🇧 REALITY+PBK+SID+UTLS [1222]
+
+vless://36c3dcc2-17b6-4478-b8a7-3978e6d5afe9@23.81.36.148:8080?security=none&type=ws&path=/#VLESS 🇬🇧 WS [8080]
+
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@185.176.204.18:19999#SS 🇬🇧 AEAD [19999]
+
+trojan://5t6i121em5lkmsmk@en001.zestapp778.com:29813?security=tls&sni=en001.zestapp778.com&type=tcp&headerType=none#Trojan 🇬🇧 TLS [29813]
 

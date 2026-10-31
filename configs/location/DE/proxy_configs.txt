@@ -4,19 +4,17 @@
 //support-url: https://t.me/An0nymou3Bot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.29:443?security=tls&headerType=none&type=tcp&sni=blog.iloverussia2026.com#Trojan 🇩🇪 TLS [443]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.78:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=www.iloverussia2026.com#Trojan 🇩🇪 TLS [443]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.96:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=learn.iloverussia2026.com#Trojan 🇩🇪 TLS [443]
-
-vless://0ab273e4-cea6-41d0-bbab-41071d2fc455@5.252.179.15:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.bing.com&fp=chrome&flow=xtls-rprx-vision&sid=296f27de82dad7ff&pbk=XQB2zIgrhD8AtxgYFM8UiiWYt1sLVBLhMg1M4-sGMAY&encryption=none#VLESS 🇩🇪 REALITY+PBK+SID+VISION+UTLS [443]
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoTmZlTENOM1h6WWdMRlNBV29fZnhPbDRIQzFnTncwVg@dns23.m3hrzd.ir:8044#SS 🇩🇪 AEAD [8044]
+
+ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@185.226.172.8:8008#SS 🇩🇪 AEAD [8008]
+
+trojan://5t6i121em5lkmsmk@de001.zestapp778.com:51520?sni=de001.zestapp778.com&type=tcp&fp=chrome#Trojan 🇩🇪 TLS+UTLS [51520]
 
 hysteria2://2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f@144.31.148.87:443?insecure=1&sni=replay.wwwinternetvideo.click#Hysteria2 🇩🇪 QUIC [443]
 
 hysteria2://2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f@replay.wwwinternetvideo.click:443?insecure=1&sni=replay.wwwinternetvideo.click#Hysteria2 🇩🇪 QUIC [443]
+
+hysteria2://2a0fc918-9c61-451b-a9ad-e8f796e70f52@13.143.239.127:443?sni=nl1.obxodvpn.us&path=%2f#Hysteria2 🇩🇪 QUIC [443]
 
 hysteria2://2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o@89.125.156.80:443?insecure=1&sni=pixelcast.wwwinternetvideo.click#Hysteria2 🇩🇪 QUIC [443]
 
