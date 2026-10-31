@@ -329,7 +329,13 @@ jobs:
             echo "Country split output directory is missing." >&2
             exit 1
           fi
-
+          
+      - name: Update subscription configuration counts
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          python .github/scripts/update_subscription_counts.py
+          
       - name: Update README cache-busting timestamps
         shell: bash
         run: |
