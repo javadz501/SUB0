@@ -1,161 +1,170 @@
-[![Stars](https://img.shields.io/github/stars/4n0nymou3/multi-proxy-config-fetcher?style=flat-square)](https://github.com/4n0nymou3/multi-proxy-config-fetcher/stargazers)
-[![Forks](https://img.shields.io/github/forks/4n0nymou3/multi-proxy-config-fetcher?style=flat-square)](https://github.com/4n0nymou3/multi-proxy-config-fetcher/network/members)
-[![Issues](https://img.shields.io/github/issues/4n0nymou3/multi-proxy-config-fetcher?style=flat-square)](https://github.com/4n0nymou3/multi-proxy-config-fetcher/issues)
-[![License](https://img.shields.io/github/license/4n0nymou3/multi-proxy-config-fetcher?style=flat-square)](https://github.com/4n0nymou3/multi-proxy-config-fetcher/blob/main/LICENSE)
-[![Activity](https://img.shields.io/github/last-commit/4n0nymou3/multi-proxy-config-fetcher?style=flat-square)](https://github.com/4n0nymou3/multi-proxy-config-fetcher/commits)
+[![Stars](https://img.shields.io/github/stars/javadz501/SUB0?style=flat-square)](https://github.com/javadz501/SUB0/stargazers)
+[![Forks](https://img.shields.io/github/forks/javadz501/SUB0?style=flat-square)](https://github.com/javadz501/SUB0/network/members)
+[![Issues](https://img.shields.io/github/issues/javadz501/SUB0?style=flat-square)](https://github.com/javadz501/SUB0/issues)
+[![License](https://img.shields.io/github/license/javadz501/SUB0?style=flat-square)](https://github.com/javadz501/SUB0/blob/main/LICENSE)
+[![Activity](https://img.shields.io/github/last-commit/javadz501/SUB0?style=flat-square)](https://github.com/javadz501/SUB0/commits/main)
 
 <div dir="ltr">
 
-# Multi Proxy Config Fetcher
+# SUB0 – Free Proxy Configuration Collector
 
-[**🇺🇸English**](README.md) | [**<img src="https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/flag/iran.svg" height="14" style="vertical-align:middle">فارسی**](README_FA.md) | [**🇨🇳中文**](README_CN.md) | [**🇷🇺Русский**](README_RU.md)
+[**🇺🇸 English**](README.md) | [**🇮🇷 فارسی**](README_FA.md) | [**🇨🇳 中文**](README_CN.md) | [**🇷🇺 Русский**](README_RU.md)
 
-一个高级的自动化代理配置管理系统，从多个来源抓取、验证、测试、丰富和过滤代理配置。该项目提供企业级的代理管理功能，包括实时健康监控、地理标记、多轮连接测试和多阶段安全过滤。
+SUB0 是一个自动化代理配置管理系统，可从多个来源收集、验证、测试、丰富和过滤代理配置。项目通过并行处理、多阶段连接测试、地理位置信息和安全过滤机制，为不同代理客户端生成多种格式的配置文件。
 
-## 🌐 访问配置
+## 🌐 配置访问
 
-所有代理配置和端点可通过我们的统一 Web 界面获取：
+项目生成的配置文件可直接通过 GitHub 仓库访问。
 
-### **[👉 Anonymous Proxy Hub - 访问所有端点](https://4n0nymou3.github.io/Anonymous-Proxy-Hub/)**
+### 订阅与配置文件
 
-Web 界面提供：
-- **36 个不同的端点** 以满足不同使用场景
-- **原始配置** — 未过滤的原始配置
-- **按国家分类** — 经 Xray 测试的配置，按服务器所在国家分为 25 个热门国家，每个国家都有独立的订阅链接
-- **Xray 测试** — 使用 Xray core 验证的配置
-- **Xray 负载均衡** — 智能负载均衡的 JSON 配置
-- **Xray Fragment 负载均衡** — 在负载均衡 JSON 配置基础上加入了两阶段高级 TLS 分片，以增强抗 DPI 检测能力
-- **Xray 安全** — 高安全性过滤配置
-- **Sing-box 全部** — 以 Sing-box 格式提供的所有配置
-- **Sing-box 测试** — 使用 Sing-box 验证的配置
-- **Sing-box 安全** — 最高安全级别的 Sing-box 配置
-- **Clash 全部** — 以 Clash/Mihomo 格式提供的所有配置
-- **Clash 测试** — 使用 Clash 验证的测试配置
-- **Clash 安全** — 最高安全级别的 Clash 配置
+| 输出类型 | 格式 | 链接 |
+|---|---|---|
+| 原始配置 | TXT | [查看](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/proxy_configs.txt) |
+| Xray 测试通过的配置 | TXT | [查看](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/proxy_configs_tested.txt) |
+| 全部 Sing-box 配置 | JSON | [查看](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/singbox_configs_all.json) |
+| Sing-box 测试通过的配置 | JSON | [查看](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/singbox_configs_tested.json) |
+| 安全筛选后的 Sing-box 配置 | JSON | [查看](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/singbox_configs_secure.json) |
+| 全部 Clash 配置 | YAML | [查看](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/clash_configs_all.yaml) |
+| Clash 测试通过的配置 | YAML | [查看](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/clash_configs_tested.yaml) |
+| 安全筛选后的 Clash 配置 | YAML | [查看](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/clash_configs_secure.yaml) |
 
-## 📊 源性能监控
+> 以上链接指向仓库中的输出文件。配置数量和内容会随着自动更新而变化。
 
-对所有已配置来源（Telegram 频道和 URL）进行实时性能统计。该图表在每次运行后自动更新。
+## 📊 来源性能监控
+
+项目收集已配置来源（Telegram 频道和 URL）的性能数据。性能图表会在自动化工作流运行期间更新。
 
 ### 快速概览
+
 <div align="center">
   <a href="assets/channel_stats_chart.svg">
-    <img src="assets/channel_stats_chart.svg" alt="源性能统计" width="800">
+    <img src="assets/channel_stats_chart.svg" alt="来源性能统计图表" width="800">
   </a>
 </div>
 
-### 详细分析
-📊 [查看完整交互式仪表板](https://htmlpreview.github.io/?https://github.com/4n0nymou3/multi-proxy-config-fetcher/blob/main/assets/performance_report.html)
+### 详细报告
 
-> **对于 Fork 的仓库的重要提示**：  
-> 如果你 fork 了此仓库，请在上面的仪表板链接中将 `4n0nymou3` 替换为你的 GitHub 用户名，以访问你自己的分析仪表板。
+📊 [查看交互式来源性能报告](assets/performance_report.html)
 
-每个来源根据四个关键指标评分：
-- **可靠性得分 (35%)**：抓取与更新配置的成功率
-- **配置质量 (25%)**：有效配置与抓取总数的比例
-- **配置独特性 (25%)**：贡献的唯一配置百分比
-- **响应时间 (15%)**：服务器响应时间与可用性
+每个来源根据以下四项指标进行评估：
 
-得分低于 30% 的来源会被自动禁用，以维持系统质量。
+- **可靠性（35%）：** 获取和更新配置的成功率
+- **配置质量（25%）：** 有效配置占获取配置总数的比例
+- **配置唯一性（25%）：** 唯一配置所占的比例
+- **响应时间（15%）：** 来源的响应时间和可用性
 
-## ✨ 主要特性
+根据项目的来源管理逻辑，评分低于 30% 的来源会被自动禁用。
+
+## ✨ 主要功能
 
 ### 多协议支持
-- **VLESS** — 轻量级的 VMess 替代方案，完整支持 Reality 与 XTLS Vision
-- **VMess** — 流行的 V2Ray 协议
+
+- **VLESS** — 轻量级代理协议，支持 Reality 和 XTLS Vision
+- **VMess** — V2Ray 代理协议
 - **Trojan** — 基于 TLS 的代理协议
-- **Shadowsocks** — 安全的 SOCKS5 代理（仅 AEAD 加密方式）
-- **Hysteria2** — 高性能代理协议
-- **WireGuard** — 现代且快速的 VPN 协议（目前仅包含在原始/测试文本输出中；默认禁用，尚未加入 Sing-box、Xray 负载均衡或 Clash 转换）
-- **TUIC** — 基于 UDP 的代理协议（与上面 WireGuard 相同的当前限制；默认禁用）
+- **Shadowsocks** — 支持 AEAD 加密方式的加密代理
+- **Hysteria2** — 高性能 UDP 代理协议
+- **WireGuard** — 现代 VPN 协议；目前仅存在于原始/测试文本输出中，默认禁用。
+- **TUIC** — 基于 UDP 的代理协议；目前具有与 WireGuard 类似的限制，默认禁用。
 
 ### 高级处理流水线
-1. **智能抓取**
+
+1. **智能采集**
    - 支持 Telegram 频道、SSCONF 链接和自定义 URL
-   - 自动 base64 解码与格式检测
-   - 语义级去重（按协议、地址、端口和凭据匹配，忽略名称或参数顺序）与校验
-   - 仅对临时性错误（超时、连接问题、HTTP 408/429/5xx）重试失败的来源；永久性错误会快速失败
+   - 自动 Base64 解码与格式识别
+   - 根据协议、地址、端口和认证信息进行语义去重
+   - 仅针对临时性错误（超时、连接问题、HTTP 408、429 和 5xx）重试
+
 2. **地理信息增强**
-   - 自动检测服务器位置
-   - 使用国家旗帜表情进行标记
+   - 自动检测服务器地理位置
+   - 使用国家旗帜 Emoji 标记
    - 支持多个地理定位 API
-   - 智能回退机制
-3. **按国家分发**
-   - 经 Xray 测试的配置会自动按服务器所在国家分组
-   - 覆盖 25 个热门国家，每个国家都有专属的订阅文件
-   - 复用已经收集好的地理位置数据，不产生额外的 API 调用
-   - 如果某次运行中某个国家没有匹配到任何配置，其原有文件会保持不变，不会被清空
+   - 主 API 不可用时使用备用机制
+
+3. **按国家分类**
+   - 根据服务器所在国家对 Xray 测试通过的配置进行分类
+   - 为配置中定义的国家生成独立订阅文件
+   - 重用已缓存的地理位置数据，减少不必要的 API 请求
+   - 如果某次运行中某个国家没有匹配配置，则保留该国家之前的文件
+
 4. **智能重命名**
-   - 带协议细节的描述性标签
-   - 传输类型识别（WS、GRPC、HTTP2 等）
-   - 安全特性检测（TLS、Reality、XTLS、Vision）
-   - 端口与国家信息
-5. **多轮双核心测试系统**
-   - 同时使用 Xray core 与 Sing-box core 进行健康检查
-   - 每个 core 会进行多轮独立测试（默认 3 轮）——只有每一轮都通过的配置才会被保留，从而过滤掉不稳定的配置
-   - 测试 URL 会在各轮之间轮换，避免配置只依据单一目标被判定
-   - 每次运行前会自动预检测试 URL，当时不可用的端点会被跳过
-   - 支持并行测试，worker 数量、超时时间和测试 URL 均可配置
+   - 根据协议特征生成描述性标签
+   - 识别传输类型，例如 WS、GRPC 和 HTTP2
+   - 识别 TLS、Reality、XTLS 和 Vision 等安全特征
+   - 在名称中加入端口和国家信息
+
+5. **双核心多轮测试系统**
+   - 使用 Xray Core 和 Sing-box Core 进行连接测试
+   - 每个核心执行多个独立测试轮次
+   - 仅保留通过所有指定测试轮次的配置
+   - 在不同测试轮次之间轮换目标 URL
+   - 在测试前检查目标 URL 的可用性
+   - 支持并行处理，并可配置 Worker 数量和 Timeout
+
 6. **安全过滤**
-   - 移除不安全的加密方法
-   - 验证 TLS/SSL 配置
-   - 过滤已弃用的协议
-   - 为 Xray、Sing-box 和 Clash 分别生成安全端点文件
+   - 移除不安全的加密方式
+   - 检查 TLS/SSL 配置
+   - 过滤过时协议和配置
+   - 为受支持的格式生成独立安全输出
+
 7. **格式转换**
-   - 自动转换为 Sing-box JSON 格式
-   - 生成 Xray 负载均衡配置，包含带有两阶段高级 TLS 分片的版本
+   - 自动生成 Sing-box JSON 配置
+   - 生成支持 Load Balancing 的 Xray 配置
+   - 支持 Xray Fragment 配置
    - 生成 Clash/Mihomo YAML 配置
-   - 每种输出格式均完整支持 Reality 与 XTLS Vision
+   - 在受支持的输出格式中处理 Reality 和 XTLS Vision
 
 ## 🚀 快速开始
 
-### 对于用户（推荐）
+### 普通用户
 
-1. 访问 **[Anonymous Proxy Hub](https://4n0nymou3.github.io/Anonymous-Proxy-Hub/)**  
-2. 选择你偏好的端点  
-3. 复制 URL 并在你的代理客户端中使用
+1. 从[配置访问](#-配置访问)部分选择所需配置文件。
+2. 复制对应文件链接。
+3. 将链接导入支持相应格式的代理客户端。
 
-### 对于开发者
+### 开发者
 
-#### Fork 与定制
+#### Fork 与自定义
 
-1. Fork 本仓库  
-2. 编辑 `settings/user_settings.py` 配置：
-   - 源 URL（Telegram 频道、SSCONF 链接等）
+1. Fork 此仓库。
+2. 编辑 `settings/user_settings.py`，配置：
+   - 来源 URL 和 Telegram 频道
    - 启用的协议
-   - 测试参数
+   - 连接测试参数
    - 地理定位 API 优先级
-3. 如需自定义 Fragment 端点使用的高级 TLS 分片，可编辑 `settings/fragment_settings.py`
-4. 如需更改哪些国家会拥有专属订阅文件，可编辑 `src/country_splitter.py` 中的 `TARGET_COUNTRIES` 字典
-5. 在你的 fork 中启用 GitHub Actions  
-6. 配置将按照项目的计划自动更新
+3. 如需自定义 Fragment，可编辑 `settings/fragment_settings.py`。
+4. 如需更改拥有独立订阅文件的国家，可编辑 `src/country_splitter.py` 中的 `TARGET_COUNTRIES`。
+5. 在 Fork 仓库中启用 GitHub Actions。
+6. 自动更新流程将按照定义的计划运行。
 
-#### 本地部署
+#### 本地运行
 
-**Anonymous Wizard** 是在本地系统上安装、运行和管理本项目的完整分步指南——支持 Termux（Android）、Linux、macOS、iSH（iOS）和 Windows（WSL2）。请选择您的首选语言：
+有关本地安装和运行方式，请查看仓库中提供的安装文件和指南。
 
 | 语言 | 指南 |
-|------|------|
-| 波斯语 | [Anonymous Wizard — راهنمای فارسی](README_WIZARD_FA.md) |
-| 英语 | [Anonymous Wizard — English Guide](README_WIZARD_EN.md) |
-| 中文 | [Anonymous Wizard — 中文指南](README_WIZARD_CN.md) |
-| 俄语 | [Anonymous Wizard — Руководство на русском](README_WIZARD_RU.md) |
+|---|---|
+| 波斯语 | [波斯语指南](README_WIZARD_FA.md) |
+| 英语 | [English Guide](README_WIZARD_EN.md) |
+| 中文 | [中文指南](README_WIZARD_CN.md) |
+| 俄语 | [Русское руководство](README_WIZARD_RU.md) |
 
 ## ⚙️ 配置选项
 
 ### `settings/user_settings.py`
+
+主要配置示例：
 
 ```python
 # Source URLs
 SOURCE_URLS = [
     "https://t.me/s/your_channel",
     "https://raw.githubusercontent.com/user/repo/main/configs.txt",
-    # Add your sources here
 ]
 
 # Power Mode
-USE_MAXIMUM_POWER = True  # Fetch maximum configs
-SPECIFIC_CONFIG_COUNT = 0  # Used if USE_MAXIMUM_POWER is False
+USE_MAXIMUM_POWER = True
+SPECIFIC_CONFIG_COUNT = 0
 
 # Protocol Filtering
 ENABLED_PROTOCOLS = {
@@ -175,36 +184,40 @@ MAX_CONFIG_AGE_DAYS = 1
 ENABLE_XRAY_TESTER = True
 XRAY_TESTER_MAX_WORKERS = 24
 XRAY_TESTER_TIMEOUT_SECONDS = 5
-XRAY_TESTER_URLS = [
-    'https://www.youtube.com/generate_204',
-    'https://www.gstatic.com/generate_204',
-    'https://cp.cloudflare.com'
-]
 XRAY_TESTER_ROUNDS = 3
 XRAY_TESTER_BATCH_SIZE = 200
+
+XRAY_TESTER_URLS = [
+    "https://www.youtube.com/generate_204",
+    "https://www.gstatic.com/generate_204",
+    "https://cp.cloudflare.com",
+]
 
 # Sing-box Testing
 ENABLE_SINGBOX_TESTER = True
 SINGBOX_TESTER_MAX_WORKERS = 24
 SINGBOX_TESTER_TIMEOUT_SECONDS = 5
-SINGBOX_TESTER_URLS = [
-    'https://www.youtube.com/generate_204',
-    'https://www.gstatic.com/generate_204',
-    'https://cp.cloudflare.com'
-]
 SINGBOX_TESTER_ROUNDS = 3
 SINGBOX_TESTER_BATCH_SIZE = 200
 
-# Geolocation APIs (in priority order)
+SINGBOX_TESTER_URLS = [
+    "https://www.youtube.com/generate_204",
+    "https://www.gstatic.com/generate_204",
+    "https://cp.cloudflare.com",
+]
+
+# Geolocation APIs
 LOCATION_APIS = [
-    'api.iplocation.net',
-    'freeipapi.com',
-    'ip-api.com',
-    'ipapi.co'
+    "api.iplocation.net",
+    "freeipapi.com",
+    "ip-api.com",
+    "ipapi.co",
 ]
 ```
 
-关闭任意一个测试器（`ENABLE_SINGBOX_TESTER = False` 或 `ENABLE_XRAY_TESTER = False`）会使该次运行完全跳过对应阶段的连接检测——上一阶段的文件会被原样复制过去。这样可以加快流水线速度，但请注意，Sing-box、Clash 以及 Xray 安全版这几个输出都依赖 Sing-box 测试阶段，关闭它会降低这些输出的可靠性；而普通的 Xray 与 Xray Fragment 输出不受影响。
+禁用任意测试器会跳过本次运行中对应的连接测试阶段，并将上一阶段的文件原样传递到后续阶段。
+
+请注意，Sing-box、Clash 和 Xray Secure 输出依赖 Sing-box 测试阶段。禁用该测试器可能降低这些输出的可靠性。
 
 ### `settings/fragment_settings.py`
 
@@ -215,7 +228,7 @@ FRAGMENT_STAGE_1 = {
     "packets": "tlshello",
     "lengths": ["5", "94", "1"],
     "delays": ["0"],
-    "max_split": "0"
+    "max_split": "0",
 }
 
 FRAGMENT_STAGE_2_ENABLED = True
@@ -224,190 +237,192 @@ FRAGMENT_STAGE_2 = {
     "packets": "1-1",
     "lengths": ["109", "1"],
     "delays": ["1"],
-    "max_split": "355"
+    "max_split": "355",
 }
 
 FRAGMENT_TLS_FINGERPRINT = "unsafe"
 FRAGMENT_TLS_CIPHER_SUITES = "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:..."
 ```
 
-该文件控制应用于 `xray_fragment_loadbalanced_config.json` 端点中每个配置的高级两阶段 TLS ClientHello 分片。你可以直接在这里调整各阶段参数、指纹或密码套件，无需修改任何其他文件。
+该文件控制 `xray_fragment_loadbalanced_config.json` 输出所使用的两阶段 TLS ClientHello Fragment 设置。
+
+你可以在这里调整各阶段参数、TLS Fingerprint 和 Cipher Suites。
 
 ## 📁 输出文件
 
-系统为不同用途生成多个输出文件：
-
-- `configs/proxy_configs.txt` - 原始抓取的配置
-- `configs/proxy_configs_tested.txt` - Xray 测试通过的配置
-- `configs/location/<CC>/proxy_configs.txt` - 按服务器所在国家分类的、经 Xray 测试的配置（共 25 个国家文件夹，例如 `US`、`DE`、`GB`）
-- `configs/singbox_configs_all.json` - 以 Sing-box 格式保存的所有配置
-- `configs/singbox_configs_tested.json` - Sing-box 测试通过的配置
-- `configs/singbox_configs_secure.json` - 安全过滤后的 Sing-box 配置
-- `configs/xray_secure_loadbalanced_config.json` - 安全的 Xray 负载均衡配置
-- `configs/clash_configs_all.yaml` - 以 Clash/Mihomo 格式保存的所有配置
-- `configs/clash_configs_tested.yaml` - Clash 测试通过的配置
-- `configs/clash_configs_secure.yaml` - 安全过滤后的 Clash 配置
-- `configs/xray_loadbalanced_config.json` - Xray 负载均衡配置
-- `configs/xray_fragment_loadbalanced_config.json` - 带高级 TLS 分片的 Xray 负载均衡配置
-- `configs/location_cache.json` - 地理位置缓存数据
-- `configs/channel_stats.json` - 源性能指标
+| 文件 | 说明 |
+|---|---|
+| `configs/proxy_configs.txt` | 原始获取的配置 |
+| `configs/proxy_configs_tested.txt` | 通过 Xray 测试的配置 |
+| `configs/location/<CC>/proxy_configs.txt` | 按服务器国家分类的 Xray 配置 |
+| `configs/singbox_configs_all.json` | 所有 Sing-box 配置 |
+| `configs/singbox_configs_tested.json` | 通过 Sing-box 测试的配置 |
+| `configs/singbox_configs_secure.json` | 安全筛选后的 Sing-box 配置 |
+| `configs/xray_secure_loadbalanced_config.json` | 安全的 Xray Load Balancing 配置 |
+| `configs/clash_configs_all.yaml` | 所有 Clash/Mihomo 配置 |
+| `configs/clash_configs_tested.yaml` | 通过测试的 Clash 配置 |
+| `configs/clash_configs_secure.yaml` | 安全筛选后的 Clash 配置 |
+| `configs/xray_loadbalanced_config.json` | Xray Load Balancing 配置 |
+| `configs/xray_fragment_loadbalanced_config.json` | 带 Fragment 的 Xray 配置 |
+| `configs/location_cache.json` | 地理位置缓存 |
+| `configs/channel_stats.json` | 来源性能指标 |
 
 ## 🔄 自动化
 
-该项目使用 GitHub Actions 进行自动更新：
+项目使用 GitHub Actions 自动执行配置收集和更新流程。
 
-- 每 3 小时运行一次（每天 8 次）
-- 可通过 workflow_dispatch 手动触发
-- 自动提交并推送更新的配置
-- 生成性能报告、图表以及每次运行的流水线摘要
+主要功能：
 
-### GitHub Actions 流程
+- 按 Workflow 中定义的 Cron 计划运行
+- 通过 `workflow_dispatch` 手动触发
+- 自动更新输出文件
+- 生成性能图表和报告
+- 生成 Pipeline 执行摘要
 
-流程按顺序执行以下步骤：
-1. 从所有来源抓取配置
-2. 使用地理位置数据进行丰富
-3. 以描述性标签重命名
-4. 使用 Xray core 测试（多轮）
-5. 按服务器所在国家拆分测试通过的配置
+### GitHub Actions 执行流程
+
+1. 从所有来源获取配置
+2. 使用地理位置数据丰富配置
+3. 为配置生成描述性名称
+4. 使用 Xray Core 进行多轮测试
+5. 按服务器国家分类测试通过的配置
 6. 转换为 Sing-box 格式
-7. 使用 Sing-box core 测试（多轮）
-8. 进行安全过滤，并生成安全版的 Sing-box 与 Xray 输出
-9. 生成 Clash/Mihomo YAML 配置
-10. 生成 Xray 负载均衡配置
-11. 生成带 Fragment 的 Xray 负载均衡配置
+7. 使用 Sing-box Core 进行多轮测试
+8. 执行安全过滤并生成安全输出
+9. 生成 Clash/Mihomo 文件
+10. 生成 Xray Load Balanced 配置
+11. 生成 Xray Fragment 配置
 12. 更新图表和报告
-13. 生成流水线运行摘要
-14. 提交并推送更改
+13. 生成 Pipeline 执行摘要
+14. 将更改提交到仓库
 
 ## 🛡️ 安全功能
 
 ### 自动安全过滤
 
-系统会自动移除：
-- **不安全的 Shadowsocks 加密方式**（非 AEAD）
-- **使用 MD5 验证的 VMess**（已弃用的 alter_id）
-- **未加密的协议**（VLESS/Trojan 无 TLS）
-- **无效的 TLS 配置**（insecure=true）
-- **security=none 的 VMess**
+系统根据项目定义的安全规则过滤以下配置：
 
-### 安全端点
+- 不安全的 Shadowsocks 加密方式
+- 已弃用的 VMess 设置，例如 `alter_id`
+- 缺少所需加密保护的配置
+- 无效的 TLS 设置，例如 `insecure=true`
+- 使用 `security=none` 的 VMess 配置
 
-专用的安全端点文件仅包含满足现代安全标准的配置：
-- 有效的 TLS/SSL 证书
-- 现代加密算法
-- 无已弃用的验证方法
-- 正确的证书校验
+### 安全输出
+
+Secure 输出用于保存通过项目安全过滤规则的配置。
+
+通过项目过滤并不代表配置绝对安全，也不保证匿名性或第三方服务提供商的可信度。
 
 ## 📈 性能优化
 
-- **并行处理** 加速配置测试
-- **智能缓存** 用于地理数据
-- **连接池** 提高 HTTP 请求效率
-- **可配置超时** 在速度与稳定性之间平衡
-- **智能重试策略**（指数退避），仅针对临时性错误
-- **资源清理** 防止内存泄漏
+- 并行处理以加速配置测试
+- 地理位置缓存以减少 API 请求
+- HTTP Connection Pooling
+- 可配置的 Timeout
+- 针对临时错误使用 Exponential Backoff 重试
+- 资源管理以降低内存泄漏风险
 
 ## 🌍 地理定位系统
 
-### 多 API 支持
+### 支持的 API
 
-系统支持多个免费地理定位 API，并具备自动回退机制：
+项目支持以下地理定位 API：
 
-1. **api.iplocation.net** — 无限、快速且准确
-2. **freeipapi.com** — 每分钟 60 次请求，非常快速
-3. **ip-api.com** — 每分钟 45 次请求，可靠
-4. **ipapi.co** — 每日 1000 次请求
+1. `api.iplocation.net`
+2. `freeipapi.com`
+3. `ip-api.com`
+4. `ipapi.co`
 
-### 智能检测
+API 使用顺序可以通过项目配置调整。
 
-- 自动识别 URL 模式
-- 高效缓存以减少 API 调用
-- 在 API 失败时优雅降级
-- 无需 API 密钥
+### 功能
+
+- IP 地理位置检测
+- 缓存数据以减少重复请求
+- API 故障时使用备用服务
+- 默认配置无需 API Key
 
 ## 📊 统计与监控
 
-### 实时指标
+### 性能指标
 
-系统跟踪每个来源的全面指标：
-- 抓取的配置总数
-- 有效与无效比率
-- 唯一配置贡献
+系统可以记录每个来源的以下指标：
+
+- 获取的配置总数
+- 有效与无效配置比例
+- 唯一配置数量
 - 平均响应时间
-- 成功/失败率
-- 整体健康得分
+- 成功率与失败率
+- 来源整体健康评分
 
-### 可视化仪表板
+### 可视化报告
 
-- **SVG 图表** — 快速性能概览
-- **交互式 HTML 报告** — 详细分析包括：
-  - 活跃/非活跃来源
-  - 协议分布
-  - 响应时间分析
-  - 历史趋势
-- **流水线运行摘要** — 在每次 GitHub Actions 运行页面上直接显示各阶段与各输出文件的配置数量
+- **SVG 图表：** 快速查看来源性能
+- **HTML 报告：** 分析来源、协议分布、响应时间和历史趋势
+- **Pipeline 摘要：** 显示各处理阶段的配置数量
 
 ## 🧪 测试
 
-`tests/` 目录包含一套自动化测试，覆盖解析、安全过滤和批量测试逻辑。它会在每次 push 和 pull request 时通过 `.github/workflows/tests.yml` 自动运行，与定时抓取配置的工作流完全独立，因此不会影响或拖慢常规的自动运行。
+`tests/` 目录包含自动化测试，用于检查解析逻辑、安全过滤和批量处理。
 
-本地运行方式：
+测试通过独立的 GitHub Actions Workflow 自动运行：
+
+`.github/workflows/tests.yml`
+
+本地运行：
 
 ```bash
 pip install -r requirements-dev.txt
 python -m pytest tests/ -v
 ```
 
-## 🤝 贡献
+## 🤝 参与贡献
 
-欢迎贡献！你可以这样帮忙：
+欢迎参与项目开发。
 
-1. **报告问题** — 发现 bug？请打开 issue
-2. **建议功能** — 有想法？发起讨论
-3. **提交 PR** — 欢迎改进
-4. **添加来源** — 知道可靠的代理来源？加入它们
-5. **改善文档** — 帮助提升文档质量
+你可以通过以下方式贡献：
+
+1. 通过 Issues 报告错误
+2. 提议新功能
+3. 提交 Pull Request
+4. 添加新的配置来源
+5. 改进项目文档
 
 ## ⚠️ 免责声明
 
-本项目仅用于**教育和参考**目的。开发者不对以下情况负责：
-- 任何滥用本软件的行为
-- 任何由此造成的损失或损害
-- 第三方代理配置的质量或安全性
+本项目仅用于教育和信息参考目的。
+
+开发者不对以下情况承担责任：
+
+- 对本软件的任何滥用
+- 使用配置造成的损失或损害
+- 第三方代理服务的质量、安全性或可用性
 - 违反当地法律或法规的行为
 
-**用户需承担的责任：**
-- 遵守当地法律
-- 验证配置的安全性
+**用户责任：**
+
+- 遵守当地法律法规
+- 使用前检查配置安全性
 - 了解使用代理服务的风险
-- 遵守代理提供者的服务条款
+- 遵守代理服务提供商的服务条款
 
 ## 📜 许可证
 
-本项目采用 MIT 许可证 — 详情见 [LICENSE](LICENSE)。
+本项目采用 MIT 许可证。详情请查看 [LICENSE](LICENSE)。
 
-## 👤 开发者
+## 🙏 致谢
 
-由 **4n0nymou3** 用 ❤️ 制作
-
-- 🐙 GitHub: [@4n0nymou3](https://github.com/4n0nymou3)
-- 🐦 Twitter/X: [@4n0nymou3](https://x.com/4n0nymou3)
-- 📦 仓库: [multi-proxy-config-fetcher](https://github.com/4n0nymou3/multi-proxy-config-fetcher)
-
-## 🙏 鸣谢
-
-- **Xray-core** — 高性能代理平台
-- **Sing-box** — 通用代理平台
-- **Clash/Mihomo** — 现代代理平台
+- **Xray-core** — 高性能代理核心
+- **Sing-box** — 多功能网络与代理核心
+- **Clash/Mihomo** — 代理配置管理平台
 - **GitHub Actions** — 自动化基础设施
 
 ---
 
 <div align="center">
 
-**[⬆ Back to Top](#-access-configurations)**
-
-Made with 💚 by Anonymous
+**[⬆ 返回顶部](#-配置访问)**
 
 </div>
 </div>
