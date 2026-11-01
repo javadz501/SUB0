@@ -4,11 +4,11 @@
 //support-url: https://t.me/An0nymou3Bot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.131:443?security=tls&headerType=none&type=tcp&sni=www.discovergreatjobsandadvanceyourcareer.com#Trojan 🇪🇸 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.131:443?security=tls&sni=www.discovergreatjobsandadvanceyourcareer.com#Trojan 🇪🇸 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.166:443?security=tls&sni=learn.discovergreatjobsandadvanceyourcareer.com#Trojan 🇪🇸 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?security=tls&sni=api.discovergreatjobsandadvanceyourcareer.com#Trojan 🇪🇸 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?sni=api.discovergreatjobsandadvanceyourcareer.com#Trojan 🇪🇸 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.251:443?security=tls&insecure=0&type=tcp&allowInsecure=0&sni=resources.discovergreatjobsandadvanceyourcareer.com#Trojan 🇪🇸 TLS [443]
 
