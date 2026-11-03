@@ -4,11 +4,25 @@
 //support-url: https://t.me/An0nymou3Bot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.15:443?security=tls&sni=courses.iloverussia2026.com#Trojan 🇩🇪 TLS [443]
+vless://09f30c46-3964-41ce-882a-72aee83ddd42@hw6.divarkhaghazi.com:465?path=/&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=hw6.divarkhaghazi.com.&fp=chrome&type=ws&allowInsecure=0&sni=hw6.divarkhaghazi.com.#VLESS 🇩🇪 WS+TLS+UTLS [465]
+
+vless://09f30c46-3964-41ce-882a-72aee83ddd42@hw6.divarkhaghazi.com:465?security=tls&type=ws&path=/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&host=hw6.divarkhaghazi.com.&alpn=http/1.1&sni=hw6.divarkhaghazi.com.&fp=chrome&encryption=none#VLESS 🇩🇪 WS+TLS+UTLS [465]
+
+vless://0ab273e4-cea6-41d0-bbab-41071d2fc455@5.252.179.15:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.bing.com&fp=chrome&flow=xtls-rprx-vision&sid=296f27de82dad7ff&pbk=XQB2zIgrhD8AtxgYFM8UiiWYt1sLVBLhMg1M4-sGMAY&encryption=none#VLESS 🇩🇪 REALITY+PBK+SID+VISION+UTLS [443]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.15:443?sni=courses.iloverussia2026.com#Trojan 🇩🇪 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.193:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=resources.iloverussia2026.com#Trojan 🇩🇪 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.29:443?security=tls&headerType=none&type=tcp&sni=blog.iloverussia2026.com#Trojan 🇩🇪 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.29:443?security=tls&sni=blog.iloverussia2026.com#Trojan 🇩🇪 TLS [443]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.78:443?security=tls&amp;host=/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&amp;headerType=none&amp;type=tcp&amp;allowInsecure=0&amp;sni=www.iloverussia2026.com#Trojan 🇩🇪 TLS [443]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.78:443?security=tls&amp;insecure=0&amp;headerType=none&amp;type=tcp&amp;allowInsecure=0&amp;sni=www.iloverussia2026.com#Trojan 🇩🇪 TLS [443]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.96:443?security=tls&sni=learn.iloverussia2026.com#Trojan 🇩🇪 TLS [443]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOY0FYYzBVWkk2eVFKRTFwOFFtT3Y4@57.129.113.16:8388#SS 🇩🇪 AEAD [8388]
 
 hysteria2://2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f@144.31.148.87:443?insecure=1&sni=replay.wwwinternetvideo.click#Hysteria2 🇩🇪 QUIC [443]
 
