@@ -37,7 +37,7 @@ class ConfigFetcher:
     def remove_duplicates_by_endpoint(self, configs: List[str]) -> List[str]:
         """
         حذف هوشمند کانفیگ‌های تکراری بر اساس آی‌پی و پورت (Endpoint)
-        تا اگر سروری با نام‌های مختلف تکرار شد، فقط یک نمونه نگه داشته شود.
+        تا اگر سروری با نام‌های مختلف یا لینک‌های متعدد تکرار شد، فقط یک نمونه نگه داشته شود.
         """
         unique_endpoints = set()
         filtered_configs = []
@@ -438,7 +438,7 @@ class ConfigFetcher:
                 time.sleep(2)
         
         if all_configs:
-            # اعمال فیلتر هوشمند حذف تکراری‌ها بر اساس آی‌پی و پورت پیش از بالانس کردن
+            # اعمال تابع حذف تکراری‌ها بر اساس آی‌پی و پورت پیش از بالانس کردن
             all_configs = self.remove_duplicates_by_endpoint(all_configs)
             
             all_configs = self.balance_protocols(sorted(set(all_configs)))
