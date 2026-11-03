@@ -61,7 +61,8 @@ class ConfigFetcher:
 
         return filtered_configs
 
-    def extract_config(self, text: str, start_index: int, protocol: str) -> Optional[str]:        try:
+    def extract_config(self, text: str, start_index: int, protocol: str) -> Optional[str]:
+        try:
             remaining_text = text[start_index:]
             configs = self.validator.split_configs(remaining_text)
             
