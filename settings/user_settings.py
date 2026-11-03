@@ -50,7 +50,7 @@ USE_MAXIMUM_POWER = False
 
 # Desired number of configurations to fetch.
 # This is used only if USE_MAXIMUM_POWER is False.
-SPECIFIC_CONFIG_COUNT = 300
+SPECIFIC_CONFIG_COUNT = 501
 
 # Dictionary of protocols to enable or disable.
 # Set each protocol to True to enable, False to disable.
@@ -102,7 +102,7 @@ XRAY_TESTER_URLS = [
 # rounds, so a config is checked against more than one destination overall
 # without paying the cost of trying multiple URLs within the same round.
 # Higher values are more accurate but take longer to run. 3 is a good default.
-XRAY_TESTER_ROUNDS = 1
+XRAY_TESTER_ROUNDS = 3
 
 # Maximum number of configs tested together inside a single shared Xray process.
 # Instead of starting a brand new Xray process for every single config, up to
@@ -147,7 +147,7 @@ SINGBOX_TESTER_URLS = [
 # rounds, so a config is checked against more than one destination overall
 # without paying the cost of trying multiple URLs within the same round.
 # Higher values are more accurate but take longer to run. 3 is a good default.
-SINGBOX_TESTER_ROUNDS = 1
+SINGBOX_TESTER_ROUNDS = 3
 
 # Maximum number of configs tested together inside a single shared Sing-box process.
 # Instead of starting a brand new Sing-box process for every single config, up to
