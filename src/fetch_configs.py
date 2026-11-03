@@ -2,6 +2,7 @@ import os
 import time
 import json
 import logging
+import re
 from urllib.parse import quote, urlparse
 from datetime import datetime, timedelta, timezone
 from typing import List, Dict, Optional, Set
@@ -32,6 +33,32 @@ class ConfigFetcher:
         self.channel_protocol_counts: Dict[str, Dict[str, int]] = {}
         self.session = requests.Session()
         self.session.headers.update(config.HEADERS)
+
+    def remove_duplicates_by_endpoint(self, configs: List[str]) -> List[str]:
+        """
+        حذف هوشمند کانفیگ‌های تکراری بر اساس آی‌پی و پورت (Endpoint)
+        تا اگر سروری با نام‌های مختلف تکرار شد، فقط یک نمونه نگه داشته شود.
+        """
+        unique_endpoints = set()
+        filtered_configs = []
+        
+        for cfg in configs:
+            match = re.search(r'@([^:]+):(\d+)', cfg)
+            if not match:
+                match = re.search(r'//([^@]+)@?([^:]+):(\d+)', cfg)
+                
+            if match:
+                host = match.group(1) if len(match.groups()) == 1 else match.group(2)
+                port = match.group(2) if len(match.groups()) == 1 else match.group(3)
+                endpoint = f"{host}:{port}"
+                
+                if endpoint not in unique_endpoints:
+                    unique_endpoints.add(endpoint)
+                    filtered_configs.append(cfg)
+            else:
+                filtered_configs.append(cfg)
+                
+        return filtered_configs
 
     def extract_config(self, text: str, start_index: int, protocol: str) -> Optional[str]:
         try:
@@ -119,7 +146,6 @@ class ConfigFetcher:
         return len(parts) == 2
 
     def fetch_github_repository_text(self, url: str) -> Optional[str]:
-        """Discover and fetch likely proxy-config files from a GitHub repository."""
         parsed = urlparse(url)
         parts = [part for part in parsed.path.strip("/").split("/") if part]
         if len(parts) != 2:
@@ -188,7 +214,7 @@ class ConfigFetcher:
                     logger.info(f"Fetched GitHub config candidate: {owner}/{repo}/{path}")
             except requests.RequestException as exc:
                 logger.warning(f"Failed to fetch {owner}/{repo}/{path}: {exc}")
-        return "\\n".join(texts) if texts else None
+        return "\n".join(texts) if texts else None
 
     def fetch_configs_from_source(self, channel: ChannelConfig) -> List[str]:
         configs: List[str] = []
@@ -412,8 +438,10 @@ class ConfigFetcher:
                 time.sleep(2)
         
         if all_configs:
+            # اعمال فیلتر هوشمند حذف تکراری‌ها بر اساس آی‌پی و پورت پیش از بالانس کردن
+            all_configs = self.remove_duplicates_by_endpoint(all_configs)
+            
             all_configs = self.balance_protocols(sorted(set(all_configs)))
-            # Enforce SPECIFIC_CONFIG_COUNT as a hard upper bound on fetched candidates.
             if not self.config.use_maximum_power and self.config.specific_config_count > 0:
                 all_configs = all_configs[:self.config.specific_config_count]
                 logger.info(
@@ -516,7 +544,7 @@ def main():
             logger.error("No valid configs found!")
             
         save_channel_stats(config, total_saved=len(configs) if configs else 0)
-            
+        
     except Exception as e:
         logger.error(f"Error in main execution: {str(e)}")
 
