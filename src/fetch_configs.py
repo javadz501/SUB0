@@ -41,28 +41,27 @@ class ConfigFetcher:
         """
         unique_endpoints = set()
         filtered_configs = []
-        
-for cfg in configs:
-    match = re.search(r'@([^:]+):(\d+)', cfg)
-    if match:
-        host, port = match.groups()
-    else:
-        match = re.search(r'//([^@]+)@?([^:]+):(\d+)', cfg)
-        if match:
-            host, port = match.group(2), match.group(3)
 
-    if match:
-        endpoint = f"{host}:{port}"
-        if endpoint not in unique_endpoints:
-            unique_endpoints.add(endpoint)
-            filtered_configs.append(cfg)
-    else:
-        filtered_configs.append(cfg)
-                
+        for cfg in configs:
+            match = re.search(r'@([^:]+):(\d+)', cfg)
+            if match:
+                host, port = match.groups()
+            else:
+                match = re.search(r'//([^@]+)@?([^:]+):(\d+)', cfg)
+                if match:
+                    host, port = match.group(2), match.group(3)
+
+            if match:
+                endpoint = f"{host}:{port}"
+                if endpoint not in unique_endpoints:
+                    unique_endpoints.add(endpoint)
+                    filtered_configs.append(cfg)
+            else:
+                filtered_configs.append(cfg)
+
         return filtered_configs
 
-    def extract_config(self, text: str, start_index: int, protocol: str) -> Optional[str]:
-        try:
+    def extract_config(self, text: str, start_index: int, protocol: str) -> Optional[str]:        try:
             remaining_text = text[start_index:]
             configs = self.validator.split_configs(remaining_text)
             
