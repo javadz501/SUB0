@@ -12,13 +12,31 @@ SOURCE_URLS = [
     "https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/mix/sub.html",
     "https://t.me/s/persianvpnhub",
 
-    # User-provided subscription endpoints
+    # User-provided Subscription Endpoints
     "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt#Patterniha-F",
     "https://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/base64.txt",
     "https://raw.githubusercontent.com/iampedii/whitedns-sub/refs/heads/main/mihomo.yaml",
-    "https://openproxylist.com/v2ray",
+    "https://raw.githubusercontent.com/10ium/free-config/refs/heads/main/free-mihomo-sub/MKB.yaml",
+    "https://raw.githubusercontent.com/10ium/free-config/refs/heads/main/free-mihomo-sub/test.yaml",
 
-    # User-provided GitHub repositories; the fetcher discovers likely config files automatically
+    # User-provided Website Endpoints
+    "https://openproxylist.com/v2ray",
+    "https://shadowmere.xyz/api/sub",
+
+    # User-provided Telegram Channel Endpoints
+    "https://t.me/s/v2cnf",
+    "https://t.me/s/freeclashyaml",
+    "https://t.me/s/prrofile_purple",
+    "https://t.me/s/Capoit",
+    "https://t.me/s/ConfigWireguard",
+    "https://t.me/s/shadowsockskeys",
+    "https://t.me/s/An0nymousTeam",
+    "https://t.me/s/DeamNet_proxy",
+    "https://t.me/s/Avkeys",
+    "https://t.me/s/VPNBaz",
+    "https://t.me/s/oneclickvpnkeys",
+
+    # User-provided GitHub Repositories; The Fetcher Discovers Likely Config Files Automatically
     "https://github.com/0xRadikal/Free-v2ray-Configs",
     "https://github.com/itsyebekhe/PSG",
     "https://github.com/Delta-Kronecker/V2ray-Config",
