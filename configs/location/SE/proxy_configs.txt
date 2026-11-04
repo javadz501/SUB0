@@ -6,7 +6,5 @@
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@70.34.207.14:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=searchhealthcarejobsandbuildmedicalcareerpathway.com#Trojan 🇸🇪 TLS [443]
 
-hysteria2://769f34f0-1500-488f-b414-03bc90666502@se.mimowhat.online:443?insecure=0&sni=se.mimowhat.online#Hysteria2 🇸🇪 QUIC [443]
-
 hysteria2://Telegram-vpnjey@77.110.96.201:36264?insecure=1&alpn=h3&sni=se.vpnjey2.dpdns.org&obfs=salamander&obfs-password=Telegram@vpnjey#Hysteria2 🇸🇪 QUIC+OBFS [36264]
 

@@ -4,11 +4,39 @@
 //support-url: https://t.me/An0nymou3Bot
 //profile-web-page-url: https://github.com/4n0nymou3
 
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.107:443?fp=chrome&sni=blog.indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS+UTLS [443]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.154:443?fp=chrome&sni=www.indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS+UTLS [443]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.155:443?sni=indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS [443]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.215:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=courses.indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS [443]
+
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.225:443?security=tls&sni=cdn.indyourperfectremotetechjobfromthecomfortofhome.com&type=tcp&headerType=none#Trojan 🇳🇱 TLS [443]
 
-vless://20dd9433-389e-4573-ba7b-689619cf13da@108.61.164.217:4443?security=reality&type=tcp&packetEncoding=xudp&sni=www.samsung.com&fp=chrome&flow=xtls-rprx-vision&sid=835391010667297d&pbk=k9srkQedwHsZGJP-R-GGwDOGok05gk23s8d4mtidMC4&encryption=none#VLESS 🇳🇱 REALITY+PBK+SID+VISION+UTLS [4443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.9:443?fp=chrome&sni=resources.indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS+UTLS [443]
 
-hysteria2://6da2c981-8c77-4340-bda3-93399b7aea26@195.63.146.10:443?sni=video.blog-forme.ru#Hysteria2 🇳🇱 QUIC [443]
+vless://0760406c-3f19-47b1-b332-f59270adf431@79.141.164.83:443?encryption=none&pbk=pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ&security=reality&serviceName=neurex&sid=27350908de933e09&sni=nlb.kosmosapp.net&type=grpc#VLESS 🇳🇱 GRPC+REALITY+PBK+SID [443]
+
+vless://12776e55-6230-48b9-b069-1bb8a04b4237@94.183.206.226:7443?encryption=none&pbk=unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE&security=reality&serviceName=ebl&sni=optim.tildacdn.pub&type=grpc#VLESS 🇳🇱 GRPC+REALITY+PBK [7443]
+
+vless://26524cce-d514-4014-a426-365fb266a14d@62.132.3.104:8443?allowInsecure=1&alpn=http/1.1&ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=xy1ej.stream-node-us.danfeng.qzz.io&path=/danfeng&security=tls&sni=xy1ej.stream-node-us.danfeng.qzz.io&type=ws#VLESS 🇳🇱 WS+TLS [8443]
+
+ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206WlY5Z3IxRzFrbitNdGVncG1HTVZPcVhiU1V3bkNIdGFTLzh2dWNjRUtKVT06eE1aZFh4RmNxakF1emdpdUdUQmR2ZUJxc2gyekhJVlp3eFFicC9JckxtWT0@31.57.185.203:53799#SS 🇳🇱 2022+BLAKE3 [53799]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2MWMtaTVTU0ZYUDhuNGcxV2JjMEw5Z1g4Mng1TzJRYQ@185.4.115.149:8044#SS 🇳🇱 AEAD [8044]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2MWMtaTVTU0ZYUDhuNGcxV2JjMEw5Z1g4Mng1TzJRYQ@dns22.m3hrzd.ir:1346#SS 🇳🇱 AEAD [1346]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2MWMtaTVTU0ZYUDhuNGcxV2JjMEw5Z1g4Mng1TzJRYQ@dns22.m3hrzd.ir:8044#SS 🇳🇱 AEAD [8044]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2MWMtaTVTU0ZYUDhuNGcxV2JjMEw5Z1g4Mng1TzJRYQ@dns27.m3hrzd.ir:1353#SS 🇳🇱 AEAD [1353]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2MWMtaTVTU0ZYUDhuNGcxV2JjMEw5Z1g4Mng1TzJRYQ@dns27.m3hrzd.ir:1355#SS 🇳🇱 AEAD [1355]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.168:8080#SS 🇳🇱 AEAD [8080]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.212:8080#SS 🇳🇱 AEAD [8080]
 
 hysteria2://BWAFlp8g53@72.56.102.31:443?insecure=1#Hysteria2 🇳🇱 QUIC [443]
 
