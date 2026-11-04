@@ -868,32 +868,6 @@
       "settings": {
         "servers": [
           {
-            "address": "216.106.186.66",
-            "port": 443,
-            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-            "level": 8
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "www.findlocaljobnetworkandbuildcommunityconnections.com",
-          "fingerprint": "chrome",
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
-        }
-      },
-      "tag": "proxy-32"
-    },
-    {
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
             "address": "216.106.186.82",
             "port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -913,7 +887,7 @@
           ]
         }
       },
-      "tag": "proxy-33"
+      "tag": "proxy-32"
     },
     {
       "protocol": "trojan",
@@ -939,7 +913,7 @@
           ]
         }
       },
-      "tag": "proxy-34"
+      "tag": "proxy-33"
     },
     {
       "protocol": "trojan",
@@ -965,7 +939,7 @@
           ]
         }
       },
-      "tag": "proxy-35"
+      "tag": "proxy-34"
     },
     {
       "protocol": "trojan",
@@ -991,7 +965,7 @@
           ]
         }
       },
-      "tag": "proxy-36"
+      "tag": "proxy-35"
     },
     {
       "protocol": "trojan",
@@ -1017,7 +991,7 @@
           ]
         }
       },
-      "tag": "proxy-37"
+      "tag": "proxy-36"
     },
     {
       "protocol": "trojan",
@@ -1043,7 +1017,7 @@
           ]
         }
       },
-      "tag": "proxy-38"
+      "tag": "proxy-37"
     },
     {
       "protocol": "trojan",
@@ -1069,7 +1043,7 @@
           ]
         }
       },
-      "tag": "proxy-39"
+      "tag": "proxy-38"
     },
     {
       "protocol": "trojan",
@@ -1095,7 +1069,7 @@
           ]
         }
       },
-      "tag": "proxy-40"
+      "tag": "proxy-39"
     },
     {
       "protocol": "trojan",
@@ -1121,7 +1095,7 @@
           ]
         }
       },
-      "tag": "proxy-41"
+      "tag": "proxy-40"
     },
     {
       "protocol": "trojan",
@@ -1147,7 +1121,7 @@
           ]
         }
       },
-      "tag": "proxy-42"
+      "tag": "proxy-41"
     },
     {
       "protocol": "trojan",
@@ -1173,7 +1147,7 @@
           ]
         }
       },
-      "tag": "proxy-43"
+      "tag": "proxy-42"
     },
     {
       "protocol": "trojan",
@@ -1199,7 +1173,7 @@
           ]
         }
       },
-      "tag": "proxy-44"
+      "tag": "proxy-43"
     },
     {
       "protocol": "trojan",
@@ -1225,7 +1199,7 @@
           ]
         }
       },
-      "tag": "proxy-45"
+      "tag": "proxy-44"
     },
     {
       "protocol": "trojan",
@@ -1251,7 +1225,7 @@
           ]
         }
       },
-      "tag": "proxy-46"
+      "tag": "proxy-45"
     },
     {
       "protocol": "trojan",
@@ -1277,7 +1251,7 @@
           ]
         }
       },
-      "tag": "proxy-47"
+      "tag": "proxy-46"
     },
     {
       "protocol": "trojan",
@@ -1303,7 +1277,7 @@
           ]
         }
       },
-      "tag": "proxy-48"
+      "tag": "proxy-47"
     },
     {
       "protocol": "trojan",
@@ -1329,7 +1303,7 @@
           ]
         }
       },
-      "tag": "proxy-49"
+      "tag": "proxy-48"
     },
     {
       "protocol": "trojan",
@@ -1355,7 +1329,7 @@
           ]
         }
       },
-      "tag": "proxy-50"
+      "tag": "proxy-49"
     },
     {
       "protocol": "trojan",
@@ -1381,7 +1355,7 @@
           ]
         }
       },
-      "tag": "proxy-51"
+      "tag": "proxy-50"
     },
     {
       "protocol": "trojan",
@@ -1407,7 +1381,7 @@
           ]
         }
       },
-      "tag": "proxy-52"
+      "tag": "proxy-51"
     },
     {
       "protocol": "trojan",
@@ -1433,7 +1407,7 @@
           ]
         }
       },
-      "tag": "proxy-53"
+      "tag": "proxy-52"
     },
     {
       "protocol": "trojan",
@@ -1459,7 +1433,7 @@
           ]
         }
       },
-      "tag": "proxy-54"
+      "tag": "proxy-53"
     },
     {
       "protocol": "trojan",
@@ -1485,7 +1459,7 @@
           ]
         }
       },
-      "tag": "proxy-55"
+      "tag": "proxy-54"
     },
     {
       "protocol": "trojan",
@@ -1511,7 +1485,7 @@
           ]
         }
       },
-      "tag": "proxy-56"
+      "tag": "proxy-55"
     },
     {
       "protocol": "trojan",
@@ -1537,7 +1511,7 @@
           ]
         }
       },
-      "tag": "proxy-57"
+      "tag": "proxy-56"
     },
     {
       "protocol": "trojan",
@@ -1563,7 +1537,7 @@
           ]
         }
       },
-      "tag": "proxy-58"
+      "tag": "proxy-57"
     },
     {
       "protocol": "trojan",
@@ -1589,7 +1563,7 @@
           ]
         }
       },
-      "tag": "proxy-59"
+      "tag": "proxy-58"
     },
     {
       "protocol": "trojan",
@@ -1615,7 +1589,7 @@
           ]
         }
       },
-      "tag": "proxy-60"
+      "tag": "proxy-59"
     },
     {
       "protocol": "trojan",
@@ -1641,7 +1615,7 @@
           ]
         }
       },
-      "tag": "proxy-61"
+      "tag": "proxy-60"
     },
     {
       "protocol": "trojan",
@@ -1667,7 +1641,7 @@
           ]
         }
       },
-      "tag": "proxy-62"
+      "tag": "proxy-61"
     },
     {
       "protocol": "trojan",
@@ -1693,7 +1667,7 @@
           ]
         }
       },
-      "tag": "proxy-63"
+      "tag": "proxy-62"
     },
     {
       "protocol": "trojan",
@@ -1719,7 +1693,7 @@
           ]
         }
       },
-      "tag": "proxy-64"
+      "tag": "proxy-63"
     },
     {
       "protocol": "trojan",
@@ -1745,7 +1719,7 @@
           ]
         }
       },
-      "tag": "proxy-65"
+      "tag": "proxy-64"
     },
     {
       "protocol": "trojan",
@@ -1771,7 +1745,7 @@
           ]
         }
       },
-      "tag": "proxy-66"
+      "tag": "proxy-65"
     },
     {
       "protocol": "trojan",
@@ -1797,7 +1771,7 @@
           ]
         }
       },
-      "tag": "proxy-67"
+      "tag": "proxy-66"
     },
     {
       "protocol": "trojan",
@@ -1823,7 +1797,7 @@
           ]
         }
       },
-      "tag": "proxy-68"
+      "tag": "proxy-67"
     },
     {
       "protocol": "trojan",
@@ -1849,7 +1823,7 @@
           ]
         }
       },
-      "tag": "proxy-69"
+      "tag": "proxy-68"
     },
     {
       "protocol": "trojan",
@@ -1875,7 +1849,7 @@
           ]
         }
       },
-      "tag": "proxy-70"
+      "tag": "proxy-69"
     },
     {
       "protocol": "trojan",
@@ -1901,7 +1875,7 @@
           ]
         }
       },
-      "tag": "proxy-71"
+      "tag": "proxy-70"
     },
     {
       "protocol": "trojan",
@@ -1927,7 +1901,7 @@
           ]
         }
       },
-      "tag": "proxy-72"
+      "tag": "proxy-71"
     },
     {
       "protocol": "trojan",
@@ -1953,7 +1927,7 @@
           ]
         }
       },
-      "tag": "proxy-73"
+      "tag": "proxy-72"
     },
     {
       "protocol": "trojan",
@@ -1979,7 +1953,7 @@
           ]
         }
       },
-      "tag": "proxy-74"
+      "tag": "proxy-73"
     },
     {
       "protocol": "trojan",
@@ -2005,7 +1979,7 @@
           ]
         }
       },
-      "tag": "proxy-75"
+      "tag": "proxy-74"
     },
     {
       "protocol": "trojan",
@@ -2031,7 +2005,7 @@
           ]
         }
       },
-      "tag": "proxy-76"
+      "tag": "proxy-75"
     },
     {
       "protocol": "trojan",
@@ -2057,7 +2031,7 @@
           ]
         }
       },
-      "tag": "proxy-77"
+      "tag": "proxy-76"
     },
     {
       "protocol": "trojan",
@@ -2083,7 +2057,7 @@
           ]
         }
       },
-      "tag": "proxy-78"
+      "tag": "proxy-77"
     },
     {
       "protocol": "trojan",
@@ -2109,7 +2083,7 @@
           ]
         }
       },
-      "tag": "proxy-79"
+      "tag": "proxy-78"
     },
     {
       "protocol": "trojan",
@@ -2135,7 +2109,7 @@
           ]
         }
       },
-      "tag": "proxy-80"
+      "tag": "proxy-79"
     },
     {
       "protocol": "trojan",
@@ -2161,7 +2135,7 @@
           ]
         }
       },
-      "tag": "proxy-81"
+      "tag": "proxy-80"
     },
     {
       "protocol": "trojan",
@@ -2187,7 +2161,7 @@
           ]
         }
       },
-      "tag": "proxy-82"
+      "tag": "proxy-81"
     },
     {
       "protocol": "trojan",
@@ -2213,7 +2187,7 @@
           ]
         }
       },
-      "tag": "proxy-83"
+      "tag": "proxy-82"
     },
     {
       "protocol": "trojan",
@@ -2239,7 +2213,7 @@
           ]
         }
       },
-      "tag": "proxy-84"
+      "tag": "proxy-83"
     },
     {
       "protocol": "trojan",
@@ -2265,7 +2239,7 @@
           ]
         }
       },
-      "tag": "proxy-85"
+      "tag": "proxy-84"
     },
     {
       "protocol": "trojan",
@@ -2291,7 +2265,7 @@
           ]
         }
       },
-      "tag": "proxy-86"
+      "tag": "proxy-85"
     },
     {
       "protocol": "trojan",
@@ -2317,7 +2291,7 @@
           ]
         }
       },
-      "tag": "proxy-87"
+      "tag": "proxy-86"
     },
     {
       "protocol": "trojan",
@@ -2336,6 +2310,32 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "browseexecutivejobopeningsandenhanceleadershipcareer.com",
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ]
+        }
+      },
+      "tag": "proxy-87"
+    },
+    {
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "216.106.186.66",
+            "port": 443,
+            "password": "242a3d8eee5e4ed1a6bfa4141d549a25",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.findlocaljobnetworkandbuildcommunityconnections.com",
           "fingerprint": "chrome",
           "alpn": [
             "h2",
@@ -2636,37 +2636,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "47.251.25.74",
-            "port": 443,
-            "users": [
-              {
-                "id": "18805ff3-b420-45de-af18-93be14024ae8",
-                "flow": "xtls-rprx-vision",
-                "encryption": "none",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.amazon.com",
-          "publicKey": "H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8",
-          "password": "H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8",
-          "shortId": "",
-          "fingerprint": "chrome"
-        }
-      },
-      "tag": "proxy-98"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
             "address": "195.211.98.43",
             "port": 443,
             "users": [
@@ -2691,7 +2660,7 @@
           "fingerprint": "chrome"
         }
       },
-      "tag": "proxy-99"
+      "tag": "proxy-98"
     },
     {
       "protocol": "vless",
@@ -2722,7 +2691,7 @@
           "fingerprint": "chrome"
         }
       },
-      "tag": "proxy-100"
+      "tag": "proxy-99"
     },
     {
       "protocol": "vless",
@@ -2754,7 +2723,7 @@
           ]
         }
       },
-      "tag": "proxy-101"
+      "tag": "proxy-100"
     },
     {
       "protocol": "vless",
@@ -2791,7 +2760,7 @@
           ]
         }
       },
-      "tag": "proxy-102"
+      "tag": "proxy-101"
     },
     {
       "protocol": "vless",
@@ -2828,7 +2797,7 @@
           ]
         }
       },
-      "tag": "proxy-103"
+      "tag": "proxy-102"
     },
     {
       "protocol": "vless",
@@ -2864,7 +2833,7 @@
           "fingerprint": "chrome"
         }
       },
-      "tag": "proxy-104"
+      "tag": "proxy-103"
     },
     {
       "protocol": "shadowsocks",
@@ -2882,43 +2851,7 @@
       "streamSettings": {
         "network": "tcp"
       },
-      "tag": "proxy-105"
-    },
-    {
-      "protocol": "shadowsocks",
-      "settings": {
-        "servers": [
-          {
-            "address": "31.57.185.203",
-            "port": 53799,
-            "method": "2022-blake3-aes-256-gcm",
-            "password": "ZV9gr1G1kn+MtegpmGMVOqXbSUwnCHtaS/8vuccEKJU=:xMZdXxFcqjAuzgiuGTBdveBqsh2zHIVZwxQbp/IrLmY=",
-            "level": 8
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp"
-      },
-      "tag": "proxy-106"
-    },
-    {
-      "protocol": "shadowsocks",
-      "settings": {
-        "servers": [
-          {
-            "address": "20.107.206.186",
-            "port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "45dM0ZrNdAk4OHiM",
-            "level": 8
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp"
-      },
-      "tag": "proxy-107"
+      "tag": "proxy-104"
     },
     {
       "protocol": "shadowsocks",
@@ -2936,7 +2869,7 @@
       "streamSettings": {
         "network": "tcp"
       },
-      "tag": "proxy-108"
+      "tag": "proxy-105"
     },
     {
       "protocol": "shadowsocks",
@@ -2954,7 +2887,7 @@
       "streamSettings": {
         "network": "tcp"
       },
-      "tag": "proxy-109"
+      "tag": "proxy-106"
     },
     {
       "protocol": "shadowsocks",
@@ -2972,7 +2905,7 @@
       "streamSettings": {
         "network": "tcp"
       },
-      "tag": "proxy-110"
+      "tag": "proxy-107"
     },
     {
       "protocol": "shadowsocks",
@@ -2990,7 +2923,7 @@
       "streamSettings": {
         "network": "tcp"
       },
-      "tag": "proxy-111"
+      "tag": "proxy-108"
     },
     {
       "protocol": "shadowsocks",
@@ -3008,7 +2941,7 @@
       "streamSettings": {
         "network": "tcp"
       },
-      "tag": "proxy-112"
+      "tag": "proxy-109"
     },
     {
       "protocol": "shadowsocks",
@@ -3026,7 +2959,7 @@
       "streamSettings": {
         "network": "tcp"
       },
-      "tag": "proxy-113"
+      "tag": "proxy-110"
     },
     {
       "protocol": "shadowsocks",
@@ -3044,7 +2977,7 @@
       "streamSettings": {
         "network": "tcp"
       },
-      "tag": "proxy-114"
+      "tag": "proxy-111"
     },
     {
       "protocol": "shadowsocks",
@@ -3062,7 +2995,7 @@
       "streamSettings": {
         "network": "tcp"
       },
-      "tag": "proxy-115"
+      "tag": "proxy-112"
     },
     {
       "protocol": "shadowsocks",
@@ -3080,7 +3013,7 @@
       "streamSettings": {
         "network": "tcp"
       },
-      "tag": "proxy-116"
+      "tag": "proxy-113"
     },
     {
       "protocol": "shadowsocks",
@@ -3098,7 +3031,7 @@
       "streamSettings": {
         "network": "tcp"
       },
-      "tag": "proxy-117"
+      "tag": "proxy-114"
     },
     {
       "protocol": "shadowsocks",
@@ -3116,7 +3049,7 @@
       "streamSettings": {
         "network": "tcp"
       },
-      "tag": "proxy-118"
+      "tag": "proxy-115"
     },
     {
       "protocol": "shadowsocks",
@@ -3134,7 +3067,7 @@
       "streamSettings": {
         "network": "tcp"
       },
-      "tag": "proxy-119"
+      "tag": "proxy-116"
     },
     {
       "protocol": "shadowsocks",
@@ -3152,7 +3085,43 @@
       "streamSettings": {
         "network": "tcp"
       },
-      "tag": "proxy-120"
+      "tag": "proxy-117"
+    },
+    {
+      "protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "154.46.31.106",
+            "port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "QFWzCw2uX9B9i6qAYeFBIE",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      },
+      "tag": "proxy-118"
+    },
+    {
+      "protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "194.68.44.42",
+            "port": 64546,
+            "method": "chacha20-ietf-poly1305",
+            "password": "U83u9OGpvSatIUW7LsWffr",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      },
+      "tag": "proxy-119"
     },
     {
       "protocol": "shadowsocks",
@@ -3170,7 +3139,7 @@
       "streamSettings": {
         "network": "tcp"
       },
-      "tag": "proxy-121"
+      "tag": "proxy-120"
     },
     {
       "protocol": "shadowsocks",
@@ -3188,7 +3157,7 @@
       "streamSettings": {
         "network": "tcp"
       },
-      "tag": "proxy-122"
+      "tag": "proxy-121"
     },
     {
       "protocol": "shadowsocks",
@@ -3206,7 +3175,7 @@
       "streamSettings": {
         "network": "tcp"
       },
-      "tag": "proxy-123"
+      "tag": "proxy-122"
     },
     {
       "protocol": "freedom",

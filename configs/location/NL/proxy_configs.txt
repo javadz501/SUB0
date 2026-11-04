@@ -22,8 +22,6 @@ vless://12776e55-6230-48b9-b069-1bb8a04b4237@94.183.206.226:7443?encryption=none
 
 vless://26524cce-d514-4014-a426-365fb266a14d@62.132.3.104:8443?allowInsecure=1&alpn=http/1.1&ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=xy1ej.stream-node-us.danfeng.qzz.io&path=/danfeng&security=tls&sni=xy1ej.stream-node-us.danfeng.qzz.io&type=ws#VLESS 🇳🇱 WS+TLS [8443]
 
-ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206WlY5Z3IxRzFrbitNdGVncG1HTVZPcVhiU1V3bkNIdGFTLzh2dWNjRUtKVT06eE1aZFh4RmNxakF1emdpdUdUQmR2ZUJxc2gyekhJVlp3eFFicC9JckxtWT0@31.57.185.203:53799#SS 🇳🇱 2022+BLAKE3 [53799]
-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2MWMtaTVTU0ZYUDhuNGcxV2JjMEw5Z1g4Mng1TzJRYQ@185.4.115.149:8044#SS 🇳🇱 AEAD [8044]
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2MWMtaTVTU0ZYUDhuNGcxV2JjMEw5Z1g4Mng1TzJRYQ@dns22.m3hrzd.ir:1346#SS 🇳🇱 AEAD [1346]
