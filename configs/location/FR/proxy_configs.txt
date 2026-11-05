@@ -6,5 +6,7 @@
 
 vless://28148be2-61a7-4f36-8adb-030cc9f82bd0@62.210.24.143:32202?security=reality&type=xhttp&path=/G3EEoH63&sni=www.amazon.com&fp=chrome&sid=f57d8f26&pbk=bGe_-nAtOq6_w_2mv6pcmD8RzJP65Tti-vyMP2hAwDc&mode=auto&encryption=none#VLESS 🇫🇷 XHTTP+REALITY+PBK+SID+UTLS [32202]
 
+hysteria2://541d46d8-5fc6-4d57-a7c4-9ccd3b5966eb@51.75.118.5:20222?sni=www.google.com&obfs=salamander&obfs-password=6ae3fff53efc6d7e&insecure=1#Hysteria2 🇫🇷 QUIC+OBFS [20222]
+
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@35.181.166.40:443?insecure=1&sni=vpn-fr-002.fastervpn.world#Hysteria2 🇫🇷 QUIC [443]
 
