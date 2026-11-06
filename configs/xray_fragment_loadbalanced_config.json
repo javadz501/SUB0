@@ -62,12 +62,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "217.19.122.170",
-            "port": 2087,
+            "address": "sino.bestsellers1.site",
+            "port": 2083,
             "users": [
               {
-                "id": "00d09ead-4080-4c39-a75d-be7dcabe77f4",
-                "flow": "xtls-rprx-vision",
+                "id": "0386df1b-7abd-4676-f3c6-d65d691023b9",
+                "flow": "",
                 "encryption": "none",
                 "level": 8
               }
@@ -76,14 +76,23 @@
         ]
       },
       "streamSettings": {
-        "network": "raw",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "bm7.hat.onl",
-          "publicKey": "WL9GPq_lRWgT2lNCnDGSSU9GB9LghVKZ7nUrHAS5Pw8",
-          "password": "WL9GPq_lRWgT2lNCnDGSSU9GB9LghVKZ7nUrHAS5Pw8",
-          "shortId": "6f009fe1fab1d42e",
-          "fingerprint": "qq"
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/",
+          "headers": {
+            "Host": "sino.bestsellers1.site"
+          }
+        },
+        "tlsSettings": {
+          "serverName": "sino.bestsellers1.site",
+          "fingerprint": "unsafe",
+          "alpn": [
+            "h3",
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
         },
         "finalmask": {
           "tcp": [
@@ -126,11 +135,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "217.19.122.170",
-            "port": 2096,
+            "address": "45.43.79.92",
+            "port": 443,
             "users": [
               {
-                "id": "00d09ead-4080-4c39-a75d-be7dcabe77f4",
+                "id": "042b12d8-bac4-4b3a-b661-79e333f08e4e",
                 "flow": "xtls-rprx-vision",
                 "encryption": "none",
                 "level": 8
@@ -140,14 +149,14 @@
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "bm8.hat.onl",
-          "publicKey": "26eRxOLahaWymVv1f33Za0Cw56VDNJ8BN2bEKznW-m4",
-          "password": "26eRxOLahaWymVv1f33Za0Cw56VDNJ8BN2bEKznW-m4",
-          "shortId": "2a096f7b298d0aba",
-          "fingerprint": "qq"
+          "serverName": "vikt659.isgood.host",
+          "publicKey": "M4Y9h339sntl5wEpiCa7f4IKhJ_8JLzPnAz2IzKlngM",
+          "password": "M4Y9h339sntl5wEpiCa7f4IKhJ_8JLzPnAz2IzKlngM",
+          "shortId": "af4ca5d16438c938",
+          "fingerprint": "chrome"
         },
         "finalmask": {
           "tcp": [
@@ -190,11 +199,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "217.19.122.170",
-            "port": 8443,
+            "address": "47.253.226.114",
+            "port": 443,
             "users": [
               {
-                "id": "00d09ead-4080-4c39-a75d-be7dcabe77f4",
+                "id": "055a1ce8-2a16-4a0d-a2c2-22826c9b2413",
                 "flow": "xtls-rprx-vision",
                 "encryption": "none",
                 "level": 8
@@ -204,14 +213,14 @@
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "bm9.hat.onl",
-          "publicKey": "Dx5aV0n9e1j_YDhVk8Z4O9HPrg1HLAuGKlmQpgERgDo",
-          "password": "Dx5aV0n9e1j_YDhVk8Z4O9HPrg1HLAuGKlmQpgERgDo",
-          "shortId": "8eeca41a32d1523d",
-          "fingerprint": "qq"
+          "serverName": "www.cloudflare.com",
+          "publicKey": "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc",
+          "password": "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc",
+          "shortId": "",
+          "fingerprint": "chrome"
         },
         "finalmask": {
           "tcp": [
@@ -254,12 +263,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "47.253.226.114",
-            "port": 443,
+            "address": "news.zoom.us",
+            "port": 2087,
             "users": [
               {
-                "id": "055a1ce8-2a16-4a0d-a2c2-22826c9b2413",
-                "flow": "xtls-rprx-vision",
+                "id": "0ef68b97-f878-4cea-b756-c56ea3632851",
+                "flow": "",
                 "encryption": "none",
                 "level": 8
               }
@@ -268,14 +277,21 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.cloudflare.com",
-          "publicKey": "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc",
-          "password": "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc",
-          "shortId": "",
-          "fingerprint": "chrome"
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/",
+          "headers": {
+            "Host": "free.vkehi.store"
+          }
+        },
+        "tlsSettings": {
+          "serverName": "free.vkehi.store",
+          "fingerprint": "unsafe",
+          "alpn": [
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
         },
         "finalmask": {
           "tcp": [
@@ -382,11 +398,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "94.183.206.226",
-            "port": 7443,
+            "address": "80.96.108.29",
+            "port": 8443,
             "users": [
               {
-                "id": "12776e55-6230-48b9-b069-1bb8a04b4237",
+                "id": "11512726-b692-406f-ab49-7b28f44a8294",
                 "flow": "",
                 "encryption": "none",
                 "level": 8
@@ -396,17 +412,19 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "xhttp",
         "security": "reality",
-        "grpcSettings": {
-          "serviceName": "ebl"
+        "xhttpSettings": {
+          "path": "/ae1b809ceb77",
+          "host": "80.96.108.29",
+          "mode": "auto"
         },
         "realitySettings": {
-          "serverName": "optim.tildacdn.pub",
-          "publicKey": "unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE",
-          "password": "unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE",
+          "serverName": "md.gorobsub.com",
+          "publicKey": "_LNT4Kf7pPmeEBAnmJ7xsBu3y6Kih0Ew9AFVoDa3QSg",
+          "password": "_LNT4Kf7pPmeEBAnmJ7xsBu3y6Kih0Ew9AFVoDa3QSg",
           "shortId": "",
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "finalmask": {
           "tcp": [
@@ -513,11 +531,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "195.211.98.43",
-            "port": 443,
+            "address": "178.172.227.124",
+            "port": 10444,
             "users": [
               {
-                "id": "1b4b11d5-4c2d-4533-9a55-636757cdee94",
+                "id": "1af36694-b548-4b18-89a0-bc076eab4ed7",
                 "flow": "xtls-rprx-vision",
                 "encryption": "none",
                 "level": 8
@@ -530,10 +548,10 @@
         "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.cloudflare.com",
-          "publicKey": "xPnpkXu5qfwIArlHKvJsqKJnGdGbJK1tT2GzWMyLohA",
-          "password": "xPnpkXu5qfwIArlHKvJsqKJnGdGbJK1tT2GzWMyLohA",
-          "shortId": "9c56fddf237e8eaf",
+          "serverName": "ads.x5.ru",
+          "publicKey": "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo",
+          "password": "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo",
+          "shortId": "8debcf36f1cc69ff",
           "fingerprint": "chrome"
         },
         "finalmask": {
@@ -577,12 +595,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "150.241.79.124",
-            "port": 443,
+            "address": "107.173.237.146",
+            "port": 8443,
             "users": [
               {
-                "id": "1fe01c8a-ab37-4e95-bbfc-95d4a608931e",
-                "flow": "xtls-rprx-vision",
+                "id": "1d39f715-2740-4d99-bc3b-197cc48dcee7",
+                "flow": "",
                 "encryption": "none",
                 "level": 8
               }
@@ -594,11 +612,11 @@
         "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "de1.waspnest.space",
-          "publicKey": "dlhvkjq7Sj-TT__FLwUJzFLMDCk8bgi85Uz4qDU-5FM",
-          "password": "dlhvkjq7Sj-TT__FLwUJzFLMDCk8bgi85Uz4qDU-5FM",
-          "shortId": "5212dad2aa9723d7",
-          "fingerprint": "chrome"
+          "serverName": "updates.cdn-apple.com",
+          "publicKey": "D3ojIs3AUKP_tV0E4TEjh90HBVJp24Nq3qMfdxD30kc",
+          "password": "D3ojIs3AUKP_tV0E4TEjh90HBVJp24Nq3qMfdxD30kc",
+          "shortId": "df8611c07d",
+          "fingerprint": "firefox"
         },
         "finalmask": {
           "tcp": [
@@ -641,11 +659,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "195.189.98.197",
+            "address": "185.95.231.156",
             "port": 443,
             "users": [
               {
-                "id": "2232d904-8e6a-4202-8240-6efd8aec02e9",
+                "id": "1f8cf47a-b66a-4916-979f-26edfcf44eea",
                 "flow": "xtls-rprx-vision",
                 "encryption": "none",
                 "level": 8
@@ -658,11 +676,11 @@
         "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "api37.betust.net",
-          "publicKey": "92lzqaBZnD5IP_subNDLotGMBs4u7STDMhqoBz1OADE",
-          "password": "92lzqaBZnD5IP_subNDLotGMBs4u7STDMhqoBz1OADE",
-          "shortId": "b7a5c406",
-          "fingerprint": "firefox"
+          "serverName": "www.apple.com",
+          "publicKey": "8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To",
+          "password": "8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To",
+          "shortId": "a3a578ab",
+          "fingerprint": "chrome"
         },
         "finalmask": {
           "tcp": [
@@ -705,71 +723,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "84.32.177.63",
-            "port": 443,
-            "users": [
-              {
-                "id": "2232d904-8e6a-4202-8240-6efd8aec02e9",
-                "flow": "xtls-rprx-vision",
-                "encryption": "none",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "app.betust.net",
-          "publicKey": "xNzdfy4hPv-IgM_MSn64FNQdb-UPu78pmM-GBE1HhSo",
-          "password": "xNzdfy4hPv-IgM_MSn64FNQdb-UPu78pmM-GBE1HhSo",
-          "shortId": "ef5d4ad5",
-          "fingerprint": "firefox"
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  0,
-                  80,
-                  1
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  50,
-                  1
-                ],
-                "delays": [
-                  "3"
-                ],
-                "maxSplit": "40"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy-11"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "84.32.215.96",
+            "address": "app26.betust.net",
             "port": 443,
             "users": [
               {
@@ -826,71 +780,7 @@
           ]
         }
       },
-      "tag": "proxy-12"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "snow.betust.net",
-            "port": 443,
-            "users": [
-              {
-                "id": "2232d904-8e6a-4202-8240-6efd8aec02e9",
-                "flow": "xtls-rprx-vision",
-                "encryption": "none",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "api37.betust.net",
-          "publicKey": "92lzqaBZnD5IP_subNDLotGMBs4u7STDMhqoBz1OADE",
-          "password": "92lzqaBZnD5IP_subNDLotGMBs4u7STDMhqoBz1OADE",
-          "shortId": "b7a5c406",
-          "fingerprint": "firefox"
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  0,
-                  80,
-                  1
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  50,
-                  1
-                ],
-                "delays": [
-                  "3"
-                ],
-                "maxSplit": "40"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy-13"
+      "tag": "proxy-11"
     },
     {
       "protocol": "vless",
@@ -956,87 +846,18 @@
           ]
         }
       },
-      "tag": "proxy-14"
+      "tag": "proxy-12"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "62.210.24.143",
-            "port": 32202,
+            "address": "37.9.4.182",
+            "port": 443,
             "users": [
               {
-                "id": "28148be2-61a7-4f36-8adb-030cc9f82bd0",
-                "flow": "",
-                "encryption": "none",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "reality",
-        "xhttpSettings": {
-          "path": "/G3EEoH63",
-          "host": "62.210.24.143",
-          "mode": "auto"
-        },
-        "realitySettings": {
-          "serverName": "www.amazon.com",
-          "publicKey": "bGe_-nAtOq6_w_2mv6pcmD8RzJP65Tti-vyMP2hAwDc",
-          "password": "bGe_-nAtOq6_w_2mv6pcmD8RzJP65Tti-vyMP2hAwDc",
-          "shortId": "f57d8f26",
-          "fingerprint": "chrome"
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  0,
-                  80,
-                  1
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  50,
-                  1
-                ],
-                "delays": [
-                  "3"
-                ],
-                "maxSplit": "40"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy-15"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.137.202.178",
-            "port": 12512,
-            "users": [
-              {
-                "id": "2a6c617d-98e4-49c3-95ab-76f02fcf0150",
+                "id": "255a8044-3337-473e-af26-46a37208adcc",
                 "flow": "xtls-rprx-vision",
                 "encryption": "none",
                 "level": 8
@@ -1046,13 +867,13 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "raw",
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.intel.com",
-          "publicKey": "sO0RBMr_l8TLtZaYBX8n3NdI9AtaugUqJpCR1szNsyA",
-          "password": "sO0RBMr_l8TLtZaYBX8n3NdI9AtaugUqJpCR1szNsyA",
-          "shortId": "e692a8250d2e2fd0",
+          "serverName": "anvil.kachow.ink",
+          "publicKey": "BGe-GOf-JkNWNay9--36nR4ZFHYNjGmpzVTQcXthR2A",
+          "password": "BGe-GOf-JkNWNay9--36nR4ZFHYNjGmpzVTQcXthR2A",
+          "shortId": "647547b8f895f9b9",
           "fingerprint": "firefox"
         },
         "finalmask": {
@@ -1089,7 +910,7 @@
           ]
         }
       },
-      "tag": "proxy-16"
+      "tag": "proxy-13"
     },
     {
       "protocol": "trojan",
@@ -1149,7 +970,67 @@
           ]
         }
       },
-      "tag": "proxy-17"
+      "tag": "proxy-14"
+    },
+    {
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "15.235.184.127",
+            "port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "exploredigitaljobplatformandfindonlinework.com",
+          "fingerprint": "unsafe",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "tlshello",
+                "lengths": [
+                  0,
+                  80,
+                  1
+                ],
+                "delays": [
+                  "0"
+                ],
+                "maxSplit": "0"
+              }
+            },
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-1",
+                "lengths": [
+                  50,
+                  1
+                ],
+                "delays": [
+                  "3"
+                ],
+                "maxSplit": "40"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-15"
     },
     {
       "protocol": "trojan",
@@ -1209,7 +1090,7 @@
           ]
         }
       },
-      "tag": "proxy-18"
+      "tag": "proxy-16"
     },
     {
       "protocol": "trojan",
@@ -1269,7 +1150,7 @@
           ]
         }
       },
-      "tag": "proxy-19"
+      "tag": "proxy-17"
     },
     {
       "protocol": "trojan",
@@ -1329,7 +1210,7 @@
           ]
         }
       },
-      "tag": "proxy-20"
+      "tag": "proxy-18"
     },
     {
       "protocol": "trojan",
@@ -1389,7 +1270,7 @@
           ]
         }
       },
-      "tag": "proxy-21"
+      "tag": "proxy-19"
     },
     {
       "protocol": "trojan",
@@ -1449,7 +1330,7 @@
           ]
         }
       },
-      "tag": "proxy-22"
+      "tag": "proxy-20"
     },
     {
       "protocol": "trojan",
@@ -1509,7 +1390,7 @@
           ]
         }
       },
-      "tag": "proxy-23"
+      "tag": "proxy-21"
     },
     {
       "protocol": "trojan",
@@ -1569,7 +1450,7 @@
           ]
         }
       },
-      "tag": "proxy-24"
+      "tag": "proxy-22"
     },
     {
       "protocol": "trojan",
@@ -1629,7 +1510,7 @@
           ]
         }
       },
-      "tag": "proxy-25"
+      "tag": "proxy-23"
     },
     {
       "protocol": "trojan",
@@ -1689,7 +1570,7 @@
           ]
         }
       },
-      "tag": "proxy-26"
+      "tag": "proxy-24"
     },
     {
       "protocol": "trojan",
@@ -1749,7 +1630,7 @@
           ]
         }
       },
-      "tag": "proxy-27"
+      "tag": "proxy-25"
     },
     {
       "protocol": "trojan",
@@ -1809,7 +1690,7 @@
           ]
         }
       },
-      "tag": "proxy-28"
+      "tag": "proxy-26"
     },
     {
       "protocol": "trojan",
@@ -1869,7 +1750,7 @@
           ]
         }
       },
-      "tag": "proxy-29"
+      "tag": "proxy-27"
     },
     {
       "protocol": "trojan",
@@ -1929,7 +1810,7 @@
           ]
         }
       },
-      "tag": "proxy-30"
+      "tag": "proxy-28"
     },
     {
       "protocol": "trojan",
@@ -1989,7 +1870,7 @@
           ]
         }
       },
-      "tag": "proxy-31"
+      "tag": "proxy-29"
     },
     {
       "protocol": "trojan",
@@ -2049,7 +1930,7 @@
           ]
         }
       },
-      "tag": "proxy-32"
+      "tag": "proxy-30"
     },
     {
       "protocol": "trojan",
@@ -2109,7 +1990,7 @@
           ]
         }
       },
-      "tag": "proxy-33"
+      "tag": "proxy-31"
     },
     {
       "protocol": "trojan",
@@ -2169,7 +2050,67 @@
           ]
         }
       },
-      "tag": "proxy-34"
+      "tag": "proxy-32"
+    },
+    {
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "170.101.101.237",
+            "port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.explorecreativejobsandenhanceyourcareerportfolio.com",
+          "fingerprint": "unsafe",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "tlshello",
+                "lengths": [
+                  0,
+                  80,
+                  1
+                ],
+                "delays": [
+                  "0"
+                ],
+                "maxSplit": "0"
+              }
+            },
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-1",
+                "lengths": [
+                  50,
+                  1
+                ],
+                "delays": [
+                  "3"
+                ],
+                "maxSplit": "40"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-33"
     },
     {
       "protocol": "trojan",
@@ -2229,7 +2170,7 @@
           ]
         }
       },
-      "tag": "proxy-35"
+      "tag": "proxy-34"
     },
     {
       "protocol": "trojan",
@@ -2289,7 +2230,7 @@
           ]
         }
       },
-      "tag": "proxy-36"
+      "tag": "proxy-35"
     },
     {
       "protocol": "trojan",
@@ -2349,7 +2290,7 @@
           ]
         }
       },
-      "tag": "proxy-37"
+      "tag": "proxy-36"
     },
     {
       "protocol": "trojan",
@@ -2409,7 +2350,7 @@
           ]
         }
       },
-      "tag": "proxy-38"
+      "tag": "proxy-37"
     },
     {
       "protocol": "trojan",
@@ -2469,67 +2410,7 @@
           ]
         }
       },
-      "tag": "proxy-39"
-    },
-    {
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "193.108.119.78",
-            "port": 443,
-            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-            "level": 8
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "www.iloverussia2026.com",
-          "fingerprint": "unsafe",
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  0,
-                  80,
-                  1
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  50,
-                  1
-                ],
-                "delays": [
-                  "3"
-                ],
-                "maxSplit": "40"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy-40"
+      "tag": "proxy-38"
     },
     {
       "protocol": "trojan",
@@ -2589,7 +2470,7 @@
           ]
         }
       },
-      "tag": "proxy-41"
+      "tag": "proxy-39"
     },
     {
       "protocol": "trojan",
@@ -2649,7 +2530,7 @@
           ]
         }
       },
-      "tag": "proxy-42"
+      "tag": "proxy-40"
     },
     {
       "protocol": "trojan",
@@ -2709,7 +2590,7 @@
           ]
         }
       },
-      "tag": "proxy-43"
+      "tag": "proxy-41"
     },
     {
       "protocol": "trojan",
@@ -2769,7 +2650,67 @@
           ]
         }
       },
-      "tag": "proxy-44"
+      "tag": "proxy-42"
+    },
+    {
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "208.69.78.222",
+            "port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "yourultimateprofessionalcareerhub.com",
+          "fingerprint": "unsafe",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "tlshello",
+                "lengths": [
+                  0,
+                  80,
+                  1
+                ],
+                "delays": [
+                  "0"
+                ],
+                "maxSplit": "0"
+              }
+            },
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-1",
+                "lengths": [
+                  50,
+                  1
+                ],
+                "delays": [
+                  "3"
+                ],
+                "maxSplit": "40"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-43"
     },
     {
       "protocol": "trojan",
@@ -2829,7 +2770,7 @@
           ]
         }
       },
-      "tag": "proxy-45"
+      "tag": "proxy-44"
     },
     {
       "protocol": "trojan",
@@ -2889,7 +2830,7 @@
           ]
         }
       },
-      "tag": "proxy-46"
+      "tag": "proxy-45"
     },
     {
       "protocol": "trojan",
@@ -2949,7 +2890,127 @@
           ]
         }
       },
+      "tag": "proxy-46"
+    },
+    {
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "216.106.186.155",
+            "port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "api.findlocaljobnetworkandbuildcommunityconnections.com",
+          "fingerprint": "unsafe",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "tlshello",
+                "lengths": [
+                  0,
+                  80,
+                  1
+                ],
+                "delays": [
+                  "0"
+                ],
+                "maxSplit": "0"
+              }
+            },
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-1",
+                "lengths": [
+                  50,
+                  1
+                ],
+                "delays": [
+                  "3"
+                ],
+                "maxSplit": "40"
+              }
+            }
+          ]
+        }
+      },
       "tag": "proxy-47"
+    },
+    {
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "216.106.186.32",
+            "port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "blog.findlocaljobnetworkandbuildcommunityconnections.com",
+          "fingerprint": "unsafe",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "tlshello",
+                "lengths": [
+                  0,
+                  80,
+                  1
+                ],
+                "delays": [
+                  "0"
+                ],
+                "maxSplit": "0"
+              }
+            },
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-1",
+                "lengths": [
+                  50,
+                  1
+                ],
+                "delays": [
+                  "3"
+                ],
+                "maxSplit": "40"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-48"
     },
     {
       "protocol": "trojan",
@@ -3009,7 +3070,7 @@
           ]
         }
       },
-      "tag": "proxy-48"
+      "tag": "proxy-49"
     },
     {
       "protocol": "trojan",
@@ -3069,7 +3130,7 @@
           ]
         }
       },
-      "tag": "proxy-49"
+      "tag": "proxy-50"
     },
     {
       "protocol": "trojan",
@@ -3129,7 +3190,7 @@
           ]
         }
       },
-      "tag": "proxy-50"
+      "tag": "proxy-51"
     },
     {
       "protocol": "trojan",
@@ -3189,7 +3250,7 @@
           ]
         }
       },
-      "tag": "proxy-51"
+      "tag": "proxy-52"
     },
     {
       "protocol": "trojan",
@@ -3249,7 +3310,7 @@
           ]
         }
       },
-      "tag": "proxy-52"
+      "tag": "proxy-53"
     },
     {
       "protocol": "trojan",
@@ -3309,7 +3370,7 @@
           ]
         }
       },
-      "tag": "proxy-53"
+      "tag": "proxy-54"
     },
     {
       "protocol": "trojan",
@@ -3369,7 +3430,7 @@
           ]
         }
       },
-      "tag": "proxy-54"
+      "tag": "proxy-55"
     },
     {
       "protocol": "trojan",
@@ -3429,7 +3490,7 @@
           ]
         }
       },
-      "tag": "proxy-55"
+      "tag": "proxy-56"
     },
     {
       "protocol": "trojan",
@@ -3489,7 +3550,7 @@
           ]
         }
       },
-      "tag": "proxy-56"
+      "tag": "proxy-57"
     },
     {
       "protocol": "trojan",
@@ -3549,7 +3610,7 @@
           ]
         }
       },
-      "tag": "proxy-57"
+      "tag": "proxy-58"
     },
     {
       "protocol": "trojan",
@@ -3609,7 +3670,7 @@
           ]
         }
       },
-      "tag": "proxy-58"
+      "tag": "proxy-59"
     },
     {
       "protocol": "trojan",
@@ -3669,7 +3730,7 @@
           ]
         }
       },
-      "tag": "proxy-59"
+      "tag": "proxy-60"
     },
     {
       "protocol": "trojan",
@@ -3729,7 +3790,7 @@
           ]
         }
       },
-      "tag": "proxy-60"
+      "tag": "proxy-61"
     },
     {
       "protocol": "trojan",
@@ -3789,7 +3850,7 @@
           ]
         }
       },
-      "tag": "proxy-61"
+      "tag": "proxy-62"
     },
     {
       "protocol": "trojan",
@@ -3808,66 +3869,6 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "courses.nextjobopportunityandclaimyouridealrole.com",
-          "fingerprint": "unsafe",
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  0,
-                  80,
-                  1
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  50,
-                  1
-                ],
-                "delays": [
-                  "3"
-                ],
-                "maxSplit": "40"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy-62"
-    },
-    {
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "216.152.155.54",
-            "port": 443,
-            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-            "level": 8
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "learn.nextjobopportunityandclaimyouridealrole.com",
           "fingerprint": "unsafe",
           "alpn": [
             "h2",
@@ -4396,66 +4397,6 @@
       "settings": {
         "servers": [
           {
-            "address": "66.163.112.13",
-            "port": 443,
-            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-            "level": 8
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "blog.unlockyourfuturefindyourperfectcareer.com",
-          "fingerprint": "unsafe",
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  0,
-                  80,
-                  1
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  50,
-                  1
-                ],
-                "delays": [
-                  "3"
-                ],
-                "maxSplit": "40"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy-72"
-    },
-    {
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
             "address": "66.163.112.142",
             "port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -4509,7 +4450,7 @@
           ]
         }
       },
-      "tag": "proxy-73"
+      "tag": "proxy-72"
     },
     {
       "protocol": "trojan",
@@ -4569,7 +4510,7 @@
           ]
         }
       },
-      "tag": "proxy-74"
+      "tag": "proxy-73"
     },
     {
       "protocol": "trojan",
@@ -4629,7 +4570,7 @@
           ]
         }
       },
-      "tag": "proxy-75"
+      "tag": "proxy-74"
     },
     {
       "protocol": "trojan",
@@ -4689,7 +4630,7 @@
           ]
         }
       },
-      "tag": "proxy-76"
+      "tag": "proxy-75"
     },
     {
       "protocol": "trojan",
@@ -4749,7 +4690,7 @@
           ]
         }
       },
-      "tag": "proxy-77"
+      "tag": "proxy-76"
     },
     {
       "protocol": "trojan",
@@ -4809,7 +4750,7 @@
           ]
         }
       },
-      "tag": "proxy-78"
+      "tag": "proxy-77"
     },
     {
       "protocol": "trojan",
@@ -4869,7 +4810,7 @@
           ]
         }
       },
-      "tag": "proxy-79"
+      "tag": "proxy-78"
     },
     {
       "protocol": "trojan",
@@ -4929,7 +4870,7 @@
           ]
         }
       },
-      "tag": "proxy-80"
+      "tag": "proxy-79"
     },
     {
       "protocol": "trojan",
@@ -4989,7 +4930,7 @@
           ]
         }
       },
-      "tag": "proxy-81"
+      "tag": "proxy-80"
     },
     {
       "protocol": "trojan",
@@ -5049,7 +4990,7 @@
           ]
         }
       },
-      "tag": "proxy-82"
+      "tag": "proxy-81"
     },
     {
       "protocol": "trojan",
@@ -5109,7 +5050,7 @@
           ]
         }
       },
-      "tag": "proxy-83"
+      "tag": "proxy-82"
     },
     {
       "protocol": "trojan",
@@ -5169,7 +5110,7 @@
           ]
         }
       },
-      "tag": "proxy-84"
+      "tag": "proxy-83"
     },
     {
       "protocol": "trojan",
@@ -5229,7 +5170,7 @@
           ]
         }
       },
-      "tag": "proxy-85"
+      "tag": "proxy-84"
     },
     {
       "protocol": "trojan",
@@ -5289,7 +5230,7 @@
           ]
         }
       },
-      "tag": "proxy-86"
+      "tag": "proxy-85"
     },
     {
       "protocol": "trojan",
@@ -5349,7 +5290,7 @@
           ]
         }
       },
-      "tag": "proxy-87"
+      "tag": "proxy-86"
     },
     {
       "protocol": "trojan",
@@ -5409,7 +5350,7 @@
           ]
         }
       },
-      "tag": "proxy-88"
+      "tag": "proxy-87"
     },
     {
       "protocol": "trojan",
@@ -5428,6 +5369,66 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "resources.discovergreatjobsandadvanceyourcareer.com",
+          "fingerprint": "unsafe",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "tlshello",
+                "lengths": [
+                  0,
+                  80,
+                  1
+                ],
+                "delays": [
+                  "0"
+                ],
+                "maxSplit": "0"
+              }
+            },
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-1",
+                "lengths": [
+                  50,
+                  1
+                ],
+                "delays": [
+                  "3"
+                ],
+                "maxSplit": "40"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-88"
+    },
+    {
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "66.163.118.40",
+            "port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.discovergreatjobsandadvanceyourcareer.com",
           "fingerprint": "unsafe",
           "alpn": [
             "h2",
@@ -6372,14 +6373,74 @@
       "tag": "proxy-104"
     },
     {
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "www.findlocaljobnetworkandbuildcommunityconnections.com",
+            "port": 443,
+            "password": "242a3d8eee5e4ed1a6bfa4141d549a25",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.findlocaljobnetworkandbuildcommunityconnections.com",
+          "fingerprint": "unsafe",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "cipherSuites": "TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA:TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "tlshello",
+                "lengths": [
+                  0,
+                  80,
+                  1
+                ],
+                "delays": [
+                  "0"
+                ],
+                "maxSplit": "0"
+              }
+            },
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-1",
+                "lengths": [
+                  50,
+                  1
+                ],
+                "delays": [
+                  "3"
+                ],
+                "maxSplit": "40"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-105"
+    },
+    {
       "protocol": "shadowsocks",
       "settings": {
         "servers": [
           {
-            "address": "20.107.206.186",
-            "port": 443,
+            "address": "207.246.112.227",
+            "port": 1080,
             "method": "chacha20-ietf-poly1305",
-            "password": "45dM0ZrNdAk4OHiM",
+            "password": "9AUVPZfOeSHmVCMyLvIvrl1wVLvZf7Jv",
             "level": 8
           }
         ]
@@ -6420,7 +6481,109 @@
           ]
         }
       },
-      "tag": "proxy-105"
+      "tag": "proxy-106"
+    },
+    {
+      "protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "20.87.210.166",
+            "port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "3XgtkbRog1MRN7H1",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "tlshello",
+                "lengths": [
+                  0,
+                  80,
+                  1
+                ],
+                "delays": [
+                  "0"
+                ],
+                "maxSplit": "0"
+              }
+            },
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-1",
+                "lengths": [
+                  50,
+                  1
+                ],
+                "delays": [
+                  "3"
+                ],
+                "maxSplit": "40"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-107"
+    },
+    {
+      "protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "185.213.23.63",
+            "port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "tlshello",
+                "lengths": [
+                  0,
+                  80,
+                  1
+                ],
+                "delays": [
+                  "0"
+                ],
+                "maxSplit": "0"
+              }
+            },
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-1",
+                "lengths": [
+                  50,
+                  1
+                ],
+                "delays": [
+                  "3"
+                ],
+                "maxSplit": "40"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-108"
     },
     {
       "protocol": "shadowsocks",
@@ -6471,7 +6634,7 @@
           ]
         }
       },
-      "tag": "proxy-106"
+      "tag": "proxy-109"
     },
     {
       "protocol": "shadowsocks",
@@ -6522,7 +6685,7 @@
           ]
         }
       },
-      "tag": "proxy-107"
+      "tag": "proxy-110"
     },
     {
       "protocol": "shadowsocks",
@@ -6573,7 +6736,58 @@
           ]
         }
       },
-      "tag": "proxy-108"
+      "tag": "proxy-111"
+    },
+    {
+      "protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "138.197.89.234",
+            "port": 28960,
+            "method": "chacha20-ietf-poly1305",
+            "password": "DZRy4Q3QH0jUGfKFl2jDCZ",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "tlshello",
+                "lengths": [
+                  0,
+                  80,
+                  1
+                ],
+                "delays": [
+                  "0"
+                ],
+                "maxSplit": "0"
+              }
+            },
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-1",
+                "lengths": [
+                  50,
+                  1
+                ],
+                "delays": [
+                  "3"
+                ],
+                "maxSplit": "40"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-112"
     },
     {
       "protocol": "shadowsocks",
@@ -6624,58 +6838,7 @@
           ]
         }
       },
-      "tag": "proxy-109"
-    },
-    {
-      "protocol": "shadowsocks",
-      "settings": {
-        "servers": [
-          {
-            "address": "57.129.113.16",
-            "port": 8388,
-            "method": "chacha20-ietf-poly1305",
-            "password": "NcAXc0UZI6yQJE1p8QmOv8",
-            "level": 8
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  0,
-                  80,
-                  1
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  50,
-                  1
-                ],
-                "delays": [
-                  "3"
-                ],
-                "maxSplit": "40"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy-110"
+      "tag": "proxy-113"
     },
     {
       "protocol": "shadowsocks",
@@ -6726,7 +6889,7 @@
           ]
         }
       },
-      "tag": "proxy-111"
+      "tag": "proxy-114"
     },
     {
       "protocol": "shadowsocks",
@@ -6777,7 +6940,58 @@
           ]
         }
       },
-      "tag": "proxy-112"
+      "tag": "proxy-115"
+    },
+    {
+      "protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "154.46.31.106",
+            "port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "QFWzCw2uX9B9i6qAYeFBIE",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "tlshello",
+                "lengths": [
+                  0,
+                  80,
+                  1
+                ],
+                "delays": [
+                  "0"
+                ],
+                "maxSplit": "0"
+              }
+            },
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-1",
+                "lengths": [
+                  50,
+                  1
+                ],
+                "delays": [
+                  "3"
+                ],
+                "maxSplit": "40"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-116"
     },
     {
       "protocol": "shadowsocks",
@@ -6828,7 +7042,58 @@
           ]
         }
       },
-      "tag": "proxy-113"
+      "tag": "proxy-117"
+    },
+    {
+      "protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "102.133.165.160",
+            "port": 16233,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Xsy8Ox4yOV3xLlpxtjzs3X",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "tlshello",
+                "lengths": [
+                  0,
+                  80,
+                  1
+                ],
+                "delays": [
+                  "0"
+                ],
+                "maxSplit": "0"
+              }
+            },
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-1",
+                "lengths": [
+                  50,
+                  1
+                ],
+                "delays": [
+                  "3"
+                ],
+                "maxSplit": "40"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-118"
     },
     {
       "protocol": "shadowsocks",
@@ -6879,7 +7144,58 @@
           ]
         }
       },
-      "tag": "proxy-114"
+      "tag": "proxy-119"
+    },
+    {
+      "protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "216.105.168.18",
+            "port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "bQZl7HDxSabr1FurTYQHFU",
+            "level": 8
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "tlshello",
+                "lengths": [
+                  0,
+                  80,
+                  1
+                ],
+                "delays": [
+                  "0"
+                ],
+                "maxSplit": "0"
+              }
+            },
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-1",
+                "lengths": [
+                  50,
+                  1
+                ],
+                "delays": [
+                  "3"
+                ],
+                "maxSplit": "40"
+              }
+            }
+          ]
+        }
+      },
+      "tag": "proxy-120"
     },
     {
       "protocol": "shadowsocks",
@@ -6930,7 +7246,7 @@
           ]
         }
       },
-      "tag": "proxy-115"
+      "tag": "proxy-121"
     },
     {
       "protocol": "freedom",
