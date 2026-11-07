@@ -4,7 +4,7 @@
 //support-url: https://t.me/An0nymou3Bot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-hysteria2://40546f3a-0590-4a5a-a104-6eb2e6ba5f0c@194.113.235.254:23661?sni=fr.verymad.net#Hysteria2 🇫🇷 QUIC [23661]
+vless://086bf957-9cd0-4e55-8280-bbef10435b41@ai.smrtai.top:443?security=reality&encryption=none&pbk=R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc&host=/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&headerType=none&fp=chrome&type=tcp&sni=www.cloudflare.com&sid=086bf957#VLESS 🇫🇷 REALITY+PBK+SID+UTLS [443]
 
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@35.181.166.40:443?insecure=1&sni=vpn-fr-002.fastervpn.world#Hysteria2 🇫🇷 QUIC [443]
 

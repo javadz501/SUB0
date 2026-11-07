@@ -4,7 +4,9 @@
 //support-url: https://t.me/An0nymou3Bot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@149.28.130.108:443?security=tls&sni=searchcreativejobsandshowcaseyourartistictalents.com#Trojan 🇸🇬 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@149.28.130.108:443?sni=searchcreativejobsandshowcaseyourartistictalents.com&type=tcp#Trojan 🇸🇬 TLS [443]
 
-vless://0dedd47d-47b9-4ed1-9c9f-cbeecad57a68@43.163.112.174:443?security=reality&sni=www.cloudflare.com&fp=chrome&flow=xtls-rprx-vision&pbk=mXQudYHNu0pebcdk1_qn-UgcmwhjaV7y9UrYu3HX7Rg&sid=0123456789abcdef&type=tcp#VLESS 🇸🇬 REALITY+PBK+SID+VISION+UTLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@15.235.184.127:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=exploredigitaljobplatformandfindonlinework.com#Trojan 🇸🇬 TLS [443]
+
+ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206c1VSNk55OFk2UFN2SGhsL0RVeGNvbnd4ZzZWWnlGZHNkZmFWQ3ZFYXRKbz06N2JURWhIZ3BFcktpUmpFMWVnYStINnBjcEpzTkxGQjBDalFzZXVqQUhyQT0@129.150.59.74:14384#SS 🇸🇬 2022+BLAKE3 [14384]
 

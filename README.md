@@ -45,10 +45,10 @@ Choose the output compatible with your client and import the corresponding subsc
 |:--|:--:|--:|:--|
 <!-- SUB0_COUNTS_START -->
 | **Xray Tested** | `TXT` | 215 | [↗ Open Subscription](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/proxy_configs_tested.txt) |
-| **sing-box Tested** | `JSON` | 142 | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/singbox_configs_tested.json) |
-| **sing-box Secure** | `JSON` | 131 | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/singbox_configs_secure.json) |
-| **Clash Tested** | `YAML` | 142 | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/clash_configs_tested.yaml) |
-| **Clash Secure** | `YAML` | 131 | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/clash_configs_secure.yaml) |
+| **sing-box Tested** | `JSON` | 144 | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/singbox_configs_tested.json) |
+| **sing-box Secure** | `JSON` | 134 | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/singbox_configs_secure.json) |
+| **Clash Tested** | `YAML` | 144 | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/clash_configs_tested.yaml) |
+| **Clash Secure** | `YAML` | 134 | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/clash_configs_secure.yaml) |
 <!-- SUB0_COUNTS_END -->
 
 > **Note:** Subscription links depend on the corresponding files being present and up to date on the `main` branch. Configuration availability and client compatibility may change between runs.
