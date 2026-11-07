@@ -4,7 +4,9 @@
 //support-url: https://t.me/An0nymou3Bot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBd1cxZlY2b0REUUtoOHIyem5tcHR2NTl0UGd0NGVIVlRnRmFUcWdLUzJqaVNkaWtKN0d5R0NCWWVoRGFLMzhTOHlNZ0hGZGJKcWNUbVJKU2ZZUzVDRnczNDViTmhGWmE@104.239.12.81:43385#SS 🇬🇧 AEAD [43385]
+vless://0fdb1df7-b3b6-4d29-9fd6-2b92fc80b852@82.148.225.244:8445?mode=gun&security=reality&encryption=none&pbk=ndIKnA3ySMv5vBJ-OfP8IhFWVu7mtK0nzhgSil1NaVg&fp=firefox&type=grpc&serviceName=grpc-reality&sni=sw2.cloudvienta.com&sid=00f7359d92c884cc#VLESS 🇬🇧 GRPC+REALITY+PBK+SID+UTLS [8445]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBd1cxZlY2b0REUUtoOHIyem5tcHR2NTl0UGd0NGVIVlRnRmFUcWdLUzJqaVNkaWtKN0d5R0NCWWVoRGFLMzhTOHlNZ0hGZGJKcWNUbVJKU2ZZUzVDRnczNDViTmhGWmE@sql.popmintxo.cc:43385#SS 🇬🇧 AEAD [43385]
+vless://109852f2-4591-498c-9a96-f1d9206ce804@engnode.barnikle1.me:1412?security=reality&encryption=none&pbk=bNpg56GtTArrVyrnonNlMA-3JyYIAFATdgsH_wn0gmc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.dhl.de&sid=4ea6a183#VLESS 🇬🇧 REALITY+PBK+SID+VISION+UTLS [1412]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBd1cxZlY2b0REUUtoOHIyem5tcHR2NTl0UGd0NGVIVlRnRmFUcWdLUzJqaVNkaWtKN0d5R0NCWWVoRGFLMzhTOHlNZ0hGZGJKcWNUbVJKU2ZZUzVDRnczNDViTmhGWmE@104.239.12.81:43385#SS 🇬🇧 AEAD [43385]
 

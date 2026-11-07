@@ -12,7 +12,11 @@ trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.244:443?security=tls&sni=ap
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.251:443?security=tls&sni=resources.discovergreatjobsandadvanceyourcareer.com#Trojan 🇪🇸 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.40:443?security=tls&sni=cdn.discovergreatjobsandadvanceyourcareer.com#Trojan 🇪🇸 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.40:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=cdn.discovergreatjobsandadvanceyourcareer.com#Trojan 🇪🇸 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.118.62:443?security=tls&sni=courses.discovergreatjobsandadvanceyourcareer.com#Trojan 🇪🇸 TLS [443]
+
+vless://12c53e32-e589-47d6-b857-e4132294f767@46.28.71.247:443?flow=xtls-rprx-vision&fp=chrome&path=/&pbk=v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE&security=reality&sid=0dfc23fe80778c00&sni=www.cloudflare.com&type=tcp#VLESS 🇪🇸 REALITY+PBK+SID+VISION+UTLS [443]
+
+vless://13e6bdfd-d51b-4e57-a40e-b88784cba8bd@7cabc1g.de-p1.h1clayd.click:443?encryption=none&security=reality&type=grpc&serviceName=8cb5baa18cd7&mode=gun&sni=7cabc1g.de-p1.h1clayd.click&fp=chrome&pbk=mhIAHuZIEr2NpdGGSeOxar7VRSgEfVoNwb_G8Y0073E&sid=3b84fc70657725af#VLESS 🇪🇸 GRPC+REALITY+PBK+SID+UTLS [443]
 
