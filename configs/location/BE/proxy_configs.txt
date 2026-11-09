@@ -4,5 +4,5 @@
 //support-url: https://t.me/An0nymou3Bot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWN1dMYVlkdWprd25qNnh4WHEtMkJTeEdXRWNTSnRUQQ@88.216.254.18:1080#SS 🇧🇪 AEAD [1080]
+hysteria2://4fa0ca1b-0742-419d-8fd2-3f698e06b206@88.216.254.13:20443?insecure=0&sni=hy51290d.w-mebel.pro#Hysteria2 🇧🇪 QUIC [20443]
 

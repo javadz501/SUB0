@@ -6,31 +6,27 @@
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.107:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=blog.indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS+UTLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.154:443?security=tls&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=www.indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS+UTLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.154:443?security=tls&sni=www.indyourperfectremotetechjobfromthecomfortofhome.com&fp=firefox&type=tcp&headerType=none#Trojan 🇳🇱 TLS+UTLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.155:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.215:443?allowInsecure=0&security=tls&headerType=none&sni=courses.indyourperfectremotetechjobfromthecomfortofhome.com&insecure=0&type=tcp#Trojan 🇳🇱 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.215:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=courses.indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.225:443?security=tls&sni=cdn.indyourperfectremotetechjobfromthecomfortofhome.com&type=tcp&headerType=none#Trojan 🇳🇱 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.225:443?security=tls&headerType=none&fp=chrome&type=tcp&sni=cdn.indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS+UTLS [443]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.44:443?security=tls&sni=learn.indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.9:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=resources.indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS [443]
 
-vless://1d1eda2e-0bd7-4478-877b-1c5425c6c4dd@194.104.9.44:443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=tradingview.com&fp=firefox&pbk=yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38&sid=8f3c6e2a1b5d4f09&type=tcp&path=/#VLESS 🇳🇱 REALITY+PBK+SID+VISION+UTLS [443]
-
-vless://2232d904-8e6a-4202-8240-6efd8aec02e9@84.32.101.116:443?security=reality&encryption=none&pbk=92lzqaBZnD5IP_subNDLotGMBs4u7STDMhqoBz1OADE&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=api37.betust.net&sid=b7a5c406#VLESS 🇳🇱 REALITY+PBK+SID+VISION+UTLS [443]
-
-vless://2232d904-8e6a-4202-8240-6efd8aec02e9@84.32.96.92:443?security=reality&encryption=none&pbk=92lzqaBZnD5IP_subNDLotGMBs4u7STDMhqoBz1OADE&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=api37.betust.net&sid=b7a5c406#VLESS 🇳🇱 REALITY+PBK+SID+VISION+UTLS [443]
-
-vless://2232d904-8e6a-4202-8240-6efd8aec02e9@snow.betust.net:443?security=reality&encryption=none&pbk=92lzqaBZnD5IP_subNDLotGMBs4u7STDMhqoBz1OADE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=api37.betust.net&sid=b7a5c406#VLESS 🇳🇱 REALITY+PBK+SID+VISION+UTLS [443]
+vless://0f11b72f-1af1-4f0a-b992-87a8241d9213@78.40.193.180:443?mode=auto&path=/assets/28ca4df9&security=reality&encryption=none&pbk=FLewL4WGvCzo0NM2pGabhZVPlw0WKpNHIC9nksuoL30&host=78.40.193.180&fp=firefox&type=xhttp&sni=packages.gitlab.com&sid=6969b2e2be858cb3#VLESS 🇳🇱 XHTTP+REALITY+PBK+SID+UTLS [443]
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.168:8080#SS 🇳🇱 AEAD [8080]
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.212:8080#SS 🇳🇱 AEAD [8080]
 
-hysteria2://4fa0ca1b-0742-419d-8fd2-3f698e06b206@84.32.102.145:20443?sni=hy62c5d8.w-mebel.pro#Hysteria2 🇳🇱 QUIC [20443]
+hysteria2://4fa0ca1b-0742-419d-8fd2-3f698e06b206@84.32.102.145:20443?sni=auto.w-mebel.pro#Hysteria2 🇳🇱 QUIC [20443]
 
-hysteria2://4fa0ca1b-0742-419d-8fd2-3f698e06b206@84.32.102.153:20443?insecure=1&sni=hy62c5d8.w-mebel.pro#Hysteria2 🇳🇱 QUIC [20443]
+hysteria2://4fa0ca1b-0742-419d-8fd2-3f698e06b206@84.32.102.153:20443?insecure=0&sni=hy62c5d8.w-mebel.pro#Hysteria2 🇳🇱 QUIC [20443]
 
 hysteria2://BWAFlp8g53@72.56.102.31:443?insecure=1#Hysteria2 🇳🇱 QUIC [443]
 
@@ -38,9 +34,9 @@ hysteria2://CnVfXXvMzh@72.56.92.120:443?insecure=1&sni=hys13.wba-pn.ru#Hysteria2
 
 hysteria2://EkF2Yw0Lc7@72.56.16.243:443?insecure=1&sni=hys34.wba-pn.ru#Hysteria2 🇳🇱 QUIC [443]
 
-hysteria2://HowdyHysteria2023w0W@51.15.19.206:8443?insecure=1&obfs=salamander&obfs-password=HysteriaHowdy&sni=vk.com#Hysteria2 🇳🇱 QUIC+OBFS [8443]
+hysteria2://HowdyHysteria2023w0W@51.15.19.206:8443?insecure=1&sni=t.me&obfs=salamander&obfs-password=HysteriaHowdy#Hysteria2 🇳🇱 QUIC+OBFS [8443]
 
-hysteria2://HowdyHysteria2023w0W@hysteria.udpgw.com:8443?insecure=1&obfs=salamander&obfs-password=HysteriaHowdy&sni=sni-here.com#Hysteria2 🇳🇱 QUIC+OBFS [8443]
+hysteria2://HowdyHysteria2023w0W@hysteria.udpgw.com:8443?insecure=1&sni=sni-here.com&obfs=salamander&obfs-password=HysteriaHowdy#Hysteria2 🇳🇱 QUIC+OBFS [8443]
 
 hysteria2://OD6gGbGU9a@195.133.24.124:443?sni=hys26.wba-pn.ru#Hysteria2 🇳🇱 QUIC [443]
 
