@@ -6,3 +6,5 @@
 
 hysteria2://02df03e3-3029-4c95-bffe-8f211b480672@edge.hankli1214.xyz:443?insecure=0&sni=hank.hankli1214.xyz&obfs=salamander&obfs-password=MeJA9qgoYMH4UMunHowisrbd#Hysteria2 🇯🇵 QUIC+OBFS [443]
 
+hysteria2://1794466637@31.76.91.168:443?insecure=1&sni=jp.lumacache.com#Hysteria2 🇯🇵 QUIC [443]
+

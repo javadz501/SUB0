@@ -4,9 +4,15 @@
 //support-url: https://t.me/An0nymou3Bot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@149.28.130.108:443?sni=searchcreativejobsandshowcaseyourartistictalents.com&type=tcp#Trojan 🇸🇬 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@149.28.130.108:443?security=tls&sni=searchcreativejobsandshowcaseyourartistictalents.com#Trojan 🇸🇬 TLS [443]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@15.235.184.127:443?security=tls&headerType=none&type=tcp&allowInsecure=0&sni=exploredigitaljobplatformandfindonlinework.com#Trojan 🇸🇬 TLS [443]
 
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206c1VSNk55OFk2UFN2SGhsL0RVeGNvbnd4ZzZWWnlGZHNkZmFWQ3ZFYXRKbz06N2JURWhIZ3BFcktpUmpFMWVnYStINnBjcEpzTkxGQjBDalFzZXVqQUhyQT0@129.150.59.74:14384#SS 🇸🇬 2022+BLAKE3 [14384]
 
 hysteria2://4fa0ca1b-0742-419d-8fd2-3f698e06b206@84.32.23.62:20443?insecure=1&sni=hy530899-3.w-mebel.pro#Hysteria2 🇸🇬 QUIC [20443]
+
+hysteria2://7e68e32f-8015-4f37-9082-70e8b0b58043@13.212.74.227:443?insecure=1&sni=www.bing.com&pinSHA256=C1:FD:40:94:1F:91:9B:5C:78:96:24:40:97:F2:2D:9D:95:8E:62:5C:D9:58:B7:5F:34:CC:FA:42:18:1F:50:B2#Hysteria2 🇸🇬 QUIC [443]
+
+hysteria2://7e68e32f-8015-4f37-9082-70e8b0b58043@18.143.131.177:443?insecure=1&sni=www.bing.com#Hysteria2 🇸🇬 QUIC [443]
 
