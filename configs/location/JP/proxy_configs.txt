@@ -4,7 +4,7 @@
 //support-url: https://t.me/An0nymou3Bot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-hysteria2://02df03e3-3029-4c95-bffe-8f211b480672@edge.hankli1214.xyz:443?insecure=0&sni=hank.hankli1214.xyz&obfs=salamander&obfs-password=MeJA9qgoYMH4UMunHowisrbd#Hysteria2 🇯🇵 QUIC+OBFS [443]
+hysteria2://4ab7d1e3-f2a7-44ca-91bd-45d3c5f423d2@158.101.140.31:1985?insecure=1#Hysteria2 🇯🇵 QUIC [1985]
 
-hysteria2://1794466637@31.76.91.168:443?insecure=1&sni=jp.lumacache.com#Hysteria2 🇯🇵 QUIC [443]
+hysteria2://Hy2OracleTokyo2026Owner@168.110.16.191:30000?insecure=1&sni=www.bing.com#Hysteria2 🇯🇵 QUIC [30000]
 
