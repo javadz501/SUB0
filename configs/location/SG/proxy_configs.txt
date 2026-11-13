@@ -6,7 +6,5 @@
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@149.28.130.108:443?security=tls&sni=searchcreativejobsandshowcaseyourartistictalents.com#Trojan 🇸🇬 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@15.235.184.127:443?allowInsecure=0&sni=exploredigitaljobplatformandfindonlinework.com#Trojan 🇸🇬 TLS [443]
-
-hysteria2://68a93e46-d251-45a8-8148-cf3601451021@a6.mhlnf.cn:21396?insecure=1&sni=www.bing.com#Hysteria2 🇸🇬 QUIC [21396]
+hysteria2://7e68e32f-8015-4f37-9082-70e8b0b58043@56.10.136.212:443?insecure=1&sni=www.bing.com&pinSHA256=C1:FD:40:94:1F:91:9B:5C:78:96:24:40:97:F2:2D:9D:95:8E:62:5C:D9:58:B7:5F:34:CC:FA:42:18:1F:50:B2#Hysteria2 🇸🇬 QUIC [443]
 

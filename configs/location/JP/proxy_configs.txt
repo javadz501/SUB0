@@ -6,5 +6,5 @@
 
 hysteria2://4ab7d1e3-f2a7-44ca-91bd-45d3c5f423d2@158.101.140.31:1985?insecure=1#Hysteria2 🇯🇵 QUIC [1985]
 
-hysteria2://Hy2OracleTokyo2026Owner@168.110.16.191:30000?insecure=1&sni=www.bing.com#Hysteria2 🇯🇵 QUIC [30000]
+hysteria2://4d9bc232-dde6-47d0-9d7b-e453ac8e4130@168.110.48.252:1987?insecure=1#Hysteria2 🇯🇵 QUIC [1987]
 

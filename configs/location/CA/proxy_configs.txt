@@ -8,19 +8,23 @@ trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.152:443?sni=learn.connecti
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.201:443?sni=resources.connectingpeoplewithgreatjobs.com&type=tcp#Trojan 🇨🇦 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.48:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=courses.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS+UTLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.48:443?sni=courses.connectingpeoplewithgreatjobs.com&type=tcp#Trojan 🇨🇦 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.74:443?security=tls&sni=api.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.74:443?sni=api.connectingpeoplewithgreatjobs.com&type=tcp#Trojan 🇨🇦 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.79:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=blog.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.79:443?security=tls&sni=blog.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.85:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=cdn.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.85:443?sni=cdn.connectingpeoplewithgreatjobs.com&type=tcp#Trojan 🇨🇦 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.89:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=www.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.93:443?security=tls&sni=connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS [443]
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1NzVoaW9wcTJoMjh5YW82@15.235.121.109:8080#SS 🇨🇦 AEAD [8080]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyY3ZocHZkZzR4N212YnBz@54.39.96.233:8080#SS 🇨🇦 AEAD [8080]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozaDNoYjJncHRxejZzdXl0@198.100.154.175:8080#SS 🇨🇦 AEAD [8080]
 
 hysteria2://2429bee3-e0c1-47dd-b420-75e6512b184b@40.233.102.224:30300?insecure=1&sni=www.bing.com#Hysteria2 🇨🇦 QUIC [30300]
 
