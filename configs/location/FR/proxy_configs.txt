@@ -4,13 +4,9 @@
 //support-url: https://t.me/An0nymou3Bot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-vless://086bf957-9cd0-4e55-8280-bbef10435b41@161.97.66.16:443?encryption=none&security=reality&type=tcp&sni=www.cloudflare.com&fp=chrome&pbk=R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc&sid=086bf957#VLESS 🇫🇷 REALITY+PBK+SID+UTLS [443]
-
 vless://086bf957-9cd0-4e55-8280-bbef10435b41@ai.smrtai.top:443?fp=random&pbk=R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc&security=reality&sid=086bf957&sni=www.cloudflare.com&type=tcp#VLESS 🇫🇷 REALITY+PBK+SID+UTLS [443]
 
 vless://0f82d566-1273-43c5-a73c-229997b3b4b0@213.199.57.127:2087?encryption=none&flow=xtls-rprx-vision&pbk=Y8U3PhV0K8jT4PBHq-rhCA4eUtOXa1CNB9waCvZbZSc&security=reality&sid=42&sni=blog.api.www.cloudflare.com&type=tcp#VLESS 🇫🇷 REALITY+PBK+SID+VISION [2087]
-
-vless://1d1eda2e-0bd7-4478-877b-1c5425c6c4dd@138.124.251.98:443?encryption=none&flow=xtls-rprx-vision&pbk=yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38&security=reality&sid=8f3c6e2a1b5d4f09&sni=tradingview.com&type=tcp#VLESS 🇫🇷 REALITY+PBK+SID+VISION [443]
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4bnJwdDJpbDA0cHRjaTJq@54.37.240.40:8080#SS 🇫🇷 AEAD [8080]
 

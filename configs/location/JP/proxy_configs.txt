@@ -4,7 +4,5 @@
 //support-url: https://t.me/An0nymou3Bot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-hysteria2://4ab7d1e3-f2a7-44ca-91bd-45d3c5f423d2@158.101.140.31:1985?insecure=1#Hysteria2 🇯🇵 QUIC [1985]
-
-hysteria2://4d9bc232-dde6-47d0-9d7b-e453ac8e4130@168.110.48.252:1987?insecure=1#Hysteria2 🇯🇵 QUIC [1987]
+hysteria2://STYyftThFn@85.121.123.197:12765?sni=freedom.chenlan.top#Hysteria2 🇯🇵 QUIC [12765]
 
