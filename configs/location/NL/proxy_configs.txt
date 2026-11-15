@@ -6,7 +6,7 @@
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.107:443?allowInsecure=1&sni=blog.indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.154:443?fp=chrome&sni=www.indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS+UTLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.154:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=www.indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS+UTLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.155:443?fp=chrome&sni=indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS+UTLS [443]
 
@@ -17,6 +17,10 @@ trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.225:443?security=tls&sni=cd
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.44:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=learn.indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.9:443?fp=chrome&sni=resources.indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS+UTLS [443]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.168:8080#SS 🇳🇱 AEAD [8080]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.212:8080#SS 🇳🇱 AEAD [8080]
 
 hysteria2://549766c3-fa5f-471e-8031-ffc1f8d5064f@212.34.137.105:443?insecure=1&sni=shorts.blog-forme.ru#Hysteria2 🇳🇱 QUIC [443]
 

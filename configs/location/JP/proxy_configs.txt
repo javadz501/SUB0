@@ -6,3 +6,5 @@
 
 hysteria2://STYyftThFn@85.121.123.197:12765?sni=freedom.chenlan.top#Hysteria2 🇯🇵 QUIC [12765]
 
+hysteria2://Yuike2026cat@43.130.234.128:8443?sni=43-130-234-128.sslip.io#Hysteria2 🇯🇵 QUIC [8443]
+
