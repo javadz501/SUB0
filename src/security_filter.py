@@ -8,6 +8,11 @@ import xray_template
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+
+def _is_enabled(value) -> bool:
+    return value is True or (isinstance(value, str) and value.strip().lower() in {'1', 'true', 'yes'})
+
+
 class SecurityFilter:
     def __init__(self, input_file: str, output_file: str, xray_output_file: str):
         self.input_file = input_file
@@ -298,7 +303,7 @@ class SecurityFilter:
                 insecure_tags_map[tag] = f"Unsupported outbound type: {outbound_type}"
                 continue
 
-            if isinstance(tls_settings, dict) and tls_settings.get('insecure') is True:
+            if isinstance(tls_settings, dict) and _is_enabled(tls_settings.get('insecure', False)):
                 insecure_tags_map[tag] = "TLS certificate validation is disabled"
                 continue
 
