@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 
 
 def _is_enabled(value) -> bool:
-    return value is True or (isinstance(value, str) and value.strip().lower() in {'1', 'true', 'yes'})
+    return value is True or (isinstance(value, (int, float)) and value != 0) or (isinstance(value, str) and value.strip().lower() in {'1', 'true', 'yes'})
 
 
 class SecurityFilter:
