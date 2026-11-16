@@ -19,11 +19,16 @@ def sanitize_fingerprint(fp: Optional[str]) -> str:
     return 'chrome'
 
 def map_transport_for_singbox(net_type: str) -> str:
-    transport_map = {
-        'splithttp': 'http',
-        'xhttp': 'http'
-    }
-    return transport_map.get(net_type, net_type)
+    normalized = str(net_type or 'tcp').strip().lower()
+    if normalized in {'raw', 'tcp'}:
+        return 'tcp'
+    if normalized == 'h2':
+        return 'http'
+    if normalized in {'xhttp', 'splithttp', 'kcp'}:
+        raise ValueError(f"Transport '{normalized}' is not supported by the pinned sing-box core")
+    if normalized not in {'ws', 'grpc', 'http', 'httpupgrade', 'quic'}:
+        raise ValueError(f"Unknown sing-box transport: {normalized}")
+    return normalized
 
 def build_singbox_settings(data: Dict, alpn_override: Optional[list] = None, disable_utls: bool = False) -> Tuple[Dict, Dict]:
     transport = {}
@@ -34,8 +39,9 @@ def build_singbox_settings(data: Dict, alpn_override: Optional[list] = None, dis
     address = data.get('address', data.get('add', ''))
     port = data.get('port', 443)
     
+    net_type = map_transport_for_singbox(net_type)
+
     try:
-        net_type = map_transport_for_singbox(net_type)
         
         if net_type == 'ws':
             transport = {
@@ -101,8 +107,21 @@ def build_xray_settings(data: Dict) -> Dict:
     security = str(data.get('security') or data.get('tls') or 'none').lower()
     address = data.get('address', data.get('add', ''))
     
+    normalized_type = str(net_type or 'tcp').strip().lower()
+    if normalized_type in {'http', 'h2', 'h3', 'quic'}:
+        raise ValueError(f"Transport '{normalized_type}' cannot be represented by the pinned Xray transport schema")
+    if normalized_type not in {'tcp', 'raw', 'ws', 'grpc', 'httpupgrade', 'splithttp', 'xhttp', 'kcp'}:
+        raise ValueError(f"Unknown Xray transport: {normalized_type}")
+
     try:
-        stream_settings["network"] = net_type
+        if normalized_type in {'tcp', 'raw'}:
+            stream_settings["network"] = "tcp"
+        elif normalized_type in {'splithttp', 'xhttp'}:
+            stream_settings["network"] = "splithttp"
+        elif normalized_type == 'kcp':
+            stream_settings["network"] = "mkcp"
+        else:
+            stream_settings["network"] = normalized_type
         
         if net_type == 'ws':
             stream_settings["wsSettings"] = {
