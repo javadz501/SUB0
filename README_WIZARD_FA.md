@@ -49,13 +49,12 @@ Wizard همه‌ی موارد زیر را به‌صورت خودکار نصب م
 این یک دستور، پلتفرم شما را تشخیص می‌دهد و همه‌چیز را نصب می‌کند: Xray-core، Sing-box، کتابخانه‌های پایتون، خودِ مخزن پروژه، یک اسکریپت اجراکننده، یک اسکریپت مدیریتی، و یک وظیفه‌ی زمان‌بندی‌شده (cron / سرویس Termux / launchd، بسته به پلتفرم شما).
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/install.sh | bash
 ```
 
 ### مراحلی که Wizard به‌ترتیب انجام می‌دهد:
 1. تشخیص سیستم‌عامل شما (Termux، لینوکس یا macOS)
 2. نصب پیش‌نیازهای سیستمی (git، Python، curl، cron و غیره)
-3. کلون یا آپدیت مخزن پروژه در مسیر `~/multi-proxy-config-fetcher`
+3. کلون یا آپدیت مخزن پروژه در مسیر `~/SUB0`
 4. ساخت محیط مجازی پایتون و نصب `requirements.txt`
 5. نصب Xray-core
 6. نصب Sing-box
@@ -65,7 +64,7 @@ curl -fsSL https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetche
 
 ### بعد از نصب، یک‌بار پایپ‌لاین را دستی اجرا کنید:
 ```bash
-cd ~/multi-proxy-config-fetcher
+cd ~/SUB0
 bash run.sh
 ```
 
@@ -77,8 +76,7 @@ bash run.sh
 
 ### مرحله ۱: دریافت مخزن
 ```bash
-git clone https://github.com/4n0nymou3/multi-proxy-config-fetcher.git
-cd multi-proxy-config-fetcher
+cd SUB0
 ```
 
 ### مرحله ۲: نصب کتابخانه‌های پایتون
@@ -137,7 +135,7 @@ pkg install sing-box -y
 
 ### اجرای یک‌باره:
 ```bash
-cd ~/multi-proxy-config-fetcher
+cd ~/SUB0
 bash run.sh
 ```
 
@@ -174,13 +172,13 @@ bash run.sh
 ```bash
 # Termux
 termux-setup-storage
-cp ~/multi-proxy-config-fetcher/configs/clash_configs_secure.yaml ~/storage/downloads/
+cp ~/SUB0/configs/clash_configs_secure.yaml ~/storage/downloads/
 ```
 در Clash Verge یا Mihomo: **Profiles ← Import ← انتخاب فایل ← `clash_configs_secure.yaml` ← Import**
 
 **روش ۲: ارائه از طریق HTTP (دسترسی از هر دستگاه در شبکه‌ی شما)**
 ```bash
-cd ~/multi-proxy-config-fetcher/configs
+cd ~/SUB0/configs
 python3 -m http.server 8080
 ```
 لینک اشتراک Clash:
@@ -195,13 +193,13 @@ http://YOUR_IP:8080/clash_configs_tested.yaml
 **روش ۱: وارد کردن از فایل محلی**
 ```bash
 termux-setup-storage
-cp ~/multi-proxy-config-fetcher/configs/singbox_configs_secure.json ~/storage/downloads/
+cp ~/SUB0/configs/singbox_configs_secure.json ~/storage/downloads/
 ```
 در Sing-box For Android (SFA): **Profiles ← New Profile ← Import ← `singbox_configs_secure.json` ← Import**
 
 **روش ۲: ارائه از طریق HTTP**
 ```bash
-cd ~/multi-proxy-config-fetcher/configs
+cd ~/SUB0/configs
 python3 -m http.server 8080
 ```
 لینک اشتراک Sing-box:
@@ -215,7 +213,7 @@ http://YOUR_IP:8080/singbox_configs_tested.json
 
 **روش ۱: لینک اشتراک**
 ```bash
-cd ~/multi-proxy-config-fetcher/configs
+cd ~/SUB0/configs
 python3 -m http.server 8080
 ```
 لینک اشتراک:
@@ -233,7 +231,7 @@ http://YOUR_IP:8080/location/US/proxy_configs.txt
 **روش ۲: وارد کردن مستقیم JSON**
 ```bash
 termux-setup-storage
-cp ~/multi-proxy-config-fetcher/configs/xray_secure_loadbalanced_config.json ~/storage/downloads/
+cp ~/SUB0/configs/xray_secure_loadbalanced_config.json ~/storage/downloads/
 ```
 اگر مقاومت بیشتری در برابر فیلترینگ می‌خواهید، `xray_fragment_loadbalanced_config.json` را به همین شکل کپی کنید.
 
@@ -244,13 +242,13 @@ cp ~/multi-proxy-config-fetcher/configs/xray_secure_loadbalanced_config.json ~/s
 بعد از نصب، `manage.sh` ابزار اصلی روزانه‌ی شماست:
 
 ```bash
-bash ~/multi-proxy-config-fetcher/manage.sh start            # اجرای دستی پایپ‌لاین
-bash ~/multi-proxy-config-fetcher/manage.sh status           # نمایش نسخه‌ی Xray/Sing-box، وضعیت سرویس، فایل‌های خروجی، آخرین لاگ‌ها
-bash ~/multi-proxy-config-fetcher/manage.sh logs             # نمایش آخرین لاگ
-bash ~/multi-proxy-config-fetcher/manage.sh clean            # حذف لاگ‌های قدیمی‌تر از ۷ روز
-bash ~/multi-proxy-config-fetcher/manage.sh update           # دریافت آخرین کد از گیت‌هاب
-bash ~/multi-proxy-config-fetcher/manage.sh restart-service  # فقط Termux: راه‌اندازی مجدد سرویس پس‌زمینه
-bash ~/multi-proxy-config-fetcher/manage.sh help             # نمایش همین لیست دستورات
+bash ~/SUB0/manage.sh start            # اجرای دستی پایپ‌لاین
+bash ~/SUB0/manage.sh status           # نمایش نسخه‌ی Xray/Sing-box، وضعیت سرویس، فایل‌های خروجی، آخرین لاگ‌ها
+bash ~/SUB0/manage.sh logs             # نمایش آخرین لاگ
+bash ~/SUB0/manage.sh clean            # حذف لاگ‌های قدیمی‌تر از ۷ روز
+bash ~/SUB0/manage.sh update           # دریافت آخرین کد از گیت‌هاب
+bash ~/SUB0/manage.sh restart-service  # فقط Termux: راه‌اندازی مجدد سرویس پس‌زمینه
+bash ~/SUB0/manage.sh help             # نمایش همین لیست دستورات
 ```
 
 **نمونه‌ی خروجی `status`:**
@@ -300,7 +298,7 @@ crontab -e
 ```
 خطی که نصب‌کننده اضافه کرده را ویرایش کنید، مثلاً برای اجرا هر ۶ ساعت به‌جای ۱۲ ساعت:
 ```
-0 */6 * * * /bin/bash ~/multi-proxy-config-fetcher/run.sh >> ~/multi-proxy-config-fetcher/logs/cron.log 2>&1
+0 */6 * * * /bin/bash ~/SUB0/run.sh >> ~/SUB0/logs/cron.log 2>&1
 ```
 
 **Termux:** مقدار `INTERVAL=43200` (بر حسب ثانیه) داخل فایل `$PREFIX/var/service/multiproxy/run` را ویرایش کنید، سپس `bash manage.sh restart-service` را اجرا کنید.
@@ -403,14 +401,14 @@ bash <(curl -fsSL https://sing-box.app/install.sh)
 
 ### خطاهای پایتون
 ```bash
-source ~/multi-proxy-config-fetcher/venv/bin/activate
-pip install -r ~/multi-proxy-config-fetcher/requirements.txt --upgrade
+source ~/SUB0/venv/bin/activate
+pip install -r ~/SUB0/requirements.txt --upgrade
 ```
 
 ### فایل خروجی ساخته نمی‌شود / پایپ‌لاین انگار نیمه‌کاره متوقف شده
 ```bash
-ls -la ~/multi-proxy-config-fetcher/configs/
-tail -100 ~/multi-proxy-config-fetcher/logs/run_*.log
+ls -la ~/SUB0/configs/
+tail -100 ~/SUB0/logs/run_*.log
 ```
 آخرین فایل لاگ دقیقاً نشان می‌دهد کدام مرحله شکست خورده.
 
@@ -458,7 +456,7 @@ sv status multiproxy
 ## 🔄 به‌روزرسانی
 
 ```bash
-cd ~/multi-proxy-config-fetcher
+cd ~/SUB0
 bash manage.sh update
 ```
 
@@ -492,8 +490,6 @@ pip install -r requirements.txt --upgrade
 
 ## 📚 منابع
 
-- **مخزن اصلی**: https://github.com/4n0nymou3/multi-proxy-config-fetcher
-- **صفحه‌ی وب کانفیگ‌ها**: https://4n0nymou3.github.io/Anonymous-Proxy-Hub/
 - **Xray-core**: https://github.com/XTLS/Xray-core
 - **Sing-box**: https://sing-box.sagernet.org
 - **Clash/Mihomo**: https://github.com/MetaCubeX/mihomo
@@ -511,8 +507,6 @@ pip install -r requirements.txt --upgrade
 
 ## 📬 ارتباط
 
-- **گیت‌هاب**: https://github.com/4n0nymou3
-- **توییتر/X**: https://x.com/4n0nymou3
 
 ---
 
@@ -523,8 +517,7 @@ pip install -r requirements.txt --upgrade
 ```bash
 pkg update && pkg upgrade -y
 pkg install curl git -y
-curl -fsSL https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/install.sh | bash
-cd ~/multi-proxy-config-fetcher
+cd ~/SUB0
 bash run.sh
 termux-setup-storage
 cp configs/xray_secure_loadbalanced_config.json ~/storage/downloads/
