@@ -68,8 +68,6 @@ def build_singbox_settings(data: Dict, alpn_override: Optional[list] = None, dis
             }
         elif net_type == 'quic':
             transport = {"type": "quic"}
-        elif net_type == 'kcp':
-            transport = {}
         
         tls_enabled = security in ('tls', 'xtls', 'reality')
         
