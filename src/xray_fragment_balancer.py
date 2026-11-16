@@ -160,7 +160,7 @@ class ConfigToXrayFragment:
             logger.error(f"Error reading {self.input_file}: {e}")
             return
 
-        final_config = xray_template.get_xray_template("👽 Anonymous Multi Balanced + Fragment")
+        final_config = xray_template.get_xray_template("Proxy Selector Balanced + Fragment")
         temp_outbounds = []
         
         for line in lines:
