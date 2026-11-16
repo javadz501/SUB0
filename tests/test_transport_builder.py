@@ -69,3 +69,27 @@ def test_singbox_tls_is_enabled_from_protocol_security_not_port():
     })
     assert tls['enabled'] is True
     assert tls['insecure'] is False
+
+
+def test_singbox_rejects_xhttp_instead_of_mislabeling_it_as_http():
+    import pytest
+    with pytest.raises(ValueError):
+        transport_builder.map_transport_for_singbox('xhttp')
+
+
+def test_singbox_rejects_kcp_instead_of_silently_dropping_transport():
+    import pytest
+    with pytest.raises(ValueError):
+        transport_builder.map_transport_for_singbox('kcp')
+
+
+def test_xray_rejects_removed_http_and_quic_mappings():
+    import pytest
+    for net_type in ('http', 'h2', 'h3', 'quic'):
+        with pytest.raises(ValueError):
+            transport_builder.build_xray_settings({
+                'net': net_type,
+                'security': 'tls',
+                'address': 'example.com',
+                'sni': 'example.com'
+            })
