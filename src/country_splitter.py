@@ -66,12 +66,10 @@ def load_address_country_map(location_cache_path: str) -> dict:
     return address_country
 
 def build_header(country_code: str) -> str:
-    title = base64.b64encode(f"\U0001F47DAnonymous-{country_code}".encode('utf-8')).decode('utf-8')
+    title = base64.b64encode(f"Proxy-{country_code}".encode('utf-8')).decode('utf-8')
     return f"""//profile-title: base64:{title}
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
-//support-url: https://t.me/An0nymou3Bot
-//profile-web-page-url: https://github.com/4n0nymou3
 
 """
 
