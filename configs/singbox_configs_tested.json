@@ -8,7 +8,7 @@
             {
                 "type": "https",
                 "server": "8.8.8.8",
-                "detour": "🌐 Anonymous Multi",
+                "detour": "Proxy Selector",
                 "tag": "dns-remote"
             },
             {
@@ -82,9 +82,9 @@
     "outbounds": [
         {
             "type": "selector",
-            "tag": "🌐 Anonymous Multi",
+            "tag": "Proxy Selector",
             "outbounds": [
-                "👽 Best Ping 🚀",
+                "Best Ping",
                 "Trojan 🇿🇦 TLS+UTLS [443] #1",
                 "Trojan 🇸🇬 TLS [443] #2",
                 "Trojan 🇸🇬 TLS [443] #3",
@@ -237,7 +237,7 @@
         },
         {
             "type": "urltest",
-            "tag": "👽 Best Ping 🚀",
+            "tag": "Best Ping",
             "outbounds": [
                 "Trojan 🇿🇦 TLS+UTLS [443] #1",
                 "Trojan 🇸🇬 TLS [443] #2",
@@ -3114,7 +3114,7 @@
             },
             {
                 "clash_mode": "Global",
-                "outbound": "🌐 Anonymous Multi"
+                "outbound": "Proxy Selector"
             },
             {
                 "ip_is_private": true,
@@ -3233,7 +3233,7 @@
             "strategy": "prefer_ipv4",
             "rewrite_ttl": 60
         },
-        "final": "🌐 Anonymous Multi"
+        "final": "Proxy Selector"
     },
     "ntp": {
         "enabled": true,
