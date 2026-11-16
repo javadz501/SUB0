@@ -45,6 +45,7 @@ The Wizard installs everything below automatically. If you're installing manuall
 This single command detects your platform and installs everything: Xray-core, Sing-box, Python dependencies, the repository itself, a runner script, a management script, and a scheduled task (cron / Termux service / launchd, depending on your platform).
 
 ```bash
+git clone <repository-url> SUB0 && cd SUB0 && bash install.sh
 ```
 
 ### What the Wizard does, step by step:
@@ -72,6 +73,7 @@ If you'd rather not run the one-liner, here is exactly what it does under the ho
 
 ### Step 1: Clone the repository
 ```bash
+git clone <repository-url> SUB0
 cd SUB0
 ```
 
