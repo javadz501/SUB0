@@ -4,5 +4,5 @@
 //support-url: https://t.me/An0nymou3Bot
 //profile-web-page-url: https://github.com/4n0nymou3
 
-hysteria2://307ee0e53ea04dfd86a7f2f9fcd53844@s5.libertyrunet.store:443?hop_interval=10&sni=s5.libertyrunet.store#Hysteria2 🇷🇸 QUIC [443]
+hysteria2://307ee0e53ea04dfd86a7f2f9fcd53844@s5.libertyrunet.store:443?sni=s5.libertyrunet.store&path=%2f#Hysteria2 🇷🇸 QUIC [443]
 
