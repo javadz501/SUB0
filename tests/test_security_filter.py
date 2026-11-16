@@ -118,3 +118,45 @@ def test_secure_filter_rejects_disabled_certificate_validation():
         "tls": {"enabled": True, "insecure": True}
     }
     assert outbound['tls']['insecure'] is True
+
+
+def test_filter_rejects_vless_without_explicit_tls(tmp_path):
+    input_file = tmp_path / "input.json"
+    output_file = tmp_path / "output.json"
+    xray_file = tmp_path / "xray.json"
+    input_file.write_text(json.dumps({
+        "outbounds": [{
+            "type": "vless",
+            "tag": "plain-vless",
+            "server": "example.com",
+            "server_port": 443,
+            "uuid": "11111111-1111-1111-1111-111111111111",
+            "tls": {"enabled": False}
+        }]
+    }), encoding="utf-8")
+    sf = SecurityFilter(str(input_file), str(output_file), str(xray_file))
+    sf.convert_secure_configs_to_xray = lambda outbounds: True
+    sf.filter_configs()
+    saved = json.loads(output_file.read_text(encoding="utf-8"))
+    assert not any(item.get("tag") == "plain-vless" for item in saved["outbounds"])
+
+
+def test_filter_keeps_secure_shadowsocks_without_tls_object(tmp_path):
+    input_file = tmp_path / "input.json"
+    output_file = tmp_path / "output.json"
+    xray_file = tmp_path / "xray.json"
+    input_file.write_text(json.dumps({
+        "outbounds": [{
+            "type": "shadowsocks",
+            "tag": "secure-ss",
+            "server": "example.com",
+            "server_port": 8388,
+            "method": "aes-256-gcm",
+            "password": "secret"
+        }]
+    }), encoding="utf-8")
+    sf = SecurityFilter(str(input_file), str(output_file), str(xray_file))
+    sf.convert_secure_configs_to_xray = lambda outbounds: True
+    sf.filter_configs()
+    saved = json.loads(output_file.read_text(encoding="utf-8"))
+    assert any(item.get("tag") == "secure-ss" for item in saved["outbounds"])
