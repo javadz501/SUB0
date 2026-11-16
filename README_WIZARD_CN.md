@@ -45,6 +45,7 @@ Wizard 会自动安装以下所有内容。如果你想手动安装，需要确�
 只需一条命令即可自动检测你的平台，并安装好一切：Xray-core、Sing-box、Python 依赖、项目仓库本身、运行脚本、管理脚本，以及根据你的平台设置的定时任务（cron / Termux 服务 / launchd）。
 
 ```bash
+git clone <repository-url> SUB0 && cd SUB0 && bash install.sh
 ```
 
 ### Wizard 依次执行的步骤：
@@ -72,6 +73,7 @@ bash run.sh
 
 ### 步骤 1：克隆仓库
 ```bash
+git clone <repository-url> SUB0
 cd SUB0
 ```
 
