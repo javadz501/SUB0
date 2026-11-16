@@ -291,10 +291,24 @@ class SecurityFilter:
             all_proxy_tags.add(tag)
             
             tls_settings = outbound.get('tls')
-            tls_enabled = isinstance(tls_settings, dict) and tls_settings.get('enabled') == True
+            tls_enabled = isinstance(tls_settings, dict) and tls_settings.get('enabled') is True
+            supported_types = {'vmess', 'vless', 'trojan', 'hysteria2', 'shadowsocks'}
 
-            if isinstance(tls_settings, dict) and tls_settings.get('insecure') == True:
-                insecure_tags_map[tag] = "TLS insecure=true (certificate validation disabled)"
+            if outbound_type not in supported_types:
+                insecure_tags_map[tag] = f"Unsupported outbound type: {outbound_type}"
+                continue
+
+            if not isinstance(tls_settings, dict) or tls_settings.get('insecure') is True:
+                insecure_tags_map[tag] = "TLS settings missing or certificate validation disabled"
+                continue
+
+            if tls_settings.get('enabled') is not True and outbound_type in {'vless', 'trojan', 'hysteria2'}:
+                insecure_tags_map[tag] = f"{outbound_type} without TLS"
+                continue
+
+            reality = tls_settings.get('reality') or {}
+            if reality.get('enabled') is True and not (reality.get('public_key') and reality.get('short_id') is not None):
+                insecure_tags_map[tag] = "Reality parameters incomplete"
                 continue
 
             if outbound_type == 'shadowsocks':
