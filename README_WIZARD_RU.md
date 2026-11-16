@@ -1,10 +1,6 @@
-# ⚙️ Anonymous Wizard — руководство по установке на русском
+# ⚙️ Setup Wizard — руководство по установке на русском
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Anonymous-Wizard-blue?style=for-the-badge" />
-</p>
-
-Полное пошаговое руководство по установке, запуску и управлению проектом **Multi Proxy Config Fetcher** на вашей локальной системе — включая Termux (Android), Linux, macOS, iSH (iOS) и Windows (через WSL2).
+Полное пошаговое руководство по установке, запуску и управлению проектом **SUB0** на вашей локальной системе — включая Termux (Android), Linux, macOS, iSH (iOS) и Windows (через WSL2).
 
 ---
 
