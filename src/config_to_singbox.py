@@ -111,7 +111,7 @@ class ConfigToSingbox:
             "log": {"level": "warn", "timestamp": True},
             "dns": {
                 "servers": [
-                    {"type": "https", "server": "8.8.8.8", "detour": "🌐 Anonymous Multi", "tag": "dns-remote"},
+                    {"type": "https", "server": "8.8.8.8", "detour": "Proxy Selector", "tag": "dns-remote"},
                     {"type": "udp", "server": "8.8.8.8", "server_port": 53, "tag": "dns-direct"},
                     {"type": "fakeip", "tag": "dns-fake", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
                 ],
@@ -129,16 +129,16 @@ class ConfigToSingbox:
                 {"type": "mixed", "tag": "mixed-in", "listen": "127.0.0.1", "listen_port": 2080}
             ],
             "outbounds": [
-                {"type": "selector", "tag": "🌐 Anonymous Multi", "outbounds": ["👽 Best Ping 🚀"] + valid_tags + ["direct"]},
+                {"type": "selector", "tag": "Proxy Selector", "outbounds": ["Best Ping"] + valid_tags + ["direct"]},
                 {"type": "direct", "tag": "direct"},
-                {"type": "urltest", "tag": "👽 Best Ping 🚀", "outbounds": valid_tags, "url": "https://www.gstatic.com/generate_204", "interrupt_exist_connections": False, "interval": "30s"}
+                {"type": "urltest", "tag": "Best Ping", "outbounds": valid_tags, "url": "https://www.gstatic.com/generate_204", "interrupt_exist_connections": False, "interval": "30s"}
             ] + outbounds,
             "route": {
                 "rules": [
                     {"action": "sniff"},
                     {"protocol": "dns", "action": "hijack-dns"},
                     {"clash_mode": "Direct", "outbound": "direct"},
-                    {"clash_mode": "Global", "outbound": "🌐 Anonymous Multi"},
+                    {"clash_mode": "Global", "outbound": "Proxy Selector"},
                     {"ip_is_private": True, "outbound": "direct"},
                     {"rule_set": ["geosite-malware", "geosite-phishing", "geosite-cryptominers", "geosite-category-ads-all"], "action": "reject"},
                     {"rule_set": ["geoip-malware", "geoip-phishing"], "action": "reject"},
@@ -157,7 +157,7 @@ class ConfigToSingbox:
                 ],
                 "auto_detect_interface": True,
                 "default_domain_resolver": {"server": "dns-direct", "strategy": "prefer_ipv4", "rewrite_ttl": 60},
-                "final": "🌐 Anonymous Multi"
+                "final": "Proxy Selector"
             },
             "ntp": {"enabled": True, "server": "time.cloudflare.com", "server_port": 123, "domain_resolver": "dns-direct", "interval": "30m", "write_to_system": False},
             "experimental": {
