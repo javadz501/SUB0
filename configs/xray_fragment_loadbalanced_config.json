@@ -5,7 +5,7 @@
   "version": {
     "min": "26.2.6"
   },
-  "remarks": "👽 Anonymous Multi Balanced + Fragment",
+  "remarks": "Proxy Selector Balanced + Fragment",
   "dns": {
     "servers": [
       "https://dns.google/dns-query",
