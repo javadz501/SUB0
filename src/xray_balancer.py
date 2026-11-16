@@ -116,7 +116,7 @@ class ConfigToXray:
             logger.error(f"Error reading {self.input_file}: {e}")
             return
 
-        final_config = xray_template.get_xray_template("👽 Anonymous Multi Balanced")
+        final_config = xray_template.get_xray_template("Proxy Selector Balanced")
         temp_outbounds = []
         
         for line in lines:
