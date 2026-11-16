@@ -49,13 +49,12 @@ Wizard 会自动安装以下所有内容。如果你想手动安装，需要确�
 只需一条命令即可自动检测你的平台，并安装好一切：Xray-core、Sing-box、Python 依赖、项目仓库本身、运行脚本、管理脚本，以及根据你的平台设置的定时任务（cron / Termux 服务 / launchd）。
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/install.sh | bash
 ```
 
 ### Wizard 依次执行的步骤：
 1. 检测你的操作系统（Termux、Linux 或 macOS）
 2. 安装系统依赖（git、Python、curl、cron 等）
-3. 克隆（或更新）仓库到 `~/multi-proxy-config-fetcher`
+3. 克隆（或更新）仓库到 `~/SUB0`
 4. 创建 Python 虚拟环境并安装 `requirements.txt`
 5. 安装 Xray-core
 6. 安装 Sing-box
@@ -65,7 +64,7 @@ curl -fsSL https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetche
 
 ### 安装完成后，先手动运行一次流水线：
 ```bash
-cd ~/multi-proxy-config-fetcher
+cd ~/SUB0
 bash run.sh
 ```
 
@@ -77,8 +76,7 @@ bash run.sh
 
 ### 步骤 1：克隆仓库
 ```bash
-git clone https://github.com/4n0nymou3/multi-proxy-config-fetcher.git
-cd multi-proxy-config-fetcher
+cd SUB0
 ```
 
 ### 步骤 2：安装 Python 依赖
@@ -137,7 +135,7 @@ pkg install sing-box -y
 
 ### 运行一次：
 ```bash
-cd ~/multi-proxy-config-fetcher
+cd ~/SUB0
 bash run.sh
 ```
 
@@ -174,13 +172,13 @@ bash run.sh
 ```bash
 # Termux
 termux-setup-storage
-cp ~/multi-proxy-config-fetcher/configs/clash_configs_secure.yaml ~/storage/downloads/
+cp ~/SUB0/configs/clash_configs_secure.yaml ~/storage/downloads/
 ```
 在 Clash Verge 或 Mihomo 中：**Profiles → Import → 选择文件 → `clash_configs_secure.yaml` → Import**
 
 **方法二：通过 HTTP 提供（供局域网内任意设备访问）**
 ```bash
-cd ~/multi-proxy-config-fetcher/configs
+cd ~/SUB0/configs
 python3 -m http.server 8080
 ```
 Clash 订阅链接：
@@ -195,13 +193,13 @@ http://YOUR_IP:8080/clash_configs_tested.yaml
 **方法一：从本地文件导入**
 ```bash
 termux-setup-storage
-cp ~/multi-proxy-config-fetcher/configs/singbox_configs_secure.json ~/storage/downloads/
+cp ~/SUB0/configs/singbox_configs_secure.json ~/storage/downloads/
 ```
 在 Sing-box For Android (SFA) 中：**Profiles → New Profile → Import → `singbox_configs_secure.json` → Import**
 
 **方法二：通过 HTTP 提供**
 ```bash
-cd ~/multi-proxy-config-fetcher/configs
+cd ~/SUB0/configs
 python3 -m http.server 8080
 ```
 Sing-box 订阅链接：
@@ -215,7 +213,7 @@ http://YOUR_IP:8080/singbox_configs_tested.json
 
 **方法一：订阅链接**
 ```bash
-cd ~/multi-proxy-config-fetcher/configs
+cd ~/SUB0/configs
 python3 -m http.server 8080
 ```
 订阅 URL：
@@ -233,7 +231,7 @@ http://YOUR_IP:8080/location/US/proxy_configs.txt
 **方法二：直接导入 JSON**
 ```bash
 termux-setup-storage
-cp ~/multi-proxy-config-fetcher/configs/xray_secure_loadbalanced_config.json ~/storage/downloads/
+cp ~/SUB0/configs/xray_secure_loadbalanced_config.json ~/storage/downloads/
 ```
 如果需要更强的抗过滤能力，可以用同样的方式复制 `xray_fragment_loadbalanced_config.json`。
 
@@ -244,13 +242,13 @@ cp ~/multi-proxy-config-fetcher/configs/xray_secure_loadbalanced_config.json ~/s
 安装完成后，`manage.sh` 是你日常使用的主要工具：
 
 ```bash
-bash ~/multi-proxy-config-fetcher/manage.sh start            # 手动运行流水线
-bash ~/multi-proxy-config-fetcher/manage.sh status           # 显示 Xray/Sing-box 版本、服务状态、输出文件、最近日志
-bash ~/multi-proxy-config-fetcher/manage.sh logs             # 显示最近的日志
-bash ~/multi-proxy-config-fetcher/manage.sh clean            # 删除超过 7 天的旧日志
-bash ~/multi-proxy-config-fetcher/manage.sh update           # 从 GitHub 拉取最新代码
-bash ~/multi-proxy-config-fetcher/manage.sh restart-service  # 仅 Termux：重启后台服务
-bash ~/multi-proxy-config-fetcher/manage.sh help             # 显示此命令列表
+bash ~/SUB0/manage.sh start            # 手动运行流水线
+bash ~/SUB0/manage.sh status           # 显示 Xray/Sing-box 版本、服务状态、输出文件、最近日志
+bash ~/SUB0/manage.sh logs             # 显示最近的日志
+bash ~/SUB0/manage.sh clean            # 删除超过 7 天的旧日志
+bash ~/SUB0/manage.sh update           # 从 GitHub 拉取最新代码
+bash ~/SUB0/manage.sh restart-service  # 仅 Termux：重启后台服务
+bash ~/SUB0/manage.sh help             # 显示此命令列表
 ```
 
 **`status` 示例输出：**
@@ -300,7 +298,7 @@ crontab -e
 ```
 编辑安装脚本添加的这一行，例如改为每 6 小时运行一次：
 ```
-0 */6 * * * /bin/bash ~/multi-proxy-config-fetcher/run.sh >> ~/multi-proxy-config-fetcher/logs/cron.log 2>&1
+0 */6 * * * /bin/bash ~/SUB0/run.sh >> ~/SUB0/logs/cron.log 2>&1
 ```
 
 **Termux：** 编辑 `$PREFIX/var/service/multiproxy/run` 文件中的 `INTERVAL=43200`（单位：秒），然后运行 `bash manage.sh restart-service`。
@@ -403,14 +401,14 @@ bash <(curl -fsSL https://sing-box.app/install.sh)
 
 ### Python 报错
 ```bash
-source ~/multi-proxy-config-fetcher/venv/bin/activate
-pip install -r ~/multi-proxy-config-fetcher/requirements.txt --upgrade
+source ~/SUB0/venv/bin/activate
+pip install -r ~/SUB0/requirements.txt --upgrade
 ```
 
 ### 没有输出文件 / 流水线似乎中途失败
 ```bash
-ls -la ~/multi-proxy-config-fetcher/configs/
-tail -100 ~/multi-proxy-config-fetcher/logs/run_*.log
+ls -la ~/SUB0/configs/
+tail -100 ~/SUB0/logs/run_*.log
 ```
 最新的日志文件会准确显示哪一步失败了。
 
@@ -458,7 +456,7 @@ Linux/Termux 默认每 12 小时更新一次，macOS 上为每天两次（08:00/
 ## 🔄 更新
 
 ```bash
-cd ~/multi-proxy-config-fetcher
+cd ~/SUB0
 bash manage.sh update
 ```
 
@@ -492,8 +490,6 @@ pip install -r requirements.txt --upgrade
 
 ## 📚 资源
 
-- **主仓库**: https://github.com/4n0nymou3/multi-proxy-config-fetcher
-- **配置网页**: https://4n0nymou3.github.io/Anonymous-Proxy-Hub/
 - **Xray-core**: https://github.com/XTLS/Xray-core
 - **Sing-box**: https://sing-box.sagernet.org
 - **Clash/Mihomo**: https://github.com/MetaCubeX/mihomo
@@ -511,8 +507,6 @@ MIT 许可证 —— 详见 [LICENSE](LICENSE)。
 
 ## 📬 联系方式
 
-- **GitHub**: https://github.com/4n0nymou3
-- **Twitter/X**: https://x.com/4n0nymou3
 
 ---
 
@@ -523,8 +517,7 @@ MIT 许可证 —— 详见 [LICENSE](LICENSE)。
 ```bash
 pkg update && pkg upgrade -y
 pkg install curl git -y
-curl -fsSL https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/install.sh | bash
-cd ~/multi-proxy-config-fetcher
+cd ~/SUB0
 bash run.sh
 termux-setup-storage
 cp configs/xray_secure_loadbalanced_config.json ~/storage/downloads/
