@@ -49,13 +49,12 @@ Wizard устанавливает всё нижеперечисленное ав
 Одна команда определяет вашу платформу и устанавливает всё необходимое: Xray-core, Sing-box, Python-зависимости, сам репозиторий, скрипт запуска, скрипт управления и запланированную задачу (cron / служба Termux / launchd — в зависимости от платформы).
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/install.sh | bash
 ```
 
 ### Что делает Wizard, шаг за шагом:
 1. Определяет вашу операционную систему (Termux, Linux или macOS)
 2. Устанавливает системные зависимости (git, Python, curl, cron и т.д.)
-3. Клонирует (или обновляет) репозиторий в `~/multi-proxy-config-fetcher`
+3. Клонирует (или обновляет) репозиторий в `~/SUB0`
 4. Создаёт виртуальное окружение Python и устанавливает `requirements.txt`
 5. Устанавливает Xray-core
 6. Устанавливает Sing-box
@@ -65,7 +64,7 @@ curl -fsSL https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetche
 
 ### После установки запустите пайплайн вручную один раз:
 ```bash
-cd ~/multi-proxy-config-fetcher
+cd ~/SUB0
 bash run.sh
 ```
 
@@ -77,8 +76,7 @@ bash run.sh
 
 ### Шаг 1: Клонирование репозитория
 ```bash
-git clone https://github.com/4n0nymou3/multi-proxy-config-fetcher.git
-cd multi-proxy-config-fetcher
+cd SUB0
 ```
 
 ### Шаг 2: Установка Python-зависимостей
@@ -137,7 +135,7 @@ pkg install sing-box -y
 
 ### Однократный запуск:
 ```bash
-cd ~/multi-proxy-config-fetcher
+cd ~/SUB0
 bash run.sh
 ```
 
@@ -174,13 +172,13 @@ bash run.sh
 ```bash
 # Termux
 termux-setup-storage
-cp ~/multi-proxy-config-fetcher/configs/clash_configs_secure.yaml ~/storage/downloads/
+cp ~/SUB0/configs/clash_configs_secure.yaml ~/storage/downloads/
 ```
 В Clash Verge или Mihomo: **Profiles → Import → выбрать файл → `clash_configs_secure.yaml` → Import**
 
 **Способ 2: раздача по HTTP (доступ с любого устройства в вашей сети)**
 ```bash
-cd ~/multi-proxy-config-fetcher/configs
+cd ~/SUB0/configs
 python3 -m http.server 8080
 ```
 Ссылка подписки Clash:
@@ -195,13 +193,13 @@ http://YOUR_IP:8080/clash_configs_tested.yaml
 **Способ 1: импорт из локального файла**
 ```bash
 termux-setup-storage
-cp ~/multi-proxy-config-fetcher/configs/singbox_configs_secure.json ~/storage/downloads/
+cp ~/SUB0/configs/singbox_configs_secure.json ~/storage/downloads/
 ```
 В Sing-box For Android (SFA): **Profiles → New Profile → Import → `singbox_configs_secure.json` → Import**
 
 **Способ 2: раздача по HTTP**
 ```bash
-cd ~/multi-proxy-config-fetcher/configs
+cd ~/SUB0/configs
 python3 -m http.server 8080
 ```
 Ссылка подписки Sing-box:
@@ -215,7 +213,7 @@ http://YOUR_IP:8080/singbox_configs_tested.json
 
 **Способ 1: ссылка подписки**
 ```bash
-cd ~/multi-proxy-config-fetcher/configs
+cd ~/SUB0/configs
 python3 -m http.server 8080
 ```
 URL подписки:
@@ -233,7 +231,7 @@ http://YOUR_IP:8080/location/US/proxy_configs.txt
 **Способ 2: прямой импорт JSON**
 ```bash
 termux-setup-storage
-cp ~/multi-proxy-config-fetcher/configs/xray_secure_loadbalanced_config.json ~/storage/downloads/
+cp ~/SUB0/configs/xray_secure_loadbalanced_config.json ~/storage/downloads/
 ```
 Нужна более сильная устойчивость к блокировкам? Скопируйте таким же образом `xray_fragment_loadbalanced_config.json`.
 
@@ -244,13 +242,13 @@ cp ~/multi-proxy-config-fetcher/configs/xray_secure_loadbalanced_config.json ~/s
 После установки `manage.sh` — ваш основной инструмент для повседневной работы:
 
 ```bash
-bash ~/multi-proxy-config-fetcher/manage.sh start            # Запустить пайплайн вручную
-bash ~/multi-proxy-config-fetcher/manage.sh status           # Показать версии Xray/Sing-box, статус службы, выходные файлы, последние логи
-bash ~/multi-proxy-config-fetcher/manage.sh logs             # Показать последний лог
-bash ~/multi-proxy-config-fetcher/manage.sh clean            # Удалить логи старше 7 дней
-bash ~/multi-proxy-config-fetcher/manage.sh update           # Получить последний код с GitHub
-bash ~/multi-proxy-config-fetcher/manage.sh restart-service  # Только Termux: перезапустить фоновую службу
-bash ~/multi-proxy-config-fetcher/manage.sh help             # Показать этот список команд
+bash ~/SUB0/manage.sh start            # Запустить пайплайн вручную
+bash ~/SUB0/manage.sh status           # Показать версии Xray/Sing-box, статус службы, выходные файлы, последние логи
+bash ~/SUB0/manage.sh logs             # Показать последний лог
+bash ~/SUB0/manage.sh clean            # Удалить логи старше 7 дней
+bash ~/SUB0/manage.sh update           # Получить последний код с GitHub
+bash ~/SUB0/manage.sh restart-service  # Только Termux: перезапустить фоновую службу
+bash ~/SUB0/manage.sh help             # Показать этот список команд
 ```
 
 **Пример вывода `status`:**
@@ -300,7 +298,7 @@ crontab -e
 ```
 Отредактируйте строку, добавленную установщиком, например, чтобы запускать каждые 6 часов вместо 12:
 ```
-0 */6 * * * /bin/bash ~/multi-proxy-config-fetcher/run.sh >> ~/multi-proxy-config-fetcher/logs/cron.log 2>&1
+0 */6 * * * /bin/bash ~/SUB0/run.sh >> ~/SUB0/logs/cron.log 2>&1
 ```
 
 **Termux:** отредактируйте `INTERVAL=43200` (в секундах) внутри файла `$PREFIX/var/service/multiproxy/run`, затем выполните `bash manage.sh restart-service`.
@@ -403,14 +401,14 @@ bash <(curl -fsSL https://sing-box.app/install.sh)
 
 ### Ошибки Python
 ```bash
-source ~/multi-proxy-config-fetcher/venv/bin/activate
-pip install -r ~/multi-proxy-config-fetcher/requirements.txt --upgrade
+source ~/SUB0/venv/bin/activate
+pip install -r ~/SUB0/requirements.txt --upgrade
 ```
 
 ### Нет выходных файлов / пайплайн, похоже, прервался на середине
 ```bash
-ls -la ~/multi-proxy-config-fetcher/configs/
-tail -100 ~/multi-proxy-config-fetcher/logs/run_*.log
+ls -la ~/SUB0/configs/
+tail -100 ~/SUB0/logs/run_*.log
 ```
 Последний лог-файл точно покажет, на каком шаге произошёл сбой.
 
@@ -458,7 +456,7 @@ sv status multiproxy
 ## 🔄 Обновление
 
 ```bash
-cd ~/multi-proxy-config-fetcher
+cd ~/SUB0
 bash manage.sh update
 ```
 
@@ -492,8 +490,6 @@ pip install -r requirements.txt --upgrade
 
 ## 📚 Ресурсы
 
-- **Основной репозиторий**: https://github.com/4n0nymou3/multi-proxy-config-fetcher
-- **Веб-страница конфигураций**: https://4n0nymou3.github.io/Anonymous-Proxy-Hub/
 - **Xray-core**: https://github.com/XTLS/Xray-core
 - **Sing-box**: https://sing-box.sagernet.org
 - **Clash/Mihomo**: https://github.com/MetaCubeX/mihomo
@@ -511,8 +507,6 @@ pip install -r requirements.txt --upgrade
 
 ## 📬 Контакты
 
-- **GitHub**: https://github.com/4n0nymou3
-- **Twitter/X**: https://x.com/4n0nymou3
 
 ---
 
@@ -523,8 +517,7 @@ pip install -r requirements.txt --upgrade
 ```bash
 pkg update && pkg upgrade -y
 pkg install curl git -y
-curl -fsSL https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/install.sh | bash
-cd ~/multi-proxy-config-fetcher
+cd ~/SUB0
 bash run.sh
 termux-setup-storage
 cp configs/xray_secure_loadbalanced_config.json ~/storage/downloads/
