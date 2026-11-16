@@ -27,6 +27,10 @@ def singbox_outbound_to_clash_proxy(outbound: Dict) -> Optional[Dict]:
     reality = tls.get('reality') or {}
     net_type = transport.get('type', 'tcp')
 
+    if net_type in {'xhttp', 'splithttp', 'kcp', 'quic'}:
+        logger.warning("Skipping unsupported Clash transport '%s' for %s", net_type, name)
+        return None
+
     transport_fields = {'network': 'tcp'}
     if net_type == 'ws':
         ws_opts = {'path': transport.get('path', '/')}
@@ -102,8 +106,7 @@ def singbox_outbound_to_clash_proxy(outbound: Dict) -> Optional[Dict]:
             'sni': tls.get('server_name', server),
             'skip-cert-verify': tls.get('insecure', False),
         }
-        if net_type in ('ws', 'grpc'):
-            proxy.update(transport_fields)
+        proxy.update(transport_fields)
         if tls_fields.get('client-fingerprint'):
             proxy['client-fingerprint'] = tls_fields['client-fingerprint']
         if tls_fields.get('alpn'):
