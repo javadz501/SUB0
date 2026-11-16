@@ -14,7 +14,7 @@ class SecurityFilter:
         self.output_file = output_file
         self.xray_output_file = xray_output_file
         self.utility_tags = {'direct', 'block', 'dns'}
-        self.group_tags = {'👽 Best Ping 🚀', '🌐 Anonymous Multi'}
+        self.group_tags = {'Best Ping', 'Proxy Selector'}
         
         self.SECURE_SS_METHODS = {
             'aes-128-gcm',
@@ -228,7 +228,7 @@ class SecurityFilter:
 
     def convert_secure_configs_to_xray(self, secure_outbounds: List[Dict]) -> bool:
         try:
-            xray_config = xray_template.get_xray_template("👽 Anonymous Multi Balanced - Secure Configs")
+            xray_config = xray_template.get_xray_template("Proxy Selector Balanced - Secure Configs")
             xray_outbounds = []
             
             for idx, sb_outbound in enumerate(secure_outbounds, 1):
