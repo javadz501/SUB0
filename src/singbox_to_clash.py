@@ -61,7 +61,7 @@ def singbox_outbound_to_clash_proxy(outbound: Dict) -> Optional[Dict]:
         tls_fields = {
             'tls': True,
             'servername': tls.get('server_name', server),
-            'skip-cert-verify': _is_enabled(_is_enabled(tls.get('insecure', False))),
+            'skip-cert-verify': _is_enabled(tls.get('insecure', False)),
             'client-fingerprint': (tls.get('utls') or {}).get('fingerprint', 'chrome'),
         }
         if tls.get('alpn'):
@@ -128,7 +128,7 @@ def singbox_outbound_to_clash_proxy(outbound: Dict) -> Optional[Dict]:
             'port': int(port),
             'password': outbound.get('password', ''),
             'sni': tls.get('server_name', server),
-            'skip-cert-verify': _is_enabled(_is_enabled(tls.get('insecure', False))),
+            'skip-cert-verify': _is_enabled(tls.get('insecure', False)),
         }
         obfs = outbound.get('obfs') or {}
         if obfs.get('type'):
