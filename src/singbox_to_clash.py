@@ -6,6 +6,11 @@ from typing import Dict, List, Optional
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+
+def _is_enabled(value) -> bool:
+    return value is True or (isinstance(value, str) and value.strip().lower() in {'1', 'true', 'yes'})
+
+
 INPUT_OUTPUT_PAIRS = [
     ('configs/singbox_configs_all.json', 'configs/clash_configs_all.yaml'),
     ('configs/singbox_configs_tested.json', 'configs/clash_configs_tested.yaml'),
@@ -56,7 +61,7 @@ def singbox_outbound_to_clash_proxy(outbound: Dict) -> Optional[Dict]:
         tls_fields = {
             'tls': True,
             'servername': tls.get('server_name', server),
-            'skip-cert-verify': bool(tls.get('insecure', False)),
+            'skip-cert-verify': _is_enabled(_is_enabled(tls.get('insecure', False))),
             'client-fingerprint': (tls.get('utls') or {}).get('fingerprint', 'chrome'),
         }
         if tls.get('alpn'):
@@ -104,7 +109,7 @@ def singbox_outbound_to_clash_proxy(outbound: Dict) -> Optional[Dict]:
             'port': int(port),
             'password': outbound.get('password', ''),
             'sni': tls.get('server_name', server),
-            'skip-cert-verify': tls.get('insecure', False),
+            'skip-cert-verify': _is_enabled(tls.get('insecure', False)),
         }
         proxy.update(transport_fields)
         if tls_fields.get('client-fingerprint'):
@@ -123,7 +128,7 @@ def singbox_outbound_to_clash_proxy(outbound: Dict) -> Optional[Dict]:
             'port': int(port),
             'password': outbound.get('password', ''),
             'sni': tls.get('server_name', server),
-            'skip-cert-verify': bool(tls.get('insecure', False)),
+            'skip-cert-verify': _is_enabled(_is_enabled(tls.get('insecure', False))),
         }
         obfs = outbound.get('obfs') or {}
         if obfs.get('type'):
