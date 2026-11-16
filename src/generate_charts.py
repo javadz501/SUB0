@@ -300,7 +300,7 @@ def generate_html_report(stats_data):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Multi — Source Intelligence Report</title>
+<title>Proxy Source Intelligence Report</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -459,7 +459,7 @@ footer a {{ color: var(--accent); text-decoration: none; }}
         <div class="brand">
             <span class="pulse"></span>
             <div>
-                <div class="brand-title">Multi — Source Intelligence Report</div>
+                <div class="brand-title">Proxy Source Intelligence Report</div>
                 <div class="brand-sub mono">Last run: {data['generated_at']}</div>
             </div>
         </div>
