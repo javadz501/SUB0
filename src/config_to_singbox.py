@@ -126,7 +126,7 @@ class ConfigToSingbox:
             },
             "inbounds": [
                 {"type": "tun", "tag": "tun-in", "address": ["172.18.0.1/30", "fdfe:dcba:9876::1/126"], "mtu": 9000, "auto_route": True, "strict_route": True, "stack": "mixed"},
-                {"type": "mixed", "tag": "mixed-in", "listen": "0.0.0.0", "listen_port": 2080}
+                {"type": "mixed", "tag": "mixed-in", "listen": "127.0.0.1", "listen_port": 2080}
             ],
             "outbounds": [
                 {"type": "selector", "tag": "🌐 Anonymous Multi", "outbounds": ["👽 Best Ping 🚀"] + valid_tags + ["direct"]},
@@ -140,7 +140,6 @@ class ConfigToSingbox:
                     {"clash_mode": "Direct", "outbound": "direct"},
                     {"clash_mode": "Global", "outbound": "🌐 Anonymous Multi"},
                     {"ip_is_private": True, "outbound": "direct"},
-                    {"network": "udp", "action": "reject"},
                     {"rule_set": ["geosite-malware", "geosite-phishing", "geosite-cryptominers", "geosite-category-ads-all"], "action": "reject"},
                     {"rule_set": ["geoip-malware", "geoip-phishing"], "action": "reject"},
                     {"rule_set": ["geosite-ir"], "outbound": "direct"},
