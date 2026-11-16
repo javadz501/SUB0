@@ -1,10 +1,6 @@
-# ⚙️ Anonymous Wizard — 中文安装指南
+# ⚙️ Setup Wizard — 中文安装指南
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Anonymous-Wizard-blue?style=for-the-badge" />
-</p>
-
-在本地系统上安装、运行和管理 **Multi Proxy Config Fetcher** 项目的完整分步指南 —— 支持 Termux（Android）、Linux、macOS、iSH（iOS）以及通过 WSL2 的 Windows。
+在本地系统上安装、运行和管理 **SUB0** 项目的完整分步指南 —— 支持 Termux（Android）、Linux、macOS、iSH（iOS）以及通过 WSL2 的 Windows。
 
 ---
 
