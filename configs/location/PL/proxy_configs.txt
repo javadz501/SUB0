@@ -1,8 +1,5 @@
-//profile-title: base64:8J+RvUFub255bW91cy1QTA==
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
-//support-url: https://t.me/An0nymou3Bot
-//profile-web-page-url: https://github.com/4n0nymou3
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOVpaWFZhMzR4N3NDNDh3OUZLUTU0VUtIaUpKR1RWZ0tGcHBCUmd2aUxyVkNBWVZWeUtaZEQzb2JicGpDeWszMVY1YjJHMmQ3eHpxbWFQQkZkY2hlQ1ZCOVVRNFpnaEY@156.67.120.205:51628#SS 🇵🇱 AEAD [51628]
 
