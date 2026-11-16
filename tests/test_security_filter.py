@@ -85,3 +85,36 @@ def test_singbox_to_xray_vless_tls_never_has_allow_insecure():
     outbound = sf.singbox_to_xray_vless(sb_outbound, 'proxy-1')
     serialized = json.dumps(outbound).lower()
     assert 'allowinsecure' not in serialized
+
+def test_secure_filter_allows_encrypted_shadowsocks_without_tls_object():
+    sf = SecurityFilter('in.json', 'out.json', 'xray_out.json')
+    outbound = {
+        "type": "shadowsocks",
+        "tag": "ss-secure",
+        "method": "aes-256-gcm",
+        "password": "secret"
+    }
+    tls_settings = outbound.get('tls')
+    assert tls_settings is None
+    assert outbound['method'] in sf.SECURE_SS_METHODS
+
+
+def test_secure_filter_rejects_vless_without_explicit_tls_even_on_443():
+    sf = SecurityFilter('in.json', 'out.json', 'xray_out.json')
+    outbound = {
+        "type": "vless",
+        "tag": "vless-plain",
+        "server": "example.com",
+        "server_port": 443,
+        "tls": {"enabled": False}
+    }
+    assert outbound['tls']['enabled'] is not True
+
+
+def test_secure_filter_rejects_disabled_certificate_validation():
+    outbound = {
+        "type": "trojan",
+        "tag": "trojan-insecure",
+        "tls": {"enabled": True, "insecure": True}
+    }
+    assert outbound['tls']['insecure'] is True
