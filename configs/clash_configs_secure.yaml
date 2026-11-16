@@ -78,1253 +78,7 @@
   },
   "proxies": [
     {
-      "name": "Trojan 🇿🇦 TLS+UTLS [443] #1",
-      "type": "trojan",
-      "server": "139.84.231.142",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "explorecareerpathsandunlockprofessionalsuccesstoday.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇸🇬 TLS [443] #2",
-      "type": "trojan",
-      "server": "149.28.130.108",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "searchcreativejobsandshowcaseyourartistictalents.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇸🇬 TLS [443] #3",
-      "type": "trojan",
-      "server": "15.235.184.127",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "exploredigitaljobplatformandfindonlinework.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇰🇷 TLS [443] #4",
-      "type": "trojan",
-      "server": "158.247.253.243",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "connectgraduateswithjobopeningsandgrowprofessionally.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #8",
-      "type": "trojan",
-      "server": "169.197.140.169",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #9",
-      "type": "trojan",
-      "server": "169.197.140.171",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #10",
-      "type": "trojan",
-      "server": "169.197.140.208",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #11",
-      "type": "trojan",
-      "server": "169.197.140.214",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #12",
-      "type": "trojan",
-      "server": "169.197.140.218",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #13",
-      "type": "trojan",
-      "server": "169.197.140.224",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #14",
-      "type": "trojan",
-      "server": "169.197.140.245",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #15",
-      "type": "trojan",
-      "server": "170.101.101.112",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.explorecreativejobsandenhanceyourcareerportfolio.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #16",
-      "type": "trojan",
-      "server": "170.101.101.131",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.explorecreativejobsandenhanceyourcareerportfolio.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #17",
-      "type": "trojan",
-      "server": "170.101.101.19",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "learn.explorecreativejobsandenhanceyourcareerportfolio.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #18",
-      "type": "trojan",
-      "server": "170.101.101.211",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.explorecreativejobsandenhanceyourcareerportfolio.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #19",
-      "type": "trojan",
-      "server": "170.101.101.237",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.explorecreativejobsandenhanceyourcareerportfolio.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #20",
-      "type": "trojan",
-      "server": "170.101.101.53",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.explorecreativejobsandenhanceyourcareerportfolio.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #21",
-      "type": "trojan",
-      "server": "170.101.101.67",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.explorecreativejobsandenhanceyourcareerportfolio.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇩🇪 TLS [443] #22",
-      "type": "trojan",
-      "server": "193.108.119.134",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.iloverussia2026.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇩🇪 TLS [443] #23",
-      "type": "trojan",
-      "server": "193.108.119.15",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.iloverussia2026.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇩🇪 TLS [443] #24",
-      "type": "trojan",
-      "server": "193.108.119.193",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.iloverussia2026.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇩🇪 TLS [443] #25",
-      "type": "trojan",
-      "server": "193.108.119.29",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.iloverussia2026.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇩🇪 TLS [443] #26",
-      "type": "trojan",
-      "server": "193.108.119.34",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.iloverussia2026.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇩🇪 TLS+UTLS [443] #27",
-      "type": "trojan",
-      "server": "193.108.119.78",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.iloverussia2026.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇭 TLS [443] #28",
-      "type": "trojan",
-      "server": "208.69.78.158",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.yourultimateprofessionalcareerhub.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇭 TLS [443] #29",
-      "type": "trojan",
-      "server": "208.69.78.19",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.yourultimateprofessionalcareerhub.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇭 TLS [443] #30",
-      "type": "trojan",
-      "server": "208.69.78.208",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.yourultimateprofessionalcareerhub.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇭 TLS [443] #31",
-      "type": "trojan",
-      "server": "208.69.78.222",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "yourultimateprofessionalcareerhub.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇭 TLS+UTLS [443] #32",
-      "type": "trojan",
-      "server": "208.69.78.29",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "learn.yourultimateprofessionalcareerhub.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇭 TLS [443] #33",
-      "type": "trojan",
-      "server": "208.69.78.33",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.yourultimateprofessionalcareerhub.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇭 TLS [443] #34",
-      "type": "trojan",
-      "server": "208.69.78.60",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.yourultimateprofessionalcareerhub.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #35",
-      "type": "trojan",
-      "server": "216.106.186.155",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.findlocaljobnetworkandbuildcommunityconnections.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #36",
-      "type": "trojan",
-      "server": "216.106.186.46",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.findlocaljobnetworkandbuildcommunityconnections.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS+UTLS [443] #37",
-      "type": "trojan",
-      "server": "216.106.186.82",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.findlocaljobnetworkandbuildcommunityconnections.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇦 TLS [443] #38",
-      "type": "trojan",
-      "server": "216.152.147.152",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "learn.connectingpeoplewithgreatjobs.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇦 TLS+UTLS [443] #39",
-      "type": "trojan",
-      "server": "216.152.147.201",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.connectingpeoplewithgreatjobs.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇦 TLS [443] #40",
-      "type": "trojan",
-      "server": "216.152.147.48",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.connectingpeoplewithgreatjobs.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇦 TLS [443] #41",
-      "type": "trojan",
-      "server": "216.152.147.74",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.connectingpeoplewithgreatjobs.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇦 TLS [443] #42",
-      "type": "trojan",
-      "server": "216.152.147.79",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.connectingpeoplewithgreatjobs.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇦 TLS+UTLS [443] #43",
-      "type": "trojan",
-      "server": "216.152.147.85",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.connectingpeoplewithgreatjobs.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇦 TLS [443] #44",
-      "type": "trojan",
-      "server": "216.152.147.89",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.connectingpeoplewithgreatjobs.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇦 TLS [443] #45",
-      "type": "trojan",
-      "server": "216.152.147.93",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "connectingpeoplewithgreatjobs.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #46",
-      "type": "trojan",
-      "server": "216.152.155.131",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.nextjobopportunityandclaimyouridealrole.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #47",
-      "type": "trojan",
-      "server": "216.152.155.158",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.nextjobopportunityandclaimyouridealrole.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #48",
-      "type": "trojan",
-      "server": "216.152.155.176",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.nextjobopportunityandclaimyouridealrole.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #49",
-      "type": "trojan",
-      "server": "216.152.155.23",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.nextjobopportunityandclaimyouridealrole.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #50",
-      "type": "trojan",
-      "server": "216.152.155.50",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.nextjobopportunityandclaimyouridealrole.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #51",
-      "type": "trojan",
-      "server": "216.152.155.54",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "learn.nextjobopportunityandclaimyouridealrole.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #52",
-      "type": "trojan",
-      "server": "216.152.155.59",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.nextjobopportunityandclaimyouridealrole.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇧🇷 TLS [443] #53",
-      "type": "trojan",
-      "server": "216.238.104.154",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "findtemporaryworkandfreelancerprojectsonlineplatform.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇦🇺 TLS [443] #54",
-      "type": "trojan",
-      "server": "45.63.30.142",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "connectwithemployerstohireyouridealteam.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇱 TLS [443] #55",
-      "type": "trojan",
-      "server": "64.176.7.205",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "advanceyouremploymentskillsandcareerdevelopmenthub.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #56",
-      "type": "trojan",
-      "server": "66.163.112.121",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.unlockyourfuturefindyourperfectcareer.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS+UTLS [443] #57",
-      "type": "trojan",
-      "server": "66.163.112.13",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.unlockyourfuturefindyourperfectcareer.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #58",
-      "type": "trojan",
-      "server": "66.163.112.142",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.unlockyourfuturefindyourperfectcareer.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #59",
-      "type": "trojan",
-      "server": "66.163.112.147",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.unlockyourfuturefindyourperfectcareer.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #60",
-      "type": "trojan",
-      "server": "66.163.112.171",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "learn.unlockyourfuturefindyourperfectcareer.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #61",
-      "type": "trojan",
-      "server": "66.163.112.242",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.unlockyourfuturefindyourperfectcareer.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #62",
-      "type": "trojan",
-      "server": "66.163.112.31",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "unlockyourfuturefindyourperfectcareer.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #63",
-      "type": "trojan",
-      "server": "66.163.112.76",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.unlockyourfuturefindyourperfectcareer.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #64",
-      "type": "trojan",
-      "server": "66.163.114.106",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.findconnectwithemployersandbuildprofessionalnetwork.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #65",
-      "type": "trojan",
-      "server": "66.163.114.114",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "learn.findconnectwithemployersandbuildprofessionalnetwork.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #66",
-      "type": "trojan",
-      "server": "66.163.114.126",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.findconnectwithemployersandbuildprofessionalnetwork.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #67",
-      "type": "trojan",
-      "server": "66.163.114.132",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.findconnectwithemployersandbuildprofessionalnetwork.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #68",
-      "type": "trojan",
-      "server": "66.163.114.166",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.findconnectwithemployersandbuildprofessionalnetwork.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #69",
-      "type": "trojan",
-      "server": "66.163.114.245",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "findconnectwithemployersandbuildprofessionalnetwork.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #70",
-      "type": "trojan",
-      "server": "66.163.114.45",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.findconnectwithemployersandbuildprofessionalnetwork.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇪🇸 TLS+UTLS [443] #71",
-      "type": "trojan",
-      "server": "66.163.118.115",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "discovergreatjobsandadvanceyourcareer.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇪🇸 TLS [443] #72",
-      "type": "trojan",
-      "server": "66.163.118.131",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.discovergreatjobsandadvanceyourcareer.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇪🇸 TLS [443] #73",
-      "type": "trojan",
-      "server": "66.163.118.166",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "learn.discovergreatjobsandadvanceyourcareer.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇪🇸 TLS [443] #74",
-      "type": "trojan",
-      "server": "66.163.118.203",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.discovergreatjobsandadvanceyourcareer.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇪🇸 TLS [443] #75",
-      "type": "trojan",
-      "server": "66.163.118.244",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.discovergreatjobsandadvanceyourcareer.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇪🇸 TLS [443] #76",
-      "type": "trojan",
-      "server": "66.163.118.251",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.discovergreatjobsandadvanceyourcareer.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇪🇸 TLS+UTLS [443] #77",
-      "type": "trojan",
-      "server": "66.163.118.40",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.discovergreatjobsandadvanceyourcareer.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇪🇸 TLS [443] #78",
-      "type": "trojan",
-      "server": "66.163.118.62",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.discovergreatjobsandadvanceyourcareer.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #79",
-      "type": "trojan",
-      "server": "66.163.122.113",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.searchnationwidecareerchangehelperandguidancetoday.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #80",
-      "type": "trojan",
-      "server": "66.163.122.25",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.searchnationwidecareerchangehelperandguidancetoday.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #81",
-      "type": "trojan",
-      "server": "66.163.122.26",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.searchnationwidecareerchangehelperandguidancetoday.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS+UTLS [443] #82",
-      "type": "trojan",
-      "server": "66.163.122.30",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.searchnationwidecareerchangehelperandguidancetoday.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #83",
-      "type": "trojan",
-      "server": "66.163.122.46",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "searchnationwidecareerchangehelperandguidancetoday.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #84",
-      "type": "trojan",
-      "server": "66.163.122.7",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.searchnationwidecareerchangehelperandguidancetoday.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #85",
-      "type": "trojan",
-      "server": "66.163.122.81",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.searchnationwidecareerchangehelperandguidancetoday.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇳🇱 TLS [443] #86",
-      "type": "trojan",
-      "server": "66.163.127.107",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.indyourperfectremotetechjobfromthecomfortofhome.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇳🇱 TLS+UTLS [443] #87",
-      "type": "trojan",
-      "server": "66.163.127.154",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.indyourperfectremotetechjobfromthecomfortofhome.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇳🇱 TLS [443] #88",
-      "type": "trojan",
-      "server": "66.163.127.155",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "indyourperfectremotetechjobfromthecomfortofhome.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇳🇱 TLS [443] #89",
-      "type": "trojan",
-      "server": "66.163.127.215",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.indyourperfectremotetechjobfromthecomfortofhome.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇳🇱 TLS [443] #90",
-      "type": "trojan",
-      "server": "66.163.127.225",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.indyourperfectremotetechjobfromthecomfortofhome.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇳🇱 TLS [443] #91",
-      "type": "trojan",
-      "server": "66.163.127.44",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "learn.indyourperfectremotetechjobfromthecomfortofhome.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇳🇱 TLS+UTLS [443] #92",
-      "type": "trojan",
-      "server": "66.163.127.9",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.indyourperfectremotetechjobfromthecomfortofhome.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION [443] #1",
+      "name": "VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443] #1",
       "type": "vless",
       "server": "167.17.69.171",
       "port": 443,
@@ -1341,24 +95,7 @@
       }
     },
     {
-      "name": "VLESS 🇹🇷 REALITY+PBK+SID+VISION+UTLS [43000] #2",
-      "type": "vless",
-      "server": "147.45.66.60",
-      "port": 43000,
-      "uuid": "01e61db7-9e0b-4431-a995-a5288a01b951",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "tls": true,
-      "servername": "147.45.66.60",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "reality-opts": {
-        "public-key": "DbL9RJFvJrnxBu6fFhWkHF8nsD6cK_DKMuMV00RmlWg",
-        "short-id": "4d3d8e15"
-      }
-    },
-    {
-      "name": "VLESS 🇱🇻 RAW+REALITY+PBK+SID+VISION+UTLS [443] #4",
+      "name": "VLESS 🇱🇻 RAW+REALITY+PBK+SID+VISION+UTLS [443] #2",
       "type": "vless",
       "server": "195.123.213.28",
       "port": 443,
@@ -1375,7 +112,24 @@
       }
     },
     {
-      "name": "VLESS 🇺🇸 REALITY+PBK+VISION [443] #9",
+      "name": "VLESS 🇵🇱 REALITY+PBK+SID+VISION+UTLS [443] #7",
+      "type": "vless",
+      "server": "82.118.22.161",
+      "port": 443,
+      "uuid": "05488656-d4bf-4634-8b2e-e4ff5a56c7e2",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "tls": true,
+      "servername": "www.cloudflare.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "reality-opts": {
+        "public-key": "xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E",
+        "short-id": "fa3ea655619a3e78"
+      }
+    },
+    {
+      "name": "VLESS 🇺🇸 REALITY+PBK+VISION+UTLS [443] #8",
       "type": "vless",
       "server": "47.253.226.114",
       "port": 443,
@@ -1392,7 +146,74 @@
       }
     },
     {
-      "name": "VLESS 🇩🇪 GRPC+REALITY+PBK+SID+UTLS [443] #10",
+      "name": "VLESS 🇬🇧 REALITY+PBK+SID+UTLS [443] #9",
+      "type": "vless",
+      "server": "132.243.163.167",
+      "port": 443,
+      "uuid": "07df3711-07a1-4649-9a61-3f16cb931d02",
+      "network": "tcp",
+      "tls": true,
+      "servername": "345739t.de19.h1clayd.click",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "reality-opts": {
+        "public-key": "hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA",
+        "short-id": "23732d14a527990d"
+      }
+    },
+    {
+      "name": "VLESS 🇮🇱 REALITY+PBK+SID+UTLS [443] #10",
+      "type": "vless",
+      "server": "345739t.de19.h1clayd.click",
+      "port": 443,
+      "uuid": "07df3711-07a1-4649-9a61-3f16cb931d02",
+      "network": "tcp",
+      "tls": true,
+      "servername": "345739t.de19.h1clayd.click",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "reality-opts": {
+        "public-key": "hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA",
+        "short-id": "23732d14a527990d"
+      }
+    },
+    {
+      "name": "VLESS 🇮🇱 REALITY+PBK+SID+UTLS [443] #11",
+      "type": "vless",
+      "server": "79.182.70.199",
+      "port": 443,
+      "uuid": "07df3711-07a1-4649-9a61-3f16cb931d02",
+      "network": "tcp",
+      "tls": true,
+      "servername": "345739t.de19.h1clayd.click",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "reality-opts": {
+        "public-key": "hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA",
+        "short-id": "23732d14a527990d"
+      }
+    },
+    {
+      "name": "VLESS 🇩🇪 GRPC+REALITY+PBK+SID+UTLS [443] #12",
+      "type": "vless",
+      "server": "93.123.85.194",
+      "port": 443,
+      "uuid": "07df3711-07a1-4649-9a61-3f16cb931d02",
+      "network": "grpc",
+      "grpc-opts": {
+        "grpc-service-name": "43f41cd7fee0"
+      },
+      "tls": true,
+      "servername": "ec7a81g.de19.h1clayd.click",
+      "skip-cert-verify": false,
+      "client-fingerprint": "ios",
+      "reality-opts": {
+        "public-key": "shUbIWcBJdXaDzO80KqTU9exgMarUCOiiZ56Dwl7XVU",
+        "short-id": "7a8e24da4eb2c1b5"
+      }
+    },
+    {
+      "name": "VLESS 🇩🇪 GRPC+REALITY+PBK+SID+UTLS [443] #13",
       "type": "vless",
       "server": "93.123.85.230",
       "port": 443,
@@ -1411,7 +232,7 @@
       }
     },
     {
-      "name": "VLESS 🇮🇱 GRPC+REALITY+PBK+SID+UTLS [443] #11",
+      "name": "VLESS 🇮🇱 GRPC+REALITY+PBK+SID+UTLS [443] #14",
       "type": "vless",
       "server": "ec7a81g.de19.h1clayd.click",
       "port": 443,
@@ -1430,15 +251,15 @@
       }
     },
     {
-      "name": "VLESS 🇩🇪 REALITY+PBK+SID+VISION+UTLS [43000] #12",
+      "name": "VLESS 🇩🇪 REALITY+PBK+SID+VISION+UTLS [43000] #15",
       "type": "vless",
-      "server": "5.83.158.96",
+      "server": "178.18.158.17",
       "port": 43000,
       "uuid": "0809eed6-5204-49b8-8312-b82a10024022",
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "tls": true,
-      "servername": "5.83.158.96",
+      "servername": "178.18.158.17",
       "skip-cert-verify": false,
       "client-fingerprint": "firefox",
       "reality-opts": {
@@ -1447,7 +268,23 @@
       }
     },
     {
-      "name": "VLESS 🇫🇷 REALITY+PBK+SID+UTLS [443] #13",
+      "name": "VLESS 🇫🇷 REALITY+PBK+SID+UTLS [443] #16",
+      "type": "vless",
+      "server": "161.97.66.16",
+      "port": 443,
+      "uuid": "086bf957-9cd0-4e55-8280-bbef10435b41",
+      "network": "tcp",
+      "tls": true,
+      "servername": "www.cloudflare.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "random",
+      "reality-opts": {
+        "public-key": "R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc",
+        "short-id": "086bf957"
+      }
+    },
+    {
+      "name": "VLESS 🇫🇷 REALITY+PBK+SID+UTLS [443] #17",
       "type": "vless",
       "server": "ai.smrtai.top",
       "port": 443,
@@ -1463,195 +300,1504 @@
       }
     },
     {
-      "name": "VLESS 🇷🇺 RAW+REALITY+PBK+SID+VISION+UTLS [443] #18",
-      "type": "vless",
-      "server": "193.163.203.170",
+      "name": "Trojan 🇿🇦 TLS+UTLS [443] #1",
+      "type": "trojan",
+      "server": "139.84.231.142",
       "port": 443,
-      "uuid": "11aabba0-5fd1-4f15-8068-74c1a466cefc",
-      "flow": "xtls-rprx-vision",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "explorecareerpathsandunlockprofessionalsuccesstoday.com",
+      "skip-cert-verify": false,
       "network": "tcp",
-      "tls": true,
-      "servername": "yandex.ru",
-      "skip-cert-verify": false,
-      "client-fingerprint": "firefox",
-      "reality-opts": {
-        "public-key": "GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o",
-        "short-id": "b28db60d77c50b4f"
-      }
-    },
-    {
-      "name": "VLESS 🇩🇪 REALITY+PBK+VISION+UTLS [443] #19",
-      "type": "vless",
-      "server": "217.60.27.117",
-      "port": 443,
-      "uuid": "12776e55-6230-48b9-b069-1bb8a04b4237",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "tls": true,
-      "servername": "music.3apes.online",
-      "skip-cert-verify": false,
-      "client-fingerprint": "firefox",
-      "reality-opts": {
-        "public-key": "q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ",
-        "short-id": ""
-      }
-    },
-    {
-      "name": "VLESS 🇮🇷 GRPC+REALITY+PBK+UTLS [443] #20",
-      "type": "vless",
-      "server": "94.183.164.176",
-      "port": 443,
-      "uuid": "12776e55-6230-48b9-b069-1bb8a04b4237",
-      "network": "grpc",
-      "grpc-opts": {
-        "grpc-service-name": "ebl"
-      },
-      "tls": true,
-      "servername": "optim.tildacdn.pub",
-      "skip-cert-verify": false,
-      "client-fingerprint": "firefox",
-      "reality-opts": {
-        "public-key": "_KeOS5u_irk1547CMVB3RdwQzz1SzrQZk-IV-btF7TU",
-        "short-id": ""
-      }
-    },
-    {
-      "name": "VLESS 🇩🇪 REALITY+PBK+VISION+UTLS [443] #21",
-      "type": "vless",
-      "server": "music.3apes.online",
-      "port": 443,
-      "uuid": "12776e55-6230-48b9-b069-1bb8a04b4237",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "tls": true,
-      "servername": "music.3apes.online",
-      "skip-cert-verify": false,
-      "client-fingerprint": "qq",
-      "reality-opts": {
-        "public-key": "q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ",
-        "short-id": ""
-      }
-    },
-    {
-      "name": "VLESS 🇹🇷 REALITY+PBK+SID+VISION+UTLS [2194] #23",
-      "type": "vless",
-      "server": "185.71.216.95",
-      "port": 2194,
-      "uuid": "128bd8ad-4f6c-4d70-af13-15a2cec331d2",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "tls": true,
-      "servername": "www.apple.com",
-      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "reality-opts": {
-        "public-key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
-        "short-id": "55986a94e2228791"
-      }
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
     },
     {
-      "name": "VLESS 🇭🇰 REALITY+PBK+SID+VISION+UTLS [31001] #24",
-      "type": "vless",
-      "server": "2.26.204.46",
-      "port": 31001,
-      "uuid": "12a4f736-2238-49ee-831f-5516f15cc951",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "tls": true,
-      "servername": "mensura.cdn-apple.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "firefox",
-      "reality-opts": {
-        "public-key": "lzpIiMqHXas_qayw-HvrySb78FNkVroBOqniwqPXPzY",
-        "short-id": "39793bc4708abbbb"
-      }
-    },
-    {
-      "name": "VLESS 🇪🇸 RAW+REALITY+PBK+SID+VISION+UTLS [443] #25",
-      "type": "vless",
-      "server": "46.28.71.247",
+      "name": "Trojan 🇸🇬 TLS [443] #2",
+      "type": "trojan",
+      "server": "15.235.184.127",
       "port": 443,
-      "uuid": "12c53e32-e589-47d6-b857-e4132294f767",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "tls": true,
-      "servername": "www.cloudflare.com",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "exploredigitaljobplatformandfindonlinework.com",
       "skip-cert-verify": false,
-      "client-fingerprint": "firefox",
-      "reality-opts": {
-        "public-key": "v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE",
-        "short-id": "0dfc23fe80778c00"
-      }
-    },
-    {
-      "name": "VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443] #26",
-      "type": "vless",
-      "server": "45.61.186.3",
-      "port": 443,
-      "uuid": "140d6fc9-2c6d-41bd-a487-182b52c0184f",
-      "flow": "xtls-rprx-vision",
       "network": "tcp",
-      "tls": true,
-      "servername": "caissuers.microsoft.com",
-      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "reality-opts": {
-        "public-key": "rA1BaV8FUcTMs25jXCZkUV3DG0-NQEFmvVHdPlUXAHI",
-        "short-id": "d898752d58acbfe0"
-      }
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
     },
     {
-      "name": "VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443] #27",
-      "type": "vless",
-      "server": "69.17.3.150",
+      "name": "Trojan 🇰🇷 TLS [443] #3",
+      "type": "trojan",
+      "server": "158.247.253.243",
       "port": 443,
-      "uuid": "140d6fc9-2c6d-41bd-a487-182b52c0184f",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "tls": true,
-      "servername": "caissuers.microsoft.com",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "connectgraduateswithjobopeningsandgrowprofessionally.com",
       "skip-cert-verify": false,
+      "network": "tcp",
       "client-fingerprint": "chrome",
-      "reality-opts": {
-        "public-key": "zUbdpLqoZN7kSFDrHgGnAcZqJzKilme_rIJwI3FPGCA",
-        "short-id": "d898752d58acbfe0"
-      }
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
     },
     {
-      "name": "VLESS 🇺🇸 REALITY+PBK+VISION+UTLS [28190] #28",
-      "type": "vless",
-      "server": "159.89.87.21",
-      "port": 28190,
-      "uuid": "14c80e0e-f7ce-4991-94fc-99a1db4a9b1e",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "tls": true,
-      "servername": "aws.amazon.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "reality-opts": {
-        "public-key": "ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno",
-        "short-id": ""
-      }
-    },
-    {
-      "name": "VLESS 🇸🇪 GRPC+REALITY+PBK+SID+UTLS [443] #29",
-      "type": "vless",
-      "server": "13e1cfg.plp1.h1cloud.net",
+      "name": "Trojan 🇺🇸 TLS [443] #4",
+      "type": "trojan",
+      "server": "167.88.61.175",
       "port": 443,
-      "uuid": "16f3d526-8cf8-4af5-a86f-b023c5b52085",
-      "network": "grpc",
-      "grpc-opts": {
-        "grpc-service-name": "d5d6142b8b66"
-      },
-      "tls": true,
-      "servername": "13e1cfg.plp1.h1cloud.net",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "blog.browseseniorrolesandenhanceyourcareertoday.com",
       "skip-cert-verify": false,
-      "client-fingerprint": "ios",
-      "reality-opts": {
-        "public-key": "cWC6AGVZ9ke_eCTWXEB-eLdf670CuoP9zP-1k8DrPxo",
-        "short-id": "8ae9cc8c9447c95a"
-      }
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #5",
+      "type": "trojan",
+      "server": "167.88.61.193",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "browseseniorrolesandenhanceyourcareertoday.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #6",
+      "type": "trojan",
+      "server": "167.88.61.198",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "cdn.browseseniorrolesandenhanceyourcareertoday.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #7",
+      "type": "trojan",
+      "server": "167.88.61.20",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "api.browseseniorrolesandenhanceyourcareertoday.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #8",
+      "type": "trojan",
+      "server": "167.88.61.52",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "courses.browseseniorrolesandenhanceyourcareertoday.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #9",
+      "type": "trojan",
+      "server": "167.88.61.85",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "resources.browseseniorrolesandenhanceyourcareertoday.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #10",
+      "type": "trojan",
+      "server": "169.197.140.169",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "api.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #11",
+      "type": "trojan",
+      "server": "169.197.140.171",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #12",
+      "type": "trojan",
+      "server": "169.197.140.208",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "blog.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #13",
+      "type": "trojan",
+      "server": "169.197.140.214",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #14",
+      "type": "trojan",
+      "server": "169.197.140.218",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #15",
+      "type": "trojan",
+      "server": "169.197.140.224",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #16",
+      "type": "trojan",
+      "server": "169.197.140.245",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "www.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #17",
+      "type": "trojan",
+      "server": "170.101.101.112",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "resources.explorecreativejobsandenhanceyourcareerportfolio.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS+UTLS [443] #18",
+      "type": "trojan",
+      "server": "170.101.101.131",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "blog.explorecreativejobsandenhanceyourcareerportfolio.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #19",
+      "type": "trojan",
+      "server": "170.101.101.19",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "learn.explorecreativejobsandenhanceyourcareerportfolio.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #20",
+      "type": "trojan",
+      "server": "170.101.101.211",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "api.explorecreativejobsandenhanceyourcareerportfolio.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #21",
+      "type": "trojan",
+      "server": "170.101.101.237",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "cdn.explorecreativejobsandenhanceyourcareerportfolio.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #22",
+      "type": "trojan",
+      "server": "170.101.101.53",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "www.explorecreativejobsandenhanceyourcareerportfolio.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #23",
+      "type": "trojan",
+      "server": "170.101.101.67",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "courses.explorecreativejobsandenhanceyourcareerportfolio.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇩🇪 TLS+UTLS [443] #24",
+      "type": "trojan",
+      "server": "193.108.119.134",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "api.iloverussia2026.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇩🇪 TLS [443] #25",
+      "type": "trojan",
+      "server": "193.108.119.15",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "courses.iloverussia2026.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇩🇪 TLS [443] #26",
+      "type": "trojan",
+      "server": "193.108.119.193",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "resources.iloverussia2026.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇩🇪 TLS [443] #27",
+      "type": "trojan",
+      "server": "193.108.119.29",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "blog.iloverussia2026.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇩🇪 TLS [443] #28",
+      "type": "trojan",
+      "server": "193.108.119.34",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "cdn.iloverussia2026.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇩🇪 TLS [443] #29",
+      "type": "trojan",
+      "server": "193.108.119.78",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "www.iloverussia2026.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇨🇭 TLS [443] #30",
+      "type": "trojan",
+      "server": "208.69.78.158",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "api.yourultimateprofessionalcareerhub.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇨🇭 TLS [443] #31",
+      "type": "trojan",
+      "server": "208.69.78.19",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "www.yourultimateprofessionalcareerhub.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇨🇭 TLS [443] #32",
+      "type": "trojan",
+      "server": "208.69.78.208",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "resources.yourultimateprofessionalcareerhub.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇨🇭 TLS [443] #33",
+      "type": "trojan",
+      "server": "208.69.78.222",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "yourultimateprofessionalcareerhub.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇨🇭 TLS+UTLS [443] #34",
+      "type": "trojan",
+      "server": "208.69.78.29",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "learn.yourultimateprofessionalcareerhub.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇨🇭 TLS [443] #35",
+      "type": "trojan",
+      "server": "208.69.78.33",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "courses.yourultimateprofessionalcareerhub.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇨🇭 TLS [443] #36",
+      "type": "trojan",
+      "server": "208.69.78.60",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "cdn.yourultimateprofessionalcareerhub.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #37",
+      "type": "trojan",
+      "server": "216.106.186.155",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "api.findlocaljobnetworkandbuildcommunityconnections.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #38",
+      "type": "trojan",
+      "server": "216.106.186.46",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "cdn.findlocaljobnetworkandbuildcommunityconnections.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #39",
+      "type": "trojan",
+      "server": "216.106.186.82",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "courses.findlocaljobnetworkandbuildcommunityconnections.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇨🇦 TLS [443] #40",
+      "type": "trojan",
+      "server": "216.152.147.152",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "learn.connectingpeoplewithgreatjobs.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇨🇦 TLS+UTLS [443] #41",
+      "type": "trojan",
+      "server": "216.152.147.201",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "resources.connectingpeoplewithgreatjobs.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇨🇦 TLS [443] #42",
+      "type": "trojan",
+      "server": "216.152.147.48",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "courses.connectingpeoplewithgreatjobs.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇨🇦 TLS [443] #43",
+      "type": "trojan",
+      "server": "216.152.147.74",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "api.connectingpeoplewithgreatjobs.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇨🇦 TLS [443] #44",
+      "type": "trojan",
+      "server": "216.152.147.79",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "blog.connectingpeoplewithgreatjobs.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇨🇦 TLS [443] #45",
+      "type": "trojan",
+      "server": "216.152.147.85",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "cdn.connectingpeoplewithgreatjobs.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇨🇦 TLS [443] #46",
+      "type": "trojan",
+      "server": "216.152.147.89",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "www.connectingpeoplewithgreatjobs.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇨🇦 TLS [443] #47",
+      "type": "trojan",
+      "server": "216.152.147.93",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "connectingpeoplewithgreatjobs.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #48",
+      "type": "trojan",
+      "server": "216.152.155.131",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "www.nextjobopportunityandclaimyouridealrole.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #49",
+      "type": "trojan",
+      "server": "216.152.155.158",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "resources.nextjobopportunityandclaimyouridealrole.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #50",
+      "type": "trojan",
+      "server": "216.152.155.176",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "blog.nextjobopportunityandclaimyouridealrole.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #51",
+      "type": "trojan",
+      "server": "216.152.155.23",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "courses.nextjobopportunityandclaimyouridealrole.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #52",
+      "type": "trojan",
+      "server": "216.152.155.50",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "cdn.nextjobopportunityandclaimyouridealrole.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #53",
+      "type": "trojan",
+      "server": "216.152.155.54",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "learn.nextjobopportunityandclaimyouridealrole.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #54",
+      "type": "trojan",
+      "server": "216.152.155.59",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "api.nextjobopportunityandclaimyouridealrole.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #55",
+      "type": "trojan",
+      "server": "216.152.156.159",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "resources.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #56",
+      "type": "trojan",
+      "server": "216.152.156.212",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #57",
+      "type": "trojan",
+      "server": "216.152.156.42",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #58",
+      "type": "trojan",
+      "server": "216.152.156.49",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #59",
+      "type": "trojan",
+      "server": "216.152.156.65",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #60",
+      "type": "trojan",
+      "server": "216.152.156.81",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "www.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇧🇷 TLS [443] #61",
+      "type": "trojan",
+      "server": "216.238.104.154",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "findtemporaryworkandfreelancerprojectsonlineplatform.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇦🇺 TLS [443] #62",
+      "type": "trojan",
+      "server": "45.63.30.142",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "connectwithemployerstohireyouridealteam.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇨🇱 TLS [443] #63",
+      "type": "trojan",
+      "server": "64.176.7.205",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "advanceyouremploymentskillsandcareerdevelopmenthub.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #64",
+      "type": "trojan",
+      "server": "66.163.112.121",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "www.unlockyourfuturefindyourperfectcareer.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #65",
+      "type": "trojan",
+      "server": "66.163.112.13",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "blog.unlockyourfuturefindyourperfectcareer.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #66",
+      "type": "trojan",
+      "server": "66.163.112.142",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "cdn.unlockyourfuturefindyourperfectcareer.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #67",
+      "type": "trojan",
+      "server": "66.163.112.147",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "courses.unlockyourfuturefindyourperfectcareer.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #68",
+      "type": "trojan",
+      "server": "66.163.112.171",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "learn.unlockyourfuturefindyourperfectcareer.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #69",
+      "type": "trojan",
+      "server": "66.163.112.242",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "resources.unlockyourfuturefindyourperfectcareer.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #70",
+      "type": "trojan",
+      "server": "66.163.112.31",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "unlockyourfuturefindyourperfectcareer.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #71",
+      "type": "trojan",
+      "server": "66.163.112.76",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "api.unlockyourfuturefindyourperfectcareer.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #72",
+      "type": "trojan",
+      "server": "66.163.114.106",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "www.findconnectwithemployersandbuildprofessionalnetwork.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #73",
+      "type": "trojan",
+      "server": "66.163.114.114",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "learn.findconnectwithemployersandbuildprofessionalnetwork.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #74",
+      "type": "trojan",
+      "server": "66.163.114.126",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "resources.findconnectwithemployersandbuildprofessionalnetwork.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #75",
+      "type": "trojan",
+      "server": "66.163.114.132",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "courses.findconnectwithemployersandbuildprofessionalnetwork.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #76",
+      "type": "trojan",
+      "server": "66.163.114.166",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "blog.findconnectwithemployersandbuildprofessionalnetwork.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #77",
+      "type": "trojan",
+      "server": "66.163.114.245",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "findconnectwithemployersandbuildprofessionalnetwork.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #78",
+      "type": "trojan",
+      "server": "66.163.114.45",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "cdn.findconnectwithemployersandbuildprofessionalnetwork.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇪🇸 TLS+UTLS [443] #79",
+      "type": "trojan",
+      "server": "66.163.118.115",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "discovergreatjobsandadvanceyourcareer.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇪🇸 TLS [443] #80",
+      "type": "trojan",
+      "server": "66.163.118.131",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "www.discovergreatjobsandadvanceyourcareer.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇪🇸 TLS [443] #81",
+      "type": "trojan",
+      "server": "66.163.118.166",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "learn.discovergreatjobsandadvanceyourcareer.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇪🇸 TLS [443] #82",
+      "type": "trojan",
+      "server": "66.163.118.203",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "blog.discovergreatjobsandadvanceyourcareer.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇪🇸 TLS [443] #83",
+      "type": "trojan",
+      "server": "66.163.118.244",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "api.discovergreatjobsandadvanceyourcareer.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇪🇸 TLS [443] #84",
+      "type": "trojan",
+      "server": "66.163.118.251",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "resources.discovergreatjobsandadvanceyourcareer.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇪🇸 TLS+UTLS [443] #85",
+      "type": "trojan",
+      "server": "66.163.118.40",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "cdn.discovergreatjobsandadvanceyourcareer.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇪🇸 TLS [443] #86",
+      "type": "trojan",
+      "server": "66.163.118.62",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "courses.discovergreatjobsandadvanceyourcareer.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #87",
+      "type": "trojan",
+      "server": "66.163.122.113",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "api.searchnationwidecareerchangehelperandguidancetoday.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #88",
+      "type": "trojan",
+      "server": "66.163.122.25",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "cdn.searchnationwidecareerchangehelperandguidancetoday.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #89",
+      "type": "trojan",
+      "server": "66.163.122.26",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "blog.searchnationwidecareerchangehelperandguidancetoday.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS+UTLS [443] #90",
+      "type": "trojan",
+      "server": "66.163.122.30",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "resources.searchnationwidecareerchangehelperandguidancetoday.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #91",
+      "type": "trojan",
+      "server": "66.163.122.46",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "searchnationwidecareerchangehelperandguidancetoday.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS [443] #92",
+      "type": "trojan",
+      "server": "66.163.122.7",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "www.searchnationwidecareerchangehelperandguidancetoday.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇺🇸 TLS+UTLS [443] #93",
+      "type": "trojan",
+      "server": "66.163.122.81",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "courses.searchnationwidecareerchangehelperandguidancetoday.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇳🇱 TLS [443] #94",
+      "type": "trojan",
+      "server": "66.163.127.107",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "blog.indyourperfectremotetechjobfromthecomfortofhome.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇳🇱 TLS+UTLS [443] #95",
+      "type": "trojan",
+      "server": "66.163.127.154",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "www.indyourperfectremotetechjobfromthecomfortofhome.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇳🇱 TLS [443] #96",
+      "type": "trojan",
+      "server": "66.163.127.155",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "indyourperfectremotetechjobfromthecomfortofhome.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇳🇱 TLS [443] #97",
+      "type": "trojan",
+      "server": "66.163.127.215",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "courses.indyourperfectremotetechjobfromthecomfortofhome.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇳🇱 TLS [443] #98",
+      "type": "trojan",
+      "server": "66.163.127.225",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "cdn.indyourperfectremotetechjobfromthecomfortofhome.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇳🇱 TLS [443] #99",
+      "type": "trojan",
+      "server": "66.163.127.44",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "learn.indyourperfectremotetechjobfromthecomfortofhome.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "Trojan 🇳🇱 TLS+UTLS [443] #100",
+      "type": "trojan",
+      "server": "66.163.127.9",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "sni": "resources.indyourperfectremotetechjobfromthecomfortofhome.com",
+      "skip-cert-verify": false,
+      "network": "tcp",
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
     },
     {
       "name": "SS 🇺🇸 2022+BLAKE3 [8443] #1",
@@ -1662,23 +1808,15 @@
       "password": "jUbDNsFamcyDfpm+rI3Zyw=="
     },
     {
-      "name": "SS 🇸🇬 2022+BLAKE3 [14384] #2",
+      "name": "SS 🇳🇴 2022+BLAKE3 [1883] #2",
       "type": "ss",
-      "server": "129.150.59.74",
-      "port": 14384,
+      "server": "144.31.217.18",
+      "port": 1883,
       "cipher": "2022-blake3-aes-256-gcm",
-      "password": "sUR6Ny8Y6PSvHhl/DUxconwxg6VZyFdsdfaVCvEatJo=:7bTEhHgpErKiRjE1ega+H6pcpJsNLFB0CjQseujAHrA="
+      "password": "dfINKWLXoOgH3Ox72CAmkCvWmDlP+idaTuu/DdDG4FU=:V9v8Fd5AvDk3+nyah0WxCeqzv8Q5+cMXUj7WjVCgQz0="
     },
     {
-      "name": "SS 🇦🇺 2022+BLAKE3 [28679] #3",
-      "type": "ss",
-      "server": "103.11.76.248",
-      "port": 28679,
-      "cipher": "2022-blake3-aes-128-gcm",
-      "password": "NzJlOTQ5NWYtM2ZkYi00Cg=="
-    },
-    {
-      "name": "SS 🇫🇷 AEAD [8080] #4",
+      "name": "SS 🇫🇷 AEAD [8080] #3",
       "type": "ss",
       "server": "54.37.240.40",
       "port": 8080,
@@ -1686,12 +1824,20 @@
       "password": "8nrpt2il04ptci2j"
     },
     {
-      "name": "SS 🇵🇱 AEAD [51628] #5",
+      "name": "SS 🇵🇱 AEAD [51628] #4",
       "type": "ss",
       "server": "156.67.120.205",
       "port": 51628,
       "cipher": "chacha20-ietf-poly1305",
       "password": "29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF"
+    },
+    {
+      "name": "SS 🇫🇷 AEAD [8080] #5",
+      "type": "ss",
+      "server": "51.83.61.102",
+      "port": 8080,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "29irqk0paakcx19v"
     },
     {
       "name": "SS 🇨🇿 AEAD [46190] #6",
@@ -1702,15 +1848,7 @@
       "password": "2Ef8X21WALqK7H6N8A78j5WYtzZ999PP8rF8DaLsb5LLyDLQpf5dGVAjdA3mj1wudigKXTt5heYU9jmaBbfxXBJJAqhPHkxe"
     },
     {
-      "name": "SS 🇸🇪 AEAD [8388] #7",
-      "type": "ss",
-      "server": "62.182.193.228",
-      "port": 8388,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "2e555e46dbc421452416834962fd014f"
-    },
-    {
-      "name": "SS 🇨🇦 AEAD [8080] #8",
+      "name": "SS 🇨🇦 AEAD [8080] #7",
       "type": "ss",
       "server": "198.100.154.175",
       "port": 8080,
@@ -1718,7 +1856,7 @@
       "password": "3h3hb2gptqz6suyt"
     },
     {
-      "name": "SS 🇺🇸 AEAD [8388] #9",
+      "name": "SS 🇺🇸 AEAD [8388] #8",
       "type": "ss",
       "server": "67.159.56.79",
       "port": 8388,
@@ -1726,7 +1864,7 @@
       "password": "~4HT,}bC@heiRai"
     },
     {
-      "name": "SS 🇫🇷 AEAD [8080] #10",
+      "name": "SS 🇫🇷 AEAD [8080] #9",
       "type": "ss",
       "server": "51.77.144.182",
       "port": 8080,
@@ -1734,7 +1872,7 @@
       "password": "x19py0a8ipglqkbe"
     },
     {
-      "name": "SS 🇦🇱 AEAD [43558] #11",
+      "name": "SS 🇦🇱 AEAD [43558] #10",
       "type": "ss",
       "server": "130.49.189.158",
       "port": 43558,
@@ -1742,7 +1880,15 @@
       "password": "yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU="
     },
     {
-      "name": "SS 🇦🇹 AEAD [8388] #13",
+      "name": "SS 🇩🇪 AEAD [46303] #11",
+      "type": "ss",
+      "server": "135.220.178.46",
+      "port": 46303,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "zZMNTGpPl38ASlbI1EKOBJ"
+    },
+    {
+      "name": "SS 🇦🇹 AEAD [8388] #12",
       "type": "ss",
       "server": "152.53.1.57",
       "port": 8388,
@@ -1750,15 +1896,7 @@
       "password": "AdawffFMHymlasRb0VOP3HFf7sTG5sJx"
     },
     {
-      "name": "SS 🇬🇧 AEAD [47195] #14",
-      "type": "ss",
-      "server": "104.222.183.180",
-      "port": 47195,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "DYVqFDnYoMquRQunXC1xd2FyuDhd7JWs5jtf2eb7VkKLzXgZv8pt8gY1e91TT71V762zRX7MWW4HmjavanYdUF9bij8gG8AP"
-    },
-    {
-      "name": "SS 🇺🇸 AEAD [28960] #15",
+      "name": "SS 🇺🇸 AEAD [28960] #13",
       "type": "ss",
       "server": "138.197.89.234",
       "port": 28960,
@@ -1766,78 +1904,12 @@
       "password": "DZRy4Q3QH0jUGfKFl2jDCZ"
     },
     {
-      "name": "SS 🇩🇪 AEAD [8388] #16",
-      "type": "ss",
-      "server": "57.129.113.16",
-      "port": 8388,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "NcAXc0UZI6yQJE1p8QmOv8"
-    },
-    {
-      "name": "SS 🇳🇱 AEAD [8080] #17",
-      "type": "ss",
-      "server": "193.29.139.168",
-      "port": 8080,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "QCXDxuDlTTMD7jtgHUjIoj"
-    },
-    {
-      "name": "SS 🇳🇱 AEAD [8080] #18",
-      "type": "ss",
-      "server": "193.29.139.212",
-      "port": 8080,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "QCXDxuDlTTMD7jtgHUjIoj"
-    },
-    {
-      "name": "SS 🇷🇴 AEAD [64546] #19",
-      "type": "ss",
-      "server": "194.68.44.42",
-      "port": 64546,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "U83u9OGpvSatIUW7LsWffr"
-    },
-    {
-      "name": "SS 🇩🇪 AEAD [6079] #20",
-      "type": "ss",
-      "server": "13.140.86.73",
-      "port": 6079,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "VYSbsLYaCBSquKAq7Tc059Bppmhzs2Yw"
-    },
-    {
-      "name": "SS 🇺🇸 AEAD [40643] #21",
-      "type": "ss",
-      "server": "216.172.144.199",
-      "port": 40643,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "Xd4G9xn7AgT88msCYC9MZfavMUqd3dWFNAvswi6KfaD9YcexptMbPn4cSECEMzDgvAMomAWJHyweqJer99ssMVYGH6TK8k4c"
-    },
-    {
-      "name": "Hysteria2 🇺🇸 QUIC [443] #3",
+      "name": "Hysteria2 🇯🇵 QUIC [8443] #64",
       "type": "hysteria2",
-      "server": "fi1.obxodvpn.us",
-      "port": 443,
-      "password": "146d567c-6335-4e63-a8aa-7ec068642440",
-      "sni": "fi1.obxodvpn.us",
-      "skip-cert-verify": false
-    },
-    {
-      "name": "Hysteria2 🇺🇸 QUIC [443] #8",
-      "type": "hysteria2",
-      "server": "steel7.hadsvpn.com",
-      "port": 443,
-      "password": "23c82941-70f4-4381-90db-bd28e9a902e9",
-      "sni": "steel7.hadsvpn.com",
-      "skip-cert-verify": false
-    },
-    {
-      "name": "Hysteria2 🇷🇸 QUIC [443] #16",
-      "type": "hysteria2",
-      "server": "s5.libertyrunet.store",
-      "port": 443,
-      "password": "307ee0e53ea04dfd86a7f2f9fcd53844",
-      "sni": "s5.libertyrunet.store",
+      "server": "43.130.234.128",
+      "port": 8443,
+      "password": "Yuike2026cat",
+      "sni": "43-130-234-128.sslip.io",
       "skip-cert-verify": false
     }
   ],
@@ -1846,11 +1918,27 @@
       "name": "✅ Proxy Selector",
       "type": "select",
       "proxies": [
-        "Best Ping",
+        "🚀 Best Ping",
+        "VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443] #1",
+        "VLESS 🇱🇻 RAW+REALITY+PBK+SID+VISION+UTLS [443] #2",
+        "VLESS 🇵🇱 REALITY+PBK+SID+VISION+UTLS [443] #7",
+        "VLESS 🇺🇸 REALITY+PBK+VISION+UTLS [443] #8",
+        "VLESS 🇬🇧 REALITY+PBK+SID+UTLS [443] #9",
+        "VLESS 🇮🇱 REALITY+PBK+SID+UTLS [443] #10",
+        "VLESS 🇮🇱 REALITY+PBK+SID+UTLS [443] #11",
+        "VLESS 🇩🇪 GRPC+REALITY+PBK+SID+UTLS [443] #12",
+        "VLESS 🇩🇪 GRPC+REALITY+PBK+SID+UTLS [443] #13",
+        "VLESS 🇮🇱 GRPC+REALITY+PBK+SID+UTLS [443] #14",
+        "VLESS 🇩🇪 REALITY+PBK+SID+VISION+UTLS [43000] #15",
+        "VLESS 🇫🇷 REALITY+PBK+SID+UTLS [443] #16",
+        "VLESS 🇫🇷 REALITY+PBK+SID+UTLS [443] #17",
         "Trojan 🇿🇦 TLS+UTLS [443] #1",
         "Trojan 🇸🇬 TLS [443] #2",
-        "Trojan 🇸🇬 TLS [443] #3",
-        "Trojan 🇰🇷 TLS [443] #4",
+        "Trojan 🇰🇷 TLS [443] #3",
+        "Trojan 🇺🇸 TLS [443] #4",
+        "Trojan 🇺🇸 TLS [443] #5",
+        "Trojan 🇺🇸 TLS [443] #6",
+        "Trojan 🇺🇸 TLS [443] #7",
         "Trojan 🇺🇸 TLS [443] #8",
         "Trojan 🇺🇸 TLS [443] #9",
         "Trojan 🇺🇸 TLS [443] #10",
@@ -1861,52 +1949,52 @@
         "Trojan 🇺🇸 TLS [443] #15",
         "Trojan 🇺🇸 TLS [443] #16",
         "Trojan 🇺🇸 TLS [443] #17",
-        "Trojan 🇺🇸 TLS [443] #18",
+        "Trojan 🇺🇸 TLS+UTLS [443] #18",
         "Trojan 🇺🇸 TLS [443] #19",
         "Trojan 🇺🇸 TLS [443] #20",
         "Trojan 🇺🇸 TLS [443] #21",
-        "Trojan 🇩🇪 TLS [443] #22",
-        "Trojan 🇩🇪 TLS [443] #23",
-        "Trojan 🇩🇪 TLS [443] #24",
+        "Trojan 🇺🇸 TLS [443] #22",
+        "Trojan 🇺🇸 TLS [443] #23",
+        "Trojan 🇩🇪 TLS+UTLS [443] #24",
         "Trojan 🇩🇪 TLS [443] #25",
         "Trojan 🇩🇪 TLS [443] #26",
-        "Trojan 🇩🇪 TLS+UTLS [443] #27",
-        "Trojan 🇨🇭 TLS [443] #28",
-        "Trojan 🇨🇭 TLS [443] #29",
+        "Trojan 🇩🇪 TLS [443] #27",
+        "Trojan 🇩🇪 TLS [443] #28",
+        "Trojan 🇩🇪 TLS [443] #29",
         "Trojan 🇨🇭 TLS [443] #30",
         "Trojan 🇨🇭 TLS [443] #31",
-        "Trojan 🇨🇭 TLS+UTLS [443] #32",
+        "Trojan 🇨🇭 TLS [443] #32",
         "Trojan 🇨🇭 TLS [443] #33",
-        "Trojan 🇨🇭 TLS [443] #34",
-        "Trojan 🇺🇸 TLS [443] #35",
-        "Trojan 🇺🇸 TLS [443] #36",
-        "Trojan 🇺🇸 TLS+UTLS [443] #37",
-        "Trojan 🇨🇦 TLS [443] #38",
-        "Trojan 🇨🇦 TLS+UTLS [443] #39",
+        "Trojan 🇨🇭 TLS+UTLS [443] #34",
+        "Trojan 🇨🇭 TLS [443] #35",
+        "Trojan 🇨🇭 TLS [443] #36",
+        "Trojan 🇺🇸 TLS [443] #37",
+        "Trojan 🇺🇸 TLS [443] #38",
+        "Trojan 🇺🇸 TLS [443] #39",
         "Trojan 🇨🇦 TLS [443] #40",
-        "Trojan 🇨🇦 TLS [443] #41",
+        "Trojan 🇨🇦 TLS+UTLS [443] #41",
         "Trojan 🇨🇦 TLS [443] #42",
-        "Trojan 🇨🇦 TLS+UTLS [443] #43",
+        "Trojan 🇨🇦 TLS [443] #43",
         "Trojan 🇨🇦 TLS [443] #44",
         "Trojan 🇨🇦 TLS [443] #45",
-        "Trojan 🇺🇸 TLS [443] #46",
-        "Trojan 🇺🇸 TLS [443] #47",
+        "Trojan 🇨🇦 TLS [443] #46",
+        "Trojan 🇨🇦 TLS [443] #47",
         "Trojan 🇺🇸 TLS [443] #48",
         "Trojan 🇺🇸 TLS [443] #49",
         "Trojan 🇺🇸 TLS [443] #50",
         "Trojan 🇺🇸 TLS [443] #51",
         "Trojan 🇺🇸 TLS [443] #52",
-        "Trojan 🇧🇷 TLS [443] #53",
-        "Trojan 🇦🇺 TLS [443] #54",
-        "Trojan 🇨🇱 TLS [443] #55",
+        "Trojan 🇺🇸 TLS [443] #53",
+        "Trojan 🇺🇸 TLS [443] #54",
+        "Trojan 🇺🇸 TLS [443] #55",
         "Trojan 🇺🇸 TLS [443] #56",
-        "Trojan 🇺🇸 TLS+UTLS [443] #57",
+        "Trojan 🇺🇸 TLS [443] #57",
         "Trojan 🇺🇸 TLS [443] #58",
         "Trojan 🇺🇸 TLS [443] #59",
         "Trojan 🇺🇸 TLS [443] #60",
-        "Trojan 🇺🇸 TLS [443] #61",
-        "Trojan 🇺🇸 TLS [443] #62",
-        "Trojan 🇺🇸 TLS [443] #63",
+        "Trojan 🇧🇷 TLS [443] #61",
+        "Trojan 🇦🇺 TLS [443] #62",
+        "Trojan 🇨🇱 TLS [443] #63",
         "Trojan 🇺🇸 TLS [443] #64",
         "Trojan 🇺🇸 TLS [443] #65",
         "Trojan 🇺🇸 TLS [443] #66",
@@ -1914,81 +2002,77 @@
         "Trojan 🇺🇸 TLS [443] #68",
         "Trojan 🇺🇸 TLS [443] #69",
         "Trojan 🇺🇸 TLS [443] #70",
-        "Trojan 🇪🇸 TLS+UTLS [443] #71",
-        "Trojan 🇪🇸 TLS [443] #72",
-        "Trojan 🇪🇸 TLS [443] #73",
-        "Trojan 🇪🇸 TLS [443] #74",
-        "Trojan 🇪🇸 TLS [443] #75",
-        "Trojan 🇪🇸 TLS [443] #76",
-        "Trojan 🇪🇸 TLS+UTLS [443] #77",
-        "Trojan 🇪🇸 TLS [443] #78",
-        "Trojan 🇺🇸 TLS [443] #79",
-        "Trojan 🇺🇸 TLS [443] #80",
-        "Trojan 🇺🇸 TLS [443] #81",
-        "Trojan 🇺🇸 TLS+UTLS [443] #82",
-        "Trojan 🇺🇸 TLS [443] #83",
-        "Trojan 🇺🇸 TLS [443] #84",
-        "Trojan 🇺🇸 TLS [443] #85",
-        "Trojan 🇳🇱 TLS [443] #86",
-        "Trojan 🇳🇱 TLS+UTLS [443] #87",
-        "Trojan 🇳🇱 TLS [443] #88",
-        "Trojan 🇳🇱 TLS [443] #89",
-        "Trojan 🇳🇱 TLS [443] #90",
-        "Trojan 🇳🇱 TLS [443] #91",
-        "Trojan 🇳🇱 TLS+UTLS [443] #92",
-        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION [443] #1",
-        "VLESS 🇹🇷 REALITY+PBK+SID+VISION+UTLS [43000] #2",
-        "VLESS 🇱🇻 RAW+REALITY+PBK+SID+VISION+UTLS [443] #4",
-        "VLESS 🇺🇸 REALITY+PBK+VISION [443] #9",
-        "VLESS 🇩🇪 GRPC+REALITY+PBK+SID+UTLS [443] #10",
-        "VLESS 🇮🇱 GRPC+REALITY+PBK+SID+UTLS [443] #11",
-        "VLESS 🇩🇪 REALITY+PBK+SID+VISION+UTLS [43000] #12",
-        "VLESS 🇫🇷 REALITY+PBK+SID+UTLS [443] #13",
-        "VLESS 🇷🇺 RAW+REALITY+PBK+SID+VISION+UTLS [443] #18",
-        "VLESS 🇩🇪 REALITY+PBK+VISION+UTLS [443] #19",
-        "VLESS 🇮🇷 GRPC+REALITY+PBK+UTLS [443] #20",
-        "VLESS 🇩🇪 REALITY+PBK+VISION+UTLS [443] #21",
-        "VLESS 🇹🇷 REALITY+PBK+SID+VISION+UTLS [2194] #23",
-        "VLESS 🇭🇰 REALITY+PBK+SID+VISION+UTLS [31001] #24",
-        "VLESS 🇪🇸 RAW+REALITY+PBK+SID+VISION+UTLS [443] #25",
-        "VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443] #26",
-        "VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443] #27",
-        "VLESS 🇺🇸 REALITY+PBK+VISION+UTLS [28190] #28",
-        "VLESS 🇸🇪 GRPC+REALITY+PBK+SID+UTLS [443] #29",
+        "Trojan 🇺🇸 TLS [443] #71",
+        "Trojan 🇺🇸 TLS [443] #72",
+        "Trojan 🇺🇸 TLS [443] #73",
+        "Trojan 🇺🇸 TLS [443] #74",
+        "Trojan 🇺🇸 TLS [443] #75",
+        "Trojan 🇺🇸 TLS [443] #76",
+        "Trojan 🇺🇸 TLS [443] #77",
+        "Trojan 🇺🇸 TLS [443] #78",
+        "Trojan 🇪🇸 TLS+UTLS [443] #79",
+        "Trojan 🇪🇸 TLS [443] #80",
+        "Trojan 🇪🇸 TLS [443] #81",
+        "Trojan 🇪🇸 TLS [443] #82",
+        "Trojan 🇪🇸 TLS [443] #83",
+        "Trojan 🇪🇸 TLS [443] #84",
+        "Trojan 🇪🇸 TLS+UTLS [443] #85",
+        "Trojan 🇪🇸 TLS [443] #86",
+        "Trojan 🇺🇸 TLS [443] #87",
+        "Trojan 🇺🇸 TLS [443] #88",
+        "Trojan 🇺🇸 TLS [443] #89",
+        "Trojan 🇺🇸 TLS+UTLS [443] #90",
+        "Trojan 🇺🇸 TLS [443] #91",
+        "Trojan 🇺🇸 TLS [443] #92",
+        "Trojan 🇺🇸 TLS+UTLS [443] #93",
+        "Trojan 🇳🇱 TLS [443] #94",
+        "Trojan 🇳🇱 TLS+UTLS [443] #95",
+        "Trojan 🇳🇱 TLS [443] #96",
+        "Trojan 🇳🇱 TLS [443] #97",
+        "Trojan 🇳🇱 TLS [443] #98",
+        "Trojan 🇳🇱 TLS [443] #99",
+        "Trojan 🇳🇱 TLS+UTLS [443] #100",
         "SS 🇺🇸 2022+BLAKE3 [8443] #1",
-        "SS 🇸🇬 2022+BLAKE3 [14384] #2",
-        "SS 🇦🇺 2022+BLAKE3 [28679] #3",
-        "SS 🇫🇷 AEAD [8080] #4",
-        "SS 🇵🇱 AEAD [51628] #5",
+        "SS 🇳🇴 2022+BLAKE3 [1883] #2",
+        "SS 🇫🇷 AEAD [8080] #3",
+        "SS 🇵🇱 AEAD [51628] #4",
+        "SS 🇫🇷 AEAD [8080] #5",
         "SS 🇨🇿 AEAD [46190] #6",
-        "SS 🇸🇪 AEAD [8388] #7",
-        "SS 🇨🇦 AEAD [8080] #8",
-        "SS 🇺🇸 AEAD [8388] #9",
-        "SS 🇫🇷 AEAD [8080] #10",
-        "SS 🇦🇱 AEAD [43558] #11",
-        "SS 🇦🇹 AEAD [8388] #13",
-        "SS 🇬🇧 AEAD [47195] #14",
-        "SS 🇺🇸 AEAD [28960] #15",
-        "SS 🇩🇪 AEAD [8388] #16",
-        "SS 🇳🇱 AEAD [8080] #17",
-        "SS 🇳🇱 AEAD [8080] #18",
-        "SS 🇷🇴 AEAD [64546] #19",
-        "SS 🇩🇪 AEAD [6079] #20",
-        "SS 🇺🇸 AEAD [40643] #21",
-        "Hysteria2 🇺🇸 QUIC [443] #3",
-        "Hysteria2 🇺🇸 QUIC [443] #8",
-        "Hysteria2 🇷🇸 QUIC [443] #16",
+        "SS 🇨🇦 AEAD [8080] #7",
+        "SS 🇺🇸 AEAD [8388] #8",
+        "SS 🇫🇷 AEAD [8080] #9",
+        "SS 🇦🇱 AEAD [43558] #10",
+        "SS 🇩🇪 AEAD [46303] #11",
+        "SS 🇦🇹 AEAD [8388] #12",
+        "SS 🇺🇸 AEAD [28960] #13",
+        "Hysteria2 🇯🇵 QUIC [8443] #64",
         "DIRECT"
       ]
     },
     {
-      "name": "Best Ping",
+      "name": "🚀 Best Ping",
       "type": "url-test",
       "proxies": [
+        "VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443] #1",
+        "VLESS 🇱🇻 RAW+REALITY+PBK+SID+VISION+UTLS [443] #2",
+        "VLESS 🇵🇱 REALITY+PBK+SID+VISION+UTLS [443] #7",
+        "VLESS 🇺🇸 REALITY+PBK+VISION+UTLS [443] #8",
+        "VLESS 🇬🇧 REALITY+PBK+SID+UTLS [443] #9",
+        "VLESS 🇮🇱 REALITY+PBK+SID+UTLS [443] #10",
+        "VLESS 🇮🇱 REALITY+PBK+SID+UTLS [443] #11",
+        "VLESS 🇩🇪 GRPC+REALITY+PBK+SID+UTLS [443] #12",
+        "VLESS 🇩🇪 GRPC+REALITY+PBK+SID+UTLS [443] #13",
+        "VLESS 🇮🇱 GRPC+REALITY+PBK+SID+UTLS [443] #14",
+        "VLESS 🇩🇪 REALITY+PBK+SID+VISION+UTLS [43000] #15",
+        "VLESS 🇫🇷 REALITY+PBK+SID+UTLS [443] #16",
+        "VLESS 🇫🇷 REALITY+PBK+SID+UTLS [443] #17",
         "Trojan 🇿🇦 TLS+UTLS [443] #1",
         "Trojan 🇸🇬 TLS [443] #2",
-        "Trojan 🇸🇬 TLS [443] #3",
-        "Trojan 🇰🇷 TLS [443] #4",
+        "Trojan 🇰🇷 TLS [443] #3",
+        "Trojan 🇺🇸 TLS [443] #4",
+        "Trojan 🇺🇸 TLS [443] #5",
+        "Trojan 🇺🇸 TLS [443] #6",
+        "Trojan 🇺🇸 TLS [443] #7",
         "Trojan 🇺🇸 TLS [443] #8",
         "Trojan 🇺🇸 TLS [443] #9",
         "Trojan 🇺🇸 TLS [443] #10",
@@ -1999,52 +2083,52 @@
         "Trojan 🇺🇸 TLS [443] #15",
         "Trojan 🇺🇸 TLS [443] #16",
         "Trojan 🇺🇸 TLS [443] #17",
-        "Trojan 🇺🇸 TLS [443] #18",
+        "Trojan 🇺🇸 TLS+UTLS [443] #18",
         "Trojan 🇺🇸 TLS [443] #19",
         "Trojan 🇺🇸 TLS [443] #20",
         "Trojan 🇺🇸 TLS [443] #21",
-        "Trojan 🇩🇪 TLS [443] #22",
-        "Trojan 🇩🇪 TLS [443] #23",
-        "Trojan 🇩🇪 TLS [443] #24",
+        "Trojan 🇺🇸 TLS [443] #22",
+        "Trojan 🇺🇸 TLS [443] #23",
+        "Trojan 🇩🇪 TLS+UTLS [443] #24",
         "Trojan 🇩🇪 TLS [443] #25",
         "Trojan 🇩🇪 TLS [443] #26",
-        "Trojan 🇩🇪 TLS+UTLS [443] #27",
-        "Trojan 🇨🇭 TLS [443] #28",
-        "Trojan 🇨🇭 TLS [443] #29",
+        "Trojan 🇩🇪 TLS [443] #27",
+        "Trojan 🇩🇪 TLS [443] #28",
+        "Trojan 🇩🇪 TLS [443] #29",
         "Trojan 🇨🇭 TLS [443] #30",
         "Trojan 🇨🇭 TLS [443] #31",
-        "Trojan 🇨🇭 TLS+UTLS [443] #32",
+        "Trojan 🇨🇭 TLS [443] #32",
         "Trojan 🇨🇭 TLS [443] #33",
-        "Trojan 🇨🇭 TLS [443] #34",
-        "Trojan 🇺🇸 TLS [443] #35",
-        "Trojan 🇺🇸 TLS [443] #36",
-        "Trojan 🇺🇸 TLS+UTLS [443] #37",
-        "Trojan 🇨🇦 TLS [443] #38",
-        "Trojan 🇨🇦 TLS+UTLS [443] #39",
+        "Trojan 🇨🇭 TLS+UTLS [443] #34",
+        "Trojan 🇨🇭 TLS [443] #35",
+        "Trojan 🇨🇭 TLS [443] #36",
+        "Trojan 🇺🇸 TLS [443] #37",
+        "Trojan 🇺🇸 TLS [443] #38",
+        "Trojan 🇺🇸 TLS [443] #39",
         "Trojan 🇨🇦 TLS [443] #40",
-        "Trojan 🇨🇦 TLS [443] #41",
+        "Trojan 🇨🇦 TLS+UTLS [443] #41",
         "Trojan 🇨🇦 TLS [443] #42",
-        "Trojan 🇨🇦 TLS+UTLS [443] #43",
+        "Trojan 🇨🇦 TLS [443] #43",
         "Trojan 🇨🇦 TLS [443] #44",
         "Trojan 🇨🇦 TLS [443] #45",
-        "Trojan 🇺🇸 TLS [443] #46",
-        "Trojan 🇺🇸 TLS [443] #47",
+        "Trojan 🇨🇦 TLS [443] #46",
+        "Trojan 🇨🇦 TLS [443] #47",
         "Trojan 🇺🇸 TLS [443] #48",
         "Trojan 🇺🇸 TLS [443] #49",
         "Trojan 🇺🇸 TLS [443] #50",
         "Trojan 🇺🇸 TLS [443] #51",
         "Trojan 🇺🇸 TLS [443] #52",
-        "Trojan 🇧🇷 TLS [443] #53",
-        "Trojan 🇦🇺 TLS [443] #54",
-        "Trojan 🇨🇱 TLS [443] #55",
+        "Trojan 🇺🇸 TLS [443] #53",
+        "Trojan 🇺🇸 TLS [443] #54",
+        "Trojan 🇺🇸 TLS [443] #55",
         "Trojan 🇺🇸 TLS [443] #56",
-        "Trojan 🇺🇸 TLS+UTLS [443] #57",
+        "Trojan 🇺🇸 TLS [443] #57",
         "Trojan 🇺🇸 TLS [443] #58",
         "Trojan 🇺🇸 TLS [443] #59",
         "Trojan 🇺🇸 TLS [443] #60",
-        "Trojan 🇺🇸 TLS [443] #61",
-        "Trojan 🇺🇸 TLS [443] #62",
-        "Trojan 🇺🇸 TLS [443] #63",
+        "Trojan 🇧🇷 TLS [443] #61",
+        "Trojan 🇦🇺 TLS [443] #62",
+        "Trojan 🇨🇱 TLS [443] #63",
         "Trojan 🇺🇸 TLS [443] #64",
         "Trojan 🇺🇸 TLS [443] #65",
         "Trojan 🇺🇸 TLS [443] #66",
@@ -2052,70 +2136,50 @@
         "Trojan 🇺🇸 TLS [443] #68",
         "Trojan 🇺🇸 TLS [443] #69",
         "Trojan 🇺🇸 TLS [443] #70",
-        "Trojan 🇪🇸 TLS+UTLS [443] #71",
-        "Trojan 🇪🇸 TLS [443] #72",
-        "Trojan 🇪🇸 TLS [443] #73",
-        "Trojan 🇪🇸 TLS [443] #74",
-        "Trojan 🇪🇸 TLS [443] #75",
-        "Trojan 🇪🇸 TLS [443] #76",
-        "Trojan 🇪🇸 TLS+UTLS [443] #77",
-        "Trojan 🇪🇸 TLS [443] #78",
-        "Trojan 🇺🇸 TLS [443] #79",
-        "Trojan 🇺🇸 TLS [443] #80",
-        "Trojan 🇺🇸 TLS [443] #81",
-        "Trojan 🇺🇸 TLS+UTLS [443] #82",
-        "Trojan 🇺🇸 TLS [443] #83",
-        "Trojan 🇺🇸 TLS [443] #84",
-        "Trojan 🇺🇸 TLS [443] #85",
-        "Trojan 🇳🇱 TLS [443] #86",
-        "Trojan 🇳🇱 TLS+UTLS [443] #87",
-        "Trojan 🇳🇱 TLS [443] #88",
-        "Trojan 🇳🇱 TLS [443] #89",
-        "Trojan 🇳🇱 TLS [443] #90",
-        "Trojan 🇳🇱 TLS [443] #91",
-        "Trojan 🇳🇱 TLS+UTLS [443] #92",
-        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION [443] #1",
-        "VLESS 🇹🇷 REALITY+PBK+SID+VISION+UTLS [43000] #2",
-        "VLESS 🇱🇻 RAW+REALITY+PBK+SID+VISION+UTLS [443] #4",
-        "VLESS 🇺🇸 REALITY+PBK+VISION [443] #9",
-        "VLESS 🇩🇪 GRPC+REALITY+PBK+SID+UTLS [443] #10",
-        "VLESS 🇮🇱 GRPC+REALITY+PBK+SID+UTLS [443] #11",
-        "VLESS 🇩🇪 REALITY+PBK+SID+VISION+UTLS [43000] #12",
-        "VLESS 🇫🇷 REALITY+PBK+SID+UTLS [443] #13",
-        "VLESS 🇷🇺 RAW+REALITY+PBK+SID+VISION+UTLS [443] #18",
-        "VLESS 🇩🇪 REALITY+PBK+VISION+UTLS [443] #19",
-        "VLESS 🇮🇷 GRPC+REALITY+PBK+UTLS [443] #20",
-        "VLESS 🇩🇪 REALITY+PBK+VISION+UTLS [443] #21",
-        "VLESS 🇹🇷 REALITY+PBK+SID+VISION+UTLS [2194] #23",
-        "VLESS 🇭🇰 REALITY+PBK+SID+VISION+UTLS [31001] #24",
-        "VLESS 🇪🇸 RAW+REALITY+PBK+SID+VISION+UTLS [443] #25",
-        "VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443] #26",
-        "VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443] #27",
-        "VLESS 🇺🇸 REALITY+PBK+VISION+UTLS [28190] #28",
-        "VLESS 🇸🇪 GRPC+REALITY+PBK+SID+UTLS [443] #29",
+        "Trojan 🇺🇸 TLS [443] #71",
+        "Trojan 🇺🇸 TLS [443] #72",
+        "Trojan 🇺🇸 TLS [443] #73",
+        "Trojan 🇺🇸 TLS [443] #74",
+        "Trojan 🇺🇸 TLS [443] #75",
+        "Trojan 🇺🇸 TLS [443] #76",
+        "Trojan 🇺🇸 TLS [443] #77",
+        "Trojan 🇺🇸 TLS [443] #78",
+        "Trojan 🇪🇸 TLS+UTLS [443] #79",
+        "Trojan 🇪🇸 TLS [443] #80",
+        "Trojan 🇪🇸 TLS [443] #81",
+        "Trojan 🇪🇸 TLS [443] #82",
+        "Trojan 🇪🇸 TLS [443] #83",
+        "Trojan 🇪🇸 TLS [443] #84",
+        "Trojan 🇪🇸 TLS+UTLS [443] #85",
+        "Trojan 🇪🇸 TLS [443] #86",
+        "Trojan 🇺🇸 TLS [443] #87",
+        "Trojan 🇺🇸 TLS [443] #88",
+        "Trojan 🇺🇸 TLS [443] #89",
+        "Trojan 🇺🇸 TLS+UTLS [443] #90",
+        "Trojan 🇺🇸 TLS [443] #91",
+        "Trojan 🇺🇸 TLS [443] #92",
+        "Trojan 🇺🇸 TLS+UTLS [443] #93",
+        "Trojan 🇳🇱 TLS [443] #94",
+        "Trojan 🇳🇱 TLS+UTLS [443] #95",
+        "Trojan 🇳🇱 TLS [443] #96",
+        "Trojan 🇳🇱 TLS [443] #97",
+        "Trojan 🇳🇱 TLS [443] #98",
+        "Trojan 🇳🇱 TLS [443] #99",
+        "Trojan 🇳🇱 TLS+UTLS [443] #100",
         "SS 🇺🇸 2022+BLAKE3 [8443] #1",
-        "SS 🇸🇬 2022+BLAKE3 [14384] #2",
-        "SS 🇦🇺 2022+BLAKE3 [28679] #3",
-        "SS 🇫🇷 AEAD [8080] #4",
-        "SS 🇵🇱 AEAD [51628] #5",
+        "SS 🇳🇴 2022+BLAKE3 [1883] #2",
+        "SS 🇫🇷 AEAD [8080] #3",
+        "SS 🇵🇱 AEAD [51628] #4",
+        "SS 🇫🇷 AEAD [8080] #5",
         "SS 🇨🇿 AEAD [46190] #6",
-        "SS 🇸🇪 AEAD [8388] #7",
-        "SS 🇨🇦 AEAD [8080] #8",
-        "SS 🇺🇸 AEAD [8388] #9",
-        "SS 🇫🇷 AEAD [8080] #10",
-        "SS 🇦🇱 AEAD [43558] #11",
-        "SS 🇦🇹 AEAD [8388] #13",
-        "SS 🇬🇧 AEAD [47195] #14",
-        "SS 🇺🇸 AEAD [28960] #15",
-        "SS 🇩🇪 AEAD [8388] #16",
-        "SS 🇳🇱 AEAD [8080] #17",
-        "SS 🇳🇱 AEAD [8080] #18",
-        "SS 🇷🇴 AEAD [64546] #19",
-        "SS 🇩🇪 AEAD [6079] #20",
-        "SS 🇺🇸 AEAD [40643] #21",
-        "Hysteria2 🇺🇸 QUIC [443] #3",
-        "Hysteria2 🇺🇸 QUIC [443] #8",
-        "Hysteria2 🇷🇸 QUIC [443] #16"
+        "SS 🇨🇦 AEAD [8080] #7",
+        "SS 🇺🇸 AEAD [8388] #8",
+        "SS 🇫🇷 AEAD [8080] #9",
+        "SS 🇦🇱 AEAD [43558] #10",
+        "SS 🇩🇪 AEAD [46303] #11",
+        "SS 🇦🇹 AEAD [8388] #12",
+        "SS 🇺🇸 AEAD [28960] #13",
+        "Hysteria2 🇯🇵 QUIC [8443] #64"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": 180,
@@ -2174,7 +2238,6 @@
   },
   "rules": [
     "GEOIP,lan,DIRECT,no-resolve",
-    "NETWORK,udp,REJECT",
     "RULE-SET,geosite-malware,REJECT",
     "RULE-SET,geosite-phishing,REJECT",
     "RULE-SET,geosite-cryptominers,REJECT",

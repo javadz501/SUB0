@@ -1,5 +1,6 @@
+//profile-title: base64:UHJveHktR0I=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEWVZxRkRuWW9NcXVSUXVuWEMxeGQyRnl1RGhkN0pXczVqdGYyZWI3VmtLTHpYZ1p2OHB0OGdZMWU5MVRUNzFWNzYyelJYN01XVzRIbWphdmFuWWRVRjliaWo4Z0c4QVA@104.222.183.180:47195#SS 🇬🇧 AEAD [47195]
+vless://07df3711-07a1-4649-9a61-3f16cb931d02@132.243.163.167:443?encryption=none&fp=chrome&pbk=hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA&security=reality&sid=23732d14a527990d&sni=345739t.de19.h1clayd.click&type=tcp#VLESS 🇬🇧 REALITY+PBK+SID+UTLS [443]
 
