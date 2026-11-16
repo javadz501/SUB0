@@ -1,10 +1,6 @@
-# ⚙️ Anonymous Wizard — راهنمای فارسی نصب
+# ⚙️ Setup Wizard — راهنمای فارسی نصب
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Anonymous-Wizard-blue?style=for-the-badge" />
-</p>
-
-راهنمای کامل و گام‌به‌گام برای نصب، اجرا و مدیریت پروژه‌ی **Multi Proxy Config Fetcher** روی سیستم محلی شما — شامل Termux (اندروید)، لینوکس، macOS، iSH (iOS) و ویندوز (از طریق WSL2).
+راهنمای کامل و گام‌به‌گام برای نصب، اجرا و مدیریت پروژه‌ی **SUB0** روی سیستم محلی شما — شامل Termux (اندروید)، لینوکس، macOS، iSH (iOS) و ویندوز (از طریق WSL2).
 
 ---
 
