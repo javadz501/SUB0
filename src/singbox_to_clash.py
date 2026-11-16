@@ -182,7 +182,7 @@ def create_clash_config(clash_proxies: List[Dict], proxy_names: List[str]) -> Di
             'use-system-hosts': False,
             'listen': '127.0.0.1:1053',
             'ipv6': False,
-            'nameserver': ['https://8.8.8.8/dns-query#\u2705 Anonymous Multi'],
+            'nameserver': ['https://8.8.8.8/dns-query#\u2705 Proxy Selector'],
             'proxy-server-nameserver': ['8.8.8.8#DIRECT'],
             'direct-nameserver': ['8.8.8.8#DIRECT'],
             'direct-nameserver-follow-policy': True,
@@ -195,7 +195,7 @@ def create_clash_config(clash_proxies: List[Dict], proxy_names: List[str]) -> Di
         'proxies': clash_proxies,
         'proxy-groups': [
             {
-                'name': '\u2705 Anonymous Multi',
+                'name': '\u2705 Proxy Selector',
                 'type': 'select',
                 'proxies': ['\U0001f680 Best Ping'] + proxy_names + ['DIRECT'],
             },
@@ -224,7 +224,7 @@ def create_clash_config(clash_proxies: List[Dict], proxy_names: List[str]) -> Di
             'RULE-SET,geosite-ads,REJECT',
             'RULE-SET,geosite-ir,DIRECT',
             'RULE-SET,geoip-ir,DIRECT',
-            'MATCH,\u2705 Anonymous Multi',
+            'MATCH,\u2705 Proxy Selector',
         ],
         'ntp': {'enable': True, 'server': 'time.cloudflare.com', 'port': 123, 'interval': 30},
     }
