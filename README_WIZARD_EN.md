@@ -49,13 +49,12 @@ The Wizard installs everything below automatically. If you're installing manuall
 This single command detects your platform and installs everything: Xray-core, Sing-box, Python dependencies, the repository itself, a runner script, a management script, and a scheduled task (cron / Termux service / launchd, depending on your platform).
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/install.sh | bash
 ```
 
 ### What the Wizard does, step by step:
 1. Detects your operating system (Termux, Linux, or macOS)
 2. Installs system dependencies (git, Python, curl, cron, etc.)
-3. Clones (or updates) the repository into `~/multi-proxy-config-fetcher`
+3. Clones (or updates) the repository into `~/SUB0`
 4. Creates a Python virtual environment and installs `requirements.txt`
 5. Installs Xray-core
 6. Installs Sing-box
@@ -65,7 +64,7 @@ curl -fsSL https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetche
 
 ### After installation, run the pipeline once manually:
 ```bash
-cd ~/multi-proxy-config-fetcher
+cd ~/SUB0
 bash run.sh
 ```
 
@@ -77,8 +76,7 @@ If you'd rather not run the one-liner, here is exactly what it does under the ho
 
 ### Step 1: Clone the repository
 ```bash
-git clone https://github.com/4n0nymou3/multi-proxy-config-fetcher.git
-cd multi-proxy-config-fetcher
+cd SUB0
 ```
 
 ### Step 2: Install Python dependencies
@@ -137,7 +135,7 @@ pkg install sing-box -y
 
 ### Run once:
 ```bash
-cd ~/multi-proxy-config-fetcher
+cd ~/SUB0
 bash run.sh
 ```
 
@@ -174,13 +172,13 @@ Each run also writes a timestamped log file under `logs/run_<date>.log`, and log
 ```bash
 # Termux
 termux-setup-storage
-cp ~/multi-proxy-config-fetcher/configs/clash_configs_secure.yaml ~/storage/downloads/
+cp ~/SUB0/configs/clash_configs_secure.yaml ~/storage/downloads/
 ```
 In Clash Verge or Mihomo: **Profiles → Import → Select file → `clash_configs_secure.yaml` → Import**
 
 **Method 2: Serve over HTTP (access from any device on your network)**
 ```bash
-cd ~/multi-proxy-config-fetcher/configs
+cd ~/SUB0/configs
 python3 -m http.server 8080
 ```
 Clash subscription link:
@@ -195,13 +193,13 @@ http://YOUR_IP:8080/clash_configs_tested.yaml
 **Method 1: Import from local file**
 ```bash
 termux-setup-storage
-cp ~/multi-proxy-config-fetcher/configs/singbox_configs_secure.json ~/storage/downloads/
+cp ~/SUB0/configs/singbox_configs_secure.json ~/storage/downloads/
 ```
 In Sing-box For Android (SFA): **Profiles → New Profile → Import → `singbox_configs_secure.json` → Import**
 
 **Method 2: Serve over HTTP**
 ```bash
-cd ~/multi-proxy-config-fetcher/configs
+cd ~/SUB0/configs
 python3 -m http.server 8080
 ```
 Sing-box subscription link:
@@ -215,7 +213,7 @@ http://YOUR_IP:8080/singbox_configs_tested.json
 
 **Method 1: Subscription link**
 ```bash
-cd ~/multi-proxy-config-fetcher/configs
+cd ~/SUB0/configs
 python3 -m http.server 8080
 ```
 Subscription URL:
@@ -233,7 +231,7 @@ Replace `US` with any of the 25 available country codes (`DE`, `GB`, `FR`, `JP`,
 **Method 2: Direct JSON import**
 ```bash
 termux-setup-storage
-cp ~/multi-proxy-config-fetcher/configs/xray_secure_loadbalanced_config.json ~/storage/downloads/
+cp ~/SUB0/configs/xray_secure_loadbalanced_config.json ~/storage/downloads/
 ```
 Want stronger DPI resistance instead? Copy `xray_fragment_loadbalanced_config.json` the same way.
 
@@ -244,13 +242,13 @@ Want stronger DPI resistance instead? Copy `xray_fragment_loadbalanced_config.js
 After installation, `manage.sh` is your main day-to-day tool:
 
 ```bash
-bash ~/multi-proxy-config-fetcher/manage.sh start            # Run the pipeline manually
-bash ~/multi-proxy-config-fetcher/manage.sh status           # Show Xray/Sing-box versions, service status, output files, recent logs
-bash ~/multi-proxy-config-fetcher/manage.sh logs             # Show the most recent log
-bash ~/multi-proxy-config-fetcher/manage.sh clean            # Delete logs older than 7 days
-bash ~/multi-proxy-config-fetcher/manage.sh update           # Pull the latest code from GitHub
-bash ~/multi-proxy-config-fetcher/manage.sh restart-service  # Termux only: restart the background service
-bash ~/multi-proxy-config-fetcher/manage.sh help             # Show this command list
+bash ~/SUB0/manage.sh start            # Run the pipeline manually
+bash ~/SUB0/manage.sh status           # Show Xray/Sing-box versions, service status, output files, recent logs
+bash ~/SUB0/manage.sh logs             # Show the most recent log
+bash ~/SUB0/manage.sh clean            # Delete logs older than 7 days
+bash ~/SUB0/manage.sh update           # Pull the latest code from GitHub
+bash ~/SUB0/manage.sh restart-service  # Termux only: restart the background service
+bash ~/SUB0/manage.sh help             # Show this command list
 ```
 
 **Sample `status` output:**
@@ -300,7 +298,7 @@ crontab -e
 ```
 Edit the line added by the installer, for example to run every 6 hours instead:
 ```
-0 */6 * * * /bin/bash ~/multi-proxy-config-fetcher/run.sh >> ~/multi-proxy-config-fetcher/logs/cron.log 2>&1
+0 */6 * * * /bin/bash ~/SUB0/run.sh >> ~/SUB0/logs/cron.log 2>&1
 ```
 
 **Termux:** edit `INTERVAL=43200` (seconds) inside `$PREFIX/var/service/multiproxy/run`, then run `bash manage.sh restart-service`.
@@ -403,14 +401,14 @@ bash <(curl -fsSL https://sing-box.app/install.sh)
 
 ### Python errors
 ```bash
-source ~/multi-proxy-config-fetcher/venv/bin/activate
-pip install -r ~/multi-proxy-config-fetcher/requirements.txt --upgrade
+source ~/SUB0/venv/bin/activate
+pip install -r ~/SUB0/requirements.txt --upgrade
 ```
 
 ### No output files / pipeline seems to have failed partway
 ```bash
-ls -la ~/multi-proxy-config-fetcher/configs/
-tail -100 ~/multi-proxy-config-fetcher/logs/run_*.log
+ls -la ~/SUB0/configs/
+tail -100 ~/SUB0/logs/run_*.log
 ```
 The last log file will show exactly which step failed.
 
@@ -458,7 +456,7 @@ It applies the same load-balanced Xray config as `xray_loadbalanced_config.json`
 ## 🔄 Updating
 
 ```bash
-cd ~/multi-proxy-config-fetcher
+cd ~/SUB0
 bash manage.sh update
 ```
 
@@ -492,8 +490,6 @@ Contributions are welcome:
 
 ## 📚 Resources
 
-- **Main Repository**: https://github.com/4n0nymou3/multi-proxy-config-fetcher
-- **Config Web Page**: https://4n0nymou3.github.io/Anonymous-Proxy-Hub/
 - **Xray-core**: https://github.com/XTLS/Xray-core
 - **Sing-box**: https://sing-box.sagernet.org
 - **Clash/Mihomo**: https://github.com/MetaCubeX/mihomo
@@ -511,8 +507,6 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ## 📬 Contact
 
-- **GitHub**: https://github.com/4n0nymou3
-- **Twitter/X**: https://x.com/4n0nymou3
 
 ---
 
@@ -523,8 +517,7 @@ For new users who want to get started immediately:
 ```bash
 pkg update && pkg upgrade -y
 pkg install curl git -y
-curl -fsSL https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/main/install.sh | bash
-cd ~/multi-proxy-config-fetcher
+cd ~/SUB0
 bash run.sh
 termux-setup-storage
 cp configs/xray_secure_loadbalanced_config.json ~/storage/downloads/
