@@ -52,10 +52,10 @@ jobs:
         run: |
           set -Eeuo pipefail
           MAX_RETRIES=3
-          FALLBACK_VERSION="v26.3.27"
+          FALLBACK_VERSION="v26.10.31"
 
           install_xray() {
-            local url="https://github.com/XTLS/Xray-core/releases/download/v26.3.27/Xray-linux-64.zip"
+            local url="https://github.com/XTLS/Xray-core/releases/download/v26.10.31/Xray-linux-64.zip"
 
             local candidates=()
             [[ -n "$url" ]] && candidates+=("$url")
@@ -96,10 +96,10 @@ jobs:
         run: |
           set -Eeuo pipefail
           MAX_RETRIES=3
-          FALLBACK_VERSION="1.14.0"
+          FALLBACK_VERSION="1.14.4"
 
           install_singbox() {
-            local url="https://github.com/SagerNet/sing-box/releases/download/v1.14.0/sing-box_1.14.0_linux_amd64.deb"
+            local url="https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box_1.14.4_linux_amd64.deb"
 
             local candidates=()
             [[ -n "$url" ]] && candidates+=("$url")
