@@ -52,7 +52,7 @@ def singbox_outbound_to_clash_proxy(outbound: Dict) -> Optional[Dict]:
         tls_fields = {
             'tls': True,
             'servername': tls.get('server_name', server),
-            'skip-cert-verify': tls.get('insecure', False),
+            'skip-cert-verify': bool(tls.get('insecure', False)),
             'client-fingerprint': (tls.get('utls') or {}).get('fingerprint', 'chrome'),
         }
         if tls.get('alpn'):
@@ -120,7 +120,7 @@ def singbox_outbound_to_clash_proxy(outbound: Dict) -> Optional[Dict]:
             'port': int(port),
             'password': outbound.get('password', ''),
             'sni': tls.get('server_name', server),
-            'skip-cert-verify': tls.get('insecure', True),
+            'skip-cert-verify': bool(tls.get('insecure', False)),
         }
         obfs = outbound.get('obfs') or {}
         if obfs.get('type'):
@@ -215,7 +215,6 @@ def create_clash_config(clash_proxies: List[Dict], proxy_names: List[str]) -> Di
         },
         'rules': [
             'GEOIP,lan,DIRECT,no-resolve',
-            'NETWORK,udp,REJECT',
             'RULE-SET,geosite-malware,REJECT',
             'RULE-SET,geosite-phishing,REJECT',
             'RULE-SET,geosite-cryptominers,REJECT',
