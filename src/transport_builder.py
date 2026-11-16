@@ -65,7 +65,7 @@ def build_singbox_settings(data: Dict, alpn_override: Optional[list] = None, dis
         elif net_type == 'kcp':
             transport = {}
         
-        tls_enabled = security in ('tls', 'xtls', 'reality') or port in [443, 2053, 2083, 2087, 2096, 8443]
+        tls_enabled = security in ('tls', 'xtls', 'reality')
         
         if security == 'reality':
             tls = {
