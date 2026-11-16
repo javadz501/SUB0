@@ -49,3 +49,23 @@ def test_singbox_reality_settings_shape():
     assert tls['enabled'] is True
     assert tls['reality']['enabled'] is True
     assert tls['reality']['public_key'] == 'somepublickey'
+
+def test_singbox_tls_is_not_inferred_from_common_port():
+    transport, tls = transport_builder.build_singbox_settings({
+        'net': 'tcp',
+        'security': 'none',
+        'address': 'example.com',
+        'port': 443
+    })
+    assert tls['enabled'] is False
+
+
+def test_singbox_tls_is_enabled_from_protocol_security_not_port():
+    transport, tls = transport_builder.build_singbox_settings({
+        'net': 'tcp',
+        'security': 'tls',
+        'address': 'example.com',
+        'port': 8443
+    })
+    assert tls['enabled'] is True
+    assert tls['insecure'] is False
