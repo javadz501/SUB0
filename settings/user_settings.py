@@ -62,11 +62,11 @@ SOURCE_URLS = [
     "https://github.com/peasoft/NoMoreWalls",
 ]
 
-# Set to True to fetch the maximum possible number of configurations.
-# If True, SPECIFIC_CONFIG_COUNT will be ignored.
+# Default collection mode. The workflow invokes a separate maximum-power pass
+# with --maximum-power while preserving this standard-mode default.
 USE_MAXIMUM_POWER = False
 
-# Desired number of configurations to fetch.
+# Desired number of configurations for the standard subscription.
 # This is used only if USE_MAXIMUM_POWER is False.
 SPECIFIC_CONFIG_COUNT = 666
 
