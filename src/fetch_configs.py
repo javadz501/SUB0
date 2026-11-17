@@ -3,6 +3,7 @@ import time
 import json
 import logging
 import re
+import sys
 from urllib.parse import quote, urlparse
 from datetime import datetime, timedelta, timezone
 from typing import List, Dict, Optional, Set
@@ -531,7 +532,7 @@ def save_channel_stats(config: ProxyConfig, total_saved: int = None):
 
 def main():
     try:
-        if '--maximum-power' in os.sys.argv[1:]:
+        if '--maximum-power' in sys.argv[1:]:
             os.environ['SUB0_USE_MAXIMUM_POWER'] = 'true'
         config = ProxyConfig()
         fetcher = ConfigFetcher(config)
