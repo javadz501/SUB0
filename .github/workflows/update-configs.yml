@@ -145,7 +145,10 @@ jobs:
           rm -f \
             configs/proxy_configs.txt \
             configs/proxy_configs_tested.txt \
+            configs/proxy_configs_max.txt \
             configs/singbox_configs_all.json \
+            configs/singbox_configs_max_all.json \
+            configs/singbox_configs_max.json \
             configs/singbox_configs_tested.json \
             configs/singbox_configs_secure.json \
             configs/clash_configs_all.yaml \
