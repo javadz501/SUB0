@@ -71,9 +71,12 @@ def count_clash(filename):
 def main():
     counts = {
         "xray": count_xray(),
+        "xray_max": count_xray("proxy_configs_max.txt"),
         "singbox_tested": count_singbox(
             "singbox_configs_tested.json"
         ),
+        "singbox_max": count_singbox("singbox_configs_max.json"),
+        "clash_max": count_clash("clash_configs_max.yaml"),
         "singbox_secure": count_singbox(
             "singbox_configs_secure.json"
         ),
