@@ -52,6 +52,21 @@ def count_singbox(filename):
 
     return len(proxies)
 
+def count_xray_json(filename):
+    path = CONFIGS / filename
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict) or not isinstance(data.get("outbounds"), list):
+        raise ValueError(f"Invalid Xray structure: {filename}")
+    proxies = [
+        item for item in data["outbounds"]
+        if isinstance(item, dict)
+        and item.get("tag") not in {"direct", "block", "dns-out"}
+        and item.get("protocol") not in {"freedom", "blackhole", "dns"}
+    ]
+    if not proxies:
+        raise ValueError(f"No Xray proxy outbounds found: {filename}")
+    return len(proxies)
+
 def count_clash(filename):
     path = CONFIGS / filename
 
@@ -72,6 +87,7 @@ def main():
     counts = {
         "xray": count_xray(),
         "xray_max": count_xray("proxy_configs_max.txt"),
+        "xray_balanced_max": count_xray_json("xray_loadbalanced_config_max.json"),
         "singbox_tested": count_singbox(
             "singbox_configs_tested.json"
         ),
@@ -90,7 +106,11 @@ def main():
 
     rows = [
         f"| **Xray Tested** | `TXT` | {counts['xray']} | [↗ Open Subscription](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/proxy_configs_tested.txt) |",
+        f"| **Xray Maximum** | `TXT` | {counts['xray_max']} | [↗ Open Subscription](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/proxy_configs_max.txt) |",
+        f"| **Xray Load Balanced Maximum** | `JSON` | {counts['xray_balanced_max']} | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/xray_loadbalanced_config_max.json) |",
         f"| **sing-box Tested** | `JSON` | {counts['singbox_tested']} | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/singbox_configs_tested.json) |",
+        f"| **sing-box Maximum** | `JSON` | {counts['singbox_max']} | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/singbox_configs_max.json) |",
+        f"| **Clash Maximum** | `YAML` | {counts['clash_max']} | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/clash_configs_max.yaml) |",
         f"| **sing-box Secure** | `JSON` | {counts['singbox_secure']} | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/singbox_configs_secure.json) |",
         f"| **Clash Tested** | `YAML` | {counts['clash_tested']} | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/clash_configs_tested.yaml) |",
         f"| **Clash Secure** | `YAML` | {counts['clash_secure']} | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/clash_configs_secure.yaml) |",
