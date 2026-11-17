@@ -16,7 +16,7 @@ concurrency:
 jobs:
   update-configs:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 360
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
