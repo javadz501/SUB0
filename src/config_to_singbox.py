@@ -8,8 +8,9 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 class ConfigToSingbox:
-    def __init__(self):
-        self.output_file = 'configs/singbox_configs_all.json'
+    def __init__(self, input_file: str = 'configs/proxy_configs_tested.txt', output_file: str = 'configs/singbox_configs_all.json'):
+        self.input_file = input_file
+        self.output_file = output_file
 
     def convert_to_singbox(self, config: str, index: int, protocol_type: str) -> Optional[Dict]:
         try:
