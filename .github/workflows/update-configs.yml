@@ -197,7 +197,7 @@ jobs:
             exit 1
           }
 
-          python src/xray_config_tester.py configs/proxy_configs.txt configs/proxy_configs_tested.txt 2>&1 | tee xray-test.log
+          python src/xray_config_tester.py configs/proxy_configs.txt configs/proxy_configs_max.txt 2>&1 | tee xray-test.log
           if grep -Fq "No working configs found" xray-test.log; then
             echo "Xray tester found no working configs; refusing to publish fallback input." >&2
             exit 1
