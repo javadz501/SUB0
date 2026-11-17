@@ -15,6 +15,7 @@ INPUT_OUTPUT_PAIRS = [
     ('configs/singbox_configs_all.json', 'configs/clash_configs_all.yaml'),
     ('configs/singbox_configs_tested.json', 'configs/clash_configs_tested.yaml'),
     ('configs/singbox_configs_secure.json', 'configs/clash_configs_secure.yaml'),
+    ('configs/singbox_configs_max.json', 'configs/clash_configs_max.yaml'),
 ]
 
 
