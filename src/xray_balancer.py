@@ -169,8 +169,9 @@ class ConfigToXray:
             logger.error(f"Failed to write output file: {e}")
 
 def main():
-    input_file = 'configs/proxy_configs_tested.txt'
-    output_file = 'configs/xray_loadbalanced_config.json'
+    import sys
+    input_file = sys.argv[1] if len(sys.argv) > 1 else 'configs/proxy_configs_tested.txt'
+    output_file = sys.argv[2] if len(sys.argv) > 2 else 'configs/xray_loadbalanced_config.json'
 
     converter = ConfigToXray(input_file, output_file)
     converter.process_configs()
