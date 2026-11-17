@@ -206,7 +206,7 @@ jobs:
             echo "Xray maximum-mode test stage produced no tested configs." >&2
             exit 1
           }
-          python src/dual_config_outputs.py split-xray --input configs/proxy_configs_max.txt --maximum configs/proxy_configs_max.txt --standard configs/proxy_configs_tested.txt --limit 666
+          python src/dual_config_outputs.py split-xray --input configs/proxy_configs.txt --maximum configs/proxy_configs_max.txt --standard configs/proxy_configs_tested.txt --limit 666
           cp configs/proxy_configs_tested.txt configs/proxy_configs.txt
 
           python src/country_splitter.py configs/proxy_configs_tested.txt configs/location_cache.json configs/location
