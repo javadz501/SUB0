@@ -4,75 +4,71 @@
 
 vless://00144519-7e0d-476b-8d28-435576af9262@167.17.69.171:443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=www.cloudflare.com&fp=chrome&pbk=ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk&sid=0990d22f&type=tcp&headerType=none&path=/#VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443]
 
-vless://00c82fcb-2c67-465d-8432-6743a1593efa@162.159.249.92:443?security=tls&type=ws&path=/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560&host=dd-xx.pages.dev&packetEncoding=xudp&alpn=http/1.1&sni=DD-xx.PAGES.DEV&fp=firefox&encryption=none#VLESS 🇺🇸 WS+TLS+UTLS [443]
-
 vless://0280c276-641b-49af-b699-4931c30ac137@chess.com:443?pcs=c826d82c6503682e8aec94ef5169a97f588a35cb667c096aedd9ba01a54df9f0&alpn=h2&fp=firefox&type=xhttp&sni=norway.xn--nlqaa425dbaab446bbabd698meae.online.&mode=auto&path=/api&security=tls&encryption=none&extra={"mode":"auto"}&insecure=0&host=norway.xn--nlqaa425dbaab446bbabd698meae.online&allowInsecure=0#VLESS 🇺🇸 XHTTP+TLS+UTLS [443]
 
-vless://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=www.cloudflare.com&fp=chrome&pbk=Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc&type=tcp&headerType=none&host=/?telegram--V2ray_confiig&path=/#VLESS 🇺🇸 REALITY+PBK+VISION+UTLS [443]
+vless://03cc39b9-0b75-4297-b284-8158cfbb959a@ip3.ipspanel.ir:8443?security=tls&type=ws&path=/@TurboVpn10&host=T.panel001.ir&alpn=http/1.1&sni=T.panel001.ir&fp=chrome&encryption=none#VLESS 🇺🇸 WS+TLS+UTLS [8443]
 
 vless://0b22812b-4a79-42b1-93ec-5b157b0f2f7f@191.217.205.175:7443?mode=auto&path=/assets/7ae15be966a6bce1f00fa96a&security=reality&encryption=none&pbk=NmMggGv5jmohnMmZytnLdenxmpNwa4P9E2PZW1EV8go&fp=firefox&type=xhttp&sni=pl-origin.krabvpn.pro&sid=5e25bf4462660ed8#VLESS 🇺🇸 XHTTP+REALITY+PBK+SID+UTLS [7443]
 
 vless://0b22812b-4a79-42b1-93ec-5b157b0f2f7f@191.217.205.175:8443?mode=auto&path=/assets/6c0f3ad762cb7ff51b454076&security=reality&encryption=none&pbk=1SldfhWqqF_Rg9QlPKQqufcHi5GhkxwcEV5HGyOy4Qg&fp=firefox&type=xhttp&sni=de.krabvpn.pro&sid=64ad711102f56ca2#VLESS 🇺🇸 XHTTP+REALITY+PBK+SID+UTLS [8443]
 
+vless://11512726-b692-406f-ab49-7b28f44a8294@143.246.211.240:443?encryption=none&security=reality&sni=fr.gorobsub.com&fp=firefox&pbk=_LNT4Kf7pPmeEBAnmJ7xsBu3y6Kih0Ew9AFVoDa3QSg&sid=3242cfd7&type=xhttp&path=/ae1b809ceb77#VLESS 🇺🇸 XHTTP+REALITY+PBK+SID+UTLS [443]
+
+vless://140d6fc9-2c6d-41bd-a487-182b52c0184f@45.61.186.3:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=caissuers.microsoft.com&fp=chrome&pbk=rA1BaV8FUcTMs25jXCZkUV3DG0-NQEFmvVHdPlUXAHI&sid=d898752d58acbfe0#VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443]
+
 vless://140d6fc9-2c6d-41bd-a487-182b52c0184f@69.17.3.150:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=caissuers.microsoft.com&fp=chrome&pbk=zUbdpLqoZN7kSFDrHgGnAcZqJzKilme_rIJwI3FPGCA&sid=d898752d58acbfe0#VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443]
 
-vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=aws.amazon.com&fp=chrome&flow=xtls-rprx-vision&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno#VLESS 🇺🇸 REALITY+PBK+VISION+UTLS [28190]
+vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=aws.amazon.com&alpn=networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-&fp=chrome&security=reality&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno#VLESS 🇺🇸 REALITY+PBK+VISION+UTLS [28190]
 
 vless://1bd6c8a2-01db-4a3d-8b2c-0b2f2c3e8b5a@38.244.5.231:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=DUpNPvLjiL1GzeF7DfKWba-LYLz1KPuQXewhgNGPiDM&sid=ab0a5b56&type=tcp#VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443]
 
+vless://1d1eda2e-0bd7-4478-877b-1c5425c6c4dd@48.102.168.211:443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=tradingview.com&fp=firefox&pbk=yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38&sid=8f3c6e2a1b5d4f09&type=tcp&headerType=none&path=/#VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443]
+
 vless://1d1eda2e-0bd7-4478-877b-1c5425c6c4dd@48.102.170.205:8443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38&security=reality&sid=8f3c6e2a1b5d4f09&sni=tradingview.com&type=tcp#VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [8443]
 
-vless://1d1eda2e-0bd7-4478-877b-1c5425c6c4dd@cloud-de01.dynv6.net:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=tradingview.com&fp=firefox&pbk=yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38&sid=8f3c6e2a1b5d4f09#VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443]
-
 vless://1f8cf47a-b66a-4916-979f-26edfcf44eea@185.95.231.156:443?security=reality&sni=www.apple.com&type=raw&flow=xtls-rprx-vision&pbk=8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To&sid=a3a578ab#VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION [443]
-
-vless://2208b003-78b1-453c-b5ca-ce847ff0efd6@201.58.139.178:443?encryption=none&mode=auto&pbk=-P7rHFWtKuCHcvH-YxkTtR-9iRpOR8csAh7PsoBulyY&security=reality&sid=91897e1e8a0373e2&sni=338817x.pl8.h1clayd.click&type=xhttp#VLESS 🇺🇸 XHTTP+REALITY+PBK+SID [443]
 
 vless://2208b003-78b1-453c-b5ca-ce847ff0efd6@201.8.71.201:443?security=reality&fp=chrome&pbk=l3fn2CzC6-oVy6Mf5jafL-kVs8aX_jUfMUjhupBkPz0&sid=1a5d9b3be394fdc7&sni=b1eb8et.de14.h1clayd.click&type=raw#VLESS 🇺🇸 RAW+REALITY+PBK+SID+UTLS [443]
 
 vless://2208b003-78b1-453c-b5ca-ce847ff0efd6@4626b8t.nl19.h1clayd.shop:443?type=tcp&security=reality&fp=firefox&pbk=fgZfPnrvmYRR3aMKxLCmcpmTjOlTcdA356_heBfqkTk&sid=a23fc7d3b02e0a0e&sni=4626b8t.nl19.h1clayd.shop#VLESS 🇺🇸 REALITY+PBK+SID+UTLS [443]
 
-vless://23b848b7-93e5-4d96-b36d-ed704912e5b7@5.34.178.120:443?encryption=none&security=reality&flow=xtls-rprx-vision&type=tcp&sni=www.cloudflare.com&fp=chrome&pbk=4RaNuv9yehmcfpdzvRxCWWzEWERWzZSIHqcgg3l35Cw&sid=e16bbf1a5bee2321#VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.175:443?sni=blog.browseseniorrolesandenhanceyourcareertoday.com&type=tcp#Trojan 🇺🇸 TLS [443]
 
-vless://247802ca-0fbb-428a-b807-91a6e571b5c7@201.58.190.235:34443?mode=auto&path=/assets/326c131fb0a2a27149e691595d1aacd4&security=reality&encryption=none&pbk=muMU7u-_4Skm-_FMvzmiQJLKfLbCCFejDcI5t06bsSc&fp=firefox&type=xhttp&sni=static-pl.snobvpn.online&sid=fa1356048b32d85f#VLESS 🇺🇸 XHTTP+REALITY+PBK+SID+UTLS [34443]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.175:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=blog.browseseniorrolesandenhanceyourcareertoday.com#Trojan 🇺🇸 TLS [443]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.193:443?sni=browseseniorrolesandenhanceyourcareertoday.com&type=tcp#Trojan 🇺🇸 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.193:443?security=tls&insecure=0&host=/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&headerType=none&type=tcp&allowInsecure=0&sni=browseseniorrolesandenhanceyourcareertoday.com#Trojan 🇺🇸 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.198:443?sni=cdn.browseseniorrolesandenhanceyourcareertoday.com&type=tcp#Trojan 🇺🇸 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.20:443?sni=api.browseseniorrolesandenhanceyourcareertoday.com&type=tcp#Trojan 🇺🇸 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.20:443?security=tls&sni=api.browseseniorrolesandenhanceyourcareertoday.com&type=tcp&headerType=none&host=/?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI#Trojan 🇺🇸 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.52:443?security=tls&sni=courses.browseseniorrolesandenhanceyourcareertoday.com&path=/#Trojan 🇺🇸 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@167.88.61.85:443?allowInsecure=1&sni=resources.browseseniorrolesandenhanceyourcareertoday.com&type=tcp#Trojan 🇺🇸 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.169:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=api.discoverfreshgraduatejobsstartyourprofessionaljourney.com#Trojan 🇺🇸 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.169:443?sni=api.discoverfreshgraduatejobsstartyourprofessionaljourney.com&type=tcp#Trojan 🇺🇸 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.171:443?sni=cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com&type=tcp#Trojan 🇺🇸 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.171:443?security=tls&headerType=none&type=tcp&sni=cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com#Trojan 🇺🇸 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.208:443?security=tls&insecure=0&headerType=none&spx=/?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM&type=tcp&allowInsecure=0&sni=blog.discoverfreshgraduatejobsstartyourprofessionaljourney.com#Trojan 🇺🇸 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.214:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com#Trojan 🇺🇸 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.214:443?allowInsecure=1&sni=courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com&type=tcp#Trojan 🇺🇸 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.218:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com#Trojan 🇺🇸 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.218:443?sni=learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com&type=tcp#Trojan 🇺🇸 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.224:443?sni=resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com&type=tcp#Trojan 🇺🇸 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.245:443?sni=www.discoverfreshgraduatejobsstartyourprofessionaljourney.com&type=tcp#Trojan 🇺🇸 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.245:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=www.discoverfreshgraduatejobsstartyourprofessionaljourney.com#Trojan 🇺🇸 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.112:443?sni=resources.explorecreativejobsandenhanceyourcareerportfolio.com&type=tcp#Trojan 🇺🇸 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.112:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=resources.explorecreativejobsandenhanceyourcareerportfolio.com#Trojan 🇺🇸 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.131:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=blog.explorecreativejobsandenhanceyourcareerportfolio.com#Trojan 🇺🇸 TLS+UTLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.131:443?sni=blog.explorecreativejobsandenhanceyourcareerportfolio.com&type=tcp#Trojan 🇺🇸 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.19:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=learn.explorecreativejobsandenhanceyourcareerportfolio.com#Trojan 🇺🇸 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.211:443?security=tls&sni=api.explorecreativejobsandenhanceyourcareerportfolio.com&type=tcp&headerType=none&path=/#Trojan 🇺🇸 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.237:443?allowInsecure=1&sni=cdn.explorecreativejobsandenhanceyourcareerportfolio.com#Trojan 🇺🇸 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.237:443?security=tls&insecure=0&host=/%&headerType=none&type=tcp&allowInsecure=0&sni=cdn.explorecreativejobsandenhanceyourcareerportfolio.com#Trojan 🇺🇸 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.53:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=www.explorecreativejobsandenhanceyourcareerportfolio.com#Trojan 🇺🇸 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.53:443?sni=www.explorecreativejobsandenhanceyourcareerportfolio.com&type=tcp#Trojan 🇺🇸 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@170.101.101.67:443?security=tls&sni=courses.explorecreativejobsandenhanceyourcareerportfolio.com&type=tcp&headerType=none&path=/#Trojan 🇺🇸 TLS [443]
 
@@ -92,7 +88,7 @@ trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.23:443?security=tls&insecu
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.50:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=cdn.nextjobopportunityandclaimyouridealrole.com#Trojan 🇺🇸 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.54:443?sni=learn.nextjobopportunityandclaimyouridealrole.com&type=tcp#Trojan 🇺🇸 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.54:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=learn.nextjobopportunityandclaimyouridealrole.com#Trojan 🇺🇸 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.59:443?security=tls&sni=api.nextjobopportunityandclaimyouridealrole.com&type=tcp&headerType=none#Trojan 🇺🇸 TLS [443]
 
@@ -122,13 +118,13 @@ trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.242:443?security=tls&sni=re
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.31:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=unlockyourfuturefindyourperfectcareer.com#Trojan 🇺🇸 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.76:443?allowInsecure=1&sni=api.unlockyourfuturefindyourperfectcareer.com&type=tcp#Trojan 🇺🇸 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.76:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=api.unlockyourfuturefindyourperfectcareer.com#Trojan 🇺🇸 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.106:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=www.findconnectwithemployersandbuildprofessionalnetwork.com#Trojan 🇺🇸 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.114:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=learn.findconnectwithemployersandbuildprofessionalnetwork.com#Trojan 🇺🇸 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.126:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=resources.findconnectwithemployersandbuildprofessionalnetwork.com#Trojan 🇺🇸 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.126:443?sni=resources.findconnectwithemployersandbuildprofessionalnetwork.com&type=tcp#Trojan 🇺🇸 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.132:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=courses.findconnectwithemployersandbuildprofessionalnetwork.com#Trojan 🇺🇸 TLS [443]
 
@@ -136,7 +132,7 @@ trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.166:443?security=tls&insecu
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.245:443?allowInsecure=1&sni=findconnectwithemployersandbuildprofessionalnetwork.com&type=tcp#Trojan 🇺🇸 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.45:443?sni=cdn.findconnectwithemployersandbuildprofessionalnetwork.com&type=tcp#Trojan 🇺🇸 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.45:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=cdn.findconnectwithemployersandbuildprofessionalnetwork.com#Trojan 🇺🇸 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.122.113:443?allowInsecure=1&sni=api.searchnationwidecareerchangehelperandguidancetoday.com&type=tcp#Trojan 🇺🇸 TLS [443]
 
@@ -172,11 +168,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYZDRHOXhuN0FnVDg4bXNDWUM5TVpmYXZNVXFkM2RXRk5
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplRGZON1NPRFFjZUlPbUlBYnRKSnRL@198.98.53.130:443#SS 🇺🇸 AEAD [443]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppam9Vd2Zkbmt6N21YNHBXZGtTcG1FaXhUWkN0MlRSbTFKRHI0QlNhQkFXa0x4WUdvWEJIWGFkRktZNUQ1WmZvVlR3cXN4NDZqQ21FVURuUVVpekpEWXJNN0I1YW5obnU@23.230.52.119:42878#SS 🇺🇸 AEAD [42878]
-
 hysteria2://146d567c-6335-4e63-a8aa-7ec068642440@177.202.66.212:443?insecure=1&sni=de1.obxodvpn.us#Hysteria2 🇺🇸 QUIC [443]
-
-hysteria2://146d567c-6335-4e63-a8aa-7ec068642440@nlll.obxodvpn.us:443?insecure=1&sni=nlll.obxodvpn.us#Hysteria2 🇺🇸 QUIC [443]
 
 hysteria2://23c82941-70f4-4381-90db-bd28e9a902e9@201.8.71.59:443?sni=steel7.hadsvpn.com#Hysteria2 🇺🇸 QUIC [443]
 
@@ -216,5 +208,5 @@ hysteria2://sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX@faq.wwwinternetvideo.click:443?
 
 hysteria2://suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g@159.223.157.129:8443?insecure=1#Hysteria2 🇺🇸 QUIC [8443]
 
-hysteria2://yO8pug5XmwkBXBAjleYIaVt@192.255.152.147:443?insecure=1&sni=192.255.152.147#Hysteria2 🇺🇸 QUIC [443]
+hysteria2://yO8pug5XmwkBXBAjleYIaVt@192.255.152.147:443?insecure=1#Hysteria2 🇺🇸 QUIC [443]
 
