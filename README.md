@@ -45,7 +45,10 @@ Choose the output compatible with your client and import the corresponding subsc
 |:--|:--:|--:|:--|
 <!-- SUB0_COUNTS_START -->
 | **Xray Tested** | `TXT` | 381 | [↗ Open Subscription](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/proxy_configs_tested.txt) |
+| **Xray Maximum** | `TXT` | Pending | [↗ Open Subscription](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/proxy_configs_max.txt) |
 | **sing-box Tested** | `JSON` | 229 | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/singbox_configs_tested.json) |
+| **sing-box Maximum** | `JSON` | Pending | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/singbox_configs_max.json) |
+| **Clash Maximum** | `YAML` | Pending | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/clash_configs_max.yaml) |
 | **sing-box Secure** | `JSON` | 214 | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/singbox_configs_secure.json) |
 | **Clash Tested** | `YAML` | 229 | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/clash_configs_tested.yaml) |
 | **Clash Secure** | `YAML` | 214 | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/clash_configs_secure.yaml) |
