@@ -56,6 +56,8 @@ Choose the output compatible with your client and import the corresponding subsc
 <!-- SUB0_COUNTS_END -->
 
 > **Note:** Subscription links depend on the corresponding files being present and up to date on the `main` branch. Configuration availability and client compatibility may change between runs.
+>
+> **Standard feeds** are capped at 666 tested configurations. **Maximum feeds** are generated in a separate run with `USE_MAXIMUM_POWER=True` (up to 10,000 candidates per enabled protocol), then tested and published independently. Maximum-mode runs can take substantially longer and use more CPU, memory, and network resources.
 
 ## 🧭 Quick Start
 
