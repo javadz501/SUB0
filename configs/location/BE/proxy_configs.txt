@@ -2,5 +2,9 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
+vless://2232d904-8e6a-4202-8240-6efd8aec02e9@84.32.154.74:443?security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=app.streamru10.net#VLESS 🇧🇪 TLS+VISION+UTLS [443]
+
+vless://2232d904-8e6a-4202-8240-6efd8aec02e9@app.streamru10.net:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=app.streamru10.net#VLESS 🇧🇪 TLS+VISION+UTLS [443]
+
 hysteria2://a35c508f-4d5d-4531-842e-6e9d43c762c0@2.27.210.6:4444?insecure=1&sni=lv2.nexfile.net#Hysteria2 🇧🇪 QUIC [4444]
 

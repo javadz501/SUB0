@@ -2,3 +2,7 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
+hysteria2://ccb8ff48-3934-4250-b4ec-bb76b95d154f@185.126.237.178:443?sni=185.126.237.178#Hysteria2 🇷🇴 QUIC [443]
+
+hysteria2://e45c1654-9184-40c7-b68b-2929ce2a0a89@86.107.179.245:443?sni=cruises-cdn.travel-blogmir.blog#Hysteria2 🇷🇴 QUIC [443]
+
