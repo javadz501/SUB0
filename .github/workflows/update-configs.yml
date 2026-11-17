@@ -5,6 +5,12 @@ on:
   schedule:
     - cron: '30 20 * * *' # 00:00 Tehran
   workflow_dispatch:
+    inputs:
+      generate_max_configs:
+        description: 'Generate additional MAX configuration feeds (higher runtime and resource usage)'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -148,7 +154,6 @@ jobs:
             configs/proxy_configs_max.txt \
             configs/singbox_configs_all.json \
             configs/singbox_configs_max_all.json \
-            configs/singbox_configs_max.json \
             configs/singbox_configs_tested.json \
             configs/singbox_configs_secure.json \
             configs/clash_configs_all.yaml \
@@ -156,7 +161,6 @@ jobs:
             configs/clash_configs_secure.yaml \
             configs/clash_configs_max.yaml \
             configs/xray_loadbalanced_config.json \
-            configs/xray_loadbalanced_config_max.json \
             configs/xray_fragment_loadbalanced_config.json \
             configs/xray_secure_loadbalanced_config.json \
             configs/channel_stats.json \
@@ -166,11 +170,19 @@ jobs:
 
       - name: Run pipeline and validate fresh outputs
         shell: bash
+        env:
+          GENERATE_MAX_CONFIGS: ${{ github.event_name == 'workflow_dispatch' && inputs.generate_max_configs }}
         run: |
           set -Eeuo pipefail
           cd "$PIPELINE_DIR"
 
-          python src/fetch_configs.py --maximum-power
+          if [[ "$GENERATE_MAX_CONFIGS" == "true" ]]; then
+            echo "MAX mode enabled for this manual run."
+            python src/fetch_configs.py --maximum-power
+          else
+            echo "Standard mode enabled; MAX generation is disabled."
+            python src/fetch_configs.py
+          fi
           test -s configs/proxy_configs.txt || {
             echo "Fetch stage produced no fresh proxy_configs.txt; refusing to publish." >&2
             exit 1
@@ -197,37 +209,51 @@ jobs:
             exit 1
           }
 
-          python src/xray_config_tester.py configs/proxy_configs.txt configs/proxy_configs_max.txt 2>&1 | tee xray-test.log
-          if grep -Fq "No working configs found" xray-test.log; then
-            echo "Xray tester found no working configs; refusing to publish fallback input." >&2
-            exit 1
+          if [[ "$GENERATE_MAX_CONFIGS" == "true" ]]; then
+            python src/xray_config_tester.py configs/proxy_configs.txt configs/proxy_configs_max.txt 2>&1 | tee xray-test.log
+            if grep -Fq "No working configs found" xray-test.log; then
+              echo "Xray tester found no working configs; refusing to publish fallback input." >&2
+              exit 1
+            fi
+            test -s configs/proxy_configs_max.txt || {
+              echo "Xray maximum-mode test stage produced no tested configs." >&2
+              exit 1
+            }
+            python src/dual_config_outputs.py split-xray --input configs/proxy_configs.txt --maximum configs/proxy_configs_max.txt --standard configs/proxy_configs_tested.txt --limit 666
+          else
+            python src/xray_config_tester.py configs/proxy_configs.txt configs/proxy_configs_tested.txt 2>&1 | tee xray-test.log
+            if grep -Fq "No working configs found" xray-test.log; then
+              echo "Xray tester found no working configs; refusing to publish fallback input." >&2
+              exit 1
+            fi
+            test -s configs/proxy_configs_tested.txt || {
+              echo "Xray standard test stage produced no tested configs." >&2
+              exit 1
+            }
           fi
-          test -s configs/proxy_configs_max.txt || {
-            echo "Xray maximum-mode test stage produced no tested configs." >&2
-            exit 1
-          }
-          python src/dual_config_outputs.py split-xray --input configs/proxy_configs.txt --maximum configs/proxy_configs_max.txt --standard configs/proxy_configs_tested.txt --limit 666
           cp configs/proxy_configs_tested.txt configs/proxy_configs.txt
 
           python src/country_splitter.py configs/proxy_configs_tested.txt configs/location_cache.json configs/location
 
           python src/config_to_singbox.py configs/proxy_configs_tested.txt configs/singbox_configs_all.json
-          python src/config_to_singbox.py configs/proxy_configs_max.txt configs/singbox_configs_max_all.json
           test -s configs/singbox_configs_all.json
-          test -s configs/singbox_configs_max_all.json
           python -m json.tool configs/singbox_configs_all.json > /dev/null
-          python -m json.tool configs/singbox_configs_max_all.json > /dev/null
 
-          python src/config_tester.py configs/singbox_configs_max_all.json configs/singbox_configs_max.json 2>&1 | tee singbox-test.log
-          if grep -Fq "No working configs found" singbox-test.log; then
-            echo "sing-box tester found no working configs; refusing to publish fallback input." >&2
-            exit 1
-          fi
-          test -s configs/singbox_configs_max.json || {
-            echo "sing-box maximum-mode test stage produced no tested configs." >&2
-            exit 1
-          }
-          python - <<'PY'
+          if [[ "$GENERATE_MAX_CONFIGS" == "true" ]]; then
+            python src/config_to_singbox.py configs/proxy_configs_max.txt configs/singbox_configs_max_all.json
+            test -s configs/singbox_configs_max_all.json
+            python -m json.tool configs/singbox_configs_max_all.json > /dev/null
+
+            python src/config_tester.py configs/singbox_configs_max_all.json configs/singbox_configs_max.json 2>&1 | tee singbox-test.log
+            if grep -Fq "No working configs found" singbox-test.log; then
+              echo "sing-box tester found no working configs; refusing to publish fallback input." >&2
+              exit 1
+            fi
+            test -s configs/singbox_configs_max.json || {
+              echo "sing-box maximum-mode test stage produced no tested configs." >&2
+              exit 1
+            }
+            python - <<'PY'
           import json
           from pathlib import Path
           p = Path('configs/singbox_configs_max.json')
@@ -241,25 +267,32 @@ jobs:
               raise SystemExit('sing-box maximum output contains no tested proxy outbounds')
           print(f'Validated {len(proxies)} maximum sing-box proxy outbounds.')
           PY
-          python src/dual_config_outputs.py subset-singbox --maximum-tested configs/singbox_configs_max.json --standard-source configs/singbox_configs_all.json --standard-output configs/singbox_configs_tested.json
+            python src/dual_config_outputs.py subset-singbox --maximum-tested configs/singbox_configs_max.json --standard-source configs/singbox_configs_all.json --standard-output configs/singbox_configs_tested.json
+            python src/xray_balancer.py configs/proxy_configs_max.txt configs/xray_loadbalanced_config_max.json
+          else
+            python src/config_tester.py configs/singbox_configs_all.json configs/singbox_configs_tested.json 2>&1 | tee singbox-test.log
+            if grep -Fq "No working configs found" singbox-test.log; then
+              echo "sing-box tester found no working configs; refusing to publish fallback input." >&2
+              exit 1
+            fi
+            test -s configs/singbox_configs_tested.json || {
+              echo "sing-box standard test stage produced no tested configs." >&2
+              exit 1
+            }
+          fi
           cp configs/singbox_configs_tested.json configs/singbox_configs_all.json
 
           python src/security_filter.py
           python src/singbox_to_clash.py
           python src/xray_balancer.py
-          python src/xray_balancer.py configs/proxy_configs_max.txt configs/xray_loadbalanced_config_max.json
           python src/xray_fragment_balancer.py
 
           # Required generated outputs must be fresh and structurally valid.
           required_files=(
             configs/proxy_configs.txt
             configs/proxy_configs_tested.txt
-            configs/proxy_configs_max.txt
             configs/location_cache.json
             configs/singbox_configs_all.json
-            configs/singbox_configs_max.json
-            configs/clash_configs_max.yaml
-            configs/xray_loadbalanced_config_max.json
             configs/singbox_configs_tested.json
             configs/singbox_configs_secure.json
             configs/clash_configs_all.yaml
@@ -270,6 +303,11 @@ jobs:
             configs/xray_secure_loadbalanced_config.json
             configs/channel_stats.json
           )
+          )
+          if [[ "$GENERATE_MAX_CONFIGS" == "true" ]]; then
+            required_files+=(
+                    )
+          fi
           for file in "${required_files[@]}"; do
             if [[ ! -s "$file" ]]; then
               echo "Required output is missing or empty: $file" >&2
@@ -290,6 +328,10 @@ jobs:
             configs/channel_stats.json; do
             python -m json.tool "$file" > /dev/null
           done
+          if [[ "$GENERATE_MAX_CONFIGS" == "true" ]]; then
+            python -m json.tool configs/singbox_configs_max.json > /dev/null
+            python -m json.tool configs/xray_loadbalanced_config_max.json > /dev/null
+          fi
 
           python src/generate_charts.py
           test -s assets/channel_stats_chart.svg
@@ -323,6 +365,14 @@ jobs:
             assets/channel_stats_chart.svg
             assets/performance_report.html
           )
+          if [[ "$GENERATE_MAX_CONFIGS" == "true" ]]; then
+            files+=(
+              configs/proxy_configs_max.txt
+              configs/singbox_configs_max.json
+              configs/clash_configs_max.yaml
+              configs/xray_loadbalanced_config_max.json
+            )
+          fi
           for file in "${files[@]}"; do
             install -D "$file" "$GITHUB_WORKSPACE/$file"
           done
@@ -365,13 +415,9 @@ jobs:
           git add -- \
             configs/proxy_configs.txt \
             configs/proxy_configs_tested.txt \
-            configs/proxy_configs_max.txt \
             configs/location_cache.json \
             configs/singbox_configs_all.json \
             configs/singbox_configs_tested.json \
-            configs/singbox_configs_max.json \
-            configs/clash_configs_max.yaml \
-            configs/xray_loadbalanced_config_max.json \
             configs/singbox_configs_secure.json \
             configs/clash_configs_all.yaml \
             configs/clash_configs_tested.yaml \
@@ -384,6 +430,13 @@ jobs:
             assets/channel_stats_chart.svg \
             assets/performance_report.html \
             README.md
+          if [[ "$GENERATE_MAX_CONFIGS" == "true" ]]; then
+            git add -- \
+              configs/proxy_configs_max.txt \
+              configs/singbox_configs_max.json \
+              configs/clash_configs_max.yaml \
+              configs/xray_loadbalanced_config_max.json
+          fi
 
           if git diff --cached --quiet; then
             echo "No validated output changes to commit."
