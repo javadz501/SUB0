@@ -3,34 +3,50 @@ import copy
 import json
 from pathlib import Path
 
+from config import ProxyConfig
+from fetch_configs import ConfigFetcher
+
 EXCLUDED_TYPES = {"selector", "urltest", "direct", "block", "dns"}
 UTILITY_TYPES = {"direct", "block", "dns"}
 
 
 def split_xray(input_path: str, maximum_path: str, standard_path: str, limit: int) -> None:
-    source = Path(input_path).read_text(encoding="utf-8").splitlines()
+    candidate_lines = Path(input_path).read_text(encoding="utf-8").splitlines()
+    candidate_configs = [
+        line.strip() for line in candidate_lines
+        if line.strip() and not line.lstrip().startswith("//") and not line.lstrip().startswith("#")
+    ]
+
+    maximum_lines = Path(maximum_path).read_text(encoding="utf-8").splitlines()
     headers = []
-    configs = []
-    for line in source:
+    maximum_configs = []
+    for line in maximum_lines:
         stripped = line.strip()
         if not stripped or stripped.startswith("//") or stripped.startswith("#"):
-            if not configs:
+            if not maximum_configs:
                 headers.append(line)
             continue
-        configs.append(line)
+        maximum_configs.append(line)
 
-    if not configs:
+    if not maximum_configs:
         raise ValueError("Xray tester produced no working configurations.")
 
-    maximum_lines = headers + ([""] if headers else []) + configs
-    standard_lines = headers + ([""] if headers else []) + configs[:limit]
-    Path(maximum_path).write_text("\n".join(maximum_lines) + "\n", encoding="utf-8")
-    Path(standard_path).write_text("\n".join(standard_lines) + "\n", encoding="utf-8")
+    # Reapply the normal-mode protocol caps to the already-fetched candidate pool.
+    # This keeps the standard feed's selection policy separate from the max feed.
+    normal_config = ProxyConfig()
+    normal_fetcher = ConfigFetcher(normal_config)
+    standard_candidates = normal_fetcher.balance_protocols(sorted(set(candidate_configs)))
+    standard_candidates = standard_candidates[:limit]
+    maximum_set = set(maximum_configs)
+    standard_configs = [item for item in standard_candidates if item in maximum_set]
 
-    if len(configs[:limit]) != min(limit, len(configs)):
-        raise RuntimeError("Failed to construct the standard Xray subset.")
-    print(f"Maximum Xray set: {len(configs)} configs")
-    print(f"Standard Xray set: {min(limit, len(configs))} configs")
+    if not standard_configs:
+        raise ValueError("No standard-mode candidates survived the maximum Xray test pass.")
+
+    Path(maximum_path).write_text("\n".join(headers + ([""] if headers else []) + maximum_configs) + "\n", encoding="utf-8")
+    Path(standard_path).write_text("\n".join(headers + ([""] if headers else []) + standard_configs) + "\n", encoding="utf-8")
+    print(f"Maximum Xray set: {len(maximum_configs)} configs")
+    print(f"Standard Xray set: {len(standard_configs)} configs (target: {limit})")
 
 
 def subset_singbox(maximum_tested_path: str, standard_source_path: str, standard_output_path: str) -> None:
