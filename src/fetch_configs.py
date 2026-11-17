@@ -531,6 +531,8 @@ def save_channel_stats(config: ProxyConfig, total_saved: int = None):
 
 def main():
     try:
+        if '--maximum-power' in os.sys.argv[1:]:
+            os.environ['SUB0_USE_MAXIMUM_POWER'] = 'true'
         config = ProxyConfig()
         fetcher = ConfigFetcher(config)
         configs = fetcher.fetch_all_configs()
