@@ -18,8 +18,8 @@ EXCLUDED_SINGBOX_TYPES = {
     "dns",
 }
 
-def count_xray():
-    path = CONFIGS / "proxy_configs_tested.txt"
+def count_xray(filename="proxy_configs_tested.txt"):
+    path = CONFIGS / filename
     lines = path.read_text(encoding="utf-8").splitlines()
 
     return sum(
