@@ -178,7 +178,10 @@ class ConfigToSingbox:
 
 
 def main():
-    converter = ConfigToSingbox()
+    import sys
+    input_file = sys.argv[1] if len(sys.argv) > 1 else 'configs/proxy_configs_tested.txt'
+    output_file = sys.argv[2] if len(sys.argv) > 2 else 'configs/singbox_configs_all.json'
+    converter = ConfigToSingbox(input_file, output_file)
     converter.process_configs()
 
 if __name__ == '__main__':
