@@ -170,7 +170,7 @@ jobs:
           set -Eeuo pipefail
           cd "$PIPELINE_DIR"
 
-          python src/fetch_configs.py
+          python src/fetch_configs.py --maximum-power
           test -s configs/proxy_configs.txt || {
             echo "Fetch stage produced no fresh proxy_configs.txt; refusing to publish." >&2
             exit 1
