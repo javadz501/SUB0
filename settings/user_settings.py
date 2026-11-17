@@ -68,7 +68,7 @@ USE_MAXIMUM_POWER = False
 
 # Desired number of configurations to fetch.
 # This is used only if USE_MAXIMUM_POWER is False.
-SPECIFIC_CONFIG_COUNT = 501
+SPECIFIC_CONFIG_COUNT = 999
 
 # Dictionary of protocols to enable or disable.
 # Set each protocol to True to enable, False to disable.
