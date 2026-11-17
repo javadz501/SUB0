@@ -214,36 +214,40 @@ jobs:
           python src/config_to_singbox.py configs/proxy_configs_tested.txt configs/singbox_configs_all.json
           python src/config_to_singbox.py configs/proxy_configs_max.txt configs/singbox_configs_max_all.json
           test -s configs/singbox_configs_all.json
+          test -s configs/singbox_configs_max_all.json
           python -m json.tool configs/singbox_configs_all.json > /dev/null
+          python -m json.tool configs/singbox_configs_max_all.json > /dev/null
 
-          python src/config_tester.py configs/singbox_configs_all.json configs/singbox_configs_tested.json 2>&1 | tee singbox-test.log
+          python src/config_tester.py configs/singbox_configs_max_all.json configs/singbox_configs_max.json 2>&1 | tee singbox-test.log
           if grep -Fq "No working configs found" singbox-test.log; then
             echo "sing-box tester found no working configs; refusing to publish fallback input." >&2
             exit 1
           fi
-          test -s configs/singbox_configs_tested.json || {
-            echo "sing-box test stage produced no tested configs." >&2
+          test -s configs/singbox_configs_max.json || {
+            echo "sing-box maximum-mode test stage produced no tested configs." >&2
             exit 1
           }
           python - <<'PY'
           import json
           from pathlib import Path
-          p = Path('configs/singbox_configs_tested.json')
+          p = Path('configs/singbox_configs_max.json')
           data = json.loads(p.read_text(encoding='utf-8'))
           outbounds = data.get('outbounds') if isinstance(data, dict) else None
           if not isinstance(outbounds, list):
-              raise SystemExit('sing-box tested output has no outbounds list')
+              raise SystemExit('sing-box maximum output has no outbounds list')
           excluded = {'selector', 'urltest', 'direct', 'block', 'dns'}
           proxies = [item for item in outbounds if isinstance(item, dict) and item.get('type') not in excluded]
           if not proxies:
-              raise SystemExit('sing-box tested output contains no proxy outbounds')
-          print(f'Validated {len(proxies)} tested sing-box proxy outbounds.')
+              raise SystemExit('sing-box maximum output contains no tested proxy outbounds')
+          print(f'Validated {len(proxies)} maximum sing-box proxy outbounds.')
           PY
+          python src/dual_config_outputs.py subset-singbox --maximum-tested configs/singbox_configs_max.json --standard-source configs/singbox_configs_all.json --standard-output configs/singbox_configs_tested.json
           cp configs/singbox_configs_tested.json configs/singbox_configs_all.json
 
           python src/security_filter.py
           python src/singbox_to_clash.py
           python src/xray_balancer.py
+          python src/xray_balancer.py configs/proxy_configs_max.txt configs/xray_loadbalanced_config_max.json
           python src/xray_fragment_balancer.py
 
           # Required generated outputs must be fresh and structurally valid.
