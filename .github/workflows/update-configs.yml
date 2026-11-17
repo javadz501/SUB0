@@ -303,10 +303,13 @@ jobs:
             configs/xray_secure_loadbalanced_config.json
             configs/channel_stats.json
           )
-          )
           if [[ "$GENERATE_MAX_CONFIGS" == "true" ]]; then
             required_files+=(
-                    )
+              configs/proxy_configs_max.txt
+              configs/singbox_configs_max.json
+              configs/clash_configs_max.yaml
+              configs/xray_loadbalanced_config_max.json
+            )
           fi
           for file in "${required_files[@]}"; do
             if [[ ! -s "$file" ]]; then
@@ -319,10 +322,8 @@ jobs:
             configs/location_cache.json \
             configs/singbox_configs_all.json \
             configs/singbox_configs_tested.json \
-            configs/singbox_configs_max.json \
             configs/singbox_configs_secure.json \
             configs/xray_loadbalanced_config.json \
-            configs/xray_loadbalanced_config_max.json \
             configs/xray_fragment_loadbalanced_config.json \
             configs/xray_secure_loadbalanced_config.json \
             configs/channel_stats.json; do
@@ -347,13 +348,9 @@ jobs:
           files=(
             configs/proxy_configs.txt
             configs/proxy_configs_tested.txt
-            configs/proxy_configs_max.txt
             configs/location_cache.json
             configs/singbox_configs_all.json
             configs/singbox_configs_tested.json
-            configs/singbox_configs_max.json
-            configs/clash_configs_max.yaml
-            configs/xray_loadbalanced_config_max.json
             configs/singbox_configs_secure.json
             configs/clash_configs_all.yaml
             configs/clash_configs_tested.yaml
