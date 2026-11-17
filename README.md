@@ -46,6 +46,7 @@ Choose the output compatible with your client and import the corresponding subsc
 <!-- SUB0_COUNTS_START -->
 | **Xray Tested** | `TXT` | 381 | [↗ Open Subscription](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/proxy_configs_tested.txt) |
 | **Xray Maximum** | `TXT` | Pending | [↗ Open Subscription](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/proxy_configs_max.txt) |
+| **Xray Load Balanced Maximum** | `JSON` | Pending | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/xray_loadbalanced_config_max.json) |
 | **sing-box Tested** | `JSON` | 229 | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/singbox_configs_tested.json) |
 | **sing-box Maximum** | `JSON` | Pending | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/singbox_configs_max.json) |
 | **Clash Maximum** | `YAML` | Pending | [↗ Open Configuration](https://raw.githubusercontent.com/javadz501/SUB0/main/configs/clash_configs_max.yaml) |
