@@ -80,7 +80,7 @@ class ConfigToSingbox:
 
     def process_configs(self):
         try:
-            with open('configs/proxy_configs_tested.txt', 'r', encoding='utf-8') as f:
+            with open(self.input_file, 'r', encoding='utf-8') as f:
                 configs = [line.strip() for line in f.read().strip().split('\n') if line.strip() and not line.strip().startswith('//')]
         except FileNotFoundError:
             logger.error("proxy_configs_tested.txt not found! Exiting.")
