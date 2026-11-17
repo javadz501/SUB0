@@ -77,7 +77,11 @@ class ChannelConfig:
 
 class ProxyConfig:
     def __init__(self):
-        self.use_maximum_power = USE_MAXIMUM_POWER
+        maximum_power_override = os.environ.get('SUB0_USE_MAXIMUM_POWER')
+        if maximum_power_override is None:
+            self.use_maximum_power = USE_MAXIMUM_POWER
+        else:
+            self.use_maximum_power = maximum_power_override.strip().lower() in {'1', 'true', 'yes', 'on'}
         self.specific_config_count = SPECIFIC_CONFIG_COUNT
         self.MAX_CONFIG_AGE_DAYS = MAX_CONFIG_AGE_DAYS
         
