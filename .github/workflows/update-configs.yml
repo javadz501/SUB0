@@ -23,6 +23,8 @@ jobs:
   update-configs:
     runs-on: ubuntu-latest
     timeout-minutes: 360
+    env:
+      GENERATE_MAX_CONFIGS: ${{ github.event_name == 'workflow_dispatch' && inputs.generate_max_configs || 'false' }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
@@ -170,10 +172,9 @@ jobs:
 
       - name: Run pipeline and validate fresh outputs
         shell: bash
-        env:
-          GENERATE_MAX_CONFIGS: ${{ github.event_name == 'workflow_dispatch' && inputs.generate_max_configs }}
         run: |
           set -Eeuo pipefail
+          : "${GENERATE_MAX_CONFIGS:=false}"
           cd "$PIPELINE_DIR"
 
           if [[ "$GENERATE_MAX_CONFIGS" == "true" ]]; then
@@ -342,6 +343,7 @@ jobs:
         shell: bash
         run: |
           set -Eeuo pipefail
+          : "${GENERATE_MAX_CONFIGS:=false}"
           cd "$PIPELINE_DIR"
 
           # Copy only known generated files; never stage the entire workspace.
@@ -406,6 +408,7 @@ jobs:
         shell: bash
         run: |
           set -Eeuo pipefail
+          : "${GENERATE_MAX_CONFIGS:=false}"
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
 
