@@ -2,5 +2,3 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://2232d904-8e6a-4202-8240-6efd8aec02e9@31.58.213.31:443?security=tls&flow=xtls-rprx-vision&fp=firefox&sni=app.streamru2.net&type=tcp&headerType=none&path=/#VLESS 🇮🇩 TLS+VISION+UTLS [443]
-

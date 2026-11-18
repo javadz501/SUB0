@@ -2,5 +2,7 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://0d628b17-8ac4-49b9-a422-6b99077bfdf6@31.76.3.34:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=CetY_ReGID1LBH275yWlxxOctI82PtgxR-fjYSRTKzM&security=reality&sid=8a2b3c4d5e6f7012&sni=tradingview.com&type=raw#VLESS 🇸🇪 RAW+REALITY+PBK+SID+VISION+UTLS [443]
+hysteria2://d4ca9415f0eac7897472e1e5b86d2e96@50.7.38.243:443?sni=promo.betust.net#Hysteria2 🇸🇪 QUIC [443]
+
+hysteria2://dbdabd55c8c24198b9b1c67b43a3d0e4@56.228.84.149:5012?obfs=salamander&obfs-password=e4cf2fe595ce18717645661c&sni=hy-se.mechanicfkkhk.shop#Hysteria2 🇸🇪 QUIC+OBFS [5012]
 

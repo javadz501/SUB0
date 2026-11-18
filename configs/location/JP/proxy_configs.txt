@@ -2,5 +2,3 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-hysteria2://3OAaD9HeUplLnOOA0StMZG@43.239.249.178:443?insecure=1&sni=www.bing.com#Hysteria2 🇯🇵 QUIC [443]
-
