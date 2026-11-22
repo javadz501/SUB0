@@ -2,5 +2,3 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-hysteria2://a35c508f-4d5d-4531-842e-6e9d43c762c0@2.27.210.6:4444?insecure=1&sni=lv2.nexfile.net#Hysteria2 🇧🇪 QUIC [4444]
-

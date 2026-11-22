@@ -2,3 +2,7 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
+vless://03fcc618-b93d-6796-6aed-8a38c975d581@kuruish.org:443?encryption=none&security=tls&type=tcp&headerType=none#VLESS 🇯🇵 TLS [443]
+
+vless://052ad41f-7cf5-4027-b14d-c90f89e46103@154.36.152.216:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=dv37ircK63KvcVZwv3XJiUXvOsiP-dEsZQ3gXDdPmRs&sid=a3f7c2e1b9d4&spx=/cdn-cgi/trace&type=tcp&headerType=none#VLESS 🇯🇵 REALITY+PBK+SID+VISION+UTLS [443]
+

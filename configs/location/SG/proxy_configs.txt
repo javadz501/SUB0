@@ -2,7 +2,9 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-hysteria2://7e68e32f-8015-4f37-9082-70e8b0b58043@18.143.176.12:443?insecure=1&sni=www.bing.com#Hysteria2 🇸🇬 QUIC [443]
+vless://100cfbe2-afd5-40cf-84df-063b010ee759@194.233.67.103:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=un_9X4oh5ODWIcXl_jiuUaox4XOJE7oZpSPWGb46tRI&sid=07a66150eac3db28&type=tcp#VLESS 🇸🇬 REALITY+PBK+SID+UTLS [2053]
 
-hysteria2://7e68e32f-8015-4f37-9082-70e8b0b58043@56.10.146.231:443?insecure=1&sni=www.bing.com#Hysteria2 🇸🇬 QUIC [443]
+ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206c1VSNk55OFk2UFN2SGhsL0RVeGNvbnd4ZzZWWnlGZHNkZmFWQ3ZFYXRKbz06N2JURWhIZ3BFcktpUmpFMWVnYStINnBjcEpzTkxGQjBDalFzZXVqQUhyQT0@129.150.59.74:14384#SS 🇸🇬 2022+BLAKE3 [14384]
+
+hysteria2://7e68e32f-8015-4f37-9082-70e8b0b58043@18.143.176.12:443?insecure=1&sni=www.bing.com#Hysteria2 🇸🇬 QUIC [443]
 

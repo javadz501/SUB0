@@ -2,21 +2,17 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://052d73c9-1735-4008-b58c-e3a085dc2a37@89.125.175.24:8443?type=tcp&headerType=none&security=reality&encryption=none&sni=uk-room07.filesnap.tech&fp=firefox&pbk=48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM&sid=dbef98744832b751&flow=xtls-rprx-vision#VLESS 🇩🇪 REALITY+PBK+SID+VISION+UTLS [8443]
+vless://082ff568-e0f1-42af-ad7c-2c46adde1273@45.86.158.53:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=-ZN1kT3JlPFxu1E906JRqLAGoQQucSmL6xPiuAyasTk&security=reality&sid=597e1c279d224774&sni=4c980ft.fi15.h1clayd.click&type=tcp#VLESS 🇩🇪 REALITY+PBK+SID+VISION+UTLS [443]
 
-vless://052d73c9-1735-4008-b58c-e3a085dc2a37@89.125.175.55:8443?type=tcp&headerType=none&security=reality&encryption=none&sni=uk-room05.filesnap.tech&fp=firefox&pbk=FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8&sid=7da3ba09a037e956&flow=xtls-rprx-vision#VLESS 🇩🇪 REALITY+PBK+SID+VISION+UTLS [8443]
+ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206ZjJOcTVZTG55Y2xQYVdSOG15Ny9WZGQzWlg4VVJuY1haTmx5NStIY1VTcz06ZFE2V1ljUHBHWDV4SXhVVlBBUjh3MUE5ZVk2a0VWb0tLVzNIbGVKNm84WT0@77.90.10.175:8086#SS 🇩🇪 2022+BLAKE3 [8086]
 
-vless://12776e55-6230-48b9-b069-1bb8a04b4237@217.60.27.153:443?encryption=none&flow=xtls-rprx-vision&pbk=q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ&security=reality&sni=music.3apes.online&type=tcp#VLESS 🇩🇪 REALITY+PBK+VISION [443]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDOFpKN1I0cF9ISEozMmNzdDdpbFQtMFppMkYyMmhBYw@2.29.210.28:25565#SS 🇩🇪 AEAD [25565]
 
-vless://12776e55-6230-48b9-b069-1bb8a04b4237@music.3apes.online:443?security=reality&type=tcp&packetEncoding=xudp&sni=music.3apes.online&fp=qq&flow=xtls-rprx-vision&pbk=q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ&encryption=none#VLESS 🇩🇪 REALITY+PBK+VISION+UTLS [443]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@193.108.119.78:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=www.iloverussia2026.com#Trojan 🇩🇪 TLS+UTLS [443]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDOFpKN1I0cF9ISEozMmNzdDdpbFQtMFppMkYyMmhBYw@static.28.210.29.2.clients.your-server.de:25565#SS 🇩🇪 AEAD [25565]
 
 hysteria2://2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f@144.31.148.87:443?insecure=1&sni=replay.wwwinternetvideo.click#Hysteria2 🇩🇪 QUIC [443]
 
 hysteria2://2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f@replay.wwwinternetvideo.click:443?insecure=1&sni=replay.wwwinternetvideo.click#Hysteria2 🇩🇪 QUIC [443]
-
-hysteria2://2d399e38-245c-4f07-abf2-cfce7397ba9c@31.76.106.92:8443?sni=va.stream-room.com#Hysteria2 🇩🇪 QUIC [8443]
 
 hysteria2://2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o@89.125.156.80:443?insecure=1&sni=pixelcast.wwwinternetvideo.click#Hysteria2 🇩🇪 QUIC [443]
 
@@ -24,17 +20,17 @@ hysteria2://2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o@pixelcast.wwwinternetvid
 
 hysteria2://549766c3-fa5f-471e-8031-ffc1f8d5064f@guide.blog-forme.ru:443?#Hysteria2 🇩🇪 QUIC [443]
 
-hysteria2://5ictxgawam84vgrp@109.70.74.213:2098?security=tls&obfs=salamander&obfs-password=7922smqtd5qm70fu&insecure=0&sni=109.70.74.213#Hysteria2 🇩🇪 QUIC+OBFS [2098]
+hysteria2://5ictxgawam84vgrp@109.70.74.213:2098?insecure=0&sni=109.70.74.213&obfs=salamander&obfs-password=7922smqtd5qm70fu#Hysteria2 🇩🇪 QUIC+OBFS [2098]
+
+hysteria2://5s7qa8f78hznlw8g@3.120.145.15:41018?obfs=salamander&obfs-password=v0qq015d7c8zgzu7&sni=quotes.ali-khamenei.world#Hysteria2 🇩🇪 QUIC+OBFS [41018]
 
 hysteria2://BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=@fin14qr.wwwinternetvideo.click:443?insecure=1&sni=fin14qr.wwwinternetvideo.click#Hysteria2 🇩🇪 QUIC [443]
 
-hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@18.194.242.173:443?insecure=1&sni=127.0.0.1#Hysteria2 🇩🇪 QUIC [443]
+hysteria2://HATATEAYA@77.90.15.183:8964?insecure=1&sni=ganlanc.at&obfs=salamander&obfs-password=HATATEAYA#Hysteria2 🇩🇪 QUIC+OBFS [8964]
 
-hysteria2://HATATEAYA@77.90.15.183:8964?insecure=1&obfs=salamander&obfs-password=HATATEAYA&sni=ganlanc.at#Hysteria2 🇩🇪 QUIC+OBFS [8964]
+hysteria2://KevinZakarian@179.61.132.96:8443?insecure=1&sni=179.61.132.96&obfs=salamander&obfs-password=KevinZakarian#Hysteria2 🇩🇪 QUIC+OBFS [8443]
 
-hysteria2://KevinZakarian@179.61.132.96:8443?security=tls&obfs=salamander&obfs-password=KevinZakarian&insecure=1&sni=179.61.132.96#Hysteria2 🇩🇪 QUIC+OBFS [8443]
-
-hysteria2://Telegram-vpnjey@179.61.138.145:36264?sni=de2.jey.cc.cd&insecure=1&obfs=salamander&obfs-password=Telegram@vpnjey#Hysteria2 🇩🇪 QUIC+OBFS [36264]
+hysteria2://Telegram-vpnjey@179.61.138.145:36264?insecure=1&sni=de2.jey.cc.cd&obfs=salamander&obfs-password=Telegram@vpnjey#Hysteria2 🇩🇪 QUIC+OBFS [36264]
 
 hysteria2://Telegram@179.61.138.145:443?insecure=1&sni=de2.jey.cc.cd&obfs=salamander&obfs-password=Telegram@vpnjey#Hysteria2 🇩🇪 QUIC+OBFS [443]
 
@@ -42,21 +38,11 @@ hysteria2://V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8@144.31.221.57:443?insecu
 
 hysteria2://V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8@player.wwwinternetvideo.click:443?insecure=1&sni=player.wwwinternetvideo.click#Hysteria2 🇩🇪 QUIC [443]
 
-hysteria2://a35c508f-4d5d-4531-842e-6e9d43c762c0@13.143.189.105:4444?insecure=0&sni=pl2.nexfile.net#Hysteria2 🇩🇪 QUIC [4444]
-
-hysteria2://a35c508f-4d5d-4531-842e-6e9d43c762c0@13.143.189.106:4444?insecure=0&sni=pl2.nexfile.net#Hysteria2 🇩🇪 QUIC [4444]
-
-hysteria2://a35c508f-4d5d-4531-842e-6e9d43c762c0@13.143.189.142:4444?insecure=0&sni=pl3.nexfile.net#Hysteria2 🇩🇪 QUIC [4444]
-
-hysteria2://a35c508f-4d5d-4531-842e-6e9d43c762c0@13.143.189.147:4444?insecure=0&sni=pl2.nexfile.net#Hysteria2 🇩🇪 QUIC [4444]
-
-hysteria2://a35c508f-4d5d-4531-842e-6e9d43c762c0@13.143.189.149:4444?insecure=0&sni=pl2.nexfile.net#Hysteria2 🇩🇪 QUIC [4444]
-
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@135.125.204.154:35000?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=api.kermanshahi.org#Hysteria2 🇩🇪 QUIC+OBFS [35000]
 
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@181.214.231.121:35000?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=api.kermanshahi.org#Hysteria2 🇩🇪 QUIC+OBFS [35000]
 
-hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@181.214.99.162:35000?security=tls&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=1&sni=api.kermanshahi.org#Hysteria2 🇩🇪 QUIC+OBFS [35000]
+hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@181.214.99.162:35000?insecure=1&sni=api.kermanshahi.org&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi#Hysteria2 🇩🇪 QUIC+OBFS [35000]
 
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@5.175.249.174:35000?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=api.kermanshahi.org#Hysteria2 🇩🇪 QUIC+OBFS [35000]
 
