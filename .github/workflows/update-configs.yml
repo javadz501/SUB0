@@ -412,6 +412,21 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
 
+          # Normalize generated plain-text feeds before staging: preserve every
+          # non-empty line and enforce exactly one final newline.
+          python - <<'PY'
+          from pathlib import Path
+
+          for name in (
+              'configs/proxy_configs.txt',
+              'configs/proxy_configs_tested.txt',
+          ):
+              path = Path(name)
+              data = path.read_bytes()
+              if data:
+                  path.write_bytes(data.rstrip(b'\\r\\n') + b'\\n')
+          PY
+
           git add -- \
             configs/proxy_configs.txt \
             configs/proxy_configs_tested.txt \
