@@ -424,7 +424,7 @@ jobs:
               path = Path(name)
               data = path.read_bytes()
               if data:
-                  path.write_bytes(data.rstrip(b'\\r\\n') + b'\\n')
+                  path.write_bytes(data.rstrip(b'\r\n') + b'\n')
           PY
 
           git add -- \
