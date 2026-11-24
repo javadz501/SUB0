@@ -2,27 +2,27 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://03fcc618-b93d-6796-6aed-8a38c975d581@66.163.113.9:443?security=tls&sni=kuruish.org&type=tcp&allowInsecure=0&encryption=none#VLESS 🇨🇦 TLS [443]
+vless://03fcc618-b93d-6796-6aed-8a38c975d581@66.163.113.9:443?encryption=none&security=tls&sni=kuruish.org&type=tcp&headerType=none#VLESS 🇨🇦 TLS [443]
 
-vless://03fcc618-b93d-6796-6aed-8a38c975d581@kuruish.org:443?encryption=none&security=tls&type=tcp&headerType=none#VLESS 🇨🇦 TLS [443]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.152:443?sni=learn.connectingpeoplewithgreatjobs.com&type=tcp#Trojan 🇨🇦 TLS [443]
+vless://03fcc618-b93d-6796-6aed-8a38c975d581@kuruish.org:443?security=tls&encryption=none&sni=kuruish.org&type=tcp&headerType=none&path=/#VLESS 🇨🇦 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.201:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=resources.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS+UTLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.48:443?sni=courses.connectingpeoplewithgreatjobs.com&type=tcp#Trojan 🇨🇦 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.48:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=courses.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS+UTLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.74:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=api.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS+UTLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.74:443?sni=api.connectingpeoplewithgreatjobs.com&type=tcp#Trojan 🇨🇦 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.79:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=blog.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.79:443?security=tls&sni=blog.connectingpeoplewithgreatjobs.com&path=/#Trojan 🇨🇦 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.85:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=cdn.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.89:443?security=tls&sni=www.connectingpeoplewithgreatjobs.com&type=tcp&headerType=none#Trojan 🇨🇦 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.89:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=www.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.93:443?security=tls&sni=connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.93:443?sni=connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS [443]
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQbUNxSzk4V3FoU0M@134.195.198.163:443#SS 🇨🇦 AEAD [443]
+
+hysteria2://2429bee3-e0c1-47dd-b420-75e6512b184b@40.233.102.224:30300?insecure=1&sni=www.bing.com#Hysteria2 🇨🇦 QUIC [30300]
 
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@15.223.183.81:443?insecure=1&sni=t.me#Hysteria2 🇨🇦 QUIC [443]
 
