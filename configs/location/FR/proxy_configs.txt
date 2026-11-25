@@ -2,9 +2,7 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206UUY2d0dYbVBROFZraWFmWHhtSVI3MHl2UUc3VEQ0M1crRlRyTTNvRm9nRT06a1VHVitrdENrUlFRcnJFQ2Q5ZWd2clJCc202MG9aTDdTSUREQmpYVWNNdz0@2.59.58.32:1883#SS 🇫🇷 2022+BLAKE3 [1883]
-
-hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@13.36.234.11:443?sni=13.36.234.11&path=%2f&allow_insecure=1#Hysteria2 🇫🇷 QUIC [443]
-
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@35.181.166.40:443?insecure=1&sni=vpn-fr-002.fastervpn.world#Hysteria2 🇫🇷 QUIC [443]
+
+hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@51.178.55.157:35000?sni=api.kermanshahi.org&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=1#Hysteria2 🇫🇷 QUIC+OBFS [35000]
 

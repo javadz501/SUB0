@@ -2,3 +2,5 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
+vless://0b6a7fe0-206b-4071-9f96-cd397d1ec01a@193.168.140.175:443?security=tls&fp=firefox&alpn=http/1.1&sni=inlay.merlano.monster&type=ws&headerType=none&host=inlay.merlano.monster&path=/api/de3/stream#VLESS 🇷🇴 WS+TLS+UTLS [443]
+

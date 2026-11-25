@@ -2,7 +2,9 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-hysteria2://57beeeb0-03fc-4fc9-94da-7604488a7134@22egdg.mateflora.com:40055?insecure=1&obfs=salamander&obfs-password=6fltjteoyab7fjf1&sni=psstatic.cdn.bcebos.com#Hysteria2 🇬🇧 QUIC+OBFS [40055]
+vless://0b6a7fe0-206b-4071-9f96-cd397d1ec01a@folio.basterdym.asia:443?mode=packet-up&path=/api/library/&security=tls&alpn=h2&encryption=none&insecure=0&host=folio.basterdym.asia&fp=firefox&type=xhttp&allowInsecure=0&sni=folio.basterdym.asia#VLESS 🇬🇧 XHTTP+TLS+UTLS [443]
+
+hysteria2://57beeeb0-03fc-4fc9-94da-7604488a7134@22egdg.mateflora.com:40055?insecure=1&alpn=h3&sni=psstatic.cdn.bcebos.com&obfs=salamander&obfs-password=6fltjteoyab7fjf1#Hysteria2 🇬🇧 QUIC+OBFS [40055]
 
 hysteria2://87bb2ac4-b7a1-0001-b11d-2107709ea6cb@136.148.83.69:443?insecure=1&sni=szqbx-ru-77dc.my-fade.cloud#Hysteria2 🇬🇧 QUIC [443]
 

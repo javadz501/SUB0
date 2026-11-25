@@ -2,5 +2,5 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTdUtQMGtSR0M1MXBUNzNK@20.123.9.179:443#SS 🇮🇪 AEAD [443]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxZmdFR3E1YTN0SmlMcFVx@20.234.98.208:443#SS 🇮🇪 AEAD [443]
 
