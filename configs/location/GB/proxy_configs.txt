@@ -2,7 +2,7 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://0b6a7fe0-206b-4071-9f96-cd397d1ec01a@folio.basterdym.asia:443?mode=packet-up&path=/api/library/&security=tls&alpn=h2&encryption=none&insecure=0&host=folio.basterdym.asia&fp=firefox&type=xhttp&allowInsecure=0&sni=folio.basterdym.asia#VLESS 🇬🇧 XHTTP+TLS+UTLS [443]
+vless://148917bd-0b37-42b8-98f4-aa94ca73e75a@45.142.212.191:443?encryption=none&flow=xtls-rprx-vision&pbk=tp7awfnKLbhIDkdYlT7Avf-SfUwt7ncX5oyWS5wQmR0&security=reality&sid=24c4&sni=travel.yandex.ru&type=tcp#VLESS 🇬🇧 REALITY+PBK+SID+VISION [443]
 
 hysteria2://57beeeb0-03fc-4fc9-94da-7604488a7134@22egdg.mateflora.com:40055?insecure=1&alpn=h3&sni=psstatic.cdn.bcebos.com&obfs=salamander&obfs-password=6fltjteoyab7fjf1#Hysteria2 🇬🇧 QUIC+OBFS [40055]
 

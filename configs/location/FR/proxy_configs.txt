@@ -2,7 +2,11 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@35.181.166.40:443?insecure=1&sni=vpn-fr-002.fastervpn.world#Hysteria2 🇫🇷 QUIC [443]
+hysteria2://08730279-ed73-43b4-ac85-afe745e8ea6f@v1fr4.stablenode.cloud:45106?sni=v1fr4.stablenode.cloud&insecure=0&obfs=salamander&obfs-password=7lxfFHnxyPtOOafv#Hysteria2 🇫🇷 QUIC+OBFS [45106]
 
-hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@51.178.55.157:35000?sni=api.kermanshahi.org&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=1#Hysteria2 🇫🇷 QUIC+OBFS [35000]
+hysteria2://4cbeddb7-022d-46a8-bca8-a3667abda9ac@v1fr4.stablenode.cloud:45206?insecure=0&sni=v1fr4.stablenode.cloud&obfs=salamander&obfs-password=N2rvCMYcDxnEWHVQ#Hysteria2 🇫🇷 QUIC+OBFS [45206]
+
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@13.36.234.11:443?insecure=1&sni=vpn-fr-001.fastervpn.world#Hysteria2 🇫🇷 QUIC [443]
+
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@35.181.166.40:443?insecure=1&sni=vpn-fr-002.fastervpn.world#Hysteria2 🇫🇷 QUIC [443]
 

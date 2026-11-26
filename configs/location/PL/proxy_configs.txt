@@ -2,7 +2,11 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
+vless://05488656-d4bf-4634-8b2e-e4ff5a56c7e2@82.118.22.161:443?encryption=none&flow=xtls-rprx-vision&pbk=xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E&security=reality&sid=fa3ea655619a3e78&sni=www.cloudflare.com&type=raw#VLESS 🇵🇱 RAW+REALITY+PBK+SID+VISION [443]
+
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOVpaWFZhMzR4N3NDNDh3OUZLUTU0VUtIaUpKR1RWZ0tGcHBCUmd2aUxyVkNBWVZWeUtaZEQzb2JicGpDeWszMVY1YjJHMmQ3eHpxbWFQQkZkY2hlQ1ZCOVVRNFpnaEY@156.67.120.205:51628#SS 🇵🇱 AEAD [51628]
+
+hysteria2://04920673-035c-410d-94e4-5b1469d3fb6f@91.211.27.217:58509?sni=91.211.27.217&path=%2f#Hysteria2 🇵🇱 QUIC [58509]
 
 hysteria2://04920673-035c-410d-94e4-5b1469d3fb6f@91.211.27.231:42848?sni=171.22.183.158#Hysteria2 🇵🇱 QUIC [42848]
 

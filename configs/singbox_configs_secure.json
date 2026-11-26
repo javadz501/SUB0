@@ -85,24 +85,18 @@
             "tag": "Proxy Selector",
             "outbounds": [
                 "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION [443] #1",
-                "VLESS 🇷🇺 RAW+REALITY+PBK+VISION+UTLS [443] #2",
+                "VLESS 🇪🇪 TLS+VISION+UTLS [8443] #2",
                 "VLESS 🇱🇻 RAW+REALITY+PBK+SID+VISION+UTLS [443] #3",
-                "VLESS 🇺🇸 TLS [443] #4",
-                "VLESS 🇨🇦 TLS [443] #5",
-                "VLESS 🇯🇵 TLS+UTLS [443] #6",
-                "VLESS 🇨🇦 TLS [443] #7",
-                "VLESS 🇳🇱 TLS+VISION+UTLS [443] #8",
-                "VLESS 🇳🇱 TLS+VISION [443] #9",
-                "VLESS 🇷🇴 WS+TLS+UTLS [443] #11",
-                "VLESS 🇱🇻 WS+TLS+UTLS [443] #12",
-                "VLESS 🇷🇺 GRPC+TLS+UTLS [443] #13",
-                "VLESS 🇷🇺 WS+TLS+UTLS [443] #14",
-                "VLESS 🇷🇺 WS+TLS+UTLS [443] #15",
-                "VLESS 🇷🇺 GRPC+TLS+UTLS [443] #16",
-                "VLESS 🇪🇸 RAW+REALITY+PBK+SID+VISION+UTLS [443] #19",
-                "VLESS 🇺🇸 REALITY+PBK+VISION+UTLS [28190] #26",
+                "VLESS 🇨🇦 TLS [443] #4",
+                "VLESS 🇺🇸 TLS [443] #5",
+                "VLESS 🇳🇱 TLS+VISION [443] #6",
+                "VLESS 🇵🇱 RAW+REALITY+PBK+SID+VISION [443] #7",
+                "VLESS 🇺🇸 RAW+REALITY+PBK+VISION+UTLS [443] #8",
+                "VLESS 🇺🇸 REALITY+PBK+VISION+UTLS [28190] #13",
+                "VLESS 🇫🇮 WS+TLS+UTLS [993] #14",
                 "Trojan 🇿🇦 TLS [443] #1",
-                "Trojan 🇺🇸 TLS+UTLS [443] #3",
+                "Trojan 🇺🇸 TLS+UTLS [443] #2",
+                "Trojan 🇺🇸 TLS [443] #3",
                 "Trojan 🇺🇸 TLS [443] #4",
                 "Trojan 🇺🇸 TLS [443] #5",
                 "Trojan 🇺🇸 TLS [443] #6",
@@ -114,21 +108,21 @@
                 "Trojan 🇺🇸 TLS [443] #12",
                 "Trojan 🇺🇸 TLS [443] #13",
                 "Trojan 🇺🇸 TLS [443] #14",
-                "Trojan 🇺🇸 TLS [443] #15",
+                "Trojan 🇨🇭 TLS [443] #15",
                 "Trojan 🇨🇭 TLS [443] #16",
                 "Trojan 🇨🇭 TLS [443] #17",
-                "Trojan 🇨🇭 TLS [443] #18",
+                "Trojan 🇨🇭 TLS+UTLS [443] #18",
                 "Trojan 🇨🇭 TLS [443] #19",
                 "Trojan 🇨🇭 TLS [443] #20",
                 "Trojan 🇨🇭 TLS [443] #21",
-                "Trojan 🇨🇦 TLS [443] #22",
-                "Trojan 🇨🇦 TLS [443] #23",
+                "Trojan 🇨🇦 TLS+UTLS [443] #22",
+                "Trojan 🇨🇦 TLS+UTLS [443] #23",
                 "Trojan 🇨🇦 TLS+UTLS [443] #24",
                 "Trojan 🇨🇦 TLS [443] #25",
                 "Trojan 🇨🇦 TLS [443] #26",
                 "Trojan 🇨🇦 TLS [443] #27",
                 "Trojan 🇨🇦 TLS [443] #28",
-                "Trojan 🇨🇦 TLS [443] #29",
+                "Trojan 🇺🇸 TLS [443] #29",
                 "Trojan 🇺🇸 TLS [443] #30",
                 "Trojan 🇺🇸 TLS [443] #31",
                 "Trojan 🇺🇸 TLS [443] #32",
@@ -136,51 +130,51 @@
                 "Trojan 🇺🇸 TLS [443] #34",
                 "Trojan 🇺🇸 TLS [443] #35",
                 "Trojan 🇺🇸 TLS [443] #36",
-                "Trojan 🇺🇸 TLS [443] #37",
-                "Trojan 🇺🇸 TLS+UTLS [443] #38",
+                "Trojan 🇺🇸 TLS+UTLS [443] #37",
+                "Trojan 🇺🇸 TLS [443] #38",
                 "Trojan 🇺🇸 TLS [443] #39",
                 "Trojan 🇺🇸 TLS [443] #40",
                 "Trojan 🇺🇸 TLS [443] #41",
-                "Trojan 🇺🇸 TLS [443] #42",
-                "Trojan 🇪🇸 TLS+UTLS [443] #43",
+                "Trojan 🇪🇸 TLS+UTLS [443] #42",
+                "Trojan 🇪🇸 TLS [443] #43",
                 "Trojan 🇪🇸 TLS [443] #44",
                 "Trojan 🇪🇸 TLS [443] #45",
                 "Trojan 🇪🇸 TLS [443] #46",
-                "Trojan 🇪🇸 TLS [443] #47",
-                "Trojan 🇪🇸 TLS+UTLS [443] #48",
-                "Trojan 🇪🇸 TLS [443] #49",
+                "Trojan 🇪🇸 TLS+UTLS [443] #47",
+                "Trojan 🇪🇸 TLS [443] #48",
+                "Trojan 🇺🇸 TLS [443] #49",
                 "Trojan 🇺🇸 TLS [443] #50",
-                "Trojan 🇺🇸 TLS+UTLS [443] #51",
-                "Trojan 🇺🇸 TLS [443] #52",
+                "Trojan 🇺🇸 TLS [443] #51",
+                "Trojan 🇺🇸 TLS+UTLS [443] #52",
                 "Trojan 🇺🇸 TLS+UTLS [443] #53",
                 "Trojan 🇺🇸 TLS [443] #54",
-                "Trojan 🇺🇸 TLS [443] #55",
+                "Trojan 🇳🇱 TLS+UTLS [443] #55",
                 "Trojan 🇳🇱 TLS+UTLS [443] #56",
-                "Trojan 🇳🇱 TLS+UTLS [443] #57",
+                "Trojan 🇳🇱 TLS [443] #57",
                 "Trojan 🇳🇱 TLS [443] #58",
                 "Trojan 🇳🇱 TLS [443] #59",
-                "Trojan 🇳🇱 TLS [443] #60",
-                "Trojan 🇳🇱 TLS [443] #61",
-                "Trojan 🇳🇱 TLS [443] #62",
-                "Trojan 🇨🇦 TLS [443] #63",
-                "SS 🇭🇰 2022+BLAKE3 [8388] #1",
-                "SS 🇦🇱 AEAD [43558] #2",
-                "SS 🇮🇪 AEAD [443] #3",
-                "SS 🇵🇱 AEAD [51628] #4",
-                "SS 🇳🇴 AEAD [990] #5",
-                "SS 🇦🇹 AEAD [8388] #6",
-                "SS 🇨🇦 AEAD [443] #7",
-                "SS 🇳🇱 AEAD [8080] #8",
+                "Trojan 🇳🇱 TLS+UTLS [443] #60",
+                "Trojan 🇨🇦 TLS [443] #61",
+                "SS 🇸🇬 2022+BLAKE3 [8388] #1",
+                "SS 🇸🇬 AEAD [1080] #2",
+                "SS 🇵🇱 AEAD [51628] #3",
+                "SS 🇦🇹 AEAD [8388] #4",
+                "SS 🇺🇸 AEAD [443] #5",
+                "SS 🇳🇱 AEAD [2089] #6",
+                "SS 🇦🇱 AEAD [43558] #7",
+                "SS 🇩🇪 AEAD [8388] #8",
                 "SS 🇳🇱 AEAD [8080] #9",
-                "SS 🇹🇷 AEAD [2089] #10",
-                "SS 🇿🇦 AEAD [16233] #11",
-                "SS 🇿🇦 AEAD [443] #12",
+                "SS 🇳🇱 AEAD [8080] #10",
+                "SS 🇳🇱 AEAD [2089] #11",
+                "SS 🇹🇷 AEAD [2089] #12",
+                "SS 🇿🇦 AEAD [16233] #13",
+                "SS 🇿🇦 AEAD [443] #14",
                 "Hysteria2 🇳🇱 QUIC [42848] #1",
-                "Hysteria2 🇵🇱 QUIC [42848] #2",
-                "Hysteria2 🇮🇷 QUIC [24403] #16",
-                "Hysteria2 🇳🇱 QUIC+OBFS [443] #30",
-                "Hysteria2 🇺🇸 QUIC [4444] #84",
-                "Hysteria2 🇦🇺 QUIC+OBFS [20000] #86",
+                "Hysteria2 🇵🇱 QUIC [42848] #3",
+                "Hysteria2 🇳🇱 QUIC [443] #23",
+                "Hysteria2 🇮🇷 QUIC [24403] #24",
+                "Hysteria2 🇺🇸 QUIC [4444] #93",
+                "Hysteria2 🇦🇺 QUIC+OBFS [20000] #95",
                 "direct"
             ]
         },
@@ -193,24 +187,18 @@
             "tag": "Best Ping",
             "outbounds": [
                 "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION [443] #1",
-                "VLESS 🇷🇺 RAW+REALITY+PBK+VISION+UTLS [443] #2",
+                "VLESS 🇪🇪 TLS+VISION+UTLS [8443] #2",
                 "VLESS 🇱🇻 RAW+REALITY+PBK+SID+VISION+UTLS [443] #3",
-                "VLESS 🇺🇸 TLS [443] #4",
-                "VLESS 🇨🇦 TLS [443] #5",
-                "VLESS 🇯🇵 TLS+UTLS [443] #6",
-                "VLESS 🇨🇦 TLS [443] #7",
-                "VLESS 🇳🇱 TLS+VISION+UTLS [443] #8",
-                "VLESS 🇳🇱 TLS+VISION [443] #9",
-                "VLESS 🇷🇴 WS+TLS+UTLS [443] #11",
-                "VLESS 🇱🇻 WS+TLS+UTLS [443] #12",
-                "VLESS 🇷🇺 GRPC+TLS+UTLS [443] #13",
-                "VLESS 🇷🇺 WS+TLS+UTLS [443] #14",
-                "VLESS 🇷🇺 WS+TLS+UTLS [443] #15",
-                "VLESS 🇷🇺 GRPC+TLS+UTLS [443] #16",
-                "VLESS 🇪🇸 RAW+REALITY+PBK+SID+VISION+UTLS [443] #19",
-                "VLESS 🇺🇸 REALITY+PBK+VISION+UTLS [28190] #26",
+                "VLESS 🇨🇦 TLS [443] #4",
+                "VLESS 🇺🇸 TLS [443] #5",
+                "VLESS 🇳🇱 TLS+VISION [443] #6",
+                "VLESS 🇵🇱 RAW+REALITY+PBK+SID+VISION [443] #7",
+                "VLESS 🇺🇸 RAW+REALITY+PBK+VISION+UTLS [443] #8",
+                "VLESS 🇺🇸 REALITY+PBK+VISION+UTLS [28190] #13",
+                "VLESS 🇫🇮 WS+TLS+UTLS [993] #14",
                 "Trojan 🇿🇦 TLS [443] #1",
-                "Trojan 🇺🇸 TLS+UTLS [443] #3",
+                "Trojan 🇺🇸 TLS+UTLS [443] #2",
+                "Trojan 🇺🇸 TLS [443] #3",
                 "Trojan 🇺🇸 TLS [443] #4",
                 "Trojan 🇺🇸 TLS [443] #5",
                 "Trojan 🇺🇸 TLS [443] #6",
@@ -222,21 +210,21 @@
                 "Trojan 🇺🇸 TLS [443] #12",
                 "Trojan 🇺🇸 TLS [443] #13",
                 "Trojan 🇺🇸 TLS [443] #14",
-                "Trojan 🇺🇸 TLS [443] #15",
+                "Trojan 🇨🇭 TLS [443] #15",
                 "Trojan 🇨🇭 TLS [443] #16",
                 "Trojan 🇨🇭 TLS [443] #17",
-                "Trojan 🇨🇭 TLS [443] #18",
+                "Trojan 🇨🇭 TLS+UTLS [443] #18",
                 "Trojan 🇨🇭 TLS [443] #19",
                 "Trojan 🇨🇭 TLS [443] #20",
                 "Trojan 🇨🇭 TLS [443] #21",
-                "Trojan 🇨🇦 TLS [443] #22",
-                "Trojan 🇨🇦 TLS [443] #23",
+                "Trojan 🇨🇦 TLS+UTLS [443] #22",
+                "Trojan 🇨🇦 TLS+UTLS [443] #23",
                 "Trojan 🇨🇦 TLS+UTLS [443] #24",
                 "Trojan 🇨🇦 TLS [443] #25",
                 "Trojan 🇨🇦 TLS [443] #26",
                 "Trojan 🇨🇦 TLS [443] #27",
                 "Trojan 🇨🇦 TLS [443] #28",
-                "Trojan 🇨🇦 TLS [443] #29",
+                "Trojan 🇺🇸 TLS [443] #29",
                 "Trojan 🇺🇸 TLS [443] #30",
                 "Trojan 🇺🇸 TLS [443] #31",
                 "Trojan 🇺🇸 TLS [443] #32",
@@ -244,51 +232,51 @@
                 "Trojan 🇺🇸 TLS [443] #34",
                 "Trojan 🇺🇸 TLS [443] #35",
                 "Trojan 🇺🇸 TLS [443] #36",
-                "Trojan 🇺🇸 TLS [443] #37",
-                "Trojan 🇺🇸 TLS+UTLS [443] #38",
+                "Trojan 🇺🇸 TLS+UTLS [443] #37",
+                "Trojan 🇺🇸 TLS [443] #38",
                 "Trojan 🇺🇸 TLS [443] #39",
                 "Trojan 🇺🇸 TLS [443] #40",
                 "Trojan 🇺🇸 TLS [443] #41",
-                "Trojan 🇺🇸 TLS [443] #42",
-                "Trojan 🇪🇸 TLS+UTLS [443] #43",
+                "Trojan 🇪🇸 TLS+UTLS [443] #42",
+                "Trojan 🇪🇸 TLS [443] #43",
                 "Trojan 🇪🇸 TLS [443] #44",
                 "Trojan 🇪🇸 TLS [443] #45",
                 "Trojan 🇪🇸 TLS [443] #46",
-                "Trojan 🇪🇸 TLS [443] #47",
-                "Trojan 🇪🇸 TLS+UTLS [443] #48",
-                "Trojan 🇪🇸 TLS [443] #49",
+                "Trojan 🇪🇸 TLS+UTLS [443] #47",
+                "Trojan 🇪🇸 TLS [443] #48",
+                "Trojan 🇺🇸 TLS [443] #49",
                 "Trojan 🇺🇸 TLS [443] #50",
-                "Trojan 🇺🇸 TLS+UTLS [443] #51",
-                "Trojan 🇺🇸 TLS [443] #52",
+                "Trojan 🇺🇸 TLS [443] #51",
+                "Trojan 🇺🇸 TLS+UTLS [443] #52",
                 "Trojan 🇺🇸 TLS+UTLS [443] #53",
                 "Trojan 🇺🇸 TLS [443] #54",
-                "Trojan 🇺🇸 TLS [443] #55",
+                "Trojan 🇳🇱 TLS+UTLS [443] #55",
                 "Trojan 🇳🇱 TLS+UTLS [443] #56",
-                "Trojan 🇳🇱 TLS+UTLS [443] #57",
+                "Trojan 🇳🇱 TLS [443] #57",
                 "Trojan 🇳🇱 TLS [443] #58",
                 "Trojan 🇳🇱 TLS [443] #59",
-                "Trojan 🇳🇱 TLS [443] #60",
-                "Trojan 🇳🇱 TLS [443] #61",
-                "Trojan 🇳🇱 TLS [443] #62",
-                "Trojan 🇨🇦 TLS [443] #63",
-                "SS 🇭🇰 2022+BLAKE3 [8388] #1",
-                "SS 🇦🇱 AEAD [43558] #2",
-                "SS 🇮🇪 AEAD [443] #3",
-                "SS 🇵🇱 AEAD [51628] #4",
-                "SS 🇳🇴 AEAD [990] #5",
-                "SS 🇦🇹 AEAD [8388] #6",
-                "SS 🇨🇦 AEAD [443] #7",
-                "SS 🇳🇱 AEAD [8080] #8",
+                "Trojan 🇳🇱 TLS+UTLS [443] #60",
+                "Trojan 🇨🇦 TLS [443] #61",
+                "SS 🇸🇬 2022+BLAKE3 [8388] #1",
+                "SS 🇸🇬 AEAD [1080] #2",
+                "SS 🇵🇱 AEAD [51628] #3",
+                "SS 🇦🇹 AEAD [8388] #4",
+                "SS 🇺🇸 AEAD [443] #5",
+                "SS 🇳🇱 AEAD [2089] #6",
+                "SS 🇦🇱 AEAD [43558] #7",
+                "SS 🇩🇪 AEAD [8388] #8",
                 "SS 🇳🇱 AEAD [8080] #9",
-                "SS 🇹🇷 AEAD [2089] #10",
-                "SS 🇿🇦 AEAD [16233] #11",
-                "SS 🇿🇦 AEAD [443] #12",
+                "SS 🇳🇱 AEAD [8080] #10",
+                "SS 🇳🇱 AEAD [2089] #11",
+                "SS 🇹🇷 AEAD [2089] #12",
+                "SS 🇿🇦 AEAD [16233] #13",
+                "SS 🇿🇦 AEAD [443] #14",
                 "Hysteria2 🇳🇱 QUIC [42848] #1",
-                "Hysteria2 🇵🇱 QUIC [42848] #2",
-                "Hysteria2 🇮🇷 QUIC [24403] #16",
-                "Hysteria2 🇳🇱 QUIC+OBFS [443] #30",
-                "Hysteria2 🇺🇸 QUIC [4444] #84",
-                "Hysteria2 🇦🇺 QUIC+OBFS [20000] #86"
+                "Hysteria2 🇵🇱 QUIC [42848] #3",
+                "Hysteria2 🇳🇱 QUIC [443] #23",
+                "Hysteria2 🇮🇷 QUIC [24403] #24",
+                "Hysteria2 🇺🇸 QUIC [4444] #93",
+                "Hysteria2 🇦🇺 QUIC+OBFS [20000] #95"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interrupt_exist_connections": false,
@@ -318,22 +306,22 @@
         },
         {
             "type": "vless",
-            "tag": "VLESS 🇷🇺 RAW+REALITY+PBK+VISION+UTLS [443] #2",
-            "server": "188.225.42.83",
-            "server_port": 443,
-            "uuid": "01fada34-d8d8-4922-a199-6df19cd7391e",
+            "tag": "VLESS 🇪🇪 TLS+VISION+UTLS [8443] #2",
+            "server": "165.231.157.126",
+            "server_port": 8443,
+            "uuid": "0173d52e-8e1b-4681-831e-11529677b72f",
             "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
-                "server_name": "cdn-3f233a.wl5.streamvale.net",
-                "reality": {
-                    "enabled": true,
-                    "public_key": "_vuP0Wathd0PL_V39nLPB1lJWO9tLRnTcyphw1HK1kM",
-                    "short_id": ""
-                },
+                "server_name": "api-6b04608f.adhil.uk",
+                "insecure": false,
+                "alpn": [
+                    "h2",
+                    "http/1.1"
+                ],
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "safari"
                 }
             },
             "transport": {}
@@ -362,29 +350,7 @@
         },
         {
             "type": "vless",
-            "tag": "VLESS 🇺🇸 TLS [443] #4",
-            "server": "216.106.185.158",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "flow": "",
-            "tls": {
-                "enabled": true,
-                "server_name": "kuruish.org",
-                "insecure": false,
-                "alpn": [
-                    "h2",
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {}
-        },
-        {
-            "type": "vless",
-            "tag": "VLESS 🇨🇦 TLS [443] #5",
+            "tag": "VLESS 🇨🇦 TLS [443] #4",
             "server": "66.163.113.9",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -406,29 +372,7 @@
         },
         {
             "type": "vless",
-            "tag": "VLESS 🇯🇵 TLS+UTLS [443] #6",
-            "server": "94.177.131.113",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "flow": "",
-            "tls": {
-                "enabled": true,
-                "server_name": "kuruish.org",
-                "insecure": false,
-                "alpn": [
-                    "h2",
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {}
-        },
-        {
-            "type": "vless",
-            "tag": "VLESS 🇨🇦 TLS [443] #7",
+            "tag": "VLESS 🇺🇸 TLS [443] #5",
             "server": "kuruish.org",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -450,7 +394,7 @@
         },
         {
             "type": "vless",
-            "tag": "VLESS 🇳🇱 TLS+VISION+UTLS [443] #8",
+            "tag": "VLESS 🇳🇱 TLS+VISION [443] #6",
             "server": "171.22.183.167",
             "server_port": 443,
             "uuid": "04920673-035c-410d-94e4-5b1469d3fb6f",
@@ -472,19 +416,19 @@
         },
         {
             "type": "vless",
-            "tag": "VLESS 🇳🇱 TLS+VISION [443] #9",
-            "server": "185.200.199.122",
+            "tag": "VLESS 🇵🇱 RAW+REALITY+PBK+SID+VISION [443] #7",
+            "server": "82.118.22.161",
             "server_port": 443,
-            "uuid": "04920673-035c-410d-94e4-5b1469d3fb6f",
+            "uuid": "05488656-d4bf-4634-8b2e-e4ff5a56c7e2",
             "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
-                "server_name": "185.200.199.122",
-                "insecure": false,
-                "alpn": [
-                    "h2",
-                    "http/1.1"
-                ],
+                "server_name": "www.cloudflare.com",
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E",
+                    "short_id": "fa3ea655619a3e78"
+                },
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
@@ -494,186 +438,29 @@
         },
         {
             "type": "vless",
-            "tag": "VLESS 🇷🇴 WS+TLS+UTLS [443] #11",
-            "server": "193.168.140.175",
+            "tag": "VLESS 🇺🇸 RAW+REALITY+PBK+VISION+UTLS [443] #8",
+            "server": "47.253.226.114",
             "server_port": 443,
-            "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
-            "flow": "",
-            "tls": {
-                "enabled": true,
-                "server_name": "inlay.merlano.monster",
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/api/de3/stream",
-                "headers": {
-                    "Host": "inlay.merlano.monster"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "VLESS 🇱🇻 WS+TLS+UTLS [443] #12",
-            "server": "31.57.28.169",
-            "server_port": 443,
-            "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
-            "flow": "",
-            "tls": {
-                "enabled": true,
-                "server_name": "inlay.merlano.monster",
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/api/de3/stream",
-                "headers": {
-                    "Host": "inlay.merlano.monster"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "VLESS 🇷🇺 GRPC+TLS+UTLS [443] #13",
-            "server": "81.200.158.26",
-            "server_port": 443,
-            "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
-            "flow": "",
-            "tls": {
-                "enabled": true,
-                "server_name": "fernglade.gerqix.online",
-                "insecure": false,
-                "alpn": [
-                    "h2",
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "glush.de1.v1"
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "VLESS 🇷🇺 WS+TLS+UTLS [443] #14",
-            "server": "inlay.merlano.monster",
-            "server_port": 443,
-            "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
-            "flow": "",
-            "tls": {
-                "enabled": true,
-                "server_name": "inlay.merlano.monster",
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/api/de3/stream",
-                "headers": {
-                    "Host": "inlay.merlano.monster"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "VLESS 🇷🇺 WS+TLS+UTLS [443] #15",
-            "server": "rowanberry.moltex.click",
-            "server_port": 443,
-            "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
-            "flow": "",
-            "tls": {
-                "enabled": true,
-                "server_name": "rowanberry.moltex.click",
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "ios"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/api/de7/stream",
-                "headers": {
-                    "Host": "rowanberry.moltex.click"
-                }
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "VLESS 🇷🇺 GRPC+TLS+UTLS [443] #16",
-            "server": "vellum.filnex.baby",
-            "server_port": 443,
-            "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
-            "flow": "",
-            "tls": {
-                "enabled": true,
-                "server_name": "rookery.moltex.click",
-                "insecure": false,
-                "alpn": [
-                    "h2"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "glush.de3.v1"
-            }
-        },
-        {
-            "type": "vless",
-            "tag": "VLESS 🇪🇸 RAW+REALITY+PBK+SID+VISION+UTLS [443] #19",
-            "server": "46.28.71.247",
-            "server_port": 443,
-            "uuid": "12c53e32-e589-47d6-b857-e4132294f767",
+            "uuid": "055a1ce8-2a16-4a0d-a2c2-22826c9b2413",
             "flow": "xtls-rprx-vision",
             "tls": {
                 "enabled": true,
                 "server_name": "www.cloudflare.com",
                 "reality": {
                     "enabled": true,
-                    "public_key": "v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE",
-                    "short_id": "0dfc23fe80778c00"
+                    "public_key": "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc",
+                    "short_id": ""
                 },
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 }
             },
             "transport": {}
         },
         {
             "type": "vless",
-            "tag": "VLESS 🇺🇸 REALITY+PBK+VISION+UTLS [28190] #26",
+            "tag": "VLESS 🇺🇸 REALITY+PBK+VISION+UTLS [28190] #13",
             "server": "159.89.87.21",
             "server_port": 28190,
             "uuid": "14c80e0e-f7ce-4991-94fc-99a1db4a9b1e",
@@ -692,6 +479,33 @@
                 }
             },
             "transport": {}
+        },
+        {
+            "type": "vless",
+            "tag": "VLESS 🇫🇮 WS+TLS+UTLS [993] #14",
+            "server": "ifi1.modemjibi.com",
+            "server_port": 993,
+            "uuid": "17ead557-8407-42ae-b9a1-f11a869f99c6",
+            "flow": "",
+            "tls": {
+                "enabled": true,
+                "server_name": "ifi1.modemjibi.com.",
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "ifi1.modemjibi.com"
+                }
+            }
         },
         {
             "type": "trojan",
@@ -716,7 +530,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS+UTLS [443] #3",
+            "tag": "Trojan 🇺🇸 TLS+UTLS [443] #2",
             "server": "167.88.61.175",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -737,7 +551,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #4",
+            "tag": "Trojan 🇺🇸 TLS [443] #3",
             "server": "167.88.61.193",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -758,7 +572,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #5",
+            "tag": "Trojan 🇺🇸 TLS [443] #4",
             "server": "167.88.61.198",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -779,7 +593,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #6",
+            "tag": "Trojan 🇺🇸 TLS [443] #5",
             "server": "167.88.61.20",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -800,7 +614,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #7",
+            "tag": "Trojan 🇺🇸 TLS [443] #6",
             "server": "167.88.61.52",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -821,7 +635,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #8",
+            "tag": "Trojan 🇺🇸 TLS [443] #7",
             "server": "167.88.61.85",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -842,7 +656,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #9",
+            "tag": "Trojan 🇺🇸 TLS [443] #8",
             "server": "170.101.101.112",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -863,7 +677,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #10",
+            "tag": "Trojan 🇺🇸 TLS [443] #9",
             "server": "170.101.101.131",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -884,7 +698,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #11",
+            "tag": "Trojan 🇺🇸 TLS [443] #10",
             "server": "170.101.101.19",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -905,7 +719,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #12",
+            "tag": "Trojan 🇺🇸 TLS [443] #11",
             "server": "170.101.101.211",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -926,7 +740,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #13",
+            "tag": "Trojan 🇺🇸 TLS [443] #12",
             "server": "170.101.101.237",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -947,7 +761,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #14",
+            "tag": "Trojan 🇺🇸 TLS [443] #13",
             "server": "170.101.101.53",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -968,7 +782,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #15",
+            "tag": "Trojan 🇺🇸 TLS [443] #14",
             "server": "170.101.101.67",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -989,7 +803,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇨🇭 TLS [443] #16",
+            "tag": "Trojan 🇨🇭 TLS [443] #15",
             "server": "208.69.78.158",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1010,7 +824,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇨🇭 TLS [443] #17",
+            "tag": "Trojan 🇨🇭 TLS [443] #16",
             "server": "208.69.78.19",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1031,13 +845,34 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇨🇭 TLS [443] #18",
+            "tag": "Trojan 🇨🇭 TLS [443] #17",
             "server": "208.69.78.208",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
             "tls": {
                 "enabled": true,
                 "server_name": "resources.yourultimateprofessionalcareerhub.com",
+                "insecure": false,
+                "alpn": [
+                    "h2",
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {}
+        },
+        {
+            "type": "trojan",
+            "tag": "Trojan 🇨🇭 TLS+UTLS [443] #18",
+            "server": "208.69.78.222",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+            "tls": {
+                "enabled": true,
+                "server_name": "yourultimateprofessionalcareerhub.com",
                 "insecure": false,
                 "alpn": [
                     "h2",
@@ -1115,28 +950,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇨🇦 TLS [443] #22",
-            "server": "216.152.147.152",
-            "server_port": 443,
-            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-            "tls": {
-                "enabled": true,
-                "server_name": "learn.connectingpeoplewithgreatjobs.com",
-                "insecure": false,
-                "alpn": [
-                    "h2",
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {}
-        },
-        {
-            "type": "trojan",
-            "tag": "Trojan 🇨🇦 TLS [443] #23",
+            "tag": "Trojan 🇨🇦 TLS+UTLS [443] #22",
             "server": "216.152.147.201",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1157,7 +971,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇨🇦 TLS+UTLS [443] #24",
+            "tag": "Trojan 🇨🇦 TLS+UTLS [443] #23",
             "server": "216.152.147.48",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1178,7 +992,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇨🇦 TLS [443] #25",
+            "tag": "Trojan 🇨🇦 TLS+UTLS [443] #24",
             "server": "216.152.147.74",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1199,7 +1013,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇨🇦 TLS [443] #26",
+            "tag": "Trojan 🇨🇦 TLS [443] #25",
             "server": "216.152.147.79",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1220,7 +1034,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇨🇦 TLS [443] #27",
+            "tag": "Trojan 🇨🇦 TLS [443] #26",
             "server": "216.152.147.85",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1241,7 +1055,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇨🇦 TLS [443] #28",
+            "tag": "Trojan 🇨🇦 TLS [443] #27",
             "server": "216.152.147.89",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1262,7 +1076,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇨🇦 TLS [443] #29",
+            "tag": "Trojan 🇨🇦 TLS [443] #28",
             "server": "216.152.147.93",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1283,7 +1097,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #30",
+            "tag": "Trojan 🇺🇸 TLS [443] #29",
             "server": "216.152.155.131",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1304,7 +1118,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #31",
+            "tag": "Trojan 🇺🇸 TLS [443] #30",
             "server": "216.152.155.158",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1325,7 +1139,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #32",
+            "tag": "Trojan 🇺🇸 TLS [443] #31",
             "server": "216.152.155.176",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1346,7 +1160,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #33",
+            "tag": "Trojan 🇺🇸 TLS [443] #32",
             "server": "216.152.155.23",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1367,7 +1181,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #34",
+            "tag": "Trojan 🇺🇸 TLS [443] #33",
             "server": "216.152.155.50",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1388,7 +1202,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #35",
+            "tag": "Trojan 🇺🇸 TLS [443] #34",
             "server": "216.152.155.54",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1409,7 +1223,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #36",
+            "tag": "Trojan 🇺🇸 TLS [443] #35",
             "server": "216.152.155.59",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1430,7 +1244,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #37",
+            "tag": "Trojan 🇺🇸 TLS [443] #36",
             "server": "216.152.156.159",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1451,7 +1265,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS+UTLS [443] #38",
+            "tag": "Trojan 🇺🇸 TLS+UTLS [443] #37",
             "server": "216.152.156.212",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1472,7 +1286,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #39",
+            "tag": "Trojan 🇺🇸 TLS [443] #38",
             "server": "216.152.156.42",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1493,7 +1307,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #40",
+            "tag": "Trojan 🇺🇸 TLS [443] #39",
             "server": "216.152.156.49",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1514,7 +1328,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #41",
+            "tag": "Trojan 🇺🇸 TLS [443] #40",
             "server": "216.152.156.65",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1535,7 +1349,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #42",
+            "tag": "Trojan 🇺🇸 TLS [443] #41",
             "server": "216.152.156.81",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1556,7 +1370,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇪🇸 TLS+UTLS [443] #43",
+            "tag": "Trojan 🇪🇸 TLS+UTLS [443] #42",
             "server": "66.163.118.115",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1577,7 +1391,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇪🇸 TLS [443] #44",
+            "tag": "Trojan 🇪🇸 TLS [443] #43",
             "server": "66.163.118.166",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1598,7 +1412,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇪🇸 TLS [443] #45",
+            "tag": "Trojan 🇪🇸 TLS [443] #44",
             "server": "66.163.118.203",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1619,7 +1433,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇪🇸 TLS [443] #46",
+            "tag": "Trojan 🇪🇸 TLS [443] #45",
             "server": "66.163.118.244",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1640,7 +1454,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇪🇸 TLS [443] #47",
+            "tag": "Trojan 🇪🇸 TLS [443] #46",
             "server": "66.163.118.251",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1661,7 +1475,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇪🇸 TLS+UTLS [443] #48",
+            "tag": "Trojan 🇪🇸 TLS+UTLS [443] #47",
             "server": "66.163.118.40",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1682,7 +1496,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇪🇸 TLS [443] #49",
+            "tag": "Trojan 🇪🇸 TLS [443] #48",
             "server": "66.163.118.62",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1703,7 +1517,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #50",
+            "tag": "Trojan 🇺🇸 TLS [443] #49",
             "server": "66.163.122.113",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1724,7 +1538,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS+UTLS [443] #51",
+            "tag": "Trojan 🇺🇸 TLS [443] #50",
             "server": "66.163.122.25",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1745,7 +1559,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #52",
+            "tag": "Trojan 🇺🇸 TLS [443] #51",
             "server": "66.163.122.26",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1766,7 +1580,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS+UTLS [443] #53",
+            "tag": "Trojan 🇺🇸 TLS+UTLS [443] #52",
             "server": "66.163.122.30",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1787,7 +1601,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #54",
+            "tag": "Trojan 🇺🇸 TLS+UTLS [443] #53",
             "server": "66.163.122.46",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1808,7 +1622,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇺🇸 TLS [443] #55",
+            "tag": "Trojan 🇺🇸 TLS [443] #54",
             "server": "66.163.122.7",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1829,7 +1643,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇳🇱 TLS+UTLS [443] #56",
+            "tag": "Trojan 🇳🇱 TLS+UTLS [443] #55",
             "server": "66.163.127.107",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1850,7 +1664,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇳🇱 TLS+UTLS [443] #57",
+            "tag": "Trojan 🇳🇱 TLS+UTLS [443] #56",
             "server": "66.163.127.154",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1871,7 +1685,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇳🇱 TLS [443] #58",
+            "tag": "Trojan 🇳🇱 TLS [443] #57",
             "server": "66.163.127.155",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1892,28 +1706,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇳🇱 TLS [443] #59",
-            "server": "66.163.127.215",
-            "server_port": 443,
-            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-            "tls": {
-                "enabled": true,
-                "server_name": "courses.indyourperfectremotetechjobfromthecomfortofhome.com",
-                "insecure": false,
-                "alpn": [
-                    "h2",
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {}
-        },
-        {
-            "type": "trojan",
-            "tag": "Trojan 🇳🇱 TLS [443] #60",
+            "tag": "Trojan 🇳🇱 TLS [443] #58",
             "server": "66.163.127.225",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1934,7 +1727,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇳🇱 TLS [443] #61",
+            "tag": "Trojan 🇳🇱 TLS [443] #59",
             "server": "66.163.127.44",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1955,7 +1748,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇳🇱 TLS [443] #62",
+            "tag": "Trojan 🇳🇱 TLS+UTLS [443] #60",
             "server": "66.163.127.9",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1976,7 +1769,7 @@
         },
         {
             "type": "trojan",
-            "tag": "Trojan 🇨🇦 TLS [443] #63",
+            "tag": "Trojan 🇨🇦 TLS [443] #61",
             "server": "leviko-ca6908.shopingggg.ir",
             "server_port": 443,
             "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -1997,31 +1790,23 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "SS 🇭🇰 2022+BLAKE3 [8388] #1",
-            "server": "27.124.5.86",
+            "tag": "SS 🇸🇬 2022+BLAKE3 [8388] #1",
+            "server": "43.160.213.146",
             "server_port": 8388,
             "method": "2022-blake3-aes-256-gcm",
-            "password": "j4DddfVh3zON1s3Wfbmdn2WWhLCWAaOJyKqdeKvxh4A="
+            "password": "ClzJLvRzIxivCXbf5X5jnSU0pLg5ffCEUL2AZoeLg94="
         },
         {
             "type": "shadowsocks",
-            "tag": "SS 🇦🇱 AEAD [43558] #2",
-            "server": "130.49.189.158",
-            "server_port": 43558,
+            "tag": "SS 🇸🇬 AEAD [1080] #2",
+            "server": "sg-telegram-khp25-viber-09773510813.premiumx.giize.com",
+            "server_port": 1080,
             "method": "chacha20-ietf-poly1305",
-            "password": "0SxLXFtomY9ypO4o8rrNWEpNSZEFzsMnfhBETUd3oOw="
+            "password": "9334991a6f0641cea4ea75591ad65132"
         },
         {
             "type": "shadowsocks",
-            "tag": "SS 🇮🇪 AEAD [443] #3",
-            "server": "20.234.98.208",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "1fgEGq5a3tJiLpUq"
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "SS 🇵🇱 AEAD [51628] #4",
+            "tag": "SS 🇵🇱 AEAD [51628] #3",
             "server": "156.67.120.205",
             "server_port": 51628,
             "method": "chacha20-ietf-poly1305",
@@ -2029,15 +1814,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "SS 🇳🇴 AEAD [990] #5",
-            "server": "185.213.23.63",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-        },
-        {
-            "type": "shadowsocks",
-            "tag": "SS 🇦🇹 AEAD [8388] #6",
+            "tag": "SS 🇦🇹 AEAD [8388] #4",
             "server": "152.53.1.57",
             "server_port": 8388,
             "method": "chacha20-ietf-poly1305",
@@ -2045,15 +1822,39 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "SS 🇨🇦 AEAD [443] #7",
-            "server": "134.195.198.163",
+            "tag": "SS 🇺🇸 AEAD [443] #5",
+            "server": "67.220.73.247",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "PmCqK98WqhSC"
+            "password": "DGjtV63aPW3E"
         },
         {
             "type": "shadowsocks",
-            "tag": "SS 🇳🇱 AEAD [8080] #8",
+            "tag": "SS 🇳🇱 AEAD [2089] #6",
+            "server": "S23.fusetea.ir",
+            "server_port": 2089,
+            "method": "chacha20-ietf-poly1305",
+            "password": "DVlt-OeAV4RiLMwT9e0T72nnFtMG2W3o"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "SS 🇦🇱 AEAD [43558] #7",
+            "server": "130.49.189.158",
+            "server_port": 43558,
+            "method": "chacha20-ietf-poly1305",
+            "password": "JYevOrmujurJsNP1ata0kNfjsxwFLAhgD73mrZPJP1I="
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "SS 🇩🇪 AEAD [8388] #8",
+            "server": "57.129.113.16",
+            "server_port": 8388,
+            "method": "chacha20-ietf-poly1305",
+            "password": "NcAXc0UZI6yQJE1p8QmOv8"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "SS 🇳🇱 AEAD [8080] #9",
             "server": "193.29.139.168",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
@@ -2061,7 +1862,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "SS 🇳🇱 AEAD [8080] #9",
+            "tag": "SS 🇳🇱 AEAD [8080] #10",
             "server": "193.29.139.212",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
@@ -2069,7 +1870,15 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "SS 🇹🇷 AEAD [2089] #10",
+            "tag": "SS 🇳🇱 AEAD [2089] #11",
+            "server": "85.155.226.213",
+            "server_port": 2089,
+            "method": "chacha20-ietf-poly1305",
+            "password": "R02KmzzSD7PeZ_DosF87xZ7zIn8jLtyP"
+        },
+        {
+            "type": "shadowsocks",
+            "tag": "SS 🇹🇷 AEAD [2089] #12",
             "server": "tr.subscriptionservice.ir",
             "server_port": 2089,
             "method": "chacha20-ietf-poly1305",
@@ -2077,7 +1886,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "SS 🇿🇦 AEAD [16233] #11",
+            "tag": "SS 🇿🇦 AEAD [16233] #13",
             "server": "102.133.165.160",
             "server_port": 16233,
             "method": "chacha20-ietf-poly1305",
@@ -2085,7 +1894,7 @@
         },
         {
             "type": "shadowsocks",
-            "tag": "SS 🇿🇦 AEAD [443] #12",
+            "tag": "SS 🇿🇦 AEAD [443] #14",
             "server": "102.37.156.224",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
@@ -2109,7 +1918,7 @@
         },
         {
             "type": "hysteria2",
-            "tag": "Hysteria2 🇵🇱 QUIC [42848] #2",
+            "tag": "Hysteria2 🇵🇱 QUIC [42848] #3",
             "server": "91.211.27.231",
             "server_port": 42848,
             "password": "04920673-035c-410d-94e4-5b1469d3fb6f",
@@ -2125,7 +1934,23 @@
         },
         {
             "type": "hysteria2",
-            "tag": "Hysteria2 🇮🇷 QUIC [24403] #16",
+            "tag": "Hysteria2 🇳🇱 QUIC [443] #23",
+            "server": "212.34.137.105",
+            "server_port": 443,
+            "password": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
+            "tls": {
+                "enabled": true,
+                "server_name": "shorts.blog-forme.ru",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ]
+            },
+            "disable_chrome_parrot": true
+        },
+        {
+            "type": "hysteria2",
+            "tag": "Hysteria2 🇮🇷 QUIC [24403] #24",
             "server": "94.183.164.119",
             "server_port": 24403,
             "password": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
@@ -2141,27 +1966,7 @@
         },
         {
             "type": "hysteria2",
-            "tag": "Hysteria2 🇳🇱 QUIC+OBFS [443] #30",
-            "server": "216.73.157.142",
-            "server_port": 443,
-            "password": "74bec046f0004aa5bc280ecc4ab50465",
-            "tls": {
-                "enabled": true,
-                "server_name": "216.73.157.142",
-                "insecure": false,
-                "alpn": [
-                    "h3"
-                ]
-            },
-            "disable_chrome_parrot": true,
-            "obfs": {
-                "type": "salamander",
-                "password": "qrl-03E8Q6JaUlAkOPHXQBwN"
-            }
-        },
-        {
-            "type": "hysteria2",
-            "tag": "Hysteria2 🇺🇸 QUIC [4444] #84",
+            "tag": "Hysteria2 🇺🇸 QUIC [4444] #93",
             "server": "bl1.nexfile.net",
             "server_port": 4444,
             "password": "a35c508f-4d5d-4531-842e-6e9d43c762c0",
@@ -2177,7 +1982,7 @@
         },
         {
             "type": "hysteria2",
-            "tag": "Hysteria2 🇦🇺 QUIC+OBFS [20000] #86",
+            "tag": "Hysteria2 🇦🇺 QUIC+OBFS [20000] #95",
             "server": "159.13.55.48",
             "server_port": 20000,
             "password": "b42d90fa667942aebc734d60",
