@@ -2,3 +2,5 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
+hysteria2://d4ca9415f0eac7897472e1e5b86d2e96@50.7.38.243:443?insecure=1&sni=promo.betust.net#Hysteria2 🇸🇪 QUIC [443]
+

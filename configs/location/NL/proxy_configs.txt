@@ -2,7 +2,9 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://04920673-035c-410d-94e4-5b1469d3fb6f@171.22.183.167:443?security=tls&alpn=h2,http/1.1&encryption=none&headerType=none&type=tcp&flow=xtls-rprx-vision#VLESS 🇳🇱 TLS+VISION [443]
+vless://04812b68-47ad-48ee-b96d-ab9127679634@147.45.61.144:443?encryption=none&flow=xtls-rprx-vision&pbk=tmiOsPsVgiWU7usQWetCpVdEp3ZTWl9tPY-r399JdCs&security=reality&sid=b725584749527b07&sni=s2.frenchymyrsep.click&type=tcp#VLESS 🇳🇱 REALITY+PBK+SID+VISION [443]
+
+vless://04920673-035c-410d-94e4-5b1469d3fb6f@171.22.183.167:443?alpn=h2,http/1.1&encryption=none&flow=xtls-rprx-vision&security=tls&type=tcp#VLESS 🇳🇱 TLS+VISION [443]
 
 vless://148917bd-0b37-42b8-98f4-aa94ca73e75a@170.168.32.125:443?encryption=none&flow=xtls-rprx-vision&pbk=tp7awfnKLbhIDkdYlT7Avf-SfUwt7ncX5oyWS5wQmR0&security=reality&sid=6d&sni=travel.yandex.ru&type=tcp#VLESS 🇳🇱 REALITY+PBK+SID+VISION [443]
 
@@ -12,11 +14,15 @@ trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.154:443?security=tls&insecu
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.155:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS [443]
 
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.225:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=cdn.indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS [443]
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.225:443?sni=cdn.indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.44:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=learn.indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS [443]
 
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.127.9:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=resources.indyourperfectremotetechjobfromthecomfortofhome.com#Trojan 🇳🇱 TLS+UTLS [443]
+
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@leviko-nl8252.shopingggg.ir:443?security=tls&sni=indyourperfectremotetechjobfromthecomfortofhome.com&type=tcp#Trojan 🇳🇱 TLS [443]
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDSm1UQ0N4N0x0dWQ@108.181.122.170:443#SS 🇳🇱 AEAD [443]
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEVmx0LU9lQVY0UmlMTXdUOWUwVDcybm5GdE1HMlczbw@S23.fusetea.ir:2089#SS 🇳🇱 AEAD [2089]
 
@@ -24,9 +30,9 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.168
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.212:8080#SS 🇳🇱 AEAD [8080]
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSMDJLbXp6U0Q3UGVaX0Rvc0Y4N3haN3pJbjhqTHR5UA@85.155.226.213:2089#SS 🇳🇱 AEAD [2089]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSMDJLbXp6U0Q3UGVaX0Rvc0Y4N3haN3pJbjhqTHR5UA@s23.fusetea.ir:2089#SS 🇳🇱 AEAD [2089]
 
-hysteria2://04920673-035c-410d-94e4-5b1469d3fb6f@171.22.183.158:42848?sni=171.22.183.158&path=%2f#Hysteria2 🇳🇱 QUIC [42848]
+hysteria2://04920673-035c-410d-94e4-5b1469d3fb6f@171.22.183.158:42848?sni=171.22.183.158#Hysteria2 🇳🇱 QUIC [42848]
 
 hysteria2://549766c3-fa5f-471e-8031-ffc1f8d5064f@212.34.137.105:443?insecure=0&sni=shorts.blog-forme.ru#Hysteria2 🇳🇱 QUIC [443]
 
@@ -36,11 +42,13 @@ hysteria2://BWAFlp8g53@72.56.102.31:443?insecure=1#Hysteria2 🇳🇱 QUIC [443]
 
 hysteria2://CnVfXXvMzh@72.56.92.120:443?insecure=1&sni=hys13.wba-pn.ru#Hysteria2 🇳🇱 QUIC [443]
 
+hysteria2://Cqx5aT9Zux@185.200.199.179:54706?sni=185.200.199.179#Hysteria2 🇳🇱 QUIC [54706]
+
 hysteria2://EkF2Yw0Lc7@72.56.16.243:443?insecure=1&sni=hys34.wba-pn.ru#Hysteria2 🇳🇱 QUIC [443]
 
-hysteria2://HowdyHysteria2023w0W@51.15.19.206:8443?insecure=1&obfs=salamander&obfs-password=HysteriaHowdy&sni=vkvd127.mycdn.me#Hysteria2 🇳🇱 QUIC+OBFS [8443]
+hysteria2://HowdyHysteria2023w0W@51.15.19.206:8443?insecure=1&obfs=salamander&obfs-password=HysteriaHowdy&sni=hysteria.udpgw.co#Hysteria2 🇳🇱 QUIC+OBFS [8443]
 
-hysteria2://HowdyHysteria2023w0W@hysteria.udpgw.com:8443?insecure=1&obfs=salamander&obfs-password=HysteriaHowdy&sni=sni-here.com#Hysteria2 🇳🇱 QUIC+OBFS [8443]
+hysteria2://HowdyHysteria2023w0W@hysteria.udpgw.com:8443?insecure=1&obfs=salamander&obfs-password=HysteriaHowdy&sni=hysteria.udpgw.com#Hysteria2 🇳🇱 QUIC+OBFS [8443]
 
 hysteria2://OD6gGbGU9a@195.133.24.124:443?sni=hys26.wba-pn.ru#Hysteria2 🇳🇱 QUIC [443]
 
