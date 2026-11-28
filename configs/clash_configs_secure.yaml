@@ -95,40 +95,7 @@
       }
     },
     {
-      "name": "VLESS 🇪🇪 TLS+VISION+UTLS [8443] #2",
-      "type": "vless",
-      "server": "165.231.157.126",
-      "port": 8443,
-      "uuid": "0173d52e-8e1b-4681-831e-11529677b72f",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "tls": true,
-      "servername": "api-6b04608f.adhil.uk",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "VLESS 🇺🇸 TLS+VISION+UTLS [8443] #3",
-      "type": "vless",
-      "server": "one.alpheratzz.org",
-      "port": 8443,
-      "uuid": "0173d52e-8e1b-4681-831e-11529677b72f",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "tls": true,
-      "servername": "api-6b04608f.adhil.uk",
-      "skip-cert-verify": false,
-      "client-fingerprint": "safari",
-      "alpn": [
-        "h2"
-      ]
-    },
-    {
-      "name": "VLESS 🇱🇻 RAW+REALITY+PBK+SID+VISION+UTLS [443] #5",
+      "name": "VLESS 🇱🇻 RAW+REALITY+PBK+SID+VISION+UTLS [443] #4",
       "type": "vless",
       "server": "195.123.213.28",
       "port": 443,
@@ -145,23 +112,7 @@
       }
     },
     {
-      "name": "VLESS 🇨🇦 TLS [443] #6",
-      "type": "vless",
-      "server": "66.163.113.9",
-      "port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "network": "tcp",
-      "tls": true,
-      "servername": "kuruish.org",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "VLESS 🇨🇦 TLS [443] #7",
+      "name": "VLESS 🇺🇸 TLS [443] #5",
       "type": "vless",
       "server": "kuruish.org",
       "port": 443,
@@ -177,58 +128,7 @@
       ]
     },
     {
-      "name": "VLESS 🇳🇱 REALITY+PBK+SID+VISION [443] #8",
-      "type": "vless",
-      "server": "147.45.61.144",
-      "port": 443,
-      "uuid": "04812b68-47ad-48ee-b96d-ab9127679634",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "tls": true,
-      "servername": "s2.frenchymyrsep.click",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "reality-opts": {
-        "public-key": "tmiOsPsVgiWU7usQWetCpVdEp3ZTWl9tPY-r399JdCs",
-        "short-id": "b725584749527b07"
-      }
-    },
-    {
-      "name": "VLESS 🇳🇱 TLS+VISION [443] #9",
-      "type": "vless",
-      "server": "171.22.183.167",
-      "port": 443,
-      "uuid": "04920673-035c-410d-94e4-5b1469d3fb6f",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "tls": true,
-      "servername": "171.22.183.167",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "VLESS 🇵🇱 RAW+REALITY+PBK+SID+VISION [443] #10",
-      "type": "vless",
-      "server": "82.118.22.161",
-      "port": 443,
-      "uuid": "05488656-d4bf-4634-8b2e-e4ff5a56c7e2",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "tls": true,
-      "servername": "www.cloudflare.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "reality-opts": {
-        "public-key": "xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E",
-        "short-id": "fa3ea655619a3e78"
-      }
-    },
-    {
-      "name": "VLESS 🇺🇸 REALITY+PBK+SID+VISION [443] #12",
+      "name": "VLESS 🇺🇸 REALITY+PBK+SID+VISION [443] #10",
       "type": "vless",
       "server": "38.145.220.193",
       "port": 443,
@@ -245,24 +145,7 @@
       }
     },
     {
-      "name": "VLESS 🇭🇰 REALITY+PBK+SID+VISION+UTLS [31001] #17",
-      "type": "vless",
-      "server": "2.26.204.46",
-      "port": 31001,
-      "uuid": "12a4f736-2238-49ee-831f-5516f15cc951",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "tls": true,
-      "servername": "mensura.cdn-apple.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "reality-opts": {
-        "public-key": "lzpIiMqHXas_qayw-HvrySb78FNkVroBOqniwqPXPzY",
-        "short-id": "39793bc4708abbbb"
-      }
-    },
-    {
-      "name": "VLESS 🇭🇰 REALITY+PBK+SID+VISION+UTLS [31001] #18",
+      "name": "VLESS 🇭🇰 REALITY+PBK+SID+VISION [31001] #11",
       "type": "vless",
       "server": "leviko-hk5202.shopingggg.ir",
       "port": 31001,
@@ -279,7 +162,7 @@
       }
     },
     {
-      "name": "VLESS 🇪🇸 RAW+REALITY+PBK+SID+VISION+UTLS [443] #19",
+      "name": "VLESS 🇪🇸 RAW+REALITY+PBK+SID+VISION+UTLS [443] #12",
       "type": "vless",
       "server": "46.28.71.247",
       "port": 443,
@@ -296,24 +179,7 @@
       }
     },
     {
-      "name": "VLESS 🇺🇸 REALITY+PBK+VISION+UTLS [28190] #21",
-      "type": "vless",
-      "server": "159.89.87.21",
-      "port": 28190,
-      "uuid": "14c80e0e-f7ce-4991-94fc-99a1db4a9b1e",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "tls": true,
-      "servername": "aws.amazon.com",
-      "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
-      "reality-opts": {
-        "public-key": "ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno",
-        "short-id": ""
-      }
-    },
-    {
-      "name": "VLESS 🇫🇮 WS+TLS+UTLS [993] #22",
+      "name": "VLESS 🇫🇮 WS+TLS+UTLS [993] #13",
       "type": "vless",
       "server": "ifi1.modemjibi.com",
       "port": 993,
@@ -334,24 +200,24 @@
       ]
     },
     {
-      "name": "VLESS 🇷🇺 REALITY+PBK+SID+VISION [8443] #23",
+      "name": "VLESS 🇧🇾 REALITY+PBK+SID+VISION [10444] #15",
       "type": "vless",
-      "server": "45.158.197.237",
-      "port": 8443,
-      "uuid": "18baf01c-99b2-4675-997c-1ec73e3eadff",
+      "server": "178.172.227.124",
+      "port": 10444,
+      "uuid": "1af36694-b548-4b18-89a0-bc076eab4ed7",
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "tls": true,
-      "servername": "apple.com",
+      "servername": "ads.x5.ru",
       "skip-cert-verify": false,
       "client-fingerprint": "chrome",
       "reality-opts": {
-        "public-key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-        "short-id": "6ba85179e30d4fc2"
+        "public-key": "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo",
+        "short-id": "8debcf36f1cc69ff"
       }
     },
     {
-      "name": "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [443] #25",
+      "name": "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [443] #16",
       "type": "vless",
       "server": "195.211.98.43",
       "port": 443,
@@ -368,7 +234,7 @@
       }
     },
     {
-      "name": "VLESS 🇺🇸 REALITY+PBK+SID+VISION [443] #26",
+      "name": "VLESS 🇺🇸 REALITY+PBK+SID+VISION [443] #17",
       "type": "vless",
       "server": "cloud-de01.dynv6.net",
       "port": 443,
@@ -385,63 +251,50 @@
       }
     },
     {
-      "name": "VLESS 🇷🇺 REALITY+PBK+VISION [443] #27",
+      "name": "VLESS 🇸🇪 REALITY+PBK+VISION [59539] #18",
       "type": "vless",
-      "server": "72.56.4.84",
-      "port": 443,
-      "uuid": "1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200",
+      "server": "46.29.255.123",
+      "port": 59539,
+      "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "tls": true,
-      "servername": "absolute-disaster.org",
+      "servername": "cloudflare-dns.com",
       "skip-cert-verify": false,
       "client-fingerprint": "chrome",
       "reality-opts": {
-        "public-key": "Im1i3eUtm7uDxUOA0rNWef9bILxsBvK_ElfejZTpQW0",
+        "public-key": "R6mPqCsjZMWauci4LHw7Qp1LGKmBd-sxMXplyOn9bSQ",
         "short-id": ""
       }
     },
     {
-      "name": "VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443] #28",
+      "name": "VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443] #19",
       "type": "vless",
-      "server": "185.95.231.156",
+      "server": "66.94.113.190",
       "port": 443,
-      "uuid": "1f8cf47a-b66a-4916-979f-26edfcf44eea",
+      "uuid": "31ce0fbd-130b-4188-82ac-5db19bc9debd",
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "tls": true,
-      "servername": "www.apple.com",
+      "servername": "www.tesla.com",
       "skip-cert-verify": false,
-      "client-fingerprint": "chrome",
+      "client-fingerprint": "firefox",
       "reality-opts": {
-        "public-key": "8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To",
-        "short-id": "a3a578ab"
+        "public-key": "02Yg4to3gnD2VkzaE9qBZlhsMqzE_oL5tZETE-8yx1Q",
+        "short-id": "53050dd29221b30f"
       }
     },
     {
-      "name": "Trojan 🇿🇦 TLS [443] #1",
-      "type": "trojan",
-      "server": "139.84.231.142",
+      "name": "VLESS 🇮🇹 TLS+VISION+UTLS [443] #21",
+      "type": "vless",
+      "server": "130.78.30.147",
       "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "explorecareerpathsandunlockprofessionalsuccesstoday.com",
-      "skip-cert-verify": false,
+      "uuid": "352a250d-080b-47b5-b7db-f9f8fa31c551",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS+UTLS [443] #2",
-      "type": "trojan",
-      "server": "167.88.61.175",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.browseseniorrolesandenhanceyourcareertoday.com",
+      "tls": true,
+      "servername": "105ky37.virtual-network.lol",
       "skip-cert-verify": false,
-      "network": "tcp",
       "client-fingerprint": "chrome",
       "alpn": [
         "h2",
@@ -449,1426 +302,520 @@
       ]
     },
     {
-      "name": "Trojan 🇺🇸 TLS [443] #3",
-      "type": "trojan",
-      "server": "167.88.61.193",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "browseseniorrolesandenhanceyourcareertoday.com",
+      "name": "VLESS 🇷🇺 GRPC+REALITY+PBK+UTLS [445] #22",
+      "type": "vless",
+      "server": "78.159.240.11",
+      "port": 445,
+      "uuid": "37af0181-5598-4aad-a040-d926bcb65757",
+      "network": "grpc",
+      "grpc-opts": {
+        "grpc-service-name": "grpc"
+      },
+      "tls": true,
+      "servername": "passport.yandex.ru",
       "skip-cert-verify": false,
-      "network": "tcp",
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA",
+        "short-id": ""
+      }
     },
     {
-      "name": "Trojan 🇺🇸 TLS [443] #4",
-      "type": "trojan",
-      "server": "167.88.61.198",
+      "name": "VLESS 🇷🇺 GRPC+TLS+UTLS [443] #23",
+      "type": "vless",
+      "server": "vps3.nemnogogo.com",
       "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.browseseniorrolesandenhanceyourcareertoday.com",
+      "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
+      "network": "grpc",
+      "grpc-opts": {
+        "grpc-service-name": "mobile.api.Event"
+      },
+      "tls": true,
+      "servername": "vps3.nemnogogo.com",
       "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
+      "client-fingerprint": "firefox",
       "alpn": [
-        "h2",
-        "http/1.1"
+        "h2"
       ]
     },
     {
-      "name": "Trojan 🇺🇸 TLS [443] #5",
-      "type": "trojan",
-      "server": "167.88.61.20",
+      "name": "VLESS 🇨🇭 RAW+REALITY+PBK+SID+VISION+UTLS [443] #24",
+      "type": "vless",
+      "server": "45.90.59.15",
       "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.browseseniorrolesandenhanceyourcareertoday.com",
-      "skip-cert-verify": false,
+      "uuid": "3950b45e-740d-4dca-ac95-505ec8534592",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #6",
-      "type": "trojan",
-      "server": "167.88.61.52",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.browseseniorrolesandenhanceyourcareertoday.com",
+      "tls": true,
+      "servername": "www.cloudflare.com",
       "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "client-fingerprint": "random",
+      "reality-opts": {
+        "public-key": "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY",
+        "short-id": "19253fae84102271"
+      }
     },
     {
-      "name": "Trojan 🇺🇸 TLS [443] #7",
-      "type": "trojan",
-      "server": "167.88.61.85",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.browseseniorrolesandenhanceyourcareertoday.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #25",
+      "type": "vless",
+      "server": "15.204.97.195",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #8",
-      "type": "trojan",
-      "server": "169.197.140.169",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
+      "tls": true,
+      "servername": "fuck.rkn",
       "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "client-fingerprint": "firefox",
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇺🇸 TLS [443] #9",
-      "type": "trojan",
-      "server": "169.197.140.171",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #26",
+      "type": "vless",
+      "server": "15.204.97.197",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #10",
-      "type": "trojan",
-      "server": "169.197.140.214",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
+      "tls": true,
+      "servername": "fuck.rkn",
       "skip-cert-verify": false,
-      "network": "tcp",
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇺🇸 TLS [443] #11",
-      "type": "trojan",
-      "server": "169.197.140.218",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #27",
+      "type": "vless",
+      "server": "15.204.97.198",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #12",
-      "type": "trojan",
-      "server": "169.197.140.224",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
+      "tls": true,
+      "servername": "fuck.rkn",
       "skip-cert-verify": false,
-      "network": "tcp",
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇺🇸 TLS [443] #13",
-      "type": "trojan",
-      "server": "169.197.140.245",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #28",
+      "type": "vless",
+      "server": "15.204.97.206",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #14",
-      "type": "trojan",
-      "server": "170.101.101.112",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.explorecreativejobsandenhanceyourcareerportfolio.com",
+      "tls": true,
+      "servername": "fuck.rkn",
       "skip-cert-verify": false,
-      "network": "tcp",
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇺🇸 TLS [443] #15",
-      "type": "trojan",
-      "server": "170.101.101.131",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.explorecreativejobsandenhanceyourcareerportfolio.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #29",
+      "type": "vless",
+      "server": "15.204.97.214",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
+      "client-fingerprint": "firefox",
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇺🇸 TLS [443] #16",
-      "type": "trojan",
-      "server": "170.101.101.19",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "learn.explorecreativejobsandenhanceyourcareerportfolio.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #30",
+      "type": "vless",
+      "server": "15.204.97.216",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇺🇸 TLS [443] #17",
-      "type": "trojan",
-      "server": "170.101.101.211",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.explorecreativejobsandenhanceyourcareerportfolio.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #31",
+      "type": "vless",
+      "server": "15.204.97.219",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇺🇸 TLS [443] #18",
-      "type": "trojan",
-      "server": "170.101.101.237",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.explorecreativejobsandenhanceyourcareerportfolio.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #32",
+      "type": "vless",
+      "server": "51.158.206.103",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇺🇸 TLS [443] #19",
-      "type": "trojan",
-      "server": "170.101.101.53",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.explorecreativejobsandenhanceyourcareerportfolio.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇳🇱 REALITY+PBK+SID+VISION+UTLS [23576] #33",
+      "type": "vless",
+      "server": "51.158.206.12",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇺🇸 TLS [443] #20",
-      "type": "trojan",
-      "server": "170.101.101.67",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.explorecreativejobsandenhanceyourcareerportfolio.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #34",
+      "type": "vless",
+      "server": "51.158.206.19",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇩🇪 TLS [443] #21",
-      "type": "trojan",
-      "server": "193.108.119.134",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.iloverussia2026.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇳🇱 REALITY+PBK+SID+VISION+UTLS [23576] #35",
+      "type": "vless",
+      "server": "51.158.206.20",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇩🇪 TLS [443] #22",
-      "type": "trojan",
-      "server": "193.108.119.15",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.iloverussia2026.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #36",
+      "type": "vless",
+      "server": "51.158.206.25",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇩🇪 TLS [443] #23",
-      "type": "trojan",
-      "server": "193.108.119.193",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.iloverussia2026.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #37",
+      "type": "vless",
+      "server": "51.158.206.26",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
+      "client-fingerprint": "firefox",
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇩🇪 TLS [443] #24",
-      "type": "trojan",
-      "server": "193.108.119.29",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.iloverussia2026.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇳🇱 REALITY+PBK+SID+VISION [23576] #38",
+      "type": "vless",
+      "server": "51.158.206.29",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇩🇪 TLS [443] #25",
-      "type": "trojan",
-      "server": "193.108.119.34",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.iloverussia2026.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #39",
+      "type": "vless",
+      "server": "51.158.206.34",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇩🇪 TLS [443] #26",
-      "type": "trojan",
-      "server": "193.108.119.96",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "learn.iloverussia2026.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #40",
+      "type": "vless",
+      "server": "51.158.206.80",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇨🇭 TLS [443] #27",
-      "type": "trojan",
-      "server": "208.69.78.158",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.yourultimateprofessionalcareerhub.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇳🇱 REALITY+PBK+SID+VISION [23576] #41",
+      "type": "vless",
+      "server": "51.158.206.86",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇨🇭 TLS [443] #28",
-      "type": "trojan",
-      "server": "208.69.78.19",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.yourultimateprofessionalcareerhub.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇳🇱 REALITY+PBK+SID+VISION [23576] #42",
+      "type": "vless",
+      "server": "51.158.206.87",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇨🇭 TLS [443] #29",
-      "type": "trojan",
-      "server": "208.69.78.208",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.yourultimateprofessionalcareerhub.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #43",
+      "type": "vless",
+      "server": "51.158.206.8",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇨🇭 TLS+UTLS [443] #30",
-      "type": "trojan",
-      "server": "208.69.78.222",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "yourultimateprofessionalcareerhub.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇳🇱 REALITY+PBK+SID+VISION [23576] #44",
+      "type": "vless",
+      "server": "51.158.206.93",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇨🇭 TLS [443] #31",
-      "type": "trojan",
-      "server": "208.69.78.29",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "learn.yourultimateprofessionalcareerhub.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION [23576] #45",
+      "type": "vless",
+      "server": "51.158.206.96",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇨🇭 TLS [443] #32",
-      "type": "trojan",
-      "server": "208.69.78.33",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.yourultimateprofessionalcareerhub.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇳🇱 REALITY+PBK+SID+VISION [23576] #46",
+      "type": "vless",
+      "server": "51.158.206.97",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇨🇭 TLS [443] #33",
-      "type": "trojan",
-      "server": "208.69.78.60",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.yourultimateprofessionalcareerhub.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇳🇱 REALITY+PBK+SID+VISION [23576] #47",
+      "type": "vless",
+      "server": "51.158.206.98",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇺🇸 TLS [443] #34",
-      "type": "trojan",
-      "server": "216.106.186.155",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.findlocaljobnetworkandbuildcommunityconnections.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇫🇷 REALITY+PBK+SID+VISION [23576] #48",
+      "type": "vless",
+      "server": "62.210.91.10",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇺🇸 TLS [443] #35",
-      "type": "trojan",
-      "server": "216.106.186.32",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.findlocaljobnetworkandbuildcommunityconnections.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇫🇷 REALITY+PBK+SID+VISION [23576] #49",
+      "type": "vless",
+      "server": "62.210.91.2",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇺🇸 TLS+UTLS [443] #36",
-      "type": "trojan",
-      "server": "216.106.186.46",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.findlocaljobnetworkandbuildcommunityconnections.com",
-      "skip-cert-verify": false,
+      "name": "VLESS 🇺🇸 REALITY+PBK+SID+VISION [23576] #50",
+      "type": "vless",
+      "server": "ww13.levikogjgfdd.ir",
+      "port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "fuck.rkn",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
+      "reality-opts": {
+        "public-key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+        "short-id": "01"
+      }
     },
     {
-      "name": "Trojan 🇺🇸 TLS+UTLS [443] #37",
-      "type": "trojan",
-      "server": "216.106.186.82",
+      "name": "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [443] #51",
+      "type": "vless",
+      "server": "87.199.205.28",
       "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.findlocaljobnetworkandbuildcommunityconnections.com",
-      "skip-cert-verify": false,
+      "uuid": "501a2da5-cb22-4a3f-915e-e3b821d1d62d",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
+      "tls": true,
+      "servername": "vkvd754.okcdn.ru",
+      "skip-cert-verify": false,
       "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇦 TLS [443] #38",
-      "type": "trojan",
-      "server": "216.152.147.201",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.connectingpeoplewithgreatjobs.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇦 TLS+UTLS [443] #39",
-      "type": "trojan",
-      "server": "216.152.147.48",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.connectingpeoplewithgreatjobs.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇦 TLS [443] #40",
-      "type": "trojan",
-      "server": "216.152.147.74",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.connectingpeoplewithgreatjobs.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇦 TLS [443] #41",
-      "type": "trojan",
-      "server": "216.152.147.79",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.connectingpeoplewithgreatjobs.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇦 TLS [443] #42",
-      "type": "trojan",
-      "server": "216.152.147.85",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.connectingpeoplewithgreatjobs.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇦 TLS [443] #43",
-      "type": "trojan",
-      "server": "216.152.147.89",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.connectingpeoplewithgreatjobs.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇦 TLS [443] #44",
-      "type": "trojan",
-      "server": "216.152.147.93",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "connectingpeoplewithgreatjobs.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #45",
-      "type": "trojan",
-      "server": "216.152.155.131",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.nextjobopportunityandclaimyouridealrole.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #46",
-      "type": "trojan",
-      "server": "216.152.155.158",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.nextjobopportunityandclaimyouridealrole.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #47",
-      "type": "trojan",
-      "server": "216.152.155.176",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.nextjobopportunityandclaimyouridealrole.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #48",
-      "type": "trojan",
-      "server": "216.152.155.23",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.nextjobopportunityandclaimyouridealrole.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #49",
-      "type": "trojan",
-      "server": "216.152.155.50",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.nextjobopportunityandclaimyouridealrole.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #50",
-      "type": "trojan",
-      "server": "216.152.155.54",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "learn.nextjobopportunityandclaimyouridealrole.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #51",
-      "type": "trojan",
-      "server": "216.152.155.59",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.nextjobopportunityandclaimyouridealrole.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #52",
-      "type": "trojan",
-      "server": "216.152.156.159",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #53",
-      "type": "trojan",
-      "server": "216.152.156.212",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #54",
-      "type": "trojan",
-      "server": "216.152.156.42",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #55",
-      "type": "trojan",
-      "server": "216.152.156.49",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #56",
-      "type": "trojan",
-      "server": "216.152.156.81",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇧🇷 TLS [443] #57",
-      "type": "trojan",
-      "server": "216.238.104.154",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "findtemporaryworkandfreelancerprojectsonlineplatform.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #58",
-      "type": "trojan",
-      "server": "66.163.112.121",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.unlockyourfuturefindyourperfectcareer.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS+UTLS [443] #59",
-      "type": "trojan",
-      "server": "66.163.112.13",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.unlockyourfuturefindyourperfectcareer.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #60",
-      "type": "trojan",
-      "server": "66.163.112.142",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.unlockyourfuturefindyourperfectcareer.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #61",
-      "type": "trojan",
-      "server": "66.163.112.147",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.unlockyourfuturefindyourperfectcareer.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #62",
-      "type": "trojan",
-      "server": "66.163.112.171",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "learn.unlockyourfuturefindyourperfectcareer.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS+UTLS [443] #63",
-      "type": "trojan",
-      "server": "66.163.112.242",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.unlockyourfuturefindyourperfectcareer.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #64",
-      "type": "trojan",
-      "server": "66.163.112.31",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "unlockyourfuturefindyourperfectcareer.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #65",
-      "type": "trojan",
-      "server": "66.163.112.76",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.unlockyourfuturefindyourperfectcareer.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #66",
-      "type": "trojan",
-      "server": "66.163.114.106",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.findconnectwithemployersandbuildprofessionalnetwork.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #67",
-      "type": "trojan",
-      "server": "66.163.114.114",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "learn.findconnectwithemployersandbuildprofessionalnetwork.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #68",
-      "type": "trojan",
-      "server": "66.163.114.126",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.findconnectwithemployersandbuildprofessionalnetwork.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #69",
-      "type": "trojan",
-      "server": "66.163.114.132",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.findconnectwithemployersandbuildprofessionalnetwork.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #70",
-      "type": "trojan",
-      "server": "66.163.114.166",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.findconnectwithemployersandbuildprofessionalnetwork.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #71",
-      "type": "trojan",
-      "server": "66.163.114.245",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "findconnectwithemployersandbuildprofessionalnetwork.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #72",
-      "type": "trojan",
-      "server": "66.163.114.45",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.findconnectwithemployersandbuildprofessionalnetwork.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇪🇸 TLS+UTLS [443] #73",
-      "type": "trojan",
-      "server": "66.163.118.115",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "discovergreatjobsandadvanceyourcareer.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇪🇸 TLS [443] #74",
-      "type": "trojan",
-      "server": "66.163.118.166",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "learn.discovergreatjobsandadvanceyourcareer.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇪🇸 TLS [443] #75",
-      "type": "trojan",
-      "server": "66.163.118.203",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.discovergreatjobsandadvanceyourcareer.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇪🇸 TLS [443] #76",
-      "type": "trojan",
-      "server": "66.163.118.251",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.discovergreatjobsandadvanceyourcareer.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇪🇸 TLS+UTLS [443] #77",
-      "type": "trojan",
-      "server": "66.163.118.40",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.discovergreatjobsandadvanceyourcareer.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇪🇸 TLS [443] #78",
-      "type": "trojan",
-      "server": "66.163.118.62",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.discovergreatjobsandadvanceyourcareer.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #79",
-      "type": "trojan",
-      "server": "66.163.122.113",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "api.searchnationwidecareerchangehelperandguidancetoday.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #80",
-      "type": "trojan",
-      "server": "66.163.122.25",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.searchnationwidecareerchangehelperandguidancetoday.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #81",
-      "type": "trojan",
-      "server": "66.163.122.26",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.searchnationwidecareerchangehelperandguidancetoday.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS+UTLS [443] #82",
-      "type": "trojan",
-      "server": "66.163.122.30",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.searchnationwidecareerchangehelperandguidancetoday.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS+UTLS [443] #83",
-      "type": "trojan",
-      "server": "66.163.122.46",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "searchnationwidecareerchangehelperandguidancetoday.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #84",
-      "type": "trojan",
-      "server": "66.163.122.7",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.searchnationwidecareerchangehelperandguidancetoday.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇳🇱 TLS+UTLS [443] #85",
-      "type": "trojan",
-      "server": "66.163.127.107",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.indyourperfectremotetechjobfromthecomfortofhome.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇳🇱 TLS+UTLS [443] #86",
-      "type": "trojan",
-      "server": "66.163.127.154",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "www.indyourperfectremotetechjobfromthecomfortofhome.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇳🇱 TLS [443] #87",
-      "type": "trojan",
-      "server": "66.163.127.155",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "indyourperfectremotetechjobfromthecomfortofhome.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇳🇱 TLS [443] #88",
-      "type": "trojan",
-      "server": "66.163.127.225",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "cdn.indyourperfectremotetechjobfromthecomfortofhome.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇳🇱 TLS [443] #89",
-      "type": "trojan",
-      "server": "66.163.127.44",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "learn.indyourperfectremotetechjobfromthecomfortofhome.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇳🇱 TLS+UTLS [443] #90",
-      "type": "trojan",
-      "server": "66.163.127.9",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "resources.indyourperfectremotetechjobfromthecomfortofhome.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇨🇦 TLS [443] #91",
-      "type": "trojan",
-      "server": "leviko-ca4436.shopingggg.ir",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "blog.connectingpeoplewithgreatjobs.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇩🇪 TLS [443] #92",
-      "type": "trojan",
-      "server": "leviko-de5094.shopingggg.ir",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "courses.iloverussia2026.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇳🇱 TLS [443] #93",
-      "type": "trojan",
-      "server": "leviko-nl8252.shopingggg.ir",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "sni": "indyourperfectremotetechjobfromthecomfortofhome.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #94",
-      "type": "trojan",
-      "server": "216.106.186.66",
-      "port": 443,
-      "password": "242a3d8eee5e4ed1a6bfa4141d549a25",
-      "sni": "www.findlocaljobnetworkandbuildcommunityconnections.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "Trojan 🇺🇸 TLS [443] #95",
-      "type": "trojan",
-      "server": "www.findlocaljobnetworkandbuildcommunityconnections.com",
-      "port": 443,
-      "password": "242a3d8eee5e4ed1a6bfa4141d549a25",
-      "sni": "www.findlocaljobnetworkandbuildcommunityconnections.com",
-      "skip-cert-verify": false,
-      "network": "tcp",
-      "client-fingerprint": "chrome",
-      "alpn": [
-        "h2",
-        "http/1.1"
-      ]
-    },
-    {
-      "name": "SS 🇮🇷 AEAD [555] #1",
-      "type": "ss",
-      "server": "mojtun.mlbaz.ir",
-      "port": 555,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "4d1a310d2eaa493db1698af9f4a83265"
-    },
-    {
-      "name": "SS 🇵🇱 AEAD [51628] #2",
-      "type": "ss",
-      "server": "156.67.120.205",
-      "port": 51628,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF"
-    },
-    {
-      "name": "SS 🇫🇷 AEAD [443] #3",
-      "type": "ss",
-      "server": "23.162.152.245",
-      "port": 443,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "ySGkGhr2sKHV"
+      "reality-opts": {
+        "public-key": "W-9zyiOq287RtXVTZlTFbSDJ0Mx8joyBLJoA7ZE7eBw",
+        "short-id": "ef1d3554c652a436"
+      }
     },
     {
-      "name": "SS 🇦🇹 AEAD [8388] #4",
+      "name": "SS 🇦🇹 AEAD [8388] #1",
       "type": "ss",
       "server": "152.53.1.57",
       "port": 8388,
@@ -1876,15 +823,7 @@
       "password": "AdawffFMHymlasRb0VOP3HFf7sTG5sJx"
     },
     {
-      "name": "SS 🇳🇱 AEAD [443] #5",
-      "type": "ss",
-      "server": "108.181.122.170",
-      "port": 443,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "CJmTCCx7Ltud"
-    },
-    {
-      "name": "SS 🇺🇸 AEAD [443] #6",
+      "name": "SS 🇺🇸 AEAD [443] #2",
       "type": "ss",
       "server": "67.220.73.247",
       "port": 443,
@@ -1892,47 +831,7 @@
       "password": "DGjtV63aPW3E"
     },
     {
-      "name": "SS 🇳🇱 AEAD [2089] #7",
-      "type": "ss",
-      "server": "S23.fusetea.ir",
-      "port": 2089,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "DVlt-OeAV4RiLMwT9e0T72nnFtMG2W3o"
-    },
-    {
-      "name": "SS 🇺🇸 AEAD [8388] #8",
-      "type": "ss",
-      "server": "108.181.9.202",
-      "port": 8388,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "G5p6ww4o67HB"
-    },
-    {
-      "name": "SS 🇦🇱 AEAD [43558] #9",
-      "type": "ss",
-      "server": "130.49.189.158",
-      "port": 43558,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog="
-    },
-    {
-      "name": "SS 🇩🇪 AEAD [8388] #10",
-      "type": "ss",
-      "server": "57.129.113.16",
-      "port": 8388,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "NcAXc0UZI6yQJE1p8QmOv8"
-    },
-    {
-      "name": "SS 🇨🇦 AEAD [443] #11",
-      "type": "ss",
-      "server": "134.195.198.163",
-      "port": 443,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "PmCqK98WqhSC"
-    },
-    {
-      "name": "SS 🇳🇱 AEAD [8080] #12",
+      "name": "SS 🇳🇱 AEAD [8080] #3",
       "type": "ss",
       "server": "193.29.139.168",
       "port": 8080,
@@ -1940,7 +839,7 @@
       "password": "QCXDxuDlTTMD7jtgHUjIoj"
     },
     {
-      "name": "SS 🇳🇱 AEAD [8080] #13",
+      "name": "SS 🇳🇱 AEAD [8080] #4",
       "type": "ss",
       "server": "193.29.139.212",
       "port": 8080,
@@ -1948,31 +847,7 @@
       "password": "QCXDxuDlTTMD7jtgHUjIoj"
     },
     {
-      "name": "SS 🇳🇱 AEAD [2089] #14",
-      "type": "ss",
-      "server": "s23.fusetea.ir",
-      "port": 2089,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "R02KmzzSD7PeZ_DosF87xZ7zIn8jLtyP"
-    },
-    {
-      "name": "SS 🇮🇪 AEAD [443] #15",
-      "type": "ss",
-      "server": "20.166.121.63",
-      "port": 443,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "RoARJLTlMJOFVIuQ"
-    },
-    {
-      "name": "SS 🇹🇷 AEAD [2089] #16",
-      "type": "ss",
-      "server": "tr.subscriptionservice.ir",
-      "port": 2089,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "T199MCnogZBKi0QJdcSgUnoL3U9wl7t1"
-    },
-    {
-      "name": "SS 🇺🇸 AEAD [443] #17",
+      "name": "SS 🇺🇸 AEAD [443] #5",
       "type": "ss",
       "server": "38.99.82.34",
       "port": 443,
@@ -1980,20 +855,436 @@
       "password": "TyWIy6paiFUX"
     },
     {
-      "name": "SS 🇪🇸 AEAD [443] #18",
-      "type": "ss",
-      "server": "108.181.121.178",
-      "port": 443,
-      "cipher": "chacha20-ietf-poly1305",
-      "password": "WSyL4XTwNsdv"
-    },
-    {
-      "name": "SS 🇿🇦 AEAD [16233] #19",
+      "name": "SS 🇿🇦 AEAD [16233] #6",
       "type": "ss",
       "server": "102.133.165.160",
       "port": 16233,
       "cipher": "chacha20-ietf-poly1305",
       "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
+    },
+    {
+      "name": "SS 🇺🇸 AEAD [443] #7",
+      "type": "ss",
+      "server": "198.98.53.130",
+      "port": 443,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "eDfN7SODQceIOmIAbtJJtK"
+    },
+    {
+      "name": "SS 🇳🇱 AEAD [8080] #8",
+      "type": "ss",
+      "server": "82.38.31.176",
+      "port": 8080,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "name": "SS 🇳🇱 AEAD [8080] #9",
+      "type": "ss",
+      "server": "82.38.31.179",
+      "port": 8080,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "name": "SS 🇳🇱 AEAD [8080] #10",
+      "type": "ss",
+      "server": "82.38.31.186",
+      "port": 8080,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "name": "SS 🇳🇱 AEAD [8080] #11",
+      "type": "ss",
+      "server": "82.38.31.198",
+      "port": 8080,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "name": "SS 🇳🇱 AEAD [8080] #12",
+      "type": "ss",
+      "server": "82.38.31.201",
+      "port": 8080,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "name": "SS 🇳🇱 AEAD [8080] #13",
+      "type": "ss",
+      "server": "82.38.31.204",
+      "port": 8080,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "name": "SS 🇳🇱 AEAD [8080] #14",
+      "type": "ss",
+      "server": "82.38.31.205",
+      "port": 8080,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "name": "SS 🇳🇱 AEAD [8080] #15",
+      "type": "ss",
+      "server": "82.38.31.214",
+      "port": 8080,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "name": "SS 🇳🇱 AEAD [8080] #16",
+      "type": "ss",
+      "server": "82.38.31.218",
+      "port": 8080,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "name": "SS 🇳🇱 AEAD [8080] #17",
+      "type": "ss",
+      "server": "82.38.31.157",
+      "port": 8080,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "name": "SS 🇳🇱 AEAD [443] #18",
+      "type": "ss",
+      "server": "82.38.31.162",
+      "port": 443,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "name": "SS 🇳🇱 AEAD [443] #19",
+      "type": "ss",
+      "server": "82.38.31.165",
+      "port": 443,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "name": "SS 🇯🇵 AEAD [53758] #20",
+      "type": "ss",
+      "server": "168.138.205.100",
+      "port": 53758,
+      "cipher": "aes-128-gcm",
+      "password": "Bwlqh7GcFB"
+    },
+    {
+      "name": "SS 🇯🇵 AEAD [53758] #21",
+      "type": "ss",
+      "server": "jpa.123069.xyz",
+      "port": 53758,
+      "cipher": "aes-128-gcm",
+      "password": "Bwlqh7GcFB"
+    },
+    {
+      "name": "SS 🇳🇱 AEAD [443] #22",
+      "type": "ss",
+      "server": "158.173.20.208",
+      "port": 443,
+      "cipher": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "name": "SS 🇬🇧 AEAD [443] #23",
+      "type": "ss",
+      "server": "141.98.101.179",
+      "port": 443,
+      "cipher": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "name": "SS 🇺🇸 AEAD [443] #24",
+      "type": "ss",
+      "server": "156.146.38.170",
+      "port": 443,
+      "cipher": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "name": "SS 🇳🇱 AEAD [443] #25",
+      "type": "ss",
+      "server": "158.173.20.171",
+      "port": 443,
+      "cipher": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "name": "SS 🇯🇵 AEAD [5555] #26",
+      "type": "ss",
+      "server": "47.91.16.50",
+      "port": 5555,
+      "cipher": "aes-256-gcm",
+      "password": "123456"
+    },
+    {
+      "name": "SS 🇯🇵 AEAD [5555] #27",
+      "type": "ss",
+      "server": "8.211.131.30",
+      "port": 5555,
+      "cipher": "aes-256-gcm",
+      "password": "123456"
+    },
+    {
+      "name": "SS 🇩🇪 AEAD [8008] #28",
+      "type": "ss",
+      "server": "185.226.172.8",
+      "port": 8008,
+      "cipher": "aes-256-gcm",
+      "password": "XKFKl2rULjIp74"
+    },
+    {
+      "name": "SS 🇺🇸 AEAD [8888] #29",
+      "type": "ss",
+      "server": "15.204.246.107",
+      "port": 8888,
+      "cipher": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC"
+    },
+    {
+      "name": "SS 🇺🇸 AEAD [19999] #30",
+      "type": "ss",
+      "server": "137.184.89.151",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇺🇸 AEAD [19999] #31",
+      "type": "ss",
+      "server": "149.40.57.135",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇸🇬 AEAD [19999] #32",
+      "type": "ss",
+      "server": "149.88.106.73",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇸🇬 AEAD [19999] #33",
+      "type": "ss",
+      "server": "149.88.107.47",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇺🇦 AEAD [19999] #34",
+      "type": "ss",
+      "server": "185.164.175.81",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇬🇧 AEAD [19999] #35",
+      "type": "ss",
+      "server": "185.176.204.18",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇪🇸 AEAD [19999] #36",
+      "type": "ss",
+      "server": "185.215.132.18",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇪🇸 AEAD [19999] #37",
+      "type": "ss",
+      "server": "185.215.132.9",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇿🇦 AEAD [19999] #38",
+      "type": "ss",
+      "server": "185.230.230.18",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇨🇿 AEAD [19999] #39",
+      "type": "ss",
+      "server": "193.151.160.18",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇨🇿 AEAD [19999] #40",
+      "type": "ss",
+      "server": "193.151.160.9",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇨🇿 AEAD [19999] #41",
+      "type": "ss",
+      "server": "193.151.163.18",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇬🇧 AEAD [19999] #42",
+      "type": "ss",
+      "server": "198.244.201.129",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇬🇧 AEAD [19999] #43",
+      "type": "ss",
+      "server": "198.244.202.215",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇺🇸 AEAD [19999] #44",
+      "type": "ss",
+      "server": "38.22.17.214",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇩🇪 AEAD [19999] #45",
+      "type": "ss",
+      "server": "57.129.76.233",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇨🇭 AEAD [19999] #46",
+      "type": "ss",
+      "server": "79.127.184.104",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇫🇷 AEAD [19999] #47",
+      "type": "ss",
+      "server": "79.137.99.183",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇺🇸 AEAD [19999] #48",
+      "type": "ss",
+      "server": "84.20.27.183",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇫🇷 AEAD [19999] #49",
+      "type": "ss",
+      "server": "95.215.201.18",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇺🇸 AEAD [19999] #50",
+      "type": "ss",
+      "server": "169.197.140.247",
+      "port": 19999,
+      "cipher": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "name": "SS 🇺🇸 AEAD [2375] #51",
+      "type": "ss",
+      "server": "15.204.247.124",
+      "port": 2375,
+      "cipher": "aes-256-gcm",
+      "password": "faBAoD54k87UJG7"
+    },
+    {
+      "name": "SS 🇺🇸 AEAD [8881] #52",
+      "type": "ss",
+      "server": "15.204.246.108",
+      "port": 8881,
+      "cipher": "aes-256-gcm",
+      "password": "kDWvXYZoTBcGkC4"
+    },
+    {
+      "name": "SS 🇺🇸 AEAD [8388] #53",
+      "type": "ss",
+      "server": "135.148.42.13",
+      "port": 8388,
+      "cipher": "aes-256-gcm",
+      "password": "itzvpn@321"
+    },
+    {
+      "name": "SS 🇨🇦 AEAD [8388] #54",
+      "type": "ss",
+      "server": "184.107.106.77",
+      "port": 8388,
+      "cipher": "aes-256-gcm",
+      "password": "itzvpn@321"
+    },
+    {
+      "name": "SS 🇺🇸 AEAD [8388] #55",
+      "type": "ss",
+      "server": "200.102.179.179",
+      "port": 8388,
+      "cipher": "aes-256-gcm",
+      "password": "itzvpn@321"
+    },
+    {
+      "name": "SS 🇺🇸 AEAD [8388] #56",
+      "type": "ss",
+      "server": "40.160.86.43",
+      "port": 8388,
+      "cipher": "aes-256-gcm",
+      "password": "itzvpn@321"
+    },
+    {
+      "name": "SS 🇮🇹 AEAD [8388] #57",
+      "type": "ss",
+      "server": "leviko-it8672.shopingggg.ir",
+      "port": 8388,
+      "cipher": "aes-256-gcm",
+      "password": "itzvpn@321"
+    },
+    {
+      "name": "SS 🇮🇹 AEAD [8388] #58",
+      "type": "ss",
+      "server": "57.131.27.21",
+      "port": 8388,
+      "cipher": "aes-256-gcm",
+      "password": "itzvpn@321"
+    },
+    {
+      "name": "SS 🇺🇸 AEAD [5498] #59",
+      "type": "ss",
+      "server": "15.204.246.111",
+      "port": 5498,
+      "cipher": "aes-256-gcm",
+      "password": "lGqs95QkFHo2NV"
     },
     {
       "name": "Hysteria2 🇳🇱 QUIC [42848] #1",
@@ -2005,25 +1296,25 @@
       "skip-cert-verify": false
     },
     {
-      "name": "Hysteria2 🇳🇱 QUIC [443] #12",
+      "name": "Hysteria2 🇵🇱 QUIC [42848] #2",
       "type": "hysteria2",
-      "server": "212.34.137.105",
-      "port": 443,
-      "password": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
-      "sni": "shorts.blog-forme.ru",
+      "server": "91.211.27.231",
+      "port": 42848,
+      "password": "04920673-035c-410d-94e4-5b1469d3fb6f",
+      "sni": "171.22.183.158",
       "skip-cert-verify": false
     },
     {
-      "name": "Hysteria2 🇮🇷 QUIC [24403] #13",
+      "name": "Hysteria2 🇺🇸 QUIC [13337] #11",
       "type": "hysteria2",
-      "server": "94.183.164.119",
-      "port": 24403,
-      "password": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
-      "sni": "docs.blog-forme.ru",
+      "server": "128.254.186.163",
+      "port": 13337,
+      "password": "900c8c92-1979-4c7c-8f2f-63e87d53d8fe",
+      "sni": "mother-earth.fyi",
       "skip-cert-verify": false
     },
     {
-      "name": "Hysteria2 🇺🇸 QUIC [13337] #29",
+      "name": "Hysteria2 🇺🇸 QUIC [13337] #12",
       "type": "hysteria2",
       "server": "128.254.186.190",
       "port": 13337,
@@ -2032,7 +1323,16 @@
       "skip-cert-verify": false
     },
     {
-      "name": "Hysteria2 🇳🇱 QUIC [54706] #39",
+      "name": "Hysteria2 🇺🇸 QUIC [13337] #13",
+      "type": "hysteria2",
+      "server": "128.254.186.213",
+      "port": 13337,
+      "password": "900c8c92-1979-4c7c-8f2f-63e87d53d8fe",
+      "sni": "mother-earth.fyi",
+      "skip-cert-verify": false
+    },
+    {
+      "name": "Hysteria2 🇳🇱 QUIC [54706] #22",
       "type": "hysteria2",
       "server": "185.200.199.179",
       "port": 54706,
@@ -2041,15 +1341,1047 @@
       "skip-cert-verify": false
     },
     {
-      "name": "Hysteria2 🇦🇺 QUIC+OBFS [20000] #81",
+      "name": "Hysteria2 🇳🇱 QUIC+OBFS [8443] #37",
       "type": "hysteria2",
-      "server": "159.13.55.48",
-      "port": 20000,
-      "password": "b42d90fa667942aebc734d60",
-      "sni": "hy2-au2.whuiy.xyz",
+      "server": "147.45.149.88",
+      "port": 8443,
+      "password": "NL2026hy",
+      "sni": "nl.nobelchat.ru",
       "skip-cert-verify": false,
       "obfs": "salamander",
-      "obfs-password": "b42d90fa667942aebc734d60"
+      "obfs-password": "SalamanderNL2026"
+    },
+    {
+      "name": "Hysteria2 🇯🇵 QUIC [8443] #45",
+      "type": "hysteria2",
+      "server": "43.130.234.128",
+      "port": 8443,
+      "password": "Yuike2026cat",
+      "sni": "43-130-234-128.sslip.io",
+      "skip-cert-verify": false
+    },
+    {
+      "name": "VMess 🇧🇷 TLS [1270] #1",
+      "type": "vmess",
+      "server": "103.14.27.207",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇧🇷 TLS [1270] #2",
+      "type": "vmess",
+      "server": "103.88.232.55",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇫🇷 TLS [1270] #3",
+      "type": "vmess",
+      "server": "79.137.99.183",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇫🇷 TLS [1270] #4",
+      "type": "vmess",
+      "server": "162.19.82.57",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇫🇷 TLS [1270] #5",
+      "type": "vmess",
+      "server": "46.105.222.157",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇫🇷 TLS [1270] #6",
+      "type": "vmess",
+      "server": "46.105.222.156",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇫🇷 TLS [1270] #7",
+      "type": "vmess",
+      "server": "91.134.35.72",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇫🇷 TLS [1270] #8",
+      "type": "vmess",
+      "server": "46.105.222.155",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇫🇷 TLS [1270] #9",
+      "type": "vmess",
+      "server": "46.105.222.153",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇮🇷 [2080] #10",
+      "type": "vmess",
+      "server": "Ir.wbzo.ir",
+      "port": 2080,
+      "uuid": "b7e3e8af-d1ca-45da-a95f-8b9ad77398b1",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇮🇷 [2040] #11",
+      "type": "vmess",
+      "server": "Ir.wbzo.ir",
+      "port": 2040,
+      "uuid": "b7e3e8af-d1ca-45da-a95f-8b9ad77398b1",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇳🇱 TLS [1270] #12",
+      "type": "vmess",
+      "server": "188.166.81.135",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇰🇷 [800] #13",
+      "type": "vmess",
+      "server": "129.154.61.196",
+      "port": 800,
+      "uuid": "a915b1d6-cf28-4dc8-e4b4-e09c48c37ec0",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇺🇸 [48111] #14",
+      "type": "vmess",
+      "server": "129.146.143.80",
+      "port": 48111,
+      "uuid": "d4603cc2-e0ee-4651-83f5-1db5b7168177",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇺🇸 [18000] #16",
+      "type": "vmess",
+      "server": "67.220.95.3",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇨🇦 [18000] #20",
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇨🇦 [18000] #21",
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇩🇪 WS [27154] #22",
+      "type": "vmess",
+      "server": "94.130.237.57",
+      "port": 27154,
+      "uuid": "d9d02f3e-c877-4a1f-990e-f2418777f745",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/Telegram=@AmyraxVPN",
+        "headers": {
+          "Host": "94.130.237.57"
+        }
+      }
+    },
+    {
+      "name": "VMess 🇫🇷 TLS [1270] #23",
+      "type": "vmess",
+      "server": "46.105.222.153",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇫🇷 TLS [1270] #24",
+      "type": "vmess",
+      "server": "46.105.222.157",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇫🇷 TLS [1270] #25",
+      "type": "vmess",
+      "server": "79.137.99.183",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇫🇷 TLS [1270] #26",
+      "type": "vmess",
+      "server": "162.19.82.57",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇫🇷 TLS [1270] #27",
+      "type": "vmess",
+      "server": "46.105.222.156",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇫🇷 TLS [1270] #28",
+      "type": "vmess",
+      "server": "91.134.35.72",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇫🇷 TLS [1270] #29",
+      "type": "vmess",
+      "server": "46.105.222.155",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇬🇧 TLS [1270] #30",
+      "type": "vmess",
+      "server": "142.202.51.42",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇰🇷 [800] #31",
+      "type": "vmess",
+      "server": "129.154.61.196",
+      "port": 800,
+      "uuid": "a915b1d6-cf28-4dc8-e4b4-e09c48c37ec0",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇰🇷 [443] #32",
+      "type": "vmess",
+      "server": "140.238.2.250",
+      "port": 443,
+      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇳🇱 TLS [1270] #33",
+      "type": "vmess",
+      "server": "188.166.81.135",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇸🇪 TLS [1270] #34",
+      "type": "vmess",
+      "server": "leviko-se3307.shopingggg.ir",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇸🇬 [18000] #35",
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇸🇬 [18000] #36",
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇸🇬 [18000] #37",
+      "type": "vmess",
+      "server": "149.88.23.202",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇸🇬 [18000] #38",
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇸🇬 WS [54327] #39",
+      "type": "vmess",
+      "server": "8.222.172.146",
+      "port": 54327,
+      "uuid": "8a3d03bc-9b35-43b4-d901-c8531f2bbc6d",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/pages"
+      }
+    },
+    {
+      "name": "VMess 🇹🇭 [37515] #41",
+      "type": "vmess",
+      "server": "119.46.51.45",
+      "port": 37515,
+      "uuid": "9b76bc31-17a5-4454-934a-8d5fb602cd70",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #42",
+      "type": "vmess",
+      "server": "38.22.17.89",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #43",
+      "type": "vmess",
+      "server": "167.88.63.39",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #44",
+      "type": "vmess",
+      "server": "172.111.36.147",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #45",
+      "type": "vmess",
+      "server": "38.22.17.64",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #46",
+      "type": "vmess",
+      "server": "38.91.106.182",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #47",
+      "type": "vmess",
+      "server": "38.91.107.188",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇺🇸 [18000] #48",
+      "type": "vmess",
+      "server": "84.17.41.2",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #49",
+      "type": "vmess",
+      "server": "38.91.100.16",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇺🇸 [18000] #50",
+      "type": "vmess",
+      "server": "67.220.85.46",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "cipher": "aes-128-gcm",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #51",
+      "type": "vmess",
+      "server": "38.107.226.5",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #52",
+      "type": "vmess",
+      "server": "172.111.38.246",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #53",
+      "type": "vmess",
+      "server": "162.251.62.31",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #54",
+      "type": "vmess",
+      "server": "38.91.107.84",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇺🇸 [18000] #55",
+      "type": "vmess",
+      "server": "38.110.1.246",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇺🇸 [18000] #56",
+      "type": "vmess",
+      "server": "67.220.95.3",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇺🇸 [18000] #58",
+      "type": "vmess",
+      "server": "169.197.142.22",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇺🇸 [18000] #59",
+      "type": "vmess",
+      "server": "84.17.41.2",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #60",
+      "type": "vmess",
+      "server": "216.106.182.225",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #61",
+      "type": "vmess",
+      "server": "162.251.62.42",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #62",
+      "type": "vmess",
+      "server": "162.251.62.44",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #63",
+      "type": "vmess",
+      "server": "67.220.74.188",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇺🇸 [18000] #64",
+      "type": "vmess",
+      "server": "169.197.142.22",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #65",
+      "type": "vmess",
+      "server": "23.150.152.65",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇺🇸 WS [39495] #66",
+      "type": "vmess",
+      "server": "129.146.77.248",
+      "port": 39495,
+      "uuid": "f836c736-87fc-4fde-aabc-00857ecdff3e",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/cctv13.m3u8",
+        "headers": {
+          "Host": "129.146.77.248"
+        }
+      }
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #67",
+      "type": "vmess",
+      "server": "38.128.66.212",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #68",
+      "type": "vmess",
+      "server": "38.128.66.241",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #69",
+      "type": "vmess",
+      "server": "38.64.138.135",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇸🇪 TLS [1270] #70",
+      "type": "vmess",
+      "server": "62.93.166.184",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇺🇸 [18000] #71",
+      "type": "vmess",
+      "server": "67.220.95.3",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇸🇬 [18000] #72",
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
+    },
+    {
+      "name": "VMess 🇺🇸 TLS [1270] #74",
+      "type": "vmess",
+      "server": "38.128.66.241",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp",
+      "tls": true,
+      "servername": "xmfhlpy.com",
+      "skip-cert-verify": false,
+      "client-fingerprint": "chrome",
+      "alpn": [
+        "h2",
+        "http/1.1"
+      ]
+    },
+    {
+      "name": "VMess 🇸🇬 [18000] #75",
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "tcp"
     }
   ],
   "proxy-groups": [
@@ -2059,145 +2391,183 @@
       "proxies": [
         "🚀 Best Ping",
         "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION [443] #1",
-        "VLESS 🇪🇪 TLS+VISION+UTLS [8443] #2",
-        "VLESS 🇺🇸 TLS+VISION+UTLS [8443] #3",
-        "VLESS 🇱🇻 RAW+REALITY+PBK+SID+VISION+UTLS [443] #5",
-        "VLESS 🇨🇦 TLS [443] #6",
-        "VLESS 🇨🇦 TLS [443] #7",
-        "VLESS 🇳🇱 REALITY+PBK+SID+VISION [443] #8",
-        "VLESS 🇳🇱 TLS+VISION [443] #9",
-        "VLESS 🇵🇱 RAW+REALITY+PBK+SID+VISION [443] #10",
-        "VLESS 🇺🇸 REALITY+PBK+SID+VISION [443] #12",
-        "VLESS 🇭🇰 REALITY+PBK+SID+VISION+UTLS [31001] #17",
-        "VLESS 🇭🇰 REALITY+PBK+SID+VISION+UTLS [31001] #18",
-        "VLESS 🇪🇸 RAW+REALITY+PBK+SID+VISION+UTLS [443] #19",
-        "VLESS 🇺🇸 REALITY+PBK+VISION+UTLS [28190] #21",
-        "VLESS 🇫🇮 WS+TLS+UTLS [993] #22",
-        "VLESS 🇷🇺 REALITY+PBK+SID+VISION [8443] #23",
-        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [443] #25",
-        "VLESS 🇺🇸 REALITY+PBK+SID+VISION [443] #26",
-        "VLESS 🇷🇺 REALITY+PBK+VISION [443] #27",
-        "VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443] #28",
-        "Trojan 🇿🇦 TLS [443] #1",
-        "Trojan 🇺🇸 TLS+UTLS [443] #2",
-        "Trojan 🇺🇸 TLS [443] #3",
-        "Trojan 🇺🇸 TLS [443] #4",
-        "Trojan 🇺🇸 TLS [443] #5",
-        "Trojan 🇺🇸 TLS [443] #6",
-        "Trojan 🇺🇸 TLS [443] #7",
-        "Trojan 🇺🇸 TLS [443] #8",
-        "Trojan 🇺🇸 TLS [443] #9",
-        "Trojan 🇺🇸 TLS [443] #10",
-        "Trojan 🇺🇸 TLS [443] #11",
-        "Trojan 🇺🇸 TLS [443] #12",
-        "Trojan 🇺🇸 TLS [443] #13",
-        "Trojan 🇺🇸 TLS [443] #14",
-        "Trojan 🇺🇸 TLS [443] #15",
-        "Trojan 🇺🇸 TLS [443] #16",
-        "Trojan 🇺🇸 TLS [443] #17",
-        "Trojan 🇺🇸 TLS [443] #18",
-        "Trojan 🇺🇸 TLS [443] #19",
-        "Trojan 🇺🇸 TLS [443] #20",
-        "Trojan 🇩🇪 TLS [443] #21",
-        "Trojan 🇩🇪 TLS [443] #22",
-        "Trojan 🇩🇪 TLS [443] #23",
-        "Trojan 🇩🇪 TLS [443] #24",
-        "Trojan 🇩🇪 TLS [443] #25",
-        "Trojan 🇩🇪 TLS [443] #26",
-        "Trojan 🇨🇭 TLS [443] #27",
-        "Trojan 🇨🇭 TLS [443] #28",
-        "Trojan 🇨🇭 TLS [443] #29",
-        "Trojan 🇨🇭 TLS+UTLS [443] #30",
-        "Trojan 🇨🇭 TLS [443] #31",
-        "Trojan 🇨🇭 TLS [443] #32",
-        "Trojan 🇨🇭 TLS [443] #33",
-        "Trojan 🇺🇸 TLS [443] #34",
-        "Trojan 🇺🇸 TLS [443] #35",
-        "Trojan 🇺🇸 TLS+UTLS [443] #36",
-        "Trojan 🇺🇸 TLS+UTLS [443] #37",
-        "Trojan 🇨🇦 TLS [443] #38",
-        "Trojan 🇨🇦 TLS+UTLS [443] #39",
-        "Trojan 🇨🇦 TLS [443] #40",
-        "Trojan 🇨🇦 TLS [443] #41",
-        "Trojan 🇨🇦 TLS [443] #42",
-        "Trojan 🇨🇦 TLS [443] #43",
-        "Trojan 🇨🇦 TLS [443] #44",
-        "Trojan 🇺🇸 TLS [443] #45",
-        "Trojan 🇺🇸 TLS [443] #46",
-        "Trojan 🇺🇸 TLS [443] #47",
-        "Trojan 🇺🇸 TLS [443] #48",
-        "Trojan 🇺🇸 TLS [443] #49",
-        "Trojan 🇺🇸 TLS [443] #50",
-        "Trojan 🇺🇸 TLS [443] #51",
-        "Trojan 🇺🇸 TLS [443] #52",
-        "Trojan 🇺🇸 TLS [443] #53",
-        "Trojan 🇺🇸 TLS [443] #54",
-        "Trojan 🇺🇸 TLS [443] #55",
-        "Trojan 🇺🇸 TLS [443] #56",
-        "Trojan 🇧🇷 TLS [443] #57",
-        "Trojan 🇺🇸 TLS [443] #58",
-        "Trojan 🇺🇸 TLS+UTLS [443] #59",
-        "Trojan 🇺🇸 TLS [443] #60",
-        "Trojan 🇺🇸 TLS [443] #61",
-        "Trojan 🇺🇸 TLS [443] #62",
-        "Trojan 🇺🇸 TLS+UTLS [443] #63",
-        "Trojan 🇺🇸 TLS [443] #64",
-        "Trojan 🇺🇸 TLS [443] #65",
-        "Trojan 🇺🇸 TLS [443] #66",
-        "Trojan 🇺🇸 TLS [443] #67",
-        "Trojan 🇺🇸 TLS [443] #68",
-        "Trojan 🇺🇸 TLS [443] #69",
-        "Trojan 🇺🇸 TLS [443] #70",
-        "Trojan 🇺🇸 TLS [443] #71",
-        "Trojan 🇺🇸 TLS [443] #72",
-        "Trojan 🇪🇸 TLS+UTLS [443] #73",
-        "Trojan 🇪🇸 TLS [443] #74",
-        "Trojan 🇪🇸 TLS [443] #75",
-        "Trojan 🇪🇸 TLS [443] #76",
-        "Trojan 🇪🇸 TLS+UTLS [443] #77",
-        "Trojan 🇪🇸 TLS [443] #78",
-        "Trojan 🇺🇸 TLS [443] #79",
-        "Trojan 🇺🇸 TLS [443] #80",
-        "Trojan 🇺🇸 TLS [443] #81",
-        "Trojan 🇺🇸 TLS+UTLS [443] #82",
-        "Trojan 🇺🇸 TLS+UTLS [443] #83",
-        "Trojan 🇺🇸 TLS [443] #84",
-        "Trojan 🇳🇱 TLS+UTLS [443] #85",
-        "Trojan 🇳🇱 TLS+UTLS [443] #86",
-        "Trojan 🇳🇱 TLS [443] #87",
-        "Trojan 🇳🇱 TLS [443] #88",
-        "Trojan 🇳🇱 TLS [443] #89",
-        "Trojan 🇳🇱 TLS+UTLS [443] #90",
-        "Trojan 🇨🇦 TLS [443] #91",
-        "Trojan 🇩🇪 TLS [443] #92",
-        "Trojan 🇳🇱 TLS [443] #93",
-        "Trojan 🇺🇸 TLS [443] #94",
-        "Trojan 🇺🇸 TLS [443] #95",
-        "SS 🇮🇷 AEAD [555] #1",
-        "SS 🇵🇱 AEAD [51628] #2",
-        "SS 🇫🇷 AEAD [443] #3",
-        "SS 🇦🇹 AEAD [8388] #4",
-        "SS 🇳🇱 AEAD [443] #5",
-        "SS 🇺🇸 AEAD [443] #6",
-        "SS 🇳🇱 AEAD [2089] #7",
-        "SS 🇺🇸 AEAD [8388] #8",
-        "SS 🇦🇱 AEAD [43558] #9",
-        "SS 🇩🇪 AEAD [8388] #10",
-        "SS 🇨🇦 AEAD [443] #11",
+        "VLESS 🇱🇻 RAW+REALITY+PBK+SID+VISION+UTLS [443] #4",
+        "VLESS 🇺🇸 TLS [443] #5",
+        "VLESS 🇺🇸 REALITY+PBK+SID+VISION [443] #10",
+        "VLESS 🇭🇰 REALITY+PBK+SID+VISION [31001] #11",
+        "VLESS 🇪🇸 RAW+REALITY+PBK+SID+VISION+UTLS [443] #12",
+        "VLESS 🇫🇮 WS+TLS+UTLS [993] #13",
+        "VLESS 🇧🇾 REALITY+PBK+SID+VISION [10444] #15",
+        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [443] #16",
+        "VLESS 🇺🇸 REALITY+PBK+SID+VISION [443] #17",
+        "VLESS 🇸🇪 REALITY+PBK+VISION [59539] #18",
+        "VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443] #19",
+        "VLESS 🇮🇹 TLS+VISION+UTLS [443] #21",
+        "VLESS 🇷🇺 GRPC+REALITY+PBK+UTLS [445] #22",
+        "VLESS 🇷🇺 GRPC+TLS+UTLS [443] #23",
+        "VLESS 🇨🇭 RAW+REALITY+PBK+SID+VISION+UTLS [443] #24",
+        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #25",
+        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #26",
+        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #27",
+        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #28",
+        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #29",
+        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #30",
+        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #31",
+        "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #32",
+        "VLESS 🇳🇱 REALITY+PBK+SID+VISION+UTLS [23576] #33",
+        "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #34",
+        "VLESS 🇳🇱 REALITY+PBK+SID+VISION+UTLS [23576] #35",
+        "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #36",
+        "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #37",
+        "VLESS 🇳🇱 REALITY+PBK+SID+VISION [23576] #38",
+        "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #39",
+        "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #40",
+        "VLESS 🇳🇱 REALITY+PBK+SID+VISION [23576] #41",
+        "VLESS 🇳🇱 REALITY+PBK+SID+VISION [23576] #42",
+        "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #43",
+        "VLESS 🇳🇱 REALITY+PBK+SID+VISION [23576] #44",
+        "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION [23576] #45",
+        "VLESS 🇳🇱 REALITY+PBK+SID+VISION [23576] #46",
+        "VLESS 🇳🇱 REALITY+PBK+SID+VISION [23576] #47",
+        "VLESS 🇫🇷 REALITY+PBK+SID+VISION [23576] #48",
+        "VLESS 🇫🇷 REALITY+PBK+SID+VISION [23576] #49",
+        "VLESS 🇺🇸 REALITY+PBK+SID+VISION [23576] #50",
+        "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [443] #51",
+        "SS 🇦🇹 AEAD [8388] #1",
+        "SS 🇺🇸 AEAD [443] #2",
+        "SS 🇳🇱 AEAD [8080] #3",
+        "SS 🇳🇱 AEAD [8080] #4",
+        "SS 🇺🇸 AEAD [443] #5",
+        "SS 🇿🇦 AEAD [16233] #6",
+        "SS 🇺🇸 AEAD [443] #7",
+        "SS 🇳🇱 AEAD [8080] #8",
+        "SS 🇳🇱 AEAD [8080] #9",
+        "SS 🇳🇱 AEAD [8080] #10",
+        "SS 🇳🇱 AEAD [8080] #11",
         "SS 🇳🇱 AEAD [8080] #12",
         "SS 🇳🇱 AEAD [8080] #13",
-        "SS 🇳🇱 AEAD [2089] #14",
-        "SS 🇮🇪 AEAD [443] #15",
-        "SS 🇹🇷 AEAD [2089] #16",
-        "SS 🇺🇸 AEAD [443] #17",
-        "SS 🇪🇸 AEAD [443] #18",
-        "SS 🇿🇦 AEAD [16233] #19",
+        "SS 🇳🇱 AEAD [8080] #14",
+        "SS 🇳🇱 AEAD [8080] #15",
+        "SS 🇳🇱 AEAD [8080] #16",
+        "SS 🇳🇱 AEAD [8080] #17",
+        "SS 🇳🇱 AEAD [443] #18",
+        "SS 🇳🇱 AEAD [443] #19",
+        "SS 🇯🇵 AEAD [53758] #20",
+        "SS 🇯🇵 AEAD [53758] #21",
+        "SS 🇳🇱 AEAD [443] #22",
+        "SS 🇬🇧 AEAD [443] #23",
+        "SS 🇺🇸 AEAD [443] #24",
+        "SS 🇳🇱 AEAD [443] #25",
+        "SS 🇯🇵 AEAD [5555] #26",
+        "SS 🇯🇵 AEAD [5555] #27",
+        "SS 🇩🇪 AEAD [8008] #28",
+        "SS 🇺🇸 AEAD [8888] #29",
+        "SS 🇺🇸 AEAD [19999] #30",
+        "SS 🇺🇸 AEAD [19999] #31",
+        "SS 🇸🇬 AEAD [19999] #32",
+        "SS 🇸🇬 AEAD [19999] #33",
+        "SS 🇺🇦 AEAD [19999] #34",
+        "SS 🇬🇧 AEAD [19999] #35",
+        "SS 🇪🇸 AEAD [19999] #36",
+        "SS 🇪🇸 AEAD [19999] #37",
+        "SS 🇿🇦 AEAD [19999] #38",
+        "SS 🇨🇿 AEAD [19999] #39",
+        "SS 🇨🇿 AEAD [19999] #40",
+        "SS 🇨🇿 AEAD [19999] #41",
+        "SS 🇬🇧 AEAD [19999] #42",
+        "SS 🇬🇧 AEAD [19999] #43",
+        "SS 🇺🇸 AEAD [19999] #44",
+        "SS 🇩🇪 AEAD [19999] #45",
+        "SS 🇨🇭 AEAD [19999] #46",
+        "SS 🇫🇷 AEAD [19999] #47",
+        "SS 🇺🇸 AEAD [19999] #48",
+        "SS 🇫🇷 AEAD [19999] #49",
+        "SS 🇺🇸 AEAD [19999] #50",
+        "SS 🇺🇸 AEAD [2375] #51",
+        "SS 🇺🇸 AEAD [8881] #52",
+        "SS 🇺🇸 AEAD [8388] #53",
+        "SS 🇨🇦 AEAD [8388] #54",
+        "SS 🇺🇸 AEAD [8388] #55",
+        "SS 🇺🇸 AEAD [8388] #56",
+        "SS 🇮🇹 AEAD [8388] #57",
+        "SS 🇮🇹 AEAD [8388] #58",
+        "SS 🇺🇸 AEAD [5498] #59",
         "Hysteria2 🇳🇱 QUIC [42848] #1",
-        "Hysteria2 🇳🇱 QUIC [443] #12",
-        "Hysteria2 🇮🇷 QUIC [24403] #13",
-        "Hysteria2 🇺🇸 QUIC [13337] #29",
-        "Hysteria2 🇳🇱 QUIC [54706] #39",
-        "Hysteria2 🇦🇺 QUIC+OBFS [20000] #81",
+        "Hysteria2 🇵🇱 QUIC [42848] #2",
+        "Hysteria2 🇺🇸 QUIC [13337] #11",
+        "Hysteria2 🇺🇸 QUIC [13337] #12",
+        "Hysteria2 🇺🇸 QUIC [13337] #13",
+        "Hysteria2 🇳🇱 QUIC [54706] #22",
+        "Hysteria2 🇳🇱 QUIC+OBFS [8443] #37",
+        "Hysteria2 🇯🇵 QUIC [8443] #45",
+        "VMess 🇧🇷 TLS [1270] #1",
+        "VMess 🇧🇷 TLS [1270] #2",
+        "VMess 🇫🇷 TLS [1270] #3",
+        "VMess 🇫🇷 TLS [1270] #4",
+        "VMess 🇫🇷 TLS [1270] #5",
+        "VMess 🇫🇷 TLS [1270] #6",
+        "VMess 🇫🇷 TLS [1270] #7",
+        "VMess 🇫🇷 TLS [1270] #8",
+        "VMess 🇫🇷 TLS [1270] #9",
+        "VMess 🇮🇷 [2080] #10",
+        "VMess 🇮🇷 [2040] #11",
+        "VMess 🇳🇱 TLS [1270] #12",
+        "VMess 🇰🇷 [800] #13",
+        "VMess 🇺🇸 [48111] #14",
+        "VMess 🇺🇸 [18000] #16",
+        "VMess 🇨🇦 [18000] #20",
+        "VMess 🇨🇦 [18000] #21",
+        "VMess 🇩🇪 WS [27154] #22",
+        "VMess 🇫🇷 TLS [1270] #23",
+        "VMess 🇫🇷 TLS [1270] #24",
+        "VMess 🇫🇷 TLS [1270] #25",
+        "VMess 🇫🇷 TLS [1270] #26",
+        "VMess 🇫🇷 TLS [1270] #27",
+        "VMess 🇫🇷 TLS [1270] #28",
+        "VMess 🇫🇷 TLS [1270] #29",
+        "VMess 🇬🇧 TLS [1270] #30",
+        "VMess 🇰🇷 [800] #31",
+        "VMess 🇰🇷 [443] #32",
+        "VMess 🇳🇱 TLS [1270] #33",
+        "VMess 🇸🇪 TLS [1270] #34",
+        "VMess 🇸🇬 [18000] #35",
+        "VMess 🇸🇬 [18000] #36",
+        "VMess 🇸🇬 [18000] #37",
+        "VMess 🇸🇬 [18000] #38",
+        "VMess 🇸🇬 WS [54327] #39",
+        "VMess 🇹🇭 [37515] #41",
+        "VMess 🇺🇸 TLS [1270] #42",
+        "VMess 🇺🇸 TLS [1270] #43",
+        "VMess 🇺🇸 TLS [1270] #44",
+        "VMess 🇺🇸 TLS [1270] #45",
+        "VMess 🇺🇸 TLS [1270] #46",
+        "VMess 🇺🇸 TLS [1270] #47",
+        "VMess 🇺🇸 [18000] #48",
+        "VMess 🇺🇸 TLS [1270] #49",
+        "VMess 🇺🇸 [18000] #50",
+        "VMess 🇺🇸 TLS [1270] #51",
+        "VMess 🇺🇸 TLS [1270] #52",
+        "VMess 🇺🇸 TLS [1270] #53",
+        "VMess 🇺🇸 TLS [1270] #54",
+        "VMess 🇺🇸 [18000] #55",
+        "VMess 🇺🇸 [18000] #56",
+        "VMess 🇺🇸 [18000] #58",
+        "VMess 🇺🇸 [18000] #59",
+        "VMess 🇺🇸 TLS [1270] #60",
+        "VMess 🇺🇸 TLS [1270] #61",
+        "VMess 🇺🇸 TLS [1270] #62",
+        "VMess 🇺🇸 TLS [1270] #63",
+        "VMess 🇺🇸 [18000] #64",
+        "VMess 🇺🇸 TLS [1270] #65",
+        "VMess 🇺🇸 WS [39495] #66",
+        "VMess 🇺🇸 TLS [1270] #67",
+        "VMess 🇺🇸 TLS [1270] #68",
+        "VMess 🇺🇸 TLS [1270] #69",
+        "VMess 🇸🇪 TLS [1270] #70",
+        "VMess 🇺🇸 [18000] #71",
+        "VMess 🇸🇬 [18000] #72",
+        "VMess 🇺🇸 TLS [1270] #74",
+        "VMess 🇸🇬 [18000] #75",
         "DIRECT"
       ]
     },
@@ -2206,145 +2576,183 @@
       "type": "url-test",
       "proxies": [
         "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION [443] #1",
-        "VLESS 🇪🇪 TLS+VISION+UTLS [8443] #2",
-        "VLESS 🇺🇸 TLS+VISION+UTLS [8443] #3",
-        "VLESS 🇱🇻 RAW+REALITY+PBK+SID+VISION+UTLS [443] #5",
-        "VLESS 🇨🇦 TLS [443] #6",
-        "VLESS 🇨🇦 TLS [443] #7",
-        "VLESS 🇳🇱 REALITY+PBK+SID+VISION [443] #8",
-        "VLESS 🇳🇱 TLS+VISION [443] #9",
-        "VLESS 🇵🇱 RAW+REALITY+PBK+SID+VISION [443] #10",
-        "VLESS 🇺🇸 REALITY+PBK+SID+VISION [443] #12",
-        "VLESS 🇭🇰 REALITY+PBK+SID+VISION+UTLS [31001] #17",
-        "VLESS 🇭🇰 REALITY+PBK+SID+VISION+UTLS [31001] #18",
-        "VLESS 🇪🇸 RAW+REALITY+PBK+SID+VISION+UTLS [443] #19",
-        "VLESS 🇺🇸 REALITY+PBK+VISION+UTLS [28190] #21",
-        "VLESS 🇫🇮 WS+TLS+UTLS [993] #22",
-        "VLESS 🇷🇺 REALITY+PBK+SID+VISION [8443] #23",
-        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [443] #25",
-        "VLESS 🇺🇸 REALITY+PBK+SID+VISION [443] #26",
-        "VLESS 🇷🇺 REALITY+PBK+VISION [443] #27",
-        "VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443] #28",
-        "Trojan 🇿🇦 TLS [443] #1",
-        "Trojan 🇺🇸 TLS+UTLS [443] #2",
-        "Trojan 🇺🇸 TLS [443] #3",
-        "Trojan 🇺🇸 TLS [443] #4",
-        "Trojan 🇺🇸 TLS [443] #5",
-        "Trojan 🇺🇸 TLS [443] #6",
-        "Trojan 🇺🇸 TLS [443] #7",
-        "Trojan 🇺🇸 TLS [443] #8",
-        "Trojan 🇺🇸 TLS [443] #9",
-        "Trojan 🇺🇸 TLS [443] #10",
-        "Trojan 🇺🇸 TLS [443] #11",
-        "Trojan 🇺🇸 TLS [443] #12",
-        "Trojan 🇺🇸 TLS [443] #13",
-        "Trojan 🇺🇸 TLS [443] #14",
-        "Trojan 🇺🇸 TLS [443] #15",
-        "Trojan 🇺🇸 TLS [443] #16",
-        "Trojan 🇺🇸 TLS [443] #17",
-        "Trojan 🇺🇸 TLS [443] #18",
-        "Trojan 🇺🇸 TLS [443] #19",
-        "Trojan 🇺🇸 TLS [443] #20",
-        "Trojan 🇩🇪 TLS [443] #21",
-        "Trojan 🇩🇪 TLS [443] #22",
-        "Trojan 🇩🇪 TLS [443] #23",
-        "Trojan 🇩🇪 TLS [443] #24",
-        "Trojan 🇩🇪 TLS [443] #25",
-        "Trojan 🇩🇪 TLS [443] #26",
-        "Trojan 🇨🇭 TLS [443] #27",
-        "Trojan 🇨🇭 TLS [443] #28",
-        "Trojan 🇨🇭 TLS [443] #29",
-        "Trojan 🇨🇭 TLS+UTLS [443] #30",
-        "Trojan 🇨🇭 TLS [443] #31",
-        "Trojan 🇨🇭 TLS [443] #32",
-        "Trojan 🇨🇭 TLS [443] #33",
-        "Trojan 🇺🇸 TLS [443] #34",
-        "Trojan 🇺🇸 TLS [443] #35",
-        "Trojan 🇺🇸 TLS+UTLS [443] #36",
-        "Trojan 🇺🇸 TLS+UTLS [443] #37",
-        "Trojan 🇨🇦 TLS [443] #38",
-        "Trojan 🇨🇦 TLS+UTLS [443] #39",
-        "Trojan 🇨🇦 TLS [443] #40",
-        "Trojan 🇨🇦 TLS [443] #41",
-        "Trojan 🇨🇦 TLS [443] #42",
-        "Trojan 🇨🇦 TLS [443] #43",
-        "Trojan 🇨🇦 TLS [443] #44",
-        "Trojan 🇺🇸 TLS [443] #45",
-        "Trojan 🇺🇸 TLS [443] #46",
-        "Trojan 🇺🇸 TLS [443] #47",
-        "Trojan 🇺🇸 TLS [443] #48",
-        "Trojan 🇺🇸 TLS [443] #49",
-        "Trojan 🇺🇸 TLS [443] #50",
-        "Trojan 🇺🇸 TLS [443] #51",
-        "Trojan 🇺🇸 TLS [443] #52",
-        "Trojan 🇺🇸 TLS [443] #53",
-        "Trojan 🇺🇸 TLS [443] #54",
-        "Trojan 🇺🇸 TLS [443] #55",
-        "Trojan 🇺🇸 TLS [443] #56",
-        "Trojan 🇧🇷 TLS [443] #57",
-        "Trojan 🇺🇸 TLS [443] #58",
-        "Trojan 🇺🇸 TLS+UTLS [443] #59",
-        "Trojan 🇺🇸 TLS [443] #60",
-        "Trojan 🇺🇸 TLS [443] #61",
-        "Trojan 🇺🇸 TLS [443] #62",
-        "Trojan 🇺🇸 TLS+UTLS [443] #63",
-        "Trojan 🇺🇸 TLS [443] #64",
-        "Trojan 🇺🇸 TLS [443] #65",
-        "Trojan 🇺🇸 TLS [443] #66",
-        "Trojan 🇺🇸 TLS [443] #67",
-        "Trojan 🇺🇸 TLS [443] #68",
-        "Trojan 🇺🇸 TLS [443] #69",
-        "Trojan 🇺🇸 TLS [443] #70",
-        "Trojan 🇺🇸 TLS [443] #71",
-        "Trojan 🇺🇸 TLS [443] #72",
-        "Trojan 🇪🇸 TLS+UTLS [443] #73",
-        "Trojan 🇪🇸 TLS [443] #74",
-        "Trojan 🇪🇸 TLS [443] #75",
-        "Trojan 🇪🇸 TLS [443] #76",
-        "Trojan 🇪🇸 TLS+UTLS [443] #77",
-        "Trojan 🇪🇸 TLS [443] #78",
-        "Trojan 🇺🇸 TLS [443] #79",
-        "Trojan 🇺🇸 TLS [443] #80",
-        "Trojan 🇺🇸 TLS [443] #81",
-        "Trojan 🇺🇸 TLS+UTLS [443] #82",
-        "Trojan 🇺🇸 TLS+UTLS [443] #83",
-        "Trojan 🇺🇸 TLS [443] #84",
-        "Trojan 🇳🇱 TLS+UTLS [443] #85",
-        "Trojan 🇳🇱 TLS+UTLS [443] #86",
-        "Trojan 🇳🇱 TLS [443] #87",
-        "Trojan 🇳🇱 TLS [443] #88",
-        "Trojan 🇳🇱 TLS [443] #89",
-        "Trojan 🇳🇱 TLS+UTLS [443] #90",
-        "Trojan 🇨🇦 TLS [443] #91",
-        "Trojan 🇩🇪 TLS [443] #92",
-        "Trojan 🇳🇱 TLS [443] #93",
-        "Trojan 🇺🇸 TLS [443] #94",
-        "Trojan 🇺🇸 TLS [443] #95",
-        "SS 🇮🇷 AEAD [555] #1",
-        "SS 🇵🇱 AEAD [51628] #2",
-        "SS 🇫🇷 AEAD [443] #3",
-        "SS 🇦🇹 AEAD [8388] #4",
-        "SS 🇳🇱 AEAD [443] #5",
-        "SS 🇺🇸 AEAD [443] #6",
-        "SS 🇳🇱 AEAD [2089] #7",
-        "SS 🇺🇸 AEAD [8388] #8",
-        "SS 🇦🇱 AEAD [43558] #9",
-        "SS 🇩🇪 AEAD [8388] #10",
-        "SS 🇨🇦 AEAD [443] #11",
+        "VLESS 🇱🇻 RAW+REALITY+PBK+SID+VISION+UTLS [443] #4",
+        "VLESS 🇺🇸 TLS [443] #5",
+        "VLESS 🇺🇸 REALITY+PBK+SID+VISION [443] #10",
+        "VLESS 🇭🇰 REALITY+PBK+SID+VISION [31001] #11",
+        "VLESS 🇪🇸 RAW+REALITY+PBK+SID+VISION+UTLS [443] #12",
+        "VLESS 🇫🇮 WS+TLS+UTLS [993] #13",
+        "VLESS 🇧🇾 REALITY+PBK+SID+VISION [10444] #15",
+        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [443] #16",
+        "VLESS 🇺🇸 REALITY+PBK+SID+VISION [443] #17",
+        "VLESS 🇸🇪 REALITY+PBK+VISION [59539] #18",
+        "VLESS 🇺🇸 REALITY+PBK+SID+VISION+UTLS [443] #19",
+        "VLESS 🇮🇹 TLS+VISION+UTLS [443] #21",
+        "VLESS 🇷🇺 GRPC+REALITY+PBK+UTLS [445] #22",
+        "VLESS 🇷🇺 GRPC+TLS+UTLS [443] #23",
+        "VLESS 🇨🇭 RAW+REALITY+PBK+SID+VISION+UTLS [443] #24",
+        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #25",
+        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #26",
+        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #27",
+        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #28",
+        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #29",
+        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #30",
+        "VLESS 🇺🇸 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #31",
+        "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #32",
+        "VLESS 🇳🇱 REALITY+PBK+SID+VISION+UTLS [23576] #33",
+        "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #34",
+        "VLESS 🇳🇱 REALITY+PBK+SID+VISION+UTLS [23576] #35",
+        "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #36",
+        "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #37",
+        "VLESS 🇳🇱 REALITY+PBK+SID+VISION [23576] #38",
+        "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #39",
+        "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #40",
+        "VLESS 🇳🇱 REALITY+PBK+SID+VISION [23576] #41",
+        "VLESS 🇳🇱 REALITY+PBK+SID+VISION [23576] #42",
+        "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [23576] #43",
+        "VLESS 🇳🇱 REALITY+PBK+SID+VISION [23576] #44",
+        "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION [23576] #45",
+        "VLESS 🇳🇱 REALITY+PBK+SID+VISION [23576] #46",
+        "VLESS 🇳🇱 REALITY+PBK+SID+VISION [23576] #47",
+        "VLESS 🇫🇷 REALITY+PBK+SID+VISION [23576] #48",
+        "VLESS 🇫🇷 REALITY+PBK+SID+VISION [23576] #49",
+        "VLESS 🇺🇸 REALITY+PBK+SID+VISION [23576] #50",
+        "VLESS 🇳🇱 RAW+REALITY+PBK+SID+VISION+UTLS [443] #51",
+        "SS 🇦🇹 AEAD [8388] #1",
+        "SS 🇺🇸 AEAD [443] #2",
+        "SS 🇳🇱 AEAD [8080] #3",
+        "SS 🇳🇱 AEAD [8080] #4",
+        "SS 🇺🇸 AEAD [443] #5",
+        "SS 🇿🇦 AEAD [16233] #6",
+        "SS 🇺🇸 AEAD [443] #7",
+        "SS 🇳🇱 AEAD [8080] #8",
+        "SS 🇳🇱 AEAD [8080] #9",
+        "SS 🇳🇱 AEAD [8080] #10",
+        "SS 🇳🇱 AEAD [8080] #11",
         "SS 🇳🇱 AEAD [8080] #12",
         "SS 🇳🇱 AEAD [8080] #13",
-        "SS 🇳🇱 AEAD [2089] #14",
-        "SS 🇮🇪 AEAD [443] #15",
-        "SS 🇹🇷 AEAD [2089] #16",
-        "SS 🇺🇸 AEAD [443] #17",
-        "SS 🇪🇸 AEAD [443] #18",
-        "SS 🇿🇦 AEAD [16233] #19",
+        "SS 🇳🇱 AEAD [8080] #14",
+        "SS 🇳🇱 AEAD [8080] #15",
+        "SS 🇳🇱 AEAD [8080] #16",
+        "SS 🇳🇱 AEAD [8080] #17",
+        "SS 🇳🇱 AEAD [443] #18",
+        "SS 🇳🇱 AEAD [443] #19",
+        "SS 🇯🇵 AEAD [53758] #20",
+        "SS 🇯🇵 AEAD [53758] #21",
+        "SS 🇳🇱 AEAD [443] #22",
+        "SS 🇬🇧 AEAD [443] #23",
+        "SS 🇺🇸 AEAD [443] #24",
+        "SS 🇳🇱 AEAD [443] #25",
+        "SS 🇯🇵 AEAD [5555] #26",
+        "SS 🇯🇵 AEAD [5555] #27",
+        "SS 🇩🇪 AEAD [8008] #28",
+        "SS 🇺🇸 AEAD [8888] #29",
+        "SS 🇺🇸 AEAD [19999] #30",
+        "SS 🇺🇸 AEAD [19999] #31",
+        "SS 🇸🇬 AEAD [19999] #32",
+        "SS 🇸🇬 AEAD [19999] #33",
+        "SS 🇺🇦 AEAD [19999] #34",
+        "SS 🇬🇧 AEAD [19999] #35",
+        "SS 🇪🇸 AEAD [19999] #36",
+        "SS 🇪🇸 AEAD [19999] #37",
+        "SS 🇿🇦 AEAD [19999] #38",
+        "SS 🇨🇿 AEAD [19999] #39",
+        "SS 🇨🇿 AEAD [19999] #40",
+        "SS 🇨🇿 AEAD [19999] #41",
+        "SS 🇬🇧 AEAD [19999] #42",
+        "SS 🇬🇧 AEAD [19999] #43",
+        "SS 🇺🇸 AEAD [19999] #44",
+        "SS 🇩🇪 AEAD [19999] #45",
+        "SS 🇨🇭 AEAD [19999] #46",
+        "SS 🇫🇷 AEAD [19999] #47",
+        "SS 🇺🇸 AEAD [19999] #48",
+        "SS 🇫🇷 AEAD [19999] #49",
+        "SS 🇺🇸 AEAD [19999] #50",
+        "SS 🇺🇸 AEAD [2375] #51",
+        "SS 🇺🇸 AEAD [8881] #52",
+        "SS 🇺🇸 AEAD [8388] #53",
+        "SS 🇨🇦 AEAD [8388] #54",
+        "SS 🇺🇸 AEAD [8388] #55",
+        "SS 🇺🇸 AEAD [8388] #56",
+        "SS 🇮🇹 AEAD [8388] #57",
+        "SS 🇮🇹 AEAD [8388] #58",
+        "SS 🇺🇸 AEAD [5498] #59",
         "Hysteria2 🇳🇱 QUIC [42848] #1",
-        "Hysteria2 🇳🇱 QUIC [443] #12",
-        "Hysteria2 🇮🇷 QUIC [24403] #13",
-        "Hysteria2 🇺🇸 QUIC [13337] #29",
-        "Hysteria2 🇳🇱 QUIC [54706] #39",
-        "Hysteria2 🇦🇺 QUIC+OBFS [20000] #81"
+        "Hysteria2 🇵🇱 QUIC [42848] #2",
+        "Hysteria2 🇺🇸 QUIC [13337] #11",
+        "Hysteria2 🇺🇸 QUIC [13337] #12",
+        "Hysteria2 🇺🇸 QUIC [13337] #13",
+        "Hysteria2 🇳🇱 QUIC [54706] #22",
+        "Hysteria2 🇳🇱 QUIC+OBFS [8443] #37",
+        "Hysteria2 🇯🇵 QUIC [8443] #45",
+        "VMess 🇧🇷 TLS [1270] #1",
+        "VMess 🇧🇷 TLS [1270] #2",
+        "VMess 🇫🇷 TLS [1270] #3",
+        "VMess 🇫🇷 TLS [1270] #4",
+        "VMess 🇫🇷 TLS [1270] #5",
+        "VMess 🇫🇷 TLS [1270] #6",
+        "VMess 🇫🇷 TLS [1270] #7",
+        "VMess 🇫🇷 TLS [1270] #8",
+        "VMess 🇫🇷 TLS [1270] #9",
+        "VMess 🇮🇷 [2080] #10",
+        "VMess 🇮🇷 [2040] #11",
+        "VMess 🇳🇱 TLS [1270] #12",
+        "VMess 🇰🇷 [800] #13",
+        "VMess 🇺🇸 [48111] #14",
+        "VMess 🇺🇸 [18000] #16",
+        "VMess 🇨🇦 [18000] #20",
+        "VMess 🇨🇦 [18000] #21",
+        "VMess 🇩🇪 WS [27154] #22",
+        "VMess 🇫🇷 TLS [1270] #23",
+        "VMess 🇫🇷 TLS [1270] #24",
+        "VMess 🇫🇷 TLS [1270] #25",
+        "VMess 🇫🇷 TLS [1270] #26",
+        "VMess 🇫🇷 TLS [1270] #27",
+        "VMess 🇫🇷 TLS [1270] #28",
+        "VMess 🇫🇷 TLS [1270] #29",
+        "VMess 🇬🇧 TLS [1270] #30",
+        "VMess 🇰🇷 [800] #31",
+        "VMess 🇰🇷 [443] #32",
+        "VMess 🇳🇱 TLS [1270] #33",
+        "VMess 🇸🇪 TLS [1270] #34",
+        "VMess 🇸🇬 [18000] #35",
+        "VMess 🇸🇬 [18000] #36",
+        "VMess 🇸🇬 [18000] #37",
+        "VMess 🇸🇬 [18000] #38",
+        "VMess 🇸🇬 WS [54327] #39",
+        "VMess 🇹🇭 [37515] #41",
+        "VMess 🇺🇸 TLS [1270] #42",
+        "VMess 🇺🇸 TLS [1270] #43",
+        "VMess 🇺🇸 TLS [1270] #44",
+        "VMess 🇺🇸 TLS [1270] #45",
+        "VMess 🇺🇸 TLS [1270] #46",
+        "VMess 🇺🇸 TLS [1270] #47",
+        "VMess 🇺🇸 [18000] #48",
+        "VMess 🇺🇸 TLS [1270] #49",
+        "VMess 🇺🇸 [18000] #50",
+        "VMess 🇺🇸 TLS [1270] #51",
+        "VMess 🇺🇸 TLS [1270] #52",
+        "VMess 🇺🇸 TLS [1270] #53",
+        "VMess 🇺🇸 TLS [1270] #54",
+        "VMess 🇺🇸 [18000] #55",
+        "VMess 🇺🇸 [18000] #56",
+        "VMess 🇺🇸 [18000] #58",
+        "VMess 🇺🇸 [18000] #59",
+        "VMess 🇺🇸 TLS [1270] #60",
+        "VMess 🇺🇸 TLS [1270] #61",
+        "VMess 🇺🇸 TLS [1270] #62",
+        "VMess 🇺🇸 TLS [1270] #63",
+        "VMess 🇺🇸 [18000] #64",
+        "VMess 🇺🇸 TLS [1270] #65",
+        "VMess 🇺🇸 WS [39495] #66",
+        "VMess 🇺🇸 TLS [1270] #67",
+        "VMess 🇺🇸 TLS [1270] #68",
+        "VMess 🇺🇸 TLS [1270] #69",
+        "VMess 🇸🇪 TLS [1270] #70",
+        "VMess 🇺🇸 [18000] #71",
+        "VMess 🇸🇬 [18000] #72",
+        "VMess 🇺🇸 TLS [1270] #74",
+        "VMess 🇸🇬 [18000] #75"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": 180,

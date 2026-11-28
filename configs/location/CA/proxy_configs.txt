@@ -2,31 +2,13 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-vless://03fcc618-b93d-6796-6aed-8a38c975d581@66.163.113.9:443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=kuruish.org#VLESS 🇨🇦 TLS [443]
-
-vless://03fcc618-b93d-6796-6aed-8a38c975d581@kuruish.org:443?security=tls&encryption=none&insecure=0&host=kuruish.org&headerType=none&type=tcp&allowInsecure=0&sni=kuruish.org#VLESS 🇨🇦 TLS [443]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.201:443?sni=resources.connectingpeoplewithgreatjobs.com&type=tcp#Trojan 🇨🇦 TLS [443]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.48:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=courses.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS+UTLS [443]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.74:443?sni=api.connectingpeoplewithgreatjobs.com&type=tcp#Trojan 🇨🇦 TLS [443]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.79:443?security=tls&sni=blog.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS [443]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.85:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=cdn.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS [443]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.89:443?type=tcp&security=tls&sni=www.connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS [443]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.147.93:443?security=tls&sni=connectingpeoplewithgreatjobs.com#Trojan 🇨🇦 TLS [443]
-
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@leviko-ca4436.shopingggg.ir:443?security=tls&sni=blog.connectingpeoplewithgreatjobs.com&type=tcp#Trojan 🇨🇦 TLS [443]
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQbUNxSzk4V3FoU0M@134.195.198.163:443#SS 🇨🇦 AEAD [443]
-
-hysteria2://2429bee3-e0c1-47dd-b420-75e6512b184b@40.233.102.224:30300?insecure=1&sni=www.bing.com#Hysteria2 🇨🇦 QUIC [30300]
+ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@184.107.106.77:8388#SS 🇨🇦 AEAD [8388]
 
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@15.223.183.81:443?insecure=1&sni=t.me#Hysteria2 🇨🇦 QUIC [443]
 
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-ca-001.fastervpn.world:443?insecure=1&sni=t.me#Hysteria2 🇨🇦 QUIC [443]
+
+vmess://eyJ2IjogbnVsbCwgInBzIjogIlZNZXNzIPCfh6jwn4emIFsxODAwMF0iLCAiYWRkIjogIjEzNC4xOTUuMTk2LjIxMSIsICJwb3J0IjogMTgwMDAsICJpZCI6ICJmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmUiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiBudWxsLCAiYWxwbiI6IG51bGwsICJwYXRoIjogIi9AUHJveHlWUE4xMSIsICJ0bHMiOiAibm9uZSIsICJzbmkiOiBudWxsLCAiZnAiOiBudWxsLCAibmFtZSI6ICLwn4eo8J+HpiBDQSAxIn0=
+
+vmess://eyJ2IjogbnVsbCwgInBzIjogIlZNZXNzIPCfh6jwn4emIFsxODAwMF0iLCAiYWRkIjogIjIzLjE2Mi4yMDAuMTk4IiwgInBvcnQiOiAxODAwMCwgImlkIjogImY4YzhkYzNkLTBkMzctNDZiMC04YjM0LWE3MjMyODgyZmNmZSIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiBudWxsLCAiaG9zdCI6IG51bGwsICJhbHBuIjogbnVsbCwgInBhdGgiOiAiLyIsICJ0bHMiOiAibm9uZSIsICJzbmkiOiBudWxsLCAiZnAiOiBudWxsLCAibmFtZSI6ICLwn4eo8J+HpiBDQSAyIn0=
 

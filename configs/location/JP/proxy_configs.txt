@@ -2,3 +2,17 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
+ss://YWVzLTEyOC1nY206QndscWg3R2NGQg@168.138.205.100:53758#SS 🇯🇵 AEAD [53758]
+
+ss://YWVzLTEyOC1nY206QndscWg3R2NGQg@jpa.123069.xyz:53758#SS 🇯🇵 AEAD [53758]
+
+ss://YWVzLTI1Ni1nY206MTIzNDU2@47.91.16.50:5555#SS 🇯🇵 AEAD [5555]
+
+ss://YWVzLTI1Ni1nY206MTIzNDU2@8.211.131.30:5555#SS 🇯🇵 AEAD [5555]
+
+hysteria2://Yuike2026cat@43.130.234.128:8443?sni=43-130-234-128.sslip.io#Hysteria2 🇯🇵 QUIC [8443]
+
+hysteria2://oracle_hy2_pass_2026@129.225.181.46:8443?insecure=1&sni=bing.com#Hysteria2 🇯🇵 QUIC [8443]
+
+vmess://eyJ2IjogbnVsbCwgInBzIjogIlZNZXNzIPCfh6/wn4e1IFdTIFs4MF0iLCAiYWRkIjogIjE2OC4xMzguNDMuNzUiLCAicG9ydCI6IDgwLCAiaWQiOiAiMTFjMzYyN2YtMzFlOC00Njk1LWRmYmQtMzQwNzZlMmYxZjVkIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAibm9uZSIsICJhbHBuIjogbnVsbCwgInBhdGgiOiAiL2NjdHYxMy5tM3U4IiwgInRscyI6ICJub25lIiwgInNuaSI6IG51bGwsICJmcCI6IG51bGwsICJuYW1lIjogIvCfh6/wn4e1IEpQIDUifQ==
+

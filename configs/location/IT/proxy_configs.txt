@@ -2,6 +2,12 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
+vless://352a250d-080b-47b5-b7db-f9f8fa31c551@130.78.30.147:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&security=tls&sni=105ky37.virtual-network.lol&type=tcp#VLESS 🇮🇹 TLS+VISION+UTLS [443]
+
+ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@leviko-it8672.shopingggg.ir:8388#SS 🇮🇹 AEAD [8388]
+
+ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@57.131.27.21:8388#SS 🇮🇹 AEAD [8388]
+
 hysteria2://Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s@205.237.109.162:8443?insecure=1&sni=hopp-netherland-new.dynuddns.net#Hysteria2 🇮🇹 QUIC [8443]
 
 hysteria2://Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s@205.237.109.163:8443?insecure=1&sni=hopp-netherland-new.dynuddns.net#Hysteria2 🇮🇹 QUIC [8443]
